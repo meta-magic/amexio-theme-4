@@ -3,6 +3,10 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import {
+  AmexioFormsModule, AmexioNavModule, AmexioWidgetModule, CommonDataService,
+  DeviceQueryService
+} from "amexio-ng-extensions";
 
 
 @NgModule({
@@ -10,9 +14,12 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AmexioFormsModule,
+    AmexioNavModule
+
   ],
-  providers: [],
+  providers: [DeviceQueryService,CommonDataService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
