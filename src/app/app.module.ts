@@ -4,7 +4,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import {
-  AmexioFormsModule, AmexioNavModule, AmexioWidgetModule, CommonDataService,
+  AmexioFormsModule, AmexioLayoutModule, AmexioNavModule, AmexioWidgetModule, CommonDataService,
   DeviceQueryService
 } from "amexio-ng-extensions";
 
@@ -16,7 +16,8 @@ import {
   imports: [
     BrowserModule,
     AmexioFormsModule,
-    AmexioNavModule
+    AmexioNavModule,
+    AmexioLayoutModule
 
   ],
   providers: [DeviceQueryService,CommonDataService],

@@ -13,7 +13,24 @@
   </amexio-nav-item>
 </amexio-nav>
 
-<div style="top: 64px; position: fixed">
-  <amexio-side-nav [httpUrl]="'/assets/data/menus/sidebar.json'" [httpMethod]="'get'" [dataReader]="'data'" (nodeClick)="nodeClick($event)"></amexio-side-nav>
-</div>
+<br><br><br>
 
+<amexio-row>
+  <amexio-column [size]="'2pt5'">
+    <amexio-side-nav  [httpUrl]="'/assets/data/menus/sidebar.json'" [httpMethod]="'get'" [dataReader]="'data'" (nodeClick)="nodeClick($event)"></amexio-side-nav>
+  </amexio-column>
+  <amexio-column [size]="'9pt5'">
+    <div style="padding: 10px 0px;">
+      COL 10
+    </div>
+  </amexio-column>
+</amexio-row>
+
+<amexio-row>
+  <amexio-column [size]="3">
+    COL 3
+  </amexio-column>
+  <amexio-column [size]="9">
+    COL 9
+  </amexio-column>
+</amexio-row>
