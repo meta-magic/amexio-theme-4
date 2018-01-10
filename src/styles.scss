@@ -7,9 +7,10 @@
 
 @import "../node_modules/amexio-ng-extensions/themes/default/styles.scss";
 
-.flex-col{
-  border: none;
-}
+
+/* ----------------------------------- */
+/*        DATAPOINTS COMPONENT         */
+/* ----------------------------------- */
 
 .flex-col-2pt5{
   max-width: 20.8333325%;
@@ -23,6 +24,5 @@
 
   .flex-col-2pt5,.flex-col-9pt5{
     max-width: 100%;
-    background-color: red;
   }
 }

@@ -4,23 +4,27 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import {
-  AmexioFormsModule, AmexioLayoutModule, AmexioNavModule, AmexioWidgetModule, CommonDataService,
-  DeviceQueryService
+  AmexioFormsModule, AmexioLayoutModule, AmexioNavModule, AmexioWidgetModule, AmexioDashBoardModule, CommonDataService,
+  DeviceQueryService, AmexioChartsModule,ChartLoaderService
 } from "amexio-ng-extensions";
+import {DashboardComponent} from "./pages/dashboard/dashboard.component";
+
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
-    AmexioFormsModule,
-    AmexioNavModule,
-    AmexioLayoutModule
+    AmexioWidgetModule,
+    AmexioDashBoardModule,
+    AmexioLayoutModule,
+    AmexioChartsModule
 
   ],
-  providers: [DeviceQueryService,CommonDataService],
+  providers: [DeviceQueryService,CommonDataService, ChartLoaderService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
