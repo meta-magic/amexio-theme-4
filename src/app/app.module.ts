@@ -10,6 +10,7 @@ import {
 import {DashboardComponent} from "./pages/dashboard/dashboard.component";
 import {SampleFormComponent} from "./pages/sampleform/sampleform.component";
 import {AmexioItemSelectorComponent1} from "./pages/sampleform/item.selector.component";
+import {FormsModule} from "@angular/forms";
 
 
 
@@ -24,8 +25,8 @@ import {AmexioItemSelectorComponent1} from "./pages/sampleform/item.selector.com
   imports: [
     BrowserModule,
     AmexioWidgetModule,
-    AmexioLayoutModule
-
+    AmexioLayoutModule,
+    FormsModule
   ],
   providers: [DeviceQueryService,CommonDataService,IconLoaderService],
   bootstrap: [AppComponent]
