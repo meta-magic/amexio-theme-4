@@ -155,5 +155,13 @@
         <p>Selected Value : {{printvalue}}</p>
       </amexio-column>
     </amexio-row>
+
+    <amexio-row>
+      <amexio-item-selector [height]="200" [displayField]="'countryName'"
+                            [valueField]="'countryId'"
+                            [httpUrl]="'assets/data/itemdata.json'"
+                            [httpMethod]="'get'" [dataReader]="'data'" >
+      </amexio-item-selector>
+    </amexio-row>
   </amexio-body>
 </amexio-card>
