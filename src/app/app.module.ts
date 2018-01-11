@@ -9,6 +9,7 @@ import {
 } from "amexio-ng-extensions";
 import {DashboardComponent} from "./pages/dashboard/dashboard.component";
 import {SampleFormComponent} from "./pages/sampleform/sampleform.component";
+import {AmexioItemSelectorComponent1} from "./pages/sampleform/item.selector.component";
 
 
 
@@ -17,7 +18,8 @@ import {SampleFormComponent} from "./pages/sampleform/sampleform.component";
   declarations: [
     AppComponent,
     DashboardComponent,
-    SampleFormComponent
+    SampleFormComponent,
+    AmexioItemSelectorComponent1
   ],
   imports: [
     BrowserModule,
