@@ -155,11 +155,14 @@
     </amexio-row>
 
     <amexio-row>
-      <amexio-item-selector-1 [height]="200" [displayField]="'countryName'"
+      <amexio-item-selector [height]="200" [displayField]="'countryName'"
                             [valueField]="'countryId'"
                             [httpUrl]="'assets/data/itemdata.json'"
                             [httpMethod]="'get'" [dataReader]="'data'" >
-      </amexio-item-selector-1>
+      </amexio-item-selector>
+    </amexio-row>
+    <amexio-row>
+      <amexio-slider [(ngModel)]="name" minValue="0" maxValue="100" stepValue="10"></amexio-slider>
     </amexio-row>
   </amexio-body>
 </amexio-card>
