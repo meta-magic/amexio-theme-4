@@ -8,13 +8,15 @@ import {
   DeviceQueryService, AmexioChartsModule,ChartLoaderService
 } from "amexio-ng-extensions";
 import {DashboardComponent} from "./pages/dashboard/dashboard.component";
+import {SampleFormComponent} from "./pages/sampleform/sampleform.component";
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    DashboardComponent
+    DashboardComponent,
+    SampleFormComponent
   ],
   imports: [
     BrowserModule,

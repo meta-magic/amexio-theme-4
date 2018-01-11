@@ -26,3 +26,30 @@
     max-width: 100%;
   }
 }
+
+
+
+.input-control {
+  border: none;
+  border-bottom: 2px solid #DDDDDD;
+}
+
+
+.input-box .default {
+  background-color: white;
+  border: 2px solid $borderColor;
+}
+
+
+.input-box .active{
+  border: 2px solid $primaryBGColor;
+  background: $primaryBGColor;
+  color: $primaryColor;
+}
+
+
+
+
+input:checked + .amexio-slider {
+  background-color: $primaryBGColor;
+}
