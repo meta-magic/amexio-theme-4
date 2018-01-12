@@ -1,19 +1,55 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
-
+import {Routes, RouterModule} from '@angular/router';
 import { AppComponent } from './app.component';
 import {
   AmexioFormsModule, AmexioLayoutModule, AmexioNavModule, AmexioWidgetModule,  CommonDataService,
   DeviceQueryService,IconLoaderService
 } from "amexio-ng-extensions";
-import {DashboardComponent} from "./pages/dashboard/dashboard.component";
-import {SampleFormComponent} from "./pages/sampleform/sampleform.component";
-import {AmexioItemSelectorComponent1} from "./pages/sampleform/item.selector.component";
+import {DashboardComponent} from "./pages/dashboardex/dashboardex.component";
+import {SampleFormComponent} from "./pages/sampleformex/sampleformex.component";
+import {AmexioItemSelectorComponent1} from "./pages/sampleformex/item.selector.component";
 import {FormsModule} from "@angular/forms";
 
+const route: Routes = [
+  { path: '', redirectTo: 'app-root', pathMatch: 'full'},
 
+  {
+    path: 'email', loadChildren: './pages/email/email.module#EmailModule'
+  },
+  {
+    path: 'profile', loadChildren: './pages/profile/profile.module#ProfileModule'
+  },
+  {
+    path:'group-by-issue',loadChildren:'./pages/report/groupbyissue/groupbyissue.module#GroupbyIssueModule'
+  },
+  {
+    path:'issue',loadChildren:'./pages/report/issue/issue.module#IssueModule'
+  },
+  {
+    path:'issuestatus',loadChildren:'./pages/issuestatus/issuestatus.module#IssueStatusModule'
+  },
+  {
+    path:'charts',loadChildren:'./pages/charts/charts.module#ChartsModule'
+  },
+  {
+    path:'maps',loadChildren:'./pages/maps/maps.module#MapsModule'
+  },
+  {
+    path:'dashboards',loadChildren:'./pages/dashboards/dashboards.module#DashboardsModule'
+  },
+  {
+    path: 'employee-registration',
+    loadChildren: './pages/pages/employeeregistration/employeeregistration.module#EmployeeRegistrationModule'
+  },
+  {
+    path: 'login', loadChildren: './pages/pages/login/login.module#LoginModule'
 
+  },
+  {
+    path: 'sample', loadChildren: './pages/pages/sample/sample.module#SampleModule'
+  }
+];
 
 @NgModule({
   declarations: [
@@ -26,7 +62,10 @@ import {FormsModule} from "@angular/forms";
     BrowserModule,
     AmexioWidgetModule,
     AmexioLayoutModule,
-    FormsModule
+    FormsModule,
+    RouterModule.forRoot(route,{useHash:true}),
+    AmexioLayoutModule,AmexioFormsModule,
+
   ],
   providers: [DeviceQueryService,CommonDataService,IconLoaderService],
   bootstrap: [AppComponent]

@@ -1,16 +1,14 @@
 /**
- * Created by ketangote on 1/10/18.
+ * Created by sagar on 2/8/17.
  */
-
-import {Component, OnInit} from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'dashboard-home',
-  templateUrl: 'dashboard.component.html'
+  selector: 'dashboards',
+  templateUrl: 'dashboards.html'
 })
 
-
-export class DashboardComponent implements OnInit {
+export class DashboardsComponent implements OnInit {
   barStackData:any;
   lineData:any;
   columnStackData:any;
@@ -20,7 +18,6 @@ export class DashboardComponent implements OnInit {
   gaugeData:any;
   smallScreen:boolean=false;
   openIssuedata:any;
-
   timelineData=[
     [{"dataType":'string',"label":'Prime Minister'},
       {"dataType":"date", "label":'Start'},

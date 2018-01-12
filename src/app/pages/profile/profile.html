@@ -1,0 +1,46 @@
+
+<amexio-row>
+    <amexio-card  [enableHeader] = "true" [enableFooter]="false">
+      <amexio-header>
+        Araf Karsh
+      </amexio-header>
+
+      <amexio-body>
+        <span class="subtitle">Co-Founder / Chief Technology Officer</span>
+            <amexio-image [imagePath]="'assets/images/profile/karsh.jpg'"
+            [tooltipMessage]="'Image-Panel'">
+            </amexio-image>
+            <!-- <img src="assets/images/profile/karsh.jpg" class="img-responsive"> -->
+         <a href="">xyz@metamagic.in</a><br>
+          Working since 13 months <br>
+          <a href="">www.metamagicglobal.com</a><br>
+          <div class="iconbuttons" *ngFor="let iconObj of iconArray">
+            <i [attr.class]="iconObj.iconClass">{{iconObj.iconName}}</i></div>
+          <a href="">Follow</a>
+      </amexio-body>
+    </amexio-card>
+      <!-- <amexio-card [enableFooter]="false" [cClass]="'contactlist'"> -->
+      <amexio-card [enableHeader] = "true"[enableFooter]="false">
+      <amexio-header>
+        Contacts
+      </amexio-header>
+      <amexio-body>
+        <amexio-listbox [data]="bindData" [filter]="true"
+                        [enableCheckBox] = "false" [dataReader]="'response.data'"
+                        [displayField]="'name'">
+          <amexio-row>
+          <ng-template #amexioBodyTmpl let-row="row">
+                <!-- <amexio-image [imagePath]="assets/images/profile/{{row.profile}}"
+                [tooltipMessage]="'profile-image'">
+                </amexio-image> -->
+              <img class="rounded-circle" src="assets/images/profile/{{row.profile}}"  height="30px" width="30px"/>
+              <amexio-column size=[5]>
+                <div class="title">{{row.name}}<br><a href="#">xyz@metamagicglobal.com</a></div>
+            </amexio-column>
+          </ng-template>
+        </amexio-row>
+        </amexio-listbox>
+      </amexio-body>
+    </amexio-card>
+<amexio-row>
+<br/>

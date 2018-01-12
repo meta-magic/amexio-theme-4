@@ -17,13 +17,13 @@
 
 <amexio-row>
   <amexio-column [size]="'2pt5'">
-    <amexio-side-nav  [httpUrl]="'/assets/data/menus/sidebar.json'" [httpMethod]="'get'" [dataReader]="'data'" (nodeClick)="nodeClick($event)"></amexio-side-nav>
+    <amexio-side-nav  [httpUrl]="'/assets/data/menus/sidebar.json'" [httpMethod]="'get'" [dataReader]="'data'" (nodeClick)="routeToLink($event)"></amexio-side-nav>
   </amexio-column>
   <amexio-column [size]="'9pt5'">
     <div style="padding: 20px 10px 20px 0px">
       <!--<dashboard></dashboard>-->
-      <sampleform></sampleform>
+      <!-- <sampleform></sampleform> -->
+      <router-outlet></router-outlet>
     </div>
   </amexio-column>
 </amexio-row>
-

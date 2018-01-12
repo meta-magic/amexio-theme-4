@@ -5,8 +5,8 @@
 import {Component, OnInit} from '@angular/core';
 
 @Component({
-  selector: 'dashboard-home',
-  templateUrl: 'dashboard.component.html'
+  selector: 'dashboard',
+  templateUrl: 'dashboardex.component.html'
 })
 
 

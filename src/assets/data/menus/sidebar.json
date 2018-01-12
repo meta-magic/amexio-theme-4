@@ -4,20 +4,20 @@
     "text": "Home",
     "icon" : "fa fa-home fa-fw fa-lg",
     "mdbIcon" : "home",
-    "routerLink" : "/home/dashboard",
+    "link" : "dashboard",
     "selected":true
   },
     {
       "text": "Email",
       "icon" : "fa fa-envelope fa-fw",
       "mdbIcon" : "email",
-      "routerLink" : "/home/email"
+      "link" : "email"
     },
     {
       "text": "Profile",
       "icon" : "fa fa-user fa-fw",
       "mdbIcon" : "account_box",
-      "routerLink" : "/home/profile"
+      "link" : "profile"
     },
   {
     "text": "Pages",
@@ -29,25 +29,25 @@
         "text": "Sample Form",
         "icon" : "fa fa-laptop fa-fw",
         "mdbIcon" : "create",
-        "routerLink":"/home/sample"
+        "link":"sample"
       },
       {
         "text": "Login",
         "mdbIcon":"open_in_browser",
         "icon" : "fa fa-sign-in fa-fw",
-        "routerLink":"/home/login"
+        "link":"login"
       },
       {
         "text": "Register",
         "icon" : "fa fa-address-book-o fa-fw",
         "mdbIcon":"perm_contact_calendar",
-        "routerLink":"/home/employee-registration"
+        "link":"employee-registration"
       },
       {
         "text": "Issue Status",
         "icon" : "fa fa-exclamation fa-fw",
         "mdbIcon":"playlist_add_check",
-        "routerLink":"/home/issue-status"
+        "link":"/issuestatus"
       }
     ]
   },
@@ -61,13 +61,13 @@
           "text": "Issue",
           "icon" : "fa fa-ticket fa-fw",
           "mdbIcon":"bug_report",
-          "routerLink":"/home/issue"
+          "link":"issue"
         },
         {
           "text": "Group By Issue",
           "icon" : "fa fa-ticket fa-fw",
           "mdbIcon":"link",
-          "routerLink":"/home/group-by-issue"
+          "link":"group-by-issue"
         }
       ]
     },
@@ -75,17 +75,17 @@
       "text": "Charts",
       "icon" : "fa fa-bar-chart fa-fw",
       "mdbIcon":"insert_chart",
-      "routerLink" : "/home/charts"
+      "link" : "charts"
     },
     {
       "text": "Maps",
       "icon" : "fa fa-map-marker fa-fw",
       "mdbIcon":"location_on",
-      "routerLink" : "/home/maps"
+      "link" : "maps"
     },{
       "text": "Dashboard",
       "icon" : "fa fa-television fa-fw",
       "mdbIcon":"dashboard",
-      "routerLink" : "/home/dashboard-template"
+      "link" : "dashboards"
     }
 ]}

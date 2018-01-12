@@ -1,0 +1,118 @@
+<amexio-card [enableFooter]="false" [showCard]="true" [enableHeader] = "true">
+        <amexio-header>
+          Issue Status
+        </amexio-header>
+        <amexio-body>
+          <table width="100%">
+            <tr>
+              <td width="15%">Open</td>
+              <td align="left">
+                <amexio-progress-bar [showProgress]="true"
+                                     [infinteMode]="false"
+                                     [currentValue]="70"
+                                     [progressType]="'warning'"
+                >
+                </amexio-progress-bar>
+              </td>
+            </tr>
+            <tr>
+              <td width="15%">Close</td>
+              <td align="left">
+                 <amexio-progress-bar [showProgress]="true"
+                                     [infinteMode]="false"
+                                     [currentValue]="20"
+                                     [progressType]="'danger'"
+                >
+                </amexio-progress-bar>
+              </td>
+            </tr>
+            <tr>
+              <td width="20%">In-Progress</td>
+              <td align="left">
+                <amexio-progress-bar [showProgress]="true"
+                                     [infinteMode]="false"
+                                     [currentValue]="10"
+                                     [progressType]="'info'"
+                >
+                </amexio-progress-bar>
+              </td>
+            </tr>
+          </table>
+        </amexio-body>
+      </amexio-card>
+          <amexio-card [enableFooter]="false" [showCard]="true" [enableHeader] = "true">
+        <amexio-header>
+          Issue By Severity
+        </amexio-header>
+        <amexio-body>
+
+          <table width="100%">
+            <tr>
+              <td width="20px">Low</td>
+              <td align="left">
+                 <amexio-progress-bar [showProgress]="true"
+                                     [infinteMode]="false"
+                                     [currentValue]="20"
+                                     [progressType]="'info'"
+                >
+
+                </amexio-progress-bar>
+              </td>
+            </tr>
+            <tr>
+              <td width="20px">High</td>
+              <td align="left">
+                <amexio-progress-bar [showProgress]="true"
+                                     [infinteMode]="false"
+                                     [currentValue]="50"
+                                     [progressType]="'danger'"
+                >
+
+                </amexio-progress-bar>
+              </td>
+            </tr>
+            <tr>
+              <td width="20px">Medium</td>
+              <td align="left">
+                <amexio-progress-bar [showProgress]="true"
+                                     [infinteMode]="false"
+                                     [currentValue]="30"
+                                     [progressType]="'warning'"
+                >
+
+                </amexio-progress-bar>
+              </td>
+            </tr>
+          </table>
+        </amexio-body>
+      </amexio-card>
+      <br>
+      <amexio-card [enableHeader] = "true" [enableFooter]="false" [showCard]="true">
+        <amexio-header>
+          Open Issue
+        </amexio-header>
+        <amexio-body>
+          <amexio-checkbox-group name="openissue"
+                           [dataReader]="'response.data'"
+                           [displayField]="'issueName'"
+                           [valueField]="'checked'"
+                           [data]="openIssuedata" >
+          </amexio-checkbox-group>
+            <amexio-text-input name="issuename" [placeholder]="'Issue name'" [hasLabel]="false">
+            </amexio-text-input>
+            <amexio-button [label]="'Add'" [type]="'warning'"></amexio-button>
+
+        </amexio-body>
+      </amexio-card>
+      <amexio-card [enableHeader] = "true"[enableFooter]="false" [showCard]="true">
+        <amexio-header>
+          Customer Feedback
+        </amexio-header>
+        <amexio-body>
+             <!-- <amexio-carousel [isContent]="true"
+                             [data]="'data'"
+                             [httpMethod]="'get'"
+                             [httpUrl]="'assets/data/feedback.json'">
+            </amexio-carousel> -->
+        </amexio-body>
+      </amexio-card>
