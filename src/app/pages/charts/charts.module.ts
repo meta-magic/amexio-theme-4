@@ -6,7 +6,7 @@ import { Routes, RouterModule } from '@angular/router';
 import {CommonModule} from "@angular/common";
 import {FormsModule} from "@angular/forms";
 import {ChartsComponent} from "./charts.component";
-import {AmexioWidgetModule,AmexioChartsModule} from "amexio-ng-extensions";
+import {AmexioWidgetModule,AmexioChartsModule,ChartLoaderService} from "amexio-ng-extensions";
 
 const routes: Routes = [
   { path: '', component: ChartsComponent }
@@ -22,6 +22,6 @@ const routes: Routes = [
   declarations : [
     ChartsComponent
   ],
-  providers : []
+  providers : [ChartLoaderService]
 })
 export class ChartsModule { }
