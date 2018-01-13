@@ -10,9 +10,9 @@
               <amexio-button [label]="'Read'" [type]="'primary'" [tooltipMessage]="'read'" [icon]="'fa fa-check-circle'" ></amexio-button>
             </amexio-btn-group>
           </div>
-          <amexio-column [size]="4">
-           <div class="row" style="padding-right: 16px;">
-            <div class="col-lg-3">
+          <amexio-row style="padding-right: 16px;">
+          <amexio-column [size]="6">
+
               <div style="text-align: center;padding-bottom: 10px">
                 <amexio-button [label]="'Compose'" [type]="'danger'" [size]="'small'"[tooltipMessage]="'Compose'" (click)="toggle()" ></amexio-button>
               </div>
@@ -22,13 +22,7 @@
                                 [enableCheckBox]="false">
                 <ng-template #amexioTreeTemplate let-tree let-icon="icon" let-node="node">
                   <div class="d-flex float-left">
-                    <ng-container *ngIf="node.materialIcon">
-                      <i class="material-icons md-dark">{{node.materialIcon}}</i>
-                    </ng-container>
-                    <ng-container *ngIf="node.icon">
-                      <i [attr.class]="node.icon"></i>
-                    </ng-container>
-                    &nbsp; <a class="amexio-tree-view-label">{{tree.text}}</a>
+                  &nbsp; <a class="amexio-tree-view-label">{{tree.text}}</a>&nbsp;
                   </div>
                 </ng-template>
               </amexio-treeview>
@@ -36,14 +30,12 @@
                               [enableCheckBox] = "false" [dataReader]="'response.data'"
                               [displayField]="'name'">
                 <ng-template #amexioBodyTmpl let-row="row">
-                  <div class="contact-list-mini">
+
                     <img src="assets/images/profile/{{row.profile}}" height="20px" width="20px">
                     <div class="title">{{row.name}}</div>
-                  </div>
                 </ng-template>
               </amexio-listbox>
-            </div>
-
+        </amexio-column>
               <amexio-datagrid
                 [title]="'Inbox'"
                 [pageSize] = "15"
@@ -58,20 +50,21 @@
                 <amexio-data-table-column [dataIndex]="'from'" [dataType]="'string'" [hidden]="false" [text]="'From'"></amexio-data-table-column>
                 <amexio-data-table-column [dataIndex]="'title'" [dataType]="'string'" [hidden]="false" [text]="'Subject'"></amexio-data-table-column>
               </amexio-datagrid>
-
-          </div>
-        </amexio-column>
+      </amexio-row>
         </amexio-body>
       </amexio-card>
 
 
 
-<!-- <amexio-window [(showWindow)]="isComposeOpen"
-[title]="'New Message'" [closable]="true" [size]="2">
+<amexio-window [(showWindow)]="isComposeOpen" [closable]="true">
+<!-- <amexio-header [closable] ="true" [showWindow] ="true"> -->
+<amexio-header>
+  New Message
+</amexio-header>
 
   <amexio-body>
-    <div class="row">
-      <div class="col-lg-12">
+  <amexio-row>
+      <amexio-column [size] = "12">
         <amexio-text-input [fieldLabel]="'To'" name ="to"
                            [hasLabel]="false"
                            [placeholder]="'To'">
@@ -81,9 +74,8 @@
                            [placeholder]="'Subject'">
         </amexio-text-input>
         <amexio-textarea-input [fieldLabel]="'Content'"  [noOfrows]="3" [noOfCols]="3"></amexio-textarea-input>
-
-      </div>
-    </div>
+      </amexio-column>
+  </amexio-row>
   </amexio-body>
   <amexio-action>
     <div style="float: right;padding-top: 10px">
@@ -93,4 +85,4 @@
       </amexio-btn-group>
     </div>
   </amexio-action>
-</amexio-window> -->
+</amexio-window>

@@ -4,7 +4,7 @@ import {Routes, RouterModule} from '@angular/router';
 import { AppComponent } from './app.component';
 import {
   AmexioFormsModule, AmexioLayoutModule, AmexioNavModule, AmexioWidgetModule,  CommonDataService,
-  DeviceQueryService,IconLoaderService
+  DeviceQueryService,IconLoaderService,AmexioChartsModule
 } from "amexio-ng-extensions";
 import {DashboardComponent} from "./pages/dashboardex/dashboardex.component";
 import {SampleFormComponent} from "./pages/sampleformex/sampleformex.component";
@@ -62,7 +62,7 @@ const route: Routes = [
     BrowserModule,
     AmexioWidgetModule,
     AmexioLayoutModule,
-    FormsModule,
+    FormsModule,AmexioNavModule,
     RouterModule.forRoot(route,{useHash:true}),
     AmexioLayoutModule,AmexioFormsModule,
 

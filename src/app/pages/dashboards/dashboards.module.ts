@@ -6,7 +6,7 @@ import { Routes, RouterModule } from '@angular/router';
 import {CommonModule} from "@angular/common";
 import {FormsModule} from "@angular/forms";
 import {DashboardsComponent} from "./dashoboards.component";
-import {AmexioWidgetModule,AmexioChartsModule,AmexioDashBoardModule} from "amexio-ng-extensions";
+import {AmexioWidgetModule,AmexioChartsModule,AmexioDashBoardModule,ChartLoaderService} from "amexio-ng-extensions";
 
 const routes: Routes = [
   { path: '', component: DashboardsComponent }
@@ -19,6 +19,7 @@ const routes: Routes = [
     AmexioWidgetModule,AmexioChartsModule,AmexioDashBoardModule
   ],
   exports: [RouterModule],
+    providers : [ChartLoaderService],
   declarations : [
     DashboardsComponent
   ]

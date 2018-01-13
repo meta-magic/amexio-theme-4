@@ -1,14 +1,14 @@
-<div class="row">
-  <div class="col-lg-12">
-    <amexio-card>
+<amexio-row>
+  <amexio-column [size] = "12">
+    <amexio-card [enableHeader] = "true">
       <amexio-header>
         Employee Registration
       </amexio-header>
       <amexio-body>
         <amexio-tab-view>
           <amexio-tab title="Profile" [active]="true">
-            <div class="row" >
-              <div class="col-lg-6">
+          <amexio-row>
+            <amexio-column [size]="6">
                 <amexio-text-input [fieldLabel]="'First Name'" name="fname"
                                    [placeholder]="'Enter name'"
                                    [enablePopOver]="true"
@@ -18,8 +18,8 @@
                                    [maxErrorMsg]="'First name should be less than 15 characters'"
                 >
                 </amexio-text-input>
-              </div>
-              <div class="col-lg-6">
+            </amexio-column>
+              <amexio-column [size]="6">
                 <amexio-text-input [fieldLabel]="'Surname'" name="lname"
                                    [placeholder]="'Enter surname'"
                                    [enablePopOver]="true"
@@ -29,18 +29,18 @@
                                    [maxErrorMsg]="'Surname should be less than 15 characters'"
                 >
                 </amexio-text-input>
-              </div>
-            </div>
-              <div class="row">
-              <div class="col-lg-6">
-                <!-- <amexio-date-time-picker
+              </amexio-column>
+            </amexio-row>
+                <amexio-row>
+              <amexio-column [size]="6">
+                <amexio-date-time-picker
                   [fieldLabel]="'Date of Birth'"
                   [timepicker]="false"
                   [datepicker]="true"
                   [(ngModel)]="currentDate">
-                </amexio-date-time-picker> -->
-              </div>
-              <div class="col-lg-6">
+                </amexio-date-time-picker>
+              </amexio-column>
+            <amexio-column [size]="6">
                 <br>
                 <amexio-text-input [fieldLabel]="'Phone'" name="phone"
                                    [placeholder]="'Enter phone number'"
@@ -50,11 +50,11 @@
                                    [minLength]="10" [minErrorMsg]="'Phone number should be 10 digits.'"
                 >
                 </amexio-text-input>
-              </div>
-              </div>
-                <div class="row">
-              <div class="col-lg-6">
-                <amexio-password-input
+            </amexio-column>
+            </amexio-row>
+            <amexio-row>
+              <amexio-column [size]="6">
+                  <amexio-password-input
                   [fieldLabel]="'Password'" name="password"
                   [placeholder]="'Enter password'"
                   [enablePopOver]="true"
@@ -63,8 +63,8 @@
                   [minLength]="5" [minErrorMsg]="'Password length should be grater than 5'"
                   [minLength]="10" [minErrorMsg]="'Password length should be less than 10'"
                 ></amexio-password-input>
-              </div>
-              <div class="col-lg-6">
+                </amexio-column>
+              <amexio-column [size]="6">
                 <amexio-password-input
                   [fieldLabel]="'Confirm Password'" name="confirmpassword"
                   [placeholder]="'Enter confirm password'"
@@ -74,13 +74,13 @@
                   [minLength]="5" [minErrorMsg]="'Password length should be grater than 5'"
                   [minLength]="10" [minErrorMsg]="'Password length should be less than 10'"
                 ></amexio-password-input>
-              </div>
-            </div>
+                </amexio-column>
+            </amexio-row>
           </amexio-tab>
           <amexio-tab title="Address" >
-            <div class="row" >
-              <div class="col-lg-4">
-                <!-- <amexio-dropdown
+            <amexio-row>
+              <amexio-column [size]="4">
+                  <amexio-dropdown
                   [(ngModel)]="countryName"
                   [placeholder]="'Choose country'"
                   name="countryName"
@@ -90,12 +90,13 @@
                   [httpMethod]="'get'"
                   [displayField]="'countryName'"
                   [valueField]="'countryId'"
-                  [width]="'100%'"
                   (onSingleSelect)="getCountry($event)">
-                </amexio-dropdown> -->
-              </div>
-              <div class="col-lg-4">
-                <!-- <amexio-dropdown
+                </amexio-dropdown>
+              </amexio-column>
+
+                <amexio-column [size]="6">
+
+                <amexio-dropdown
                   [(ngModel)]="stateName"
                   [placeholder]="'Choose state'"
                   name="stateName"
@@ -105,11 +106,10 @@
                   [httpMethod]="'get'"
                   [displayField]="'stateName'"
                   [valueField]="'stateCode'"
-                  [width]="'100%'"
                   (onSingleSelect)="getState($event)">
                 </amexio-dropdown>
-              </div>
-              <div class="col-lg-4">
+              </amexio-column>
+              <amexio-column [size]="4">
                 <amexio-dropdown
                   [(ngModel)]="cityName"
                   [placeholder]="'Choose city'"
@@ -120,32 +120,33 @@
                   [httpMethod]="'get'"
                   [displayField]="'cityName'"
                   [valueField]="'cityCode'"
-                  [width]="'100%'"
                   (onSingleSelect)="getCity($event)">
-                </amexio-dropdown> -->
-             <br> </div>
-            </div>
-              <div class="row">
-              <div class="col-lg-6">
-                <!-- <amexio-textarea-input [fieldLabel]="'Address1'" name="Address1"
+                </amexio-dropdown>
+             <br>
+           </amexio-column>
+            </amexio-row>
+            <amexio-row>
+              <amexio-column [size]="6">
+               <amexio-textarea-input [fieldLabel]="'Address1'" name="Address1"
                                        [placeholder]="'Enter address 1'"
                                        [enablePopOver]="true"
                                        [allowBlank]="true" [errorMsg]="'Please enter Address 1'"
                                         [noOfrows]="'2'" [noOfCols]="'2'"
-                                       [popoverPlacement]="'top'">
+                                       >
+                                       <!-- [popoverPlacement]="'top'" -->
                 </amexio-textarea-input>
-              </div>
-              <div class="col-lg-6">
+              </amexio-column>
+              <amexio-column [size]="6">
                 <amexio-textarea-input [fieldLabel]="'Address2'" name="Address2"
                                        [placeholder]="'Enter address 2'" [enablePopOver]="true"
                                        [allowBlank]="true" [errorMsg]="'Please enter Address 2'"
                                        [noOfrows]="'2'" [noOfCols]="'2'"
-                                       [popoverPlacement]="'top'">
-                </amexio-textarea-input> -->
-              </div>
-              </div>
-              <div class="row">
-              <div class="col-lg-6">
+                                       >
+                </amexio-textarea-input>
+              </amexio-column>
+              </amexio-row>
+              <amexio-row>
+                <amexio-column [size]="6">
                 <amexio-text-input [fieldLabel]="'Pincode'" name="pincode"
                                    [placeholder]="'Enter pincode'"
                                    [errorMsg]="'Please enter pincode'"
@@ -155,10 +156,10 @@
                                    [maxLength]="6"  [maxErrorMsg]="'Pincode should be 6 digits.'"
                                    >
                 </amexio-text-input>
-              </div>
-              <div class="col-lg-6">
-              </div>
-            </div>
+              </amexio-column>
+            <amexio-column [size]="6">
+            </amexio-column>
+          </amexio-row>
           </amexio-tab>
         </amexio-tab-view>
       </amexio-body>
@@ -173,5 +174,5 @@
         </div>
       </amexio-action>
     </amexio-card>
-  </div>
-</div>
+  </amexio-column>
+</amexio-row>

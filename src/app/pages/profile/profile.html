@@ -1,5 +1,6 @@
 
 <amexio-row>
+  <amexio-column [size]="4">
     <amexio-card  [enableHeader] = "true" [enableFooter]="false">
       <amexio-header>
         Araf Karsh
@@ -10,7 +11,6 @@
             <amexio-image [imagePath]="'assets/images/profile/karsh.jpg'"
             [tooltipMessage]="'Image-Panel'">
             </amexio-image>
-            <!-- <img src="assets/images/profile/karsh.jpg" class="img-responsive"> -->
          <a href="">xyz@metamagic.in</a><br>
           Working since 13 months <br>
           <a href="">www.metamagicglobal.com</a><br>
@@ -19,13 +19,11 @@
           <a href="">Follow</a>
       </amexio-body>
     </amexio-card>
+  </amexio-column>
+  <amexio-column [size]="8">
       <!-- <amexio-card [enableFooter]="false" [cClass]="'contactlist'"> -->
-      <amexio-card [enableHeader] = "true"[enableFooter]="false">
-      <amexio-header>
-        Contacts
-      </amexio-header>
-      <amexio-body>
-        <amexio-listbox [data]="bindData" [filter]="true"
+
+        <amexio-listbox [data]="bindData" [filter]="true" [header] = "'Contacts'"
                         [enableCheckBox] = "false" [dataReader]="'response.data'"
                         [displayField]="'name'">
           <amexio-row>
@@ -40,7 +38,7 @@
           </ng-template>
         </amexio-row>
         </amexio-listbox>
-      </amexio-body>
-    </amexio-card>
+
+  </amexio-column>
 <amexio-row>
 <br/>
