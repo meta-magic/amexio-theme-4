@@ -4,7 +4,7 @@
     "text": "Home",
     "icon" : "fa fa-home fa-fw fa-lg",
     "mdbIcon" : "home",
-    "link" : "dashboard",
+    "link" : "home",
     "selected":true
   },
     {
@@ -86,6 +86,6 @@
       "text": "Dashboard",
       "icon" : "fa fa-television fa-fw",
       "mdbIcon":"dashboard",
-      "link" : "dashboards"
+      "link" : "dashboard"
     }
 ]}

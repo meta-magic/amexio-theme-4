@@ -1,4 +1,4 @@
-<amexio-card>
+<amexio-card [enableHeader] = "true">
   <amexio-header>
     Sample Form
   </amexio-header>
@@ -29,22 +29,35 @@
         </amexio-textarea-input>
       </amexio-column>
       <amexio-column [size]="6">
-          <amexio-dropdown
-
-                         [(ngModel)]="country"
-                         [placeholder]="'Choose City'"
-                         name="country"
-                         [dataReader]="'response.data'"
-                         [fieldLabel]="'City'"
-                         [httpUrl]="'assets/data/cities.json'"
-                         [httpMethod]="'get'"
-                         [searchBox]="'true'"
-                         [displayField]="'cityName'"
-                         [valueField]="'cityName'"
-                         >
-        </amexio-dropdown>
+        <amexio-typeahead [dataReader]="'response.data'"
+                          [httpUrl]="'assets/data/country.json'"
+                          [httpMethod]="'get'"
+                          [key]="'countryName'"
+                          [fieldLabel]="'Nationality'" [placeholder]="'Search'">
+        </amexio-typeahead>
       </amexio-column>
     </amexio-row>
+    <amexio-row>
+      <amexio-column [size]="6">
+    <amexio-date-time-picker
+      [fieldLabel] = "'Date of birth'"
+      [timepicker]="false"
+      [datepicker]="true"
+      [(ngModel)]="currentDate">
+    </amexio-date-time-picker>
+
+  </amexio-column>
+  <amexio-column [size]="6">
+
+    <amexio-date-time-picker
+      [fieldLabel] = "'Time of birth'"
+      [timepicker]="true"
+      [datepicker]="false"
+      [(ngModel)]="currentDate">
+    </amexio-date-time-picker>
+
+  </amexio-column>
+</amexio-row>
     <amexio-row>
       <amexio-column [size]="6">
           <amexio-password-input [fieldLabel]="'Password Input'" name ="password"
@@ -69,32 +82,30 @@
     </amexio-row>
     <amexio-row>
       <amexio-column [size]="6">
-          <amexio-number-input [fieldLabel]="'Number Input'" name ="age"
+          <amexio-number-input [fieldLabel]="'Age'" name ="age"
                              [placeholder]="'Enter Age'">
         </amexio-number-input>
       </amexio-column>
       <amexio-column [size]="6">
 
-        <amexio-date-time-picker
-          [fieldLabel] = "'Date of birth'"
-          [timepicker]="false"
-          [datepicker]="true"
-          [(ngModel)]="currentDate">
-        </amexio-date-time-picker>
+                  <amexio-dropdown
 
+                                 [(ngModel)]="country"
+                                 [placeholder]="'Choose City'"
+                                 name="country"
+                                 [dataReader]="'response.data'"
+                                 [fieldLabel]="'City'"
+                                 [httpUrl]="'assets/data/cities.json'"
+                                 [httpMethod]="'get'"
+                                 [searchBox]="'true'"
+                                 [displayField]="'cityName'"
+                                 [valueField]="'cityName'"
+                                 >
+                </amexio-dropdown>
       </amexio-column>
     </amexio-row>
     <amexio-row>
-      <amexio-column [size]="6">
-            <amexio-typeahead [dataReader]="'response.data'"
-                          [httpUrl]="'assets/data/country.json'"
-                          [httpMethod]="'get'"
-                          [key]="'countryName'"
-                          [fieldLabel]="'Country Name'">
-        </amexio-typeahead>
-        <br>
-      </amexio-column>
-      <amexio-column [size]="6">
+          <amexio-column [size]="6">
             <amexio-checkbox-group [fieldLabel]="'Hobbies'" name ="hobbies"
                          [dataReader]="'response.data'"
                          [displayField]="'language'"
@@ -102,8 +113,7 @@
                          [data]="checkboxGroupdata">
         </amexio-checkbox-group>
       </amexio-column>
-    </amexio-row>
-    <amexio-row>
+
       <amexio-column [size]="6">
             <amexio-radio-group
           name="name" (selectedValue)="onClick($event)"

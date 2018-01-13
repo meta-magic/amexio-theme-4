@@ -1,6 +1,6 @@
 <amexio-row>
   <amexio-column [size] = "12">
-    <amexio-card [enableHeader] = "true">
+    <amexio-card [enableHeader] = "true" [enableFooter] = "true">
       <amexio-header>
         Employee Registration
       </amexio-header>
@@ -164,14 +164,14 @@
         </amexio-tab-view>
       </amexio-body>
       <amexio-action>
-        <div class="d-flex justify-content-end">
-          <div class="p-2">
+        <!-- <div class="d-flex justify-content-end">
+          <div class="p-2"> -->
             <amexio-button [label]="'Cancel'" [type]="'info'" [tooltipMessage]="'Save'"></amexio-button>
-          </div>
-          <div class="p-2">
+          <!-- </div>
+          <div class="p-2"> -->
             <amexio-button [label]="'Save'" [type]="'primary'" [tooltipMessage]="'Save'"></amexio-button>
-          </div>
-        </div>
+            <!-- </div>
+          </div> -->
       </amexio-action>
     </amexio-card>
   </amexio-column>

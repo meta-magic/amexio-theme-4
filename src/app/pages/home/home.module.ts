@@ -5,22 +5,23 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import {CommonModule} from "@angular/common";
 import {FormsModule} from "@angular/forms";
-import {AmexioWidgetModule,AmexioLayoutModule} from "amexio-ng-extensions";
-import {IssueStatusComponent} from "./issuestatus.component";
+import {HomeComponent} from "./home.component";
+import {AmexioWidgetModule,AmexioChartsModule,AmexioDashBoardModule,ChartLoaderService} from "amexio-ng-extensions";
 
 const routes: Routes = [
-  { path: '', component: IssueStatusComponent }
+  { path: '', component: HomeComponent }
 ];
 
 @NgModule({
   imports: [
     CommonModule,FormsModule,
     RouterModule.forChild(routes),
-    AmexioWidgetModule,AmexioLayoutModule
+    AmexioWidgetModule,AmexioChartsModule,AmexioDashBoardModule
   ],
   exports: [RouterModule],
+    providers : [ChartLoaderService],
   declarations : [
-    IssueStatusComponent
+    HomeComponent
   ]
 })
-export class IssueStatusModule { }
+export class HomeModule { }

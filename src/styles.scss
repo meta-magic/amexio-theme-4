@@ -27,8 +27,6 @@
   }
 }
 
-
-
 .input-control {
   border-radius: 0px;
   line-height: 2;
@@ -62,7 +60,17 @@ label {
 
 }
 
+button.app-button {
+  border-radius: 8px;
+}
+
 .drodown-caret-down{
   top: 35px;
   color: $borderColor;
+}
+
+div.profile-image img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
 }

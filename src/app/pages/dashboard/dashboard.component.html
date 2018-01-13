@@ -1,274 +1,76 @@
-<!--
-<amexio-row>
 
-  <amexio-column [size]="4">
-    <amexio-datapoints [west]="true" [center]="true" [east]="true" [south]="true" >
-      <amexio-west [contentalign]="'center'" [width]="'100px'" [cClass]="'visual'">
-        <i class="fa fa-line-chart fa-3x"></i>
-      </amexio-west>
-      <amexio-center [contentalign]="'left'">
-        <span class="title">200 Million</span>
-        <br>
-        <span class="subtitle">Sales Volume</span>
-      </amexio-center>
-      <amexio-south [contentalign]="'center'" [cClass]="'footer'" ><div>10% More than last year</div></amexio-south>
-    </amexio-datapoints>
-  </amexio-column>
-
-  <amexio-column [size]="4">
-    <amexio-datapoints [west]="true" [center]="true" [east]="true" [south]="true" >
-      <amexio-west [contentalign]="'center'" [width]="'100px'" [cClass]="'visual'">
-        <i class="fa fa-line-chart fa-3x"></i>
-      </amexio-west>
-      <amexio-center [contentalign]="'left'">
-        <span class="title">$10 Million</span>
-        <br>
-        <span class="subtitle">Sales Revenue</span>
-      </amexio-center>
-      <amexio-south [contentalign]="'center'" [cClass]="'footer'"><div >5% More than last year</div></amexio-south>
-    </amexio-datapoints>
-  </amexio-column>
-  <amexio-column [size]="4">
-    <amexio-datapoints [west]="true" [center]="true" [east]="true" [south]="true"  >
-      <amexio-west [contentalign]="'center'" [width]="'100px'" [cClass]="'visual'">
-        <i class="fa fa-line-chart fa-3x"></i>
-      </amexio-west>
-      <amexio-center [contentalign]="'left'">
-        <span class="title">$2 Million</span>
-        <br>
-        <span class="subtitle">Profit</span>
-      </amexio-center>
-
-      <amexio-south [contentalign]="'center'" [cClass]="'footer'"><div>10% More than last year</div></amexio-south>
-    </amexio-datapoints>
-  </amexio-column>
-</amexio-row>
-
-<amexio-row>  
-  <amexio-column [size]="6">
-
-    <amexio-card [enableFooter]="false" [enableHeader]="true">
-      <amexio-header>
-        Motivation and Energy Level
-      </amexio-header>
-      <amexio-body>
-
-        <amexio-chart-bar [data]="barStackData" [isStacked]="true" >
-          <amexio-chart-legend [legendPosition]="'bottom'"></amexio-chart-legend>
-        </amexio-chart-bar>
-
-      </amexio-body>
+<amexio-card [enableHeader]="true">
+  <amexio-header>
+    Datapoints
+  </amexio-header>
+  <amexio-body>
+    <amexio-row>
+<amexio-column [size]="12">
+      <amexio-datapoints [west]="true" [center]="true" [east]="true" [south]="true" [backgroundColor]="'#efa64c'" [fontColor]="'#ffffff'">
+        <amexio-west [contentalign]="'center'" [width]="'100px'">
+          <i class="fa fa-line-chart fa-3x"></i>
+        </amexio-west>
+        <amexio-center [contentalign]="'right'">
+          <amexio-datapoints [north]="true" [center]="true" [south]="true">
+            <amexio-north>
+              <span style="color: #ffffff; font-size: 36px; font-weight: bold; text-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);">200 Million</span>
+            </amexio-north>
+            <amexio-center>
+              <span style="font-size: 20px">Sales Volume</span>
+            </amexio-center>
+          </amexio-datapoints>
+        </amexio-center>
+        <amexio-south [contentalign]="'center'" [backgroundColor]="'#d97c3e'">10% More than last year</amexio-south>
+      </amexio-datapoints>
+    </amexio-column>
+  <amexio-column [size]="12">
+      <amexio-datapoints [west]="true" [center]="true" [east]="true" [south]="true" [backgroundColor]="'#68bafc'" [fontColor]="'#ffffff'">
+        <amexio-west [contentalign]="'center'" [width]="'100px'">
+          <i class="fa fa-line-chart fa-3x"></i>
+        </amexio-west>
+        <amexio-center [contentalign]="'right'">
+          <amexio-datapoints [north]="true" [center]="true" [south]="true">
+            <amexio-north>
+              <span style="color: #ffffff; font-size: 36px; font-weight: bold; text-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);">$10 Million</span>
+            </amexio-north>
+            <amexio-center>
+              <span style="font-size: 20px">Sales Revenue</span>
+            </amexio-center>
+          </amexio-datapoints>
+        </amexio-center>
+        <amexio-south [contentalign]="'center'" [backgroundColor]="'#3192e1'">5% more than last year</amexio-south>
+      </amexio-datapoints>
+    </amexio-column>
+    <amexio-column [size]="12">
+      <amexio-datapoints [west]="true" [center]="true" [east]="true" [south]="true" [backgroundColor]="'#f97bb2'" [fontColor]="'#ffffff'">
+        <amexio-west [contentalign]="'center'" [width]="'100px'">
+          <i class="fa fa-line-chart fa-3x"></i>
+        </amexio-west>
+        <amexio-center [contentalign]="'right'">
+          <amexio-datapoints [north]="true" [center]="true" [south]="true">
+            <amexio-north>
+              <span style="color: #ffffff; font-size: 36px; font-weight: bold; text-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);">$2 Million</span>
+            </amexio-north>
+            <amexio-center>
+              <span style="font-size: 20px">Profit</span>
+            </amexio-center>
+          </amexio-datapoints>
+        </amexio-center>
+        <amexio-south [contentalign]="'center'" [backgroundColor]="'#e42a7b'">10% more than last year</amexio-south>
+      </amexio-datapoints>
+    </amexio-column>
+  </amexio-row>
+    </amexio-body>
     </amexio-card>
-
-  </amexio-column>
-  <amexio-column [size]="6">
-
-    <amexio-card [enableFooter]="false" [enableHeader]="true">
-      <amexio-header>
-        Company Performance
-      </amexio-header>
-      <amexio-body>
-        <amexio-chart-bar [data]="barStackData" [isStacked]="true" >
-          <amexio-chart-legend [legendPosition]="'bottom'"></amexio-chart-legend>
-        </amexio-chart-bar>
-      </amexio-body>
-    </amexio-card>
-
-  </amexio-column>
-</amexio-row>
-<amexio-row>  
-
-  <amexio-column [size]="6">
-
-    <amexio-card [enableFooter]="false" [enableHeader]="true">
-      <amexio-header>
-        My Daily Activities
-      </amexio-header>
-      <amexio-body>
-        <amexio-chart-donut [data]="donutData">
-          <amexio-chart-legend [legendPosition]="'bottom'"></amexio-chart-legend>
-        </amexio-chart-donut>
-      </amexio-body>
-    </amexio-card>
-
-  </amexio-column>
-  <amexio-column [size]="6">
-
-    <amexio-card [enableFooter]="false" [enableHeader]="true">
-      <amexio-header>
-        Company Performance
-      </amexio-header>
-      <amexio-body>
-        <amexio-chart-area [data]="areaData">
-          <amexio-chart-legend [legendPosition]="'bottom'"></amexio-chart-legend>
-        </amexio-chart-area>
-      </amexio-body>
-    </amexio-card>
-
-  </amexio-column>
-</amexio-row>
-<amexio-row>  
-
-  <amexio-column [size]="6">
-
-    <amexio-card [enableFooter]="false" [enableHeader]="true">
-      <amexio-header>Box Office Earnings - First 2 Weeks</amexio-header>
-      <amexio-body>
-        <amexio-chart-line [data]="lineData">
-          <amexio-chart-legend [legendPosition]="'top'"></amexio-chart-legend>
-        </amexio-chart-line>
-      </amexio-body>
-    </amexio-card>
-
-  </amexio-column>
-  <amexio-column [size]="6">
-
-    <amexio-card [enableFooter]="false" [enableHeader]="true">
-      <amexio-header>Daily Activities</amexio-header>
-      <amexio-body>
-        <amexio-chart-pie [data]="pieChartData" [is3D]="true">
-          <amexio-chart-legend [legendPosition]="'bottom'"></amexio-chart-legend>
-        </amexio-chart-pie>
-      </amexio-body>
-    </amexio-card>
-
-  </amexio-column>
-</amexio-row>
--->
-<!--
-<amexio-row>
-
-  <amexio-column [size]="4">
-    <amexio-datapoints [west]="true" [center]="true" [east]="true" [south]="true" >
-      <amexio-west [contentalign]="'center'" [width]="'100px'" [cClass]="'visual'">
-        <i class="fa fa-line-chart fa-3x"></i>
-      </amexio-west>
-      <amexio-center [contentalign]="'left'">
-        <span class="title">200 Million</span>
-        <br>
-        <span class="subtitle">Sales Volume</span>
-      </amexio-center>
-      <amexio-south [contentalign]="'center'" [cClass]="'footer'" ><div>10% More than last year</div></amexio-south>
-    </amexio-datapoints>
-  </amexio-column>
-
-  <amexio-column [size]="4">
-    <amexio-datapoints [west]="true" [center]="true" [east]="true" [south]="true" >
-      <amexio-west [contentalign]="'center'" [width]="'100px'" [cClass]="'visual'">
-        <i class="fa fa-line-chart fa-3x"></i>
-      </amexio-west>
-      <amexio-center [contentalign]="'left'">
-        <span class="title">$10 Million</span>
-        <br>
-        <span class="subtitle">Sales Revenue</span>
-      </amexio-center>
-      <amexio-south [contentalign]="'center'" [cClass]="'footer'"><div >5% More than last year</div></amexio-south>
-    </amexio-datapoints>
-  </amexio-column>
-  <amexio-column [size]="4">
-    <amexio-datapoints [west]="true" [center]="true" [east]="true" [south]="true"  >
-      <amexio-west [contentalign]="'center'" [width]="'100px'" [cClass]="'visual'">
-        <i class="fa fa-line-chart fa-3x"></i>
-      </amexio-west>
-      <amexio-center [contentalign]="'left'">
-        <span class="title">$2 Million</span>
-        <br>
-        <span class="subtitle">Profit</span>
-      </amexio-center>
-
-      <amexio-south [contentalign]="'center'" [cClass]="'footer'"><div>10% More than last year</div></amexio-south>
-    </amexio-datapoints>
-  </amexio-column>
-</amexio-row>
-
-<amexio-row>  
-  <amexio-column [size]="6">
-
-    <amexio-card [enableFooter]="false" [enableHeader]="true">
-      <amexio-header>
-        Motivation and Energy Level
-      </amexio-header>
-      <amexio-body>
-
-        <amexio-chart-bar [data]="barStackData" [isStacked]="true" >
-          <amexio-chart-legend [legendPosition]="'bottom'"></amexio-chart-legend>
-        </amexio-chart-bar>
-
-      </amexio-body>
-    </amexio-card>
-
-  </amexio-column>
-  <amexio-column [size]="6">
-
-    <amexio-card [enableFooter]="false" [enableHeader]="true">
-      <amexio-header>
-        Company Performance
-      </amexio-header>
-      <amexio-body>
-        <amexio-chart-bar [data]="barStackData" [isStacked]="true" >
-          <amexio-chart-legend [legendPosition]="'bottom'"></amexio-chart-legend>
-        </amexio-chart-bar>
-      </amexio-body>
-    </amexio-card>
-
-  </amexio-column>
-</amexio-row>
-<amexio-row>  
-
-  <amexio-column [size]="6">
-
-    <amexio-card [enableFooter]="false" [enableHeader]="true">
-      <amexio-header>
-        My Daily Activities
-      </amexio-header>
-      <amexio-body>
-        <amexio-chart-donut [data]="donutData">
-          <amexio-chart-legend [legendPosition]="'bottom'"></amexio-chart-legend>
-        </amexio-chart-donut>
-      </amexio-body>
-    </amexio-card>
-
-  </amexio-column>
-  <amexio-column [size]="6">
-
-    <amexio-card [enableFooter]="false" [enableHeader]="true">
-      <amexio-header>
-        Company Performance
-      </amexio-header>
-      <amexio-body>
-        <amexio-chart-area [data]="areaData">
-          <amexio-chart-legend [legendPosition]="'bottom'"></amexio-chart-legend>
-        </amexio-chart-area>
-      </amexio-body>
-    </amexio-card>
-
-  </amexio-column>
-</amexio-row>
-<amexio-row>  
-
-  <amexio-column [size]="6">
-
-    <amexio-card [enableFooter]="false" [enableHeader]="true">
-      <amexio-header>Box Office Earnings - First 2 Weeks</amexio-header>
-      <amexio-body>
-        <amexio-chart-line [data]="lineData">
-          <amexio-chart-legend [legendPosition]="'top'"></amexio-chart-legend>
-        </amexio-chart-line>
-      </amexio-body>
-    </amexio-card>
-
-  </amexio-column>
-  <amexio-column [size]="6">
-
-    <amexio-card [enableFooter]="false" [enableHeader]="true">
-      <amexio-header>Daily Activities</amexio-header>
-      <amexio-body>
-        <amexio-chart-pie [data]="pieChartData" [is3D]="true">
-          <amexio-chart-legend [legendPosition]="'bottom'"></amexio-chart-legend>
-        </amexio-chart-pie>
-      </amexio-body>
-    </amexio-card>
-
-  </amexio-column>
-</amexio-row>
--->
+<br>
+  <amexio-card [enableFooter]="false" [enableHeader]="true">
+    <!-- <amexio-row>
+    <amexio-column [size]="6"> -->
+    <amexio-header>Computational resources</amexio-header>
+    <amexio-body>
+      <amexio-dashboard-gauge [height]="'300px'" [width]="'100%'" [data]="gaugeData" [redColorFrom]="90" [redColorTo]="100" [yellowColorFrom]="75"
+                          [yellowColorTo]="90" [minorTicks]="5"></amexio-dashboard-gauge>
+    </amexio-body>
+  <!-- </amexio-column>
+  </amexio-row> -->
+  </amexio-card>

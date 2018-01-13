@@ -12,7 +12,7 @@ import {AmexioItemSelectorComponent1} from "./pages/sampleformex/item.selector.c
 import {FormsModule} from "@angular/forms";
 
 const route: Routes = [
-  { path: '', redirectTo: 'app-root', pathMatch: 'full'},
+  { path: '', redirectTo: 'home', pathMatch: 'full'},
 
   {
     path: 'email', loadChildren: './pages/email/email.module#EmailModule'
@@ -36,7 +36,10 @@ const route: Routes = [
     path:'maps',loadChildren:'./pages/maps/maps.module#MapsModule'
   },
   {
-    path:'dashboards',loadChildren:'./pages/dashboards/dashboards.module#DashboardsModule'
+    path:'dashboard',loadChildren:'./pages/dashboard/dashboard.module#DashboardModule'
+  },
+  {
+    path:'home',loadChildren:'./pages/home/home.module#HomeModule'
   },
   {
     path: 'employee-registration',

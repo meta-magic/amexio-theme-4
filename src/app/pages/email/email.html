@@ -30,9 +30,10 @@
                               [enableCheckBox] = "false" [dataReader]="'response.data'"
                               [displayField]="'name'">
                 <ng-template #amexioBodyTmpl let-row="row">
-
-                    <img src="assets/images/profile/{{row.profile}}" height="20px" width="20px">
-                    <div class="title">{{row.name}}</div>
+                  <div class="profile-image">
+                    <img src="assets/images/profile/{{row.profile}}">
+                  </div>
+                    {{row.name}}
                 </ng-template>
               </amexio-listbox>
         </amexio-column>
