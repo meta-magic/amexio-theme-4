@@ -116,7 +116,7 @@
           "text": "Form Utilities",
           "icon": "fa fa-bolt",
           "mdbIcon": "",
-          "link": "action"
+          "link": "formutils"
         }
       ]
     }

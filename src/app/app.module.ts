@@ -57,6 +57,9 @@ const route: Routes = [
   },
   {
     path : 'action' , loadChildren : './pages/action/action#ActionRoutingModule'
+  },
+  {
+    path : 'formutils', loadChildren : './pages/formsutil/formsutil#FormUtilsRoutingModule'
   }
 ];
 
