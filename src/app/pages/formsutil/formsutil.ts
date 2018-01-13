@@ -248,12 +248,24 @@ import {FormsModule} from "@angular/forms";
        </amexio-row>
        
        <amexio-row>
-         <amexio-column size="4"><amexio-button [type]="'primary'" [label]="'Default'"></amexio-button></amexio-column>
-         <amexio-column size="4"></amexio-column>
-         <amexio-column size="4"></amexio-column>
+         <amexio-column size="3"><amexio-button [type]="'success'" [label]="'Top Right'" (onClick)="toggleMsgArrayR.push('New Message Recieved')"></amexio-button></amexio-column>
+         <amexio-column size="3"><amexio-button [type]="'warning'" [label]="'Top Left'" (onClick)="toggleMsgArrayL.push('Check Your inbox')"></amexio-button></amexio-column>
+       </amexio-row>
+
+       <amexio-notification [messageData]="toggleMsgArrayR" [verticalposition]="'top'" [horizontalposition]="'right'"></amexio-notification>
+       <amexio-notification [messageData]="toggleMsgArrayL" [verticalposition]="'top'" [horizontalposition]="'left'"></amexio-notification>
+
+       
+       <amexio-row>
+         <amexio-column size="6"><h2>Video Player</h2></amexio-column>
        </amexio-row>
        
-
+       <amexio-row>
+         <amexio-column size="12">
+           <amexio-video-player path="http://www.amexio.org/showcaseapp/v3/assets/videos/sample_bunny.mp4"></amexio-video-player>
+         </amexio-column>
+       </amexio-row>
+       
      </amexio-body>
    </amexio-card>
  `
@@ -263,6 +275,8 @@ export class FormUtilsComponent implements OnInit {
   rate : number;
   rate1 : number = 7;
   currentDate1 : any;
+  toggleMsgArrayR : any[] = [];
+  toggleMsgArrayL : any[] = [];
  constructor() { }
 
  ngOnInit() { }
