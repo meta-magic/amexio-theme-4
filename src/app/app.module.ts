@@ -48,6 +48,12 @@ const route: Routes = [
   },
   {
     path: 'sample', loadChildren: './pages/pages/sample/sample.module#SampleModule'
+  },
+  {
+    path: 'datagrid', loadChildren: './pages/datagrid/datagrid.module#DataGridModule'
+  },
+  {
+    path : 'action' , loadChildren : './pages/action/action#ActionRoutingModule'
   }
 ];
 
