@@ -1,6 +1,6 @@
 
 <amexio-row>
-  <amexio-column [size]="4">
+  <amexio-column [size]="5">
     <amexio-card  [enableHeader] = "true" [enableFooter]="false">
       <amexio-header>
         Araf Karsh
@@ -11,6 +11,7 @@
             <amexio-image [imagePath]="'assets/images/profile/karsh.jpg'"
             [tooltipMessage]="'Image-Panel'">
             </amexio-image>
+        <br/>
          <a href="">xyz@metamagic.in</a><br>
           Working since 13 months <br>
           <a href="">www.metamagicglobal.com</a><br>
@@ -20,10 +21,8 @@
       </amexio-body>
     </amexio-card>
   </amexio-column>
-  <amexio-column [size]="8">
-      <!-- <amexio-card [enableFooter]="false" [cClass]="'contactlist'"> -->
-
-        <amexio-listbox [data]="bindData" [filter]="true" [header] = "'Contacts'"
+  <amexio-column [size]="7">
+         <amexio-listbox [data]="bindData" [filter]="true" [header] = "'Contacts'"
                         [enableCheckBox] = "false" [dataReader]="'response.data'"
                         [displayField]="'name'">
           <amexio-row>
@@ -31,9 +30,12 @@
                 <!-- <amexio-image [imagePath]="assets/images/profile/{{row.profile}}"
                 [tooltipMessage]="'profile-image'">
                 </amexio-image> -->
-              <img class="rounded-circle" src="assets/images/profile/{{row.profile}}"  height="30px" width="30px"/>
-              <amexio-column size=[5]>
-                <div class="title">{{row.name}}<br><a href="#">xyz@metamagicglobal.com</a></div>
+              <amexio-column [size]="2">
+
+              <img src="assets/images/profile/{{row.profile}}"  height="70px" width="70px"/>
+              </amexio-column>
+              <amexio-column [size]="5">
+                <a font-size ="100px">{{row.name}}</a> <br/> <a href="#">xyz@metamagicglobal.com</a>
             </amexio-column>
           </ng-template>
         </amexio-row>
