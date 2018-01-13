@@ -1,110 +1,119 @@
 {
-  "data":[
-  {
-    "text": "Home",
-    "icon" : "fa fa-home fa-fw fa-lg",
-    "mdbIcon" : "home",
-    "link" : "dashboard",
-    "selected":true
-  },
+  "data": [
+    {
+      "text": "Home",
+      "icon": "fa fa-home fa-fw fa-lg",
+      "mdbIcon": "home",
+      "link": "dashboard",
+      "selected": true
+    },
     {
       "text": "Email",
-      "icon" : "fa fa-envelope fa-fw",
-      "mdbIcon" : "email",
-      "link" : "email"
+      "icon": "fa fa-envelope fa-fw",
+      "mdbIcon": "email",
+      "link": "email"
     },
     {
       "text": "Profile",
-      "icon" : "fa fa-user fa-fw",
-      "mdbIcon" : "account_box",
-      "link" : "profile"
+      "icon": "fa fa-user fa-fw",
+      "mdbIcon": "account_box",
+      "link": "profile"
     },
-  {
-    "text": "Pages",
-    "icon" : "fa fa-id-card-o fa-fw",
-    "mdbIcon" : "pages",
-    "expand":true,
-    "children": [
-      {
-        "text": "Sample Form",
-        "icon" : "fa fa-laptop fa-fw",
-        "mdbIcon" : "create",
-        "link":"sample"
-      },
-      {
-        "text": "Login",
-        "mdbIcon":"open_in_browser",
-        "icon" : "fa fa-sign-in fa-fw",
-        "link":"login"
-      },
-      {
-        "text": "Register",
-        "icon" : "fa fa-address-book-o fa-fw",
-        "mdbIcon":"perm_contact_calendar",
-        "link":"employee-registration"
-      },
-      {
-        "text": "Issue Status",
-        "icon" : "fa fa-exclamation fa-fw",
-        "mdbIcon":"playlist_add_check",
-        "link":"/issuestatus"
-      }
-    ]
-  },
+    {
+      "text": "Pages",
+      "icon": "fa fa-id-card-o fa-fw",
+      "mdbIcon": "pages",
+      "expand": true,
+      "children": [
+        {
+          "text": "Sample Form",
+          "icon": "fa fa-laptop fa-fw",
+          "mdbIcon": "create",
+          "link": "sample"
+        },
+        {
+          "text": "Login",
+          "mdbIcon": "open_in_browser",
+          "icon": "fa fa-sign-in fa-fw",
+          "link": "login"
+        },
+        {
+          "text": "Register",
+          "icon": "fa fa-address-book-o fa-fw",
+          "mdbIcon": "perm_contact_calendar",
+          "link": "employee-registration"
+        },
+        {
+          "text": "Issue Status",
+          "icon": "fa fa-exclamation fa-fw",
+          "mdbIcon": "playlist_add_check",
+          "link": "/issuestatus"
+        }
+      ]
+    },
     {
       "text": "Reports",
-      "icon" : "fa fa-picture-o fa-fw",
-      "mdbIcon":"assignment",
-      "expand":true,
+      "icon": "fa fa-picture-o fa-fw",
+      "mdbIcon": "assignment",
+      "expand": true,
       "children": [
         {
           "text": "Issue",
-          "icon" : "fa fa-ticket fa-fw",
-          "mdbIcon":"bug_report",
-          "link":"issue"
+          "icon": "fa fa-ticket fa-fw",
+          "mdbIcon": "bug_report",
+          "link": "issue"
         },
         {
           "text": "Group By Issue",
-          "icon" : "fa fa-ticket fa-fw",
-          "mdbIcon":"link",
-          "link":"group-by-issue"
+          "icon": "fa fa-ticket fa-fw",
+          "mdbIcon": "link",
+          "link": "group-by-issue"
         }
       ]
     },
     {
       "text": "Charts",
-      "icon" : "fa fa-bar-chart fa-fw",
-      "mdbIcon":"insert_chart",
-      "link" : "charts"
+      "icon": "fa fa-bar-chart fa-fw",
+      "mdbIcon": "insert_chart",
+      "link": "charts"
     },
     {
       "text": "Maps",
-      "icon" : "fa fa-map-marker fa-fw",
-      "mdbIcon":"location_on",
-      "link" : "maps"
-    },{
-      "text": "Dashboard",
-      "icon" : "fa fa-television fa-fw",
-      "mdbIcon":"dashboard",
-      "link" : "dashboards"
-    },{
-      "text": "Action",
-      "icon" : "fa fa-magic",
-      "mdbIcon":"",
-      "link" : "action"
+      "icon": "fa fa-map-marker fa-fw",
+      "mdbIcon": "location_on",
+      "link": "maps"
     },
     {
-      "text": "Data",
-      "icon" : "fa fa-television fa-fw",
-      "mdbIcon":"dashboard",
-      "expand":true,
+      "text": "Dashboard",
+      "icon": "fa fa-television fa-fw",
+      "mdbIcon": "dashboard",
+      "link": "dashboards"
+    },
+    {
+      "text": "Components",
+      "icon": "fa fa-clone fa-fw",
+      "mdbIcon": "dashboard",
+      "expand": true,
       "children": [
         {
-          "text": "data grid",
-          "icon" : "fa fa-ticket fa-fw",
-          "mdbIcon":"bug_report",
-          "link":"datagrid"
+          "text": "Data Grid",
+          "icon": "fa fa-database fa-fw",
+          "mdbIcon": "bug_report",
+          "link": "datagrid"
+        },
+        {
+          "text": "Action Button",
+          "icon": "fa fa-keyboard-o fa-fw",
+          "mdbIcon": "",
+          "link": "action"
+        },
+        {
+          "text": "Form Utilities",
+          "icon": "fa fa-bolt",
+          "mdbIcon": "",
+          "link": "action"
         }
       ]
     }
-]}
+  ]
+}

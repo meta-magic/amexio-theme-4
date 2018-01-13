@@ -154,6 +154,7 @@
       </amexio-column>
     </amexio-row>
 
+<!--
     <amexio-row>
       <amexio-column [size]="6">
         <amexio-toggle [fieldLabel]="'On/Off'" (onChange)="onClick($event)"></amexio-toggle>
@@ -162,6 +163,7 @@
         <amexio-checkbox  [fieldLabel]="'I Agree'" (selectedValue)="onClick($event)"></amexio-checkbox>
       </amexio-column>
     </amexio-row>
+-->
 
     <amexio-row>
       <amexio-column [size]="6">
@@ -170,12 +172,12 @@
                           [httpMethod]="'get'"
                           [key]="'countryName'"
                           [displayField]="'countryName'"
-                          [fieldLabel]="'Country Name'"
+                          [fieldLabel]="'Having visa'"
                           (onChange)="value = $event">
         </amexio-tag-input>
       </amexio-column>
       <amexio-column [size]="6">
-        <amexio-rating-input [fieldLabel]="'Country Name'" [max]="10" name="rate"></amexio-rating-input>
+        <amexio-rating-input [fieldLabel]="'Credit rating'" [max]="10" name="rate"></amexio-rating-input>
       </amexio-column>
     </amexio-row>
 
