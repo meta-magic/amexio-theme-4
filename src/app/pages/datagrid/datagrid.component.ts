@@ -13,9 +13,8 @@ export class DataGridComponent implements OnInit {
 
   columnData: any[] = [];
   localData: any[] = [];
+  treeLocalData:any;
   constructor() {
-
-
     this.localData = [
       {
         "status": "Open",
@@ -125,6 +124,7 @@ export class DataGridComponent implements OnInit {
         "date":"11-04-2017"
       }
     ];
+
     this.columnData.push(
       {
         'dataIndex':'status',
@@ -151,8 +151,91 @@ export class DataGridComponent implements OnInit {
         'text':'date'
       }
     );
+
+    this.treeLocalData = {
+      "data": [{
+        "text": "Web App",
+        "expand": true,
+        "children": [
+          {
+            "text": "app",
+            "expand": true,
+            "children": [
+              {
+                "leaf": true,
+                "text": "Application.js"
+              }
+            ]
+          },
+          {
+            "text": "button",
+            "expand": true,
+            "children": [
+              {
+                "leaf": true,
+                "text": "Button.js"
+              },
+              {
+                "leaf": true,
+                "text": "Cycle.js"
+              },
+              {
+                "leaf": true,
+                "text": "Split.js"
+              }
+            ]
+          },
+          {
+            "text": "container",
+            "expand": true,
+            "children": [
+              {
+                "leaf": true,
+                "text": "ButtonGroup.js"
+              },
+              {
+                "leaf": true,
+                "text": "Container.js"
+              },
+              {
+                "leaf": true,
+                "text": "Viewport.js",
+                "expand" : true,
+                "children":[],
+                "lazy":{
+                  "httpUrl":"data/treeview.json",
+                  "httpMethod": "get"
+                }
+              }
+            ]
+          },
+          {
+            "text": "core",
+            "expand": true,
+            "children": [
+              {
+                "text": "dom",
+                "expand": true,
+                "children": [
+                  {
+                    "leaf": true,
+                    "text": "Element.form.js"
+                  },
+                  {
+                    "leaf": true,
+                    "text": "Element.static-more.js"
+                  }
+
+                ]
+              }
+            ]
+          }
+        ]
+      }]
+    };
   }
 
   ngOnInit() {
   }
+
 }

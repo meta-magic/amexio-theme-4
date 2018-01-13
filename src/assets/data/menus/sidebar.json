@@ -101,7 +101,7 @@
       "expand": true,
       "children": [
         {
-          "text": "Data Grid",
+          "text": "Data",
           "icon": "fa fa-database fa-fw",
           "mdbIcon": "bug_report",
           "link": "datagrid"
