@@ -51,6 +51,9 @@ const route: Routes = [
   },
   {
     path: 'datagrid', loadChildren: './pages/datagrid/datagrid.module#DataGridModule'
+  },
+  {
+    path : 'action' , loadChildren : './pages/action/action#ActionRoutingModule'
   }
 ];
 
