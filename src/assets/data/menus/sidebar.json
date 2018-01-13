@@ -87,5 +87,24 @@
       "icon" : "fa fa-television fa-fw",
       "mdbIcon":"dashboard",
       "link" : "dashboard"
+    },{
+      "text": "Action",
+      "icon" : "fa fa-magic",
+      "mdbIcon":"",
+      "link" : "action"
+    },
+    {
+      "text": "Data",
+      "icon" : "fa fa-television fa-fw",
+      "mdbIcon":"dashboard",
+      "expand":true,
+      "children": [
+        {
+          "text": "data grid",
+          "icon" : "fa fa-ticket fa-fw",
+          "mdbIcon":"bug_report",
+          "link":"datagrid"
+        }
+      ]
     }
 ]}

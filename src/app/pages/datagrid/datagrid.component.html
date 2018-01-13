@@ -1,0 +1,54 @@
+<amexio-row>
+  <amexio-column [size]="12">
+    <amexio-card [enableFooter]="false" [enableHeader]="true">
+      <amexio-header>Simple Data Grid</amexio-header>
+      <amexio-body>
+        <amexio-datagrid [checkboxSelect]="false"  [height]="300" title="Country Grid"   [httpMethod]="'get'" [httpUrl]="'assets/data/datagrid.json'" [dataReader]="'data'"  [pageSize] = "10" [filtering]="false">
+          <amexio-data-table-column [dataIndex]="'name_official'" [dataType]="'string'" [hidden]="false" [text]="'Name'">
+          </amexio-data-table-column>
+          <amexio-data-table-column [dataIndex]="'latitude'" [dataType]="'string'" [hidden]="false" [text]="'Latitude'"></amexio-data-table-column>
+          <amexio-data-table-column [dataIndex]="'longitude'" [dataType]="'number'" [hidden]="false" [text]="'Longitude'"></amexio-data-table-column>
+        </amexio-datagrid>
+      </amexio-body>
+    </amexio-card>
+  </amexio-column>
+</amexio-row><br>
+<amexio-row>
+  <amexio-column [size]="12">
+    <amexio-card [enableFooter]="false" [enableHeader]="true">
+      <amexio-header>Data Grid with Template</amexio-header>
+      <amexio-body>
+        <amexio-datagrid [checkboxSelect]="true"  [height]="300" title="Country Grid"   [httpMethod]="'get'" [httpUrl]="'assets/data/datagrid.json'" [dataReader]="'data'"  [pageSize] = "10" [filtering]="false">
+          <amexio-data-table-column [dataIndex]="'name_official'" [dataType]="'string'" [hidden]="false" [text]="'Name'">
+            <ng-template #amexioBodyTmpl let-column let-row="row">
+                        <span>
+                            <img src="" [attr.src]="'http://amexio.org/showcaseapp/v3/assets/images/flags/flags/'+row.flag_32">&nbsp;{{row.name}} ( {{row.name_official}} )
+                        </span>
+            </ng-template>
+          </amexio-data-table-column>
+          <amexio-data-table-column [dataIndex]="'latitude'" [dataType]="'string'" [hidden]="false" [text]="'Latitude'"></amexio-data-table-column>
+          <amexio-data-table-column [dataIndex]="'longitude'" [dataType]="'number'" [hidden]="false" [text]="'Longitude'"></amexio-data-table-column>
+        </amexio-datagrid>
+      </amexio-body>
+    </amexio-card>
+  </amexio-column>
+</amexio-row>
+
+<amexio-row>
+  <amexio-column [size]="12">
+    <amexio-card [enableFooter]="false" [enableHeader]="true">
+      <amexio-header>Data Grid with Filtering</amexio-header>
+      <amexio-body>
+        <amexio-datagrid [columnToggle]="true"
+                         [columnDefinition]="columnData"
+                         [filtering]="true" title="Issue Record"
+                         [checkboxSelect]="false"
+                         [data]="localData"
+                         [dataReader]=""
+                         [pageSize] = "10"
+                         [filtering]="true">
+        </amexio-datagrid>
+      </amexio-body>
+    </amexio-card>
+  </amexio-column>
+</amexio-row>
