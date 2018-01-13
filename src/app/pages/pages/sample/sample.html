@@ -41,7 +41,7 @@
                                [placeholder]="'Enter address'"
                                [errorMsg]="'Please enter address'"
                                [iconFeedBack]="true"
-                               [noOfrows]="'2'" [noOfCols]="'2'"
+                               [noOfrows]="'1'" [noOfCols]="'2'"
                                [allowBlank]="false" [enablePopOver]="true"
 
         >
@@ -61,10 +61,21 @@
 
     <amexio-row>
       <amexio-column [size]="6">
-        DATE PICKER NOT WORKING
+        <amexio-date-time-picker
+          [fieldLabel]="'Date Of Birth'"
+          [timepicker]="false"
+          [datepicker]="true"
+          [(ngModel)]="currentDate">
+        </amexio-date-time-picker>
       </amexio-column>
       <amexio-column [size]="6">
-        TIME PICKER NOT WORKING
+        <amexio-date-time-picker
+          [fieldLabel]="'Date Of Birth With Time'"
+          [timepicker]="true"
+          [datepicker]="true"
+          [ngModel]="time"
+          (ngModelChange)="onChangeTime($event)">
+        </amexio-date-time-picker>
       </amexio-column>
     </amexio-row>
     <amexio-row>
@@ -79,7 +90,6 @@
 
       </amexio-column>
       <amexio-column [size]="6">
-        DROP DOWN NOT WORKING...
         <amexio-dropdown
           [(ngModel)]="country"
           [placeholder]="'Choose City'"
@@ -150,19 +160,41 @@
       </amexio-column>
       <amexio-column [size]="6">
         <amexio-checkbox  [fieldLabel]="'I Agree'" (selectedValue)="onClick($event)"></amexio-checkbox>
-        <p>Selected Value : {{printvalue}}</p>
       </amexio-column>
     </amexio-row>
 
     <amexio-row>
+      <amexio-column [size]="6">
+        <amexio-tag-input [dataReader]="'response.data'"
+                          [httpUrl]="'assets/data/country.json'"
+                          [httpMethod]="'get'"
+                          [key]="'countryName'"
+                          [displayField]="'countryName'"
+                          [fieldLabel]="'Country Name'"
+                          (onChange)="value = $event">
+        </amexio-tag-input>
+      </amexio-column>
+      <amexio-column [size]="6">
+        <amexio-rating-input [fieldLabel]="'Country Name'" [max]="10" name="rate"></amexio-rating-input>
+      </amexio-column>
+    </amexio-row>
+
+    <amexio-row>
+      <amexio-column [size]="12">
       <amexio-item-selector [height]="200" [displayField]="'countryName'"
                             [valueField]="'countryId'"
                             [httpUrl]="'assets/data/itemdata.json'"
                             [httpMethod]="'get'" [dataReader]="'data'" >
       </amexio-item-selector>
+      </amexio-column>
     </amexio-row>
+
     <amexio-row>
+      <amexio-column [size]="6">
       <amexio-slider [(ngModel)]="name" minValue="0" maxValue="100" stepValue="10"></amexio-slider>
+      </amexio-column>
     </amexio-row>
+
+
   </amexio-body>
 </amexio-card>
