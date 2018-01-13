@@ -78,7 +78,7 @@
         <amexio-date-time-picker
           [fieldLabel] = "'Date of birth'"
           [timepicker]="false"
-          [datepicker]="datepickerOpts"
+          [datepicker]="true"
           [(ngModel)]="currentDate">
         </amexio-date-time-picker>
 
@@ -115,16 +115,16 @@
                             [data]="radioGroupData"
                            >
         </amexio-radio-group>
-      </amexio-column>
-      <amexio-column [size]="6">
+      </amexio-column></amexio-row>
+
             <br>
         <amexio-item-selector [height]="200" [displayField]="'countryName'"
                               [valueField]="'countryId'"
                               [httpUrl]="'assets/data/selectordata.json'"
                               [httpMethod]="'get'" [dataReader]="'response.data'" >
         </amexio-item-selector>
-      </amexio-column>
-    </amexio-row>
+
+
   </amexio-body>
 
   <amexio-action>
