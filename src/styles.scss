@@ -96,3 +96,55 @@ div.profile-image img {
 .datatable .datatable-col{
   vertical-align: middle;
 }
+
+.datatable .datatable-row{
+  height: 50px;
+}
+
+.datatable .datatable-header .datatable-col{
+  height: 50px;
+  font-weight: 500;
+}
+
+.datatable .datatable-header{
+  background-color: $primaryBGColor;
+  font-size: larger;
+  color: $primaryColor;
+}
+
+.datatable .datatable-col{
+  vertical-align: middle;
+}
+
+
+
+/* ----------------------------------- */
+/*        DATAPOINTS COMPONENT         */
+/* ----------------------------------- */
+
+.datapoints{
+  .datapoints{
+    border: none;
+    box-shadow: none;
+  }
+}
+.datapoints-north{
+  font-size: 36px;
+  font-weight: bold;
+  color: $primaryBGColor;
+}
+
+.datapoint-south{
+  /* Background */
+  background-color: $primaryBGColor;
+  color: $primaryColor;
+  border-radius: 0px;
+  font-size: 20px;
+  padding: 5px;
+  margin: 1px;
+}
+.datapoint-west{
+  padding: 5px;
+  font-size: 24px;
+  font-weight: bold;
+}
