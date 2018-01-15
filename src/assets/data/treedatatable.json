@@ -1,4 +1,5 @@
-{  "data": [
+{
+  "data": [
     {
       "task": "Project: Shopping 1",
       "duration": 1325,
@@ -48,7 +49,7 @@
           "duration": 12,
           "user": "Tommy Maintz",
           "iconCls": "task-folder",
-          "expanded": false,
+          "expanded": true,
           "children": [
             {
               "task": "Retile kitchen",
