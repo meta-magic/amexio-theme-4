@@ -4,7 +4,7 @@
 import { Component, OnInit } from '@angular/core';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import {AmexioWidgetModule} from "amexio-ng-extensions";
+import {AmexioFormsModule, AmexioWidgetModule} from "amexio-ng-extensions";
 import {FormsModule} from "@angular/forms";
 
 @Component({
@@ -254,7 +254,6 @@ import {FormsModule} from "@angular/forms";
 
        <amexio-notification [messageData]="toggleMsgArrayR" [verticalposition]="'top'" [horizontalposition]="'right'"></amexio-notification>
        <amexio-notification [messageData]="toggleMsgArrayL" [verticalposition]="'top'" [horizontalposition]="'left'"></amexio-notification>
-
        
        <amexio-row>
          <amexio-column size="6"><h2>Video Player</h2></amexio-column>
@@ -263,6 +262,18 @@ import {FormsModule} from "@angular/forms";
        <amexio-row>
          <amexio-column size="12">
            <amexio-video-player path="http://www.amexio.org/showcaseapp/v3/assets/videos/sample_bunny.mp4"></amexio-video-player>
+         </amexio-column>
+       </amexio-row>
+       
+       <amexio-row>
+         <amexio-column [size]="6">
+           <h2>Fileupload Component</h2>
+         </amexio-column>
+       </amexio-row>
+       
+       <amexio-row>
+         <amexio-column size="4">
+           <amexio-fileupload [droppable]="true"></amexio-fileupload>
          </amexio-column>
        </amexio-row>
        
@@ -287,7 +298,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forChild(routes),AmexioWidgetModule,FormsModule],
+  imports: [RouterModule.forChild(routes),AmexioWidgetModule,FormsModule,AmexioFormsModule],
   exports: [RouterModule],
   declarations : [FormUtilsComponent]
 })
