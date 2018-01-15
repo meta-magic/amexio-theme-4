@@ -12,10 +12,14 @@
           <div style="text-align: center;padding: 10px">
             <amexio-button [label]="'Compose'" [type]="'danger'" [size]="'default'"[tooltipMessage]="'Compose'" (click)="toggle()" ></amexio-button>
           </div>
-          <amexio-treeview  [data]="data"
+
+
+
+          <amexio-treeview   [data]="data"
                             (selectedRecord)="onRowSelect($event)"
                             [enableCheckBox]="false">
           </amexio-treeview>
+
         </amexio-column>
       </amexio-row>
 

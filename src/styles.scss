@@ -1,6 +1,154 @@
+//@import "styles_bk/mdb/mdb-blueberry.scss";
 
 
-@import "../node_modules/amexio-ng-extensions/themes/default/styles.scss";
+
+$color: #404c51;
+
+$oppColor: white;
+
+$backgroundcolor: #ECEFF1;
+
+$borderSize : 1px;
+
+$borderRadius : 2px;
+
+$borderColor : #ced4da;
+
+$borderColor-focus: #5cb3fd;
+
+$primaryBGColor: #455A64;
+
+$secondaryBGColor: #ffffff;
+
+$successBGColor : #5cb85c;
+
+$dangerBGColor : #d9534f;
+
+$warningBGColor : #f0ad4e;
+
+
+$primaryColor: #FFFFFF;
+
+$secondaryColor: $color;
+
+$successColor : $oppColor;
+
+$dangerColor : $oppColor;
+
+$warningColor : $oppColor;
+
+$success: $successBGColor;
+
+$error : $dangerBGColor;
+
+$hoverColor : $primaryColor;
+
+$hoverBGColor : $primaryBGColor;
+
+
+$sidenavHeaderBGColor: white;
+$sidenavHeaderColor: $color;
+$sidenavBGColor : white;
+$sidenavColor: black;
+$sidenavactive:#eee;
+
+$treeNodeActiveBGColor : $sidenavactive;
+$treeNodeActiveColor : $sidenavColor;
+
+
+$tabBorderSize: $borderSize;
+$tabBorderColor : $borderColor;
+$tabActiveBorder : red;
+$tabActiveBGColor : $borderColor;
+$tabActiveBorderSize : 3px;
+
+$menubarBGColor : #3498DB;
+$menubarColor : white;
+$menuHoverColor: orange;
+$subMenuCotentBGColor : white;
+$subMenuCotentColor : #777;
+
+$modalBGColor: lighten(black,50%);
+
+$cardBGColor: #FFFFFF;
+$cardColor: black;
+
+$cardHeaderBGColor: #455A64;
+$cardHeaderColor: #FFFFFF;
+$cardFooterBGColor: #455A64;
+$cardFooterColor: #FFFFFF;
+$cardBorderColor: $borderColor;
+
+$toastBGColor : $primaryBGColor;
+$toastColor : $primaryColor;
+/* You can add global styles to this file, and also import other style files */
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
+
+
+$borderLayoutBorder : 0px;
+$borderLayoutBorderColor : none;
+
+$menubarBGColor : black;
+$menubarColor : white;
+$menuHoverColor: orange;
+
+$subMenuCotentBGColor : white;
+$subMenuCotentColor : #777;
+$menuborderColor:#ced4da;
+$menuborderSize:1px;
+
+$navbarBGColor : #90A4AE;
+$navbarBoxShadow:#666;
+$navbarColor : white;
+
+
+$datapointBGColor : #ffffff;
+$datapointColor : #455A64;
+$datapointBorderColor : $borderColor;
+
+$componentBGColor: #ffffff;
+
+$ratingBorderColor : $borderColor;
+$ratingActiveColor : $primaryBGColor;
+
+
+$datetimepickerBGColor : white;
+$datetimepickertopbarBGColor : $primaryBGColor;
+$datetimepickerActiveColor : $datetimepickerBGColor;
+
+$fieldSetBorderSize : $borderSize;
+$fieldSetBorderColor : $borderColor;
+
+body {
+  background: $backgroundcolor;
+  min-height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  font-family: Roboto,Trebuchet MS,Arial,Helvetica,sans-serif;
+  font-weight: 400;
+  color: $color;
+  font-size: 1em;
+  margin: 0px;
+  padding: 0px;
+
+}
+
+@import "../node_modules/amexio-ng-extensions/styles/default/common.scss";
+
+@import "../node_modules/amexio-ng-extensions/styles/default/amexio.components.scss";
+@import "../node_modules/amexio-ng-extensions/styles/default/amexio.data.scss";
+@import "../node_modules/amexio-ng-extensions/styles/default/amexio.layouts.scss";
+@import "../node_modules/amexio-ng-extensions/styles/default/amexio.nav.scss";
+@import "../node_modules/amexio-ng-extensions/styles/default/amexio.panes.scss";
+
 
 
 /*----------------------------------------------------------------------*/
