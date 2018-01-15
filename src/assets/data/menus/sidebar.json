@@ -5,13 +5,14 @@
     "icon" : "fa fa-home fa-fw fa-lg",
     "mdbIcon" : "home",
     "link" : "home",
-    "selected":true
+    "active":true
   },
     {
       "text": "Email",
       "icon": "fa fa-envelope fa-fw",
       "mdbIcon": "email",
-      "link": "email"
+      "link": "email",
+      "active":true
     },
     {
       "text": "Profile",
