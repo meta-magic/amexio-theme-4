@@ -16,7 +16,7 @@ const routes: Routes = [
   imports: [
     CommonModule,FormsModule,
     RouterModule.forChild(routes),
-    AmexioWidgetModule,AmexioLayoutModule
+    AmexioWidgetModule
   ],
   exports: [RouterModule],
   declarations : [

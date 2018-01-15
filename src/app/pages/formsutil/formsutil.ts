@@ -298,7 +298,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forChild(routes),AmexioWidgetModule,FormsModule,AmexioFormsModule],
+  imports: [RouterModule.forChild(routes),AmexioWidgetModule,FormsModule],
   exports: [RouterModule],
   declarations : [FormUtilsComponent]
 })

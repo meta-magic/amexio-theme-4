@@ -49,7 +49,7 @@
                           [httpUrl]="'assets/data/country.json'"
                           [httpMethod]="'get'"
                           [key]="'countryName'"
-
+                          [displayField]="'countryName'"
                           [fieldLabel]="'Nationality'" [placeholder]="'Search'">
         </amexio-typeahead>
       </amexio-column>
@@ -70,7 +70,7 @@
         <amexio-date-time-picker
           [fieldLabel]="'Time Of Birth'"
           [timepicker]="true"
-          [datepicker]="true"
+          [datepicker]="false"
           [ngModel]="time"
           (ngModelChange)="onChangeTime($event)">
         </amexio-date-time-picker>
