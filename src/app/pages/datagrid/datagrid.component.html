@@ -8,7 +8,8 @@
             <amexio-card [enableFooter]="false" [enableHeader]="true">
               <amexio-header>Simple Data Grid</amexio-header>
               <amexio-body>
-                <amexio-datagrid [columnToggle]="true" [checkboxSelect]="false"  [height]="300" title="Country Grid"   [httpMethod]="'get'" [httpUrl]="'assets/data/datagrid.json'" [dataReader]="'data'"  [pageSize] = "10" [filtering]="false">
+                <amexio-datagrid
+                  [columnToggle]="true" [checkboxSelect]="false"  [height]="300" title="Country Grid"   [httpMethod]="'get'" [httpUrl]="'assets/data/datagrid.json'" [dataReader]="'data'"  [pageSize] = "10" [filtering]="false">
                   <amexio-data-table-column [dataIndex]="'name_official'" [dataType]="'string'" [hidden]="false" [text]="'Name'">
                   </amexio-data-table-column>
                   <amexio-data-table-column [dataIndex]="'latitude'" [dataType]="'string'" [hidden]="false" [text]="'Latitude'"></amexio-data-table-column>
@@ -57,8 +58,23 @@
           </amexio-column>
         </amexio-row>
       </amexio-tab>
-      <amexio-tab title="Tree">
+      <amexio-tab title="Tree Data Grid">
 
+        <amexio-row>
+          <amexio-column [size]="12">
+            <amexio-card [enableFooter]="false" [enableHeader]="true">
+              <amexio-header>Tree Data Grid</amexio-header>
+              <amexio-body>
+                <amexio-tree-data-table [httpMethod]="'get'" [httpUrl]="'assets/data/treedatatable.json'" [dataReader]="'data'">
+                  <amexio-data-table-column [dataIndex]="'user'" [dataType]="'string'" [hidden]="false" [text]="'User'"></amexio-data-table-column>
+                  <amexio-data-table-column [dataIndex]="'duration'" [dataType]="'number'" [hidden]="false" [text]="'Duration'"></amexio-data-table-column>
+                </amexio-tree-data-table>
+              </amexio-body>
+            </amexio-card>
+          </amexio-column>
+        </amexio-row><br>
+      </amexio-tab>
+      <amexio-tab title="Tree">
         <amexio-row>
           <amexio-column [size]="3">
             <amexio-card [enableFooter]="false" [enableHeader]="true">
@@ -106,21 +122,6 @@
             </amexio-card>
           </amexio-column>
         </amexio-row><br>
-      </amexio-tab>
-      <amexio-tab title="Tree Data Grid">
-        <amexio-row>
-          <amexio-column [size]="12">
-            <amexio-card [enableFooter]="false" [enableHeader]="true">
-              <amexio-header>Simple Tree</amexio-header>
-              <amexio-body>
-                <amexio-tree-data-table [httpMethod]="'get'" [httpUrl]="'assets/data/treegrid.json'" [dataReader]="'data'">
-                  <amexio-data-table-column [dataIndex]="'user'" [dataType]="'string'"  [text]="'user'"></amexio-data-table-column>
-                  <amexio-data-table-column [dataIndex]="'duration'" [dataType]="'number'" [text]="'Duration'"></amexio-data-table-column>
-                </amexio-tree-data-table>
-              </amexio-body>
-            </amexio-card>
-          </amexio-column>
-        </amexio-row>
       </amexio-tab>
     </amexio-tab-view>
   </amexio-column>
