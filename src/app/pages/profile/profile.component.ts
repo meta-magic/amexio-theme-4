@@ -32,7 +32,7 @@ export class ProfileComponent implements OnInit {
             "email" : "araf.karsh@metamagic.in"
           },
           {
-            "name": "ketan Gote",
+            "name": "Ketan Gote",
             "name_official": "Ketan Gote",
             "profile": "ketan.jpg",
             "email" : "ketan.gote@metamagic.in"

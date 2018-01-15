@@ -148,3 +148,40 @@ div.profile-image img {
   font-size: 24px;
   font-weight: bold;
 }
+
+.listbox .list{
+  background-color: white;
+
+  .title {
+    float: left;
+    font-size: 18px;
+    color: rgba(0,0,0,0.87);
+    padding-top: 8px;
+    a {
+      font-size: 16px;
+      color: rgba(0,0,0,0.54) !important;
+      text-transform: lowercase;
+    }
+  }
+}
+
+
+a {
+  color: rgba(0, 0, 0, 0.87);
+  text-transform: lowercase;
+}
+
+.sidenav .activenode{
+  color: #00695C;
+
+}
+
+
+.image-responsive{
+  max-width: 100%;
+  width: 100%;
+  border-top: 1px solid #1b1d22;
+  border-bottom: 1px solid #1b1d22;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
