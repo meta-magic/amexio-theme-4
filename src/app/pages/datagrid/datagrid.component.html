@@ -107,6 +107,21 @@
           </amexio-column>
         </amexio-row><br>
       </amexio-tab>
+      <amexio-tab title="Tree Data Grid">
+        <amexio-row>
+          <amexio-column [size]="12">
+            <amexio-card [enableFooter]="false" [enableHeader]="true">
+              <amexio-header>Simple Tree</amexio-header>
+              <amexio-body>
+                <amexio-tree-data-table [httpMethod]="'get'" [httpUrl]="'assets/data/treegrid.json'" [dataReader]="'data'">
+                  <amexio-data-table-column [dataIndex]="'user'" [dataType]="'string'"  [text]="'user'"></amexio-data-table-column>
+                  <amexio-data-table-column [dataIndex]="'duration'" [dataType]="'number'" [text]="'Duration'"></amexio-data-table-column>
+                </amexio-tree-data-table>
+              </amexio-body>
+            </amexio-card>
+          </amexio-column>
+        </amexio-row>
+      </amexio-tab>
     </amexio-tab-view>
   </amexio-column>
 </amexio-row>
