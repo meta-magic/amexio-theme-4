@@ -31,9 +31,6 @@
             &nbsp;&nbsp;
           </amexio-column>
         </amexio-row>
-
-
-
       </amexio-body>
     </amexio-card>
   </amexio-column>
@@ -48,7 +45,9 @@
                   <img src="assets/images/profile/{{row.profile}}"/></div>
               </amexio-column>
               <amexio-column [size]="10">
-                <a font-size ="100px">{{row.name}}</a> <br/> <a href="#">xyz@metamagicglobal.com</a>
+                <div  class="title">
+                  {{row.name}} <br><a href="#">xyz@metamagicglobal.com</a>
+                </div>
             </amexio-column>
             </amexio-row>
           </ng-template>
@@ -56,4 +55,3 @@
 
   </amexio-column>
 <amexio-row>
-<br/>
