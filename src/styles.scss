@@ -148,3 +148,22 @@ div.profile-image img {
   font-size: 24px;
   font-weight: bold;
 }
+
+.listbox .list{
+  background-color: white;
+}
+
+
+a {
+  color: rgba(0, 0, 0, 0.87);
+  text-transform: lowercase;
+}
+
+.image-responsive{
+  max-width: 100%;
+  width: 100%;
+  border-top: 1px solid #1b1d22;
+  border-bottom: 1px solid #1b1d22;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

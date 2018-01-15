@@ -7,22 +7,33 @@
       </amexio-header>
 
       <amexio-body>
-        <span class="subtitle">Co-Founder / Chief Technology Officer</span>
-            <amexio-image [imagePath]="'assets/images/profile/karsh.jpg'"
-            [tooltipMessage]="'Image-Panel'">
-            </amexio-image>
-        <br/>
-         <a href="">xyz@metamagic.in</a><br>
-          Working since 13 months <br>
-          <a href="https://metamagicglobal.com/">www.metamagicglobal.com/</a><br>
-          <amexio-icon>
-              <ng-template #amexioIconTmpl let-iconObj="iconObj">
-              <i [attr.class]="iconObj.iconClass">{{iconObj.iconName}} </i></ng-template>
-          </amexio-icon>
-          <!-- <div class="iconbuttons" *ngFor="let iconObj of iconArray">
-            <i [attr.class]="iconObj.iconClass">{{iconObj.iconName}}</i></div>
-             -->
-          <a href="https://metamagicglobal.com/">Follow</a>
+        <amexio-row>
+          <amexio-column [size]="12">
+            <h4>Co-Founder / Chief Technology Officer</h4>
+          </amexio-column>
+        </amexio-row>
+        <amexio-row>
+          <amexio-column [size]="12">
+            <amexio-image [imagePath]="'assets/images/profile/karsh.jpg'" [cClass]="'image-responsive'"></amexio-image>
+          </amexio-column>
+        </amexio-row>
+
+        <amexio-row>
+          <amexio-column [size]="12">
+            <a href="">xyz@metamagic.in</a><br>
+            Working since 13 months <br>
+            <a href="https://metamagicglobal.com/">www.metamagicglobal.com</a><br>
+          </amexio-column>
+        </amexio-row>
+
+        <amexio-row>
+          <amexio-column [size]="12">
+            &nbsp;&nbsp;
+          </amexio-column>
+        </amexio-row>
+
+
+
       </amexio-body>
     </amexio-card>
   </amexio-column>
@@ -30,20 +41,17 @@
          <amexio-listbox [data]="bindData" [filter]="true" [header] = "'Contacts'"
                         [enableCheckBox] = "false" [dataReader]="'response.data'"
                         [displayField]="'name'">
-          <amexio-row>
           <ng-template #amexioBodyTmpl let-row="row">
-                <!-- <amexio-image [imagePath]="assets/images/profile/{{row.profile}}"
-                [tooltipMessage]="'profile-image'">
-                </amexio-image> -->
-              <amexio-column [size]="6">
+            <amexio-row>
+             <amexio-column [size]="2">
                 <div class=profile-image>
-              <img src="assets/images/profile/{{row.profile}}"/></div>
+                  <img src="assets/images/profile/{{row.profile}}"/></div>
               </amexio-column>
-              <amexio-column [size]="5">
+              <amexio-column [size]="10">
                 <a font-size ="100px">{{row.name}}</a> <br/> <a href="#">xyz@metamagicglobal.com</a>
             </amexio-column>
+            </amexio-row>
           </ng-template>
-        </amexio-row>
         </amexio-listbox>
 
   </amexio-column>
