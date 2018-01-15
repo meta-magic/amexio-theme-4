@@ -1,0 +1,89 @@
+
+
+<amexio-card [enableHeader] = "true">
+  <amexio-header>
+    Email
+  </amexio-header>
+  <amexio-body>
+    <div *ngIf="isVisible" style="margin-left : 70%;">
+      <amexio-btn-group>
+        <amexio-button [label]="'Delete'" [type]="'danger'" [tooltipMessage]="'delete'" [icon]="'fa fa-trash'" ></amexio-button>
+        <amexio-button [label]="'Unread'" [type]="'success'" [tooltipMessage]="'unread'" [icon]="'fa fa-book'" ></amexio-button>
+        <amexio-button [label]="'Read'" [type]="'primary'" [tooltipMessage]="'read'" [icon]="'fa fa-check-circle'" ></amexio-button>
+      </amexio-btn-group>
+    </div>
+
+    <amexio-row style="padding-right: 16px;">
+      <amexio-column [size]="2">
+
+        <div style="text-align: center;padding-bottom: 10px">
+          <amexio-button [label]="'Compose'" [type]="'danger'" [size]="'small'"[tooltipMessage]="'Compose'" (click)="toggle()" ></amexio-button>
+        </div>
+
+        <amexio-treeview  [data]="data"
+                          (selectedRecord)="onRowSelect($event)"
+                          [enableCheckBox]="false">
+        </amexio-treeview>
+        <amexio-listbox [searchPlaceHolder]="'Search Contacts'" [data]="bindData" [filter]="true"
+                        [enableCheckBox] = "false" [dataReader]="'response.data'"
+                        [displayField]="'name'">
+          <ng-template #amexioBodyTmpl let-row="row">
+            <div class="profile-image">
+              <img src="assets/images/profile/{{row.profile}}">
+            </div>
+            {{row.name}}
+          </ng-template>
+        </amexio-listbox>
+      </amexio-column>
+      <amexio-column [size]="10">
+        <amexio-datagrid
+          [title]="'Inbox'"
+          [pageSize] = "15"
+          [dataReader]="'response.data'"
+          [checkboxSelect]="true"
+          [httpUrl]="'assets/data/email.json'"
+          [httpMethod]="'get'"
+          [filtering]="false"
+          (selectedRowData)="onRowSelect($event)"
+          (rowSelect)="onRowClick($event)" [cClass]="'gridStyle'" [tableDatacClass]="'datagridrow'" [tableTitlecClass]="'headerStyle'" [tableHeadercClass]="'headerStyleColumn'">
+          <amexio-data-table-column [dataIndex]="'date'" [dataType]="'string'" [hidden]="false" [text]="'Date'"></amexio-data-table-column>
+          <amexio-data-table-column [dataIndex]="'from'" [dataType]="'string'" [hidden]="false" [text]="'From'"></amexio-data-table-column>
+          <amexio-data-table-column [dataIndex]="'title'" [dataType]="'string'" [hidden]="false" [text]="'Subject'"></amexio-data-table-column>
+        </amexio-datagrid>
+      </amexio-column>
+    </amexio-row>
+  </amexio-body>
+</amexio-card>
+
+
+
+<amexio-window [(showWindow)]="isComposeOpen" [closable]="true">
+  <!-- <amexio-header [closable] ="true" [showWindow] ="true"> -->
+  <amexio-header>
+    New Message
+  </amexio-header>
+
+  <amexio-body>
+    <amexio-row>
+      <amexio-column [size] = "12">
+        <amexio-text-input [fieldLabel]="'To'" name ="to"
+                           [hasLabel]="false"
+                           [placeholder]="'To'">
+        </amexio-text-input>
+        <amexio-text-input [fieldLabel]="'Subject'" name ="subject"
+                           [hasLabel]="false"
+                           [placeholder]="'Subject'">
+        </amexio-text-input>
+        <amexio-textarea-input [fieldLabel]="'Content'"  [noOfrows]="3" [noOfCols]="3"></amexio-textarea-input>
+      </amexio-column>
+    </amexio-row>
+  </amexio-body>
+  <amexio-action>
+    <div style="float: right;padding-top: 10px">
+      <amexio-btn-group [size]="'small'">
+        <amexio-button [label]="'Discard'" [type]="'danger'" [tooltipMessage]="'delete'"  ></amexio-button>
+        <amexio-button [label]="'Send'" [type]="'success'" [tooltipMessage]="'unread'" ></amexio-button>
+      </amexio-btn-group>
+    </div>
+  </amexio-action>
+</amexio-window>

@@ -69,11 +69,20 @@ button.app-button {
   color: $borderColor;
 }
 
+.email {
+  background-color: white;
+}
 div.profile-image img {
     width: 50px;
     height: 50px;
     border-radius: 50%;
+    vertical-align: middle;
 }
+
+div.profile-image a{
+  text-transform: capitalize;
+}
+
 .btn-group button{
   border-right: 1px solid white;
 
@@ -176,7 +185,6 @@ a {
 
 }
 
-
 .image-responsive{
   max-width: 100%;
   width: 100%;
@@ -184,4 +192,8 @@ a {
   border-bottom: 1px solid #1b1d22;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.navbar-logo-unit a{
+  text-transform: capitalize;
 }
