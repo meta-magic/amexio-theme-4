@@ -3,7 +3,7 @@
           Email
         </amexio-header>
         <amexio-body>
-          <div *ngIf="isVisible" class="form-inline" style="justify-content: flex-end">
+          <div *ngIf="isVisible" style="margin-left : 70%;">
             <amexio-btn-group>
               <amexio-button [label]="'Delete'" [type]="'danger'" [tooltipMessage]="'delete'" [icon]="'fa fa-trash'" ></amexio-button>
               <amexio-button [label]="'Unread'" [type]="'success'" [tooltipMessage]="'unread'" [icon]="'fa fa-book'" ></amexio-button>
@@ -11,7 +11,7 @@
             </amexio-btn-group>
           </div>
           <amexio-row style="padding-right: 16px;">
-          <amexio-column [size]="6">
+          <amexio-column [size]="2">
 
               <div style="text-align: center;padding-bottom: 10px">
                 <amexio-button [label]="'Compose'" [type]="'danger'" [size]="'small'"[tooltipMessage]="'Compose'" (click)="toggle()" ></amexio-button>
@@ -37,6 +37,7 @@
                 </ng-template>
               </amexio-listbox>
         </amexio-column>
+                <amexio-column [size]="10">
               <amexio-datagrid
                 [title]="'Inbox'"
                 [pageSize] = "15"
@@ -51,6 +52,7 @@
                 <amexio-data-table-column [dataIndex]="'from'" [dataType]="'string'" [hidden]="false" [text]="'From'"></amexio-data-table-column>
                 <amexio-data-table-column [dataIndex]="'title'" [dataType]="'string'" [hidden]="false" [text]="'Subject'"></amexio-data-table-column>
               </amexio-datagrid>
+            </amexio-column>
       </amexio-row>
         </amexio-body>
       </amexio-card>

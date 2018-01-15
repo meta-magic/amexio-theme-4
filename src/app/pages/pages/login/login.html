@@ -1,4 +1,5 @@
 <amexio-row>
+  <amexio-column [size]="3"></amexio-column>
   <amexio-column [size]="6">
     <div class="d-flex justify-content-center">
       <amexio-card [showCard]="true" [enableFooter]="false" [enableHeader] = "true">
@@ -7,7 +8,6 @@
         </amexio-header>
         <amexio-body>
           <amexio-row>
-
             <amexio-column [size]="6" >
               <amexio-email-input [fieldLabel]="'Email'" name="email"
                                   [placeholder]="' Email'">
@@ -19,7 +19,6 @@
               ></amexio-password-input>
               <div class="forgot-password"><a href="#">Forgot Password</a></div>
             </amexio-column>
-
           </amexio-row>
           <br><br>
           <amexio-row>
@@ -35,4 +34,5 @@
       </amexio-card>
     </div>
   </amexio-column>
+  <amexio-column [size]="3"></amexio-column>
 </amexio-row>
