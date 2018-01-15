@@ -1,31 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
-
-/*
-@import "../node_modules/amexio-ng-extensions/themes/default/styles.scss";
-*/
 
 
 @import "../node_modules/amexio-ng-extensions/themes/default/styles.scss";
 
 
-/* ----------------------------------- */
-/*        DATAPOINTS COMPONENT         */
-/* ----------------------------------- */
+/*----------------------------------------------------------------------*/
+/*        INPUT/LABEL/A/BUTTON/DROPDOWN COMPONENT         */
+/*----------------------------------------------------------------------*/
 
-.flex-col-2pt5{
-  max-width: 20.8333325%;
-}
-
-.flex-col-9pt5{
-  max-width: 79.1666635%;
-}
-
-@media only screen and (max-width: 500px) {
-
-  .flex-col-2pt5,.flex-col-9pt5{
-    max-width: 100%;
-  }
-}
 
 .input-control {
   border-radius: 0px;
@@ -60,8 +41,26 @@ label {
 
 }
 
+
+a {
+  color: rgba(0, 0, 0, 0.87);
+  text-transform: lowercase;
+}
+
+
+.navbar-logo-unit a{
+  text-transform: capitalize;
+}
+
+
+
 button.app-button {
   border-radius: 8px;
+}
+
+.btn-group button{
+  border-right: 1px solid white;
+
 }
 
 .drodown-caret-down{
@@ -69,24 +68,12 @@ button.app-button {
   color: $borderColor;
 }
 
-.email {
-  background-color: white;
-}
-div.profile-image img {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    vertical-align: middle;
-}
 
-div.profile-image a{
-  text-transform: capitalize;
-}
 
-.btn-group button{
-  border-right: 1px solid white;
 
-}
+/* ----------------------------------- */
+/*        DATATABLE COMPONENT         */
+/* ----------------------------------- */
 
 .datatable .datatable-row{
   height: 50px;
@@ -152,11 +139,15 @@ div.profile-image a{
   padding: 5px;
   margin: 1px;
 }
+
 .datapoint-west{
   padding: 5px;
   font-size: 24px;
   font-weight: bold;
 }
+
+
+/**LIST BOX STYLE**/
 
 .listbox .list{
   background-color: white;
@@ -175,16 +166,13 @@ div.profile-image a{
 }
 
 
-a {
-  color: rgba(0, 0, 0, 0.87);
-  text-transform: lowercase;
-}
-
+/**SIDE NAV **/
 .sidenav .activenode{
   color: #00695C;
-
 }
 
+
+/**PROFILE IMAGE**/
 .image-responsive{
   max-width: 100%;
   width: 100%;
@@ -194,6 +182,42 @@ a {
   margin-bottom: 10px;
 }
 
-.navbar-logo-unit a{
+
+/***APP SPECIFIC STYLE****/
+
+/* ----------------------------------- */
+/*        LAYOUT COMPONENT             */
+/* ----------------------------------- */
+
+
+
+.flex-col-2pt5{
+  max-width: 20.8333325%;
+}
+
+.flex-col-9pt5{
+  max-width: 79.1666635%;
+}
+
+@media only screen and (max-width: 500px) {
+
+  .flex-col-2pt5,.flex-col-9pt5{
+    max-width: 100%;
+  }
+}
+
+.email {
+  background-color: white;
+}
+
+
+div.profile-image img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+div.profile-image a{
   text-transform: capitalize;
 }
