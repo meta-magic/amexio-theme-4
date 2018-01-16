@@ -1,0 +1,202 @@
+<amexio-row>
+  <amexio-column [size]="12">
+    <amexio-tab-view  [closable]="false">
+        <amexio-tab [title]="'Form'" [active]="true" [icon]="'fa fa-user-circle'">
+          <amexio-card [enableHeader]="true" [enableFooter]="true">
+              <amexio-header>
+                  Card Layout - Form View
+              </amexio-header>
+              <amexio-body>
+                  <amexio-row>
+                      <amexio-column [size]="6">
+                          <amexio-text-input [fieldLabel]="'FirstName'" name="name" [placeholder]="'Enter firstname'" [iconFeedBack]="true">
+                          </amexio-text-input>
+                      </amexio-column>
+                      <amexio-column [size]="6">
+                          <amexio-text-input [fieldLabel]="'Last Name'" name="name" [placeholder]="'Enter lastname'" [iconFeedBack]="true">
+                          </amexio-text-input>
+                      </amexio-column>
+                    </amexio-row>
+                    <amexio-row>
+                      <amexio-column [size]="12">
+                          <amexio-text-input [fieldLabel]="'Address'" name="address" [placeholder]="'Enter address'" [iconFeedBack]="true">
+                          </amexio-text-input>
+                      </amexio-column>
+                  </amexio-row>
+                  <amexio-row>
+                      <amexio-column [size]="6">
+                          <amexio-text-input [fieldLabel]="'Phone'" name="phone" [placeholder]="'Enter phone'" [iconFeedBack]="true">
+                          </amexio-text-input>
+                      </amexio-column>
+                      <amexio-column [size]="6">
+                          <amexio-text-input [fieldLabel]="'Email'" name="email" [placeholder]="'Enter Email'" [iconFeedBack]="true">
+                          </amexio-text-input>
+                      </amexio-column>
+                  </amexio-row>
+              </amexio-body>
+              <amexio-action>
+                  <amexio-button [label]="'Save'" [type]="'success'" [tooltipMessage]="'save'"></amexio-button>
+              </amexio-action>
+          </amexio-card>
+        </amexio-tab>
+        <amexio-tab [title]="'Image'" [icon]="'fa fa-user-circle'">
+
+              <amexio-card [enableHeader]="true" [enableFooter]="true">
+                  <amexio-header>Card Layout-Image View
+                  </amexio-header>
+                  <amexio-body>
+                      <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20%2840%29.jpg" class="layout-fit-img">
+                      <br/>
+                      <h5 class="red-text"><i class="fa fa-money"></i> “There's a sunrise and a sunset every single day, and they're absolutely free. Don't miss so many of them.”
+      ― Jo Walton</h5>
+
+                  </amexio-body>
+                  <amexio-action>
+
+                  </amexio-action>
+              </amexio-card>
+
+        </amexio-tab>
+
+    </amexio-tab-view>
+</amexio-column></amexio-row>
+<amexio-row>
+  <amexio-column [size]="12">
+  <amexio-tab-view  [closable]="true">
+  <amexio-tab [title]="'Accordion'" [active]="true" [icon]="'fa fa-user-circle'">
+    <amexio-accordion>
+      <amexio-accordion-tab [header]="'Accordion Pane-I'" [expanded]="true">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </amexio-accordion-tab>
+      <amexio-accordion-tab [header]="'Accordion Pane-II'">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </amexio-accordion-tab>
+      <amexio-accordion-tab [header]="'Accordion Pane-III'" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </amexio-accordion-tab>
+      <amexio-accordion-tab [header]="'Accordion Pane-IV'" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </amexio-accordion-tab>
+</amexio-accordion>
+  </amexio-tab>
+<amexio-tab [title]="'Fieldset'" [icon]="'fa fa-user-circle'">
+  <amexio-fieldset [title]="Fieldset" [collapsible]="false">
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  </amexio-fieldset>
+</amexio-tab>
+</amexio-tab-view>
+</amexio-column>
+</amexio-row>
+
+<amexio-row>
+  <amexio-column [size]="6">
+<amexio-vertical-tab-view >
+<amexio-tab [title]="'Window'" [active]="true">
+        <amexio-card [enableHeader]="false">
+            <amexio-body>
+                <amexio-button [label]="'Show window layout'" [type]="'default'" [tooltipMessage]="'Hide/UnHide'" (click)="toggle()"> </amexio-button>
+                <amexio-window [(showWindow)]="flag" [closable]="true">
+                    <amexio-header>
+                        New Message
+                    </amexio-header>
+
+                    <amexio-body>
+                        <amexio-row>
+                            <amexio-column [size]="12">
+                                This is the window layout
+                            </amexio-column>
+                        </amexio-row>
+                    </amexio-body>
+                    <amexio-action>
+                        <div style="float: right;padding-top: 10px">
+                            <amexio-btn-group [size]="'small'">
+                                <amexio-button [label]="'Discard'" [type]="'danger'" [tooltipMessage]="'delete'"></amexio-button>
+                                <amexio-button [label]="'Send'" [type]="'success'" [tooltipMessage]="'unread'"></amexio-button>
+                            </amexio-btn-group>
+                        </div>
+                    </amexio-action>
+                </amexio-window>
+            </amexio-body>
+        </amexio-card>
+      </amexio-tab>
+
+
+  <amexio-tab [title]="'Dialog Box'">
+        <amexio-card [enableHeader]="false" [enableFooter]="false">
+            <amexio-body>
+                <amexio-button [label]="'Confirm'" [type]="'default'" [tooltipMessage]="'Confirm'" (click)="toggleConfirm()"> </amexio-button>
+
+                Confirmation Click Status : <b>{{confirmStatus}}</b>
+                <!-- <amexio-window showWindow = "false" isFullWindow="false" closable="false">
+                </amexio-window> -->
+              </amexio-body>
+            </amexio-card>
+          </amexio-tab>
+          <amexio-tab [title]="'Alert Box'">
+                <amexio-card [enableHeader]="false" [enableFooter]="false">
+                    <amexio-body>
+
+                        <amexio-button [label]="'Alert'" [type]="'default'" [tooltipMessage]="'Alert'" (click)="toggleAlert()"> </amexio-button>
+                        Confirmation Click Status : <b>{{confirmStatus}}</b>
+                        <!-- <amexio-window showWindow = "false" isFullWindow="false" closable="false">
+                        </amexio-window> -->
+                      </amexio-body>
+                    </amexio-card>
+                  </amexio-tab>
+
+            </amexio-vertical-tab-view>
+</amexio-column>
+    <amexio-column [size]="6">
+      <amexio-right-vertical-tab-view>
+      <amexio-tab [title]="'Step box'" [icon]="'fa fa-user-circle'">
+        <amexio-card [enableHeader]="false" [enableFooter]="false">
+            <amexio-body>
+                <amexio-steps>
+                    <amexio-step-block [label]="'User'" [active]="true"></amexio-step-block>
+                    <amexio-step-block [label]="'Shop'" [active]="false"></amexio-step-block>
+                    <amexio-step-block [label]="'Payment'" [active]="false"></amexio-step-block>
+                    <amexio-step-block [label]="'Confirmation'" [active]="false"></amexio-step-block>
+                </amexio-steps>
+                <br />
+                <!--Step box & icons with clickabel -->
+                <amexio-steps>
+                    <amexio-step-block [label]="'User'" [active]="user"></amexio-step-block>
+                    <amexio-step-block [label]="'Shop'" [active]="shop"></amexio-step-block>
+                    <amexio-step-block [label]="'Payment'" [active]="payment"></amexio-step-block>
+                    <amexio-step-block [label]="'Confirmation'" [active]="confirmation"></amexio-step-block>
+                </amexio-steps>
+                <br />
+                <!--Step-box index -->
+                <amexio-steps>
+                    <amexio-step-block [label]="'step-1'" [active]="true"></amexio-step-block>
+                    <amexio-step-block [label]="'step-2'" [active]="false"></amexio-step-block>
+                    <amexio-step-block [label]="'step-3'" [active]="false"></amexio-step-block>
+                    <amexio-step-block [label]="'step-4'" [active]="false"></amexio-step-block>
+                </amexio-steps>
+            </amexio-body>
+        </amexio-card>
+      </amexio-tab>
+
+<amexio-tab [title]="'Border Layout'" [active]="true" [icon]="'fa fa-user-circle'">
+    <amexio-card [enableHeader]="false">
+        <amexio-body>
+            <amexio-borderlayout>
+                <amexio-borderlayout-item position="north">
+                    <div [class]="'layout-border'"> We are in North </div>
+                </amexio-borderlayout-item>
+                <amexio-borderlayout-item position="east">
+                    <div [class]="'layout-border'"> We are in East </div>
+                </amexio-borderlayout-item>
+                <amexio-borderlayout-item position="center">
+                    <div [class]="'layout-border'"> We are in Center</div>
+                </amexio-borderlayout-item>
+                <amexio-borderlayout-item position="west">
+                    <div [class]="'layout-border'"> We are in West </div>
+                </amexio-borderlayout-item>
+                <amexio-borderlayout-item position="south">
+                    <div [class]="'layout-border'">We are in South </div>
+                </amexio-borderlayout-item>
+            </amexio-borderlayout>
+        </amexio-body>
+    </amexio-card>
+  </amexio-tab>
+
+</amexio-right-vertical-tab-view>
+</amexio-column>
+</amexio-row>

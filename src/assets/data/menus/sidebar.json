@@ -118,6 +118,12 @@
           "icon": "fa fa-bolt",
           "mdbIcon": "",
           "link": "formutils"
+        },
+        {
+          "text": "Layout",
+          "icon": "fa fa-television fa-fw",
+          "mdbIcon": "layout",
+          "link": "layout"
         }
       ]
     }

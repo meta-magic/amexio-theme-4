@@ -18,6 +18,9 @@ const route: Routes = [
     path: 'email', loadChildren: './pages/email/email.module#EmailModule'
   },
   {
+    path: 'layout', loadChildren: './pages/layout/layout.module#LayoutModule'
+  },
+  {
     path: 'profile', loadChildren: './pages/profile/profile.module#ProfileModule'
   },
   {
