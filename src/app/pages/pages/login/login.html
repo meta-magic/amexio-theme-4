@@ -1,14 +1,13 @@
 <amexio-row>
   <amexio-column [size]="3"></amexio-column>
   <amexio-column [size]="6">
-    <div class="d-flex justify-content-center">
-      <amexio-card [showCard]="true" [enableFooter]="false" [enableHeader] = "true">
+      <amexio-card [showCard]="true" [enableFooter]="true" [enableHeader] = "true">
         <amexio-header>
           Sign into Your account
         </amexio-header>
         <amexio-body>
           <amexio-row>
-            <amexio-column [size]="6" >
+            <amexio-column [size]="12" >
               <amexio-email-input [fieldLabel]="'Email'" name="email"
                                   [placeholder]="' Email'">
               </amexio-email-input>
@@ -16,23 +15,24 @@
                 [fieldLabel]="'Password'" name="password"
                 [placeholder]="' Password'"
                 [iconFeedBack]="true"
-              ></amexio-password-input>
+              >
+            </amexio-password-input>
               <div class="forgot-password"><a href="#">Forgot Password</a></div>
             </amexio-column>
           </amexio-row>
-          <br><br>
-          <amexio-row>
-            <amexio-column [size] = "12">
-              <button type="button" class="btn btn-link float-left">Sign up</button>
-              <div style="float: right;">
-                <amexio-button [label]="'Login'" [type]="'primary'" [tooltipMessage]="'Login Account'" [size]="'small'">
-                </amexio-button>
-              </div>
-            </amexio-column>
-          </amexio-row>
+
         </amexio-body>
+        <br /><br /><br /><br />
+        <amexio-action>
+
+            <amexio-btn-group [size]="'small'">
+              <amexio-button [label]="'Signup'" [type]="'primary'" [tooltipMessage]="'Sign-up'"></amexio-button>
+                <amexio-button [label]="'Login'" [type]="'secondary'" [tooltipMessage]="'Login Account'"></amexio-button>
+
+          </amexio-btn-group>
+
+        </amexio-action>
       </amexio-card>
-    </div>
   </amexio-column>
   <amexio-column [size]="3"></amexio-column>
 </amexio-row>
