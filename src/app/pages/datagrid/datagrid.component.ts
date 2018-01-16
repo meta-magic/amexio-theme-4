@@ -13,7 +13,7 @@ export class DataGridComponent implements OnInit {
 
   columnData: any[] = [];
   localData: any[] = [];
-  treeLocalData:any;
+  treeLocalData: any;
   constructor() {
     this.localData = [
       {
@@ -237,5 +237,4 @@ export class DataGridComponent implements OnInit {
 
   ngOnInit() {
   }
-
 }
