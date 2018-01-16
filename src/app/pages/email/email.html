@@ -25,7 +25,7 @@
 
       <amexio-row>
         <amexio-column [size]="12">
-          <amexio-listbox [header] = "'Contacts'" [searchPlaceHolder]="'Search Contacts'" [data]="bindData" [filter]="false"
+          <amexio-listbox [height]="400" [header] = "'Contacts'" [searchPlaceHolder]="'Search Contacts'" [data]="bindData" [filter]="false"
                           [enableCheckBox] = "false" [dataReader]="'response.data'"
                           [displayField]="'name'">
             <ng-template #amexioBodyTmpl let-row="row">
@@ -45,6 +45,7 @@
     </amexio-borderlayout-item>
     <amexio-borderlayout-item [position]="'center'">
       <amexio-datagrid
+
         [pageSize] = "15"
         [dataReader]="'response.data'"
         [checkboxSelect]="false"

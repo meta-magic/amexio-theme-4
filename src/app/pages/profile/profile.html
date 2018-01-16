@@ -35,7 +35,7 @@
     </amexio-card>
   </amexio-column>
   <amexio-column [size]="7">
-         <amexio-listbox [data]="bindData" [filter]="true" [header] = "'Contacts'"
+         <amexio-listbox [height]="620" [data]="bindData" [filter]="true" [header] = "'Contacts'"
                         [enableCheckBox] = "false" [dataReader]="'response.data'"
                         [displayField]="'name'">
           <ng-template #amexioBodyTmpl let-row="row">

@@ -89,12 +89,7 @@
       "icon" : "fa fa-television fa-fw",
       "mdbIcon":"dashboard",
       "link" : "dashboard"
-    },{
-      "text": "Action",
-      "icon" : "fa fa-magic",
-      "mdbIcon":"",
-      "link" : "action"
- },
+    },
     {
       "text": "Components",
       "icon": "fa fa-clone fa-fw",
