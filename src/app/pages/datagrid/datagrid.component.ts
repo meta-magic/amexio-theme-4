@@ -168,29 +168,29 @@ export class DataGridComponent implements OnInit {
 
     this.columnData.push(
       {
-        'dataIndex':'status',
-        'dataType':'string',
+        'dataindex':'status',
+        'datatype':'string',
         'hidden':false,
         'text':'Name',
         'width': 10
       },
       {
-        'dataIndex':'issue',
-        'dataType':'string',
+        'dataindex':'issue',
+        'datatype':'string',
         'hidden':false,
         'text':'Code1',
         'width': 50
       },
       {
-        'dataIndex':'severity',
-        'dataType':'string',
+        'dataindex':'severity',
+        'datatype':'string',
         'hidden':false,
         'text':'severity',
         'width': 10
       },
       {
-        'dataIndex':'date',
-        'dataType':'string',
+        'dataindex':'date',
+        'datatype':'string',
         'hidden':false,
         'text':'date',
         'width': 20
@@ -248,8 +248,8 @@ export class DataGridComponent implements OnInit {
                 "expand" : true,
                 "children":[],
                 "lazy":{
-                  "httpUrl":"data/treeview.json",
-                  "httpMethod": "get"
+                  "httpurl":"data/treeview.json",
+                  "httpmethod": "get"
                 }
               }
             ]

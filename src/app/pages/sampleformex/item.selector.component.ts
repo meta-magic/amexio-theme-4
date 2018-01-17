@@ -15,7 +15,7 @@ import {CommonDataService} from "amexio-ng-extensions";
           <div [style.height.px]="height" style="overflow: auto">
             <ul class="list">
               <div *ngFor="let data of availableData; let i = index" (click)="itemClick(data,i)">
-                <li [ngClass]="data['isSelected'] ? 'list-item-active':''">{{data[displayField]}}</li>
+                <li [ngClass]="data['isSelected'] ? 'list-item-active':''">{{data[displayfield]}}</li>
               </div>
             </ul>
           </div>
@@ -54,7 +54,7 @@ import {CommonDataService} from "amexio-ng-extensions";
           <div [style.height.px]="height" style="overflow: auto">
             <ul class="list">
               <div *ngFor="let data of selectedData; let i = index" (click)="itemClick(data,i)">
-                <li [ngClass]="data['isSelected'] ? 'list-item-active':''">{{data[displayField]}}</li>
+                <li [ngClass]="data['isSelected'] ? 'list-item-active':''">{{data[displayfield]}}</li>
               </div>
             </ul>
           </div>
@@ -156,15 +156,15 @@ export class AmexioItemSelectorComponent1 implements OnInit {
 
   @Input()    height : any;
 
-  @Input()    dataReader : string;
+  @Input()    datareader : string;
 
-  @Input()    httpMethod : string;
+  @Input()    httpmethod : string;
 
-  @Input()    httpUrl : string;
+  @Input()    httpurl : string;
 
-  @Input()    displayField : string;
+  @Input()    displayfield : string;
 
-  @Input()    valueField : string;
+  @Input()    valuefield : string;
 
   @Output() availableRecords: any = new EventEmitter<any>();
 
@@ -192,8 +192,8 @@ export class AmexioItemSelectorComponent1 implements OnInit {
   constructor(public itemSelectorService : CommonDataService) { }
 
   ngOnInit() {
-    if (this.httpMethod && this.httpUrl) {
-      this.itemSelectorService.fetchData(this.httpUrl, this.httpMethod).subscribe(response => {
+    if (this.httpmethod && this.httpurl) {
+      this.itemSelectorService.fetchData(this.httpurl, this.httpmethod).subscribe(response => {
         this.response = response.json();
       }, error => {
       }, () => {
@@ -215,8 +215,8 @@ export class AmexioItemSelectorComponent1 implements OnInit {
 
   setData(httpResponse : any){
     let responsedata = httpResponse;
-    if (this.dataReader != null) {
-      const dr = this.dataReader.split('.');
+    if (this.datareader != null) {
+      const dr = this.datareader.split('.');
       for (let ir = 0; ir < dr.length; ir++) {
         responsedata = responsedata[dr[ir]];
       }
@@ -236,7 +236,7 @@ export class AmexioItemSelectorComponent1 implements OnInit {
     this.objectIndex = index;
 
     for (let ir = 0; ir < this.availableData.length; ir++) {
-      if((this.availableData[ir])[this.valueField] === data[this.valueField]){
+      if((this.availableData[ir])[this.valuefield] === data[this.valuefield]){
         this.availableData[ir].isSelected = true;
       }else{
         this.availableData[ir].isSelected = false;

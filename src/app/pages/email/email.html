@@ -10,7 +10,7 @@
       <amexio-row>
         <amexio-column [size]="12">
           <div style="text-align: center;padding: 10px">
-            <amexio-button [label]="'Compose'" [type]="'danger'" [size]="'default'"[tooltipMessage]="'Compose'" (click)="toggle()" ></amexio-button>
+            <amexio-button [label]="'Compose'" [type]="'danger'" [size]="'default'"[tooltip]="'Compose'" (click)="toggle()" ></amexio-button>
           </div>
 
 
@@ -26,8 +26,8 @@
       <amexio-row>
         <amexio-column [size]="12">
           <amexio-listbox [height]="400" [header] = "'Contacts'" [searchPlaceHolder]="'Search Contacts'" [data]="bindData" [filter]="false"
-                          [enableCheckBox] = "false" [dataReader]="'response.data'"
-                          [displayField]="'name'">
+                          [enableCheckBox] = "false" [datareader]="'response.data'"
+                          [displayfield]="'name'">
             <ng-template #amexioBodyTmpl let-row="row">
               <amexio-row>
                 <amexio-column [size]="12">
@@ -46,17 +46,17 @@
     <amexio-borderlayout-item [position]="'center'">
       <amexio-datagrid
 
-        [pageSize] = "15"
-        [dataReader]="'response.data'"
-        [checkboxSelect]="false"
-        [httpUrl]="'assets/data/email.json'"
-        [httpMethod]="'get'"
-        [filtering]="false"
+        [pagesize] = "15"
+        [datareader]="'response.data'"
+        [enablecheckbox]="false"
+        [httpurl]="'assets/data/email.json'"
+        [httpmethod]="'get'"
+        [enabledatafilter]="false"
         (selectedRowData)="onRowSelect($event)"
-        (rowSelect)="onRowClick($event)" [cClass]="'gridStyle'" [tableDatacClass]="'datagridrow'" [tableTitlecClass]="'headerStyle'" [tableHeadercClass]="'headerStyleColumn'">
-        <amexio-data-table-column [dataIndex]="'date'" [dataType]="'string'" [hidden]="false" [text]="'Date'"></amexio-data-table-column>
-        <amexio-data-table-column [dataIndex]="'from'" [dataType]="'string'" [hidden]="false" [text]="'From'"></amexio-data-table-column>
-        <amexio-data-table-column [dataIndex]="'title'" [dataType]="'string'" [hidden]="false" [text]="'Subject'"></amexio-data-table-column>
+        (rowSelect)="onRowClick($event)" [cclass]="'gridStyle'" [tableDatacclass]="'datagridrow'" [tableTitlecclass]="'headerStyle'" [tableHeadercclass]="'headerStyleColumn'">
+        <amexio-data-table-column [dataindex]="'date'" [datatype]="'string'" [hidden]="false" [text]="'Date'"></amexio-data-table-column>
+        <amexio-data-table-column [dataindex]="'from'" [datatype]="'string'" [hidden]="false" [text]="'From'"></amexio-data-table-column>
+        <amexio-data-table-column [dataindex]="'title'" [datatype]="'string'" [hidden]="false" [text]="'Subject'"></amexio-data-table-column>
       </amexio-datagrid>
     </amexio-borderlayout-item>
     <amexio-borderlayout-item [position]="'south'">

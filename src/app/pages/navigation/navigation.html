@@ -1,12 +1,12 @@
 <amexio-tab-view  [closable]="false">
     <amexio-tab [title]="'Top Menu'" [active]="true" [icon]="'fa fa-bars'">
-       <amexio-card [enableHeader]="true">
+       <amexio-card [header]="true">
   <amexio-header>Top Menu</amexio-header>
   <amexio-body>
     <amexio-menu
-       [httpUrl]="'assets/data/menus/hometopmenu.json'"
-       [httpMethod]="'get'"
-       [dataReader]="'data'" >
+       [httpurl]="'assets/data/menus/hometopmenu.json'"
+       [httpmethod]="'get'"
+       [datareader]="'data'" >
   </amexio-menu>
 
 </amexio-body>
@@ -15,15 +15,15 @@
 </amexio-tab>
 <amexio-tab [title]="'Side Menu'" [icon]="'fa fa-building'">
 
-<amexio-card [enableHeader]="true">
+<amexio-card [header]="true">
   <amexio-header>Side Menu</amexio-header>
   <amexio-body>
 <amexio-row>
     <amexio-column [size]="12">
 
       <amexio-side-nav
-       [httpUrl]="'assets/data/menus/hometopmenu.json'"
-       [httpMethod]="'get'" [position]="'relative'"
+       [httpurl]="'assets/data/menus/hometopmenu.json'"
+       [httpmethod]="'get'" [position]="'relative'"
         [width] ="200">
 
   </amexio-side-nav>
@@ -36,7 +36,7 @@
 </amexio-tab>
 <amexio-tab [title]="'Dockbar'" [icon]="'fa fa-cube'">
 
-<amexio-card [enableHeader]="true">
+<amexio-card [header]="true">
   <amexio-header>Dockbar</amexio-header>
   <amexio-body>
   <amexio-row>

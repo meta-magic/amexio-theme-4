@@ -51,9 +51,9 @@ export class ChartsComponent implements OnInit {
       ['Philadelphia, PA', 1526000]
     ];
     this.columnStackChartData=[
-      [{"dataType":'timeofday',"label":'Time of Day'},
-        {"dataType":"number", "label":'Motivation Level'},
-        {"dataType":"number","label":"Energy Level"}
+      [{"datatype":'timeofday',"label":'Time of Day'},
+        {"datatype":"number", "label":'Motivation Level'},
+        {"datatype":"number","label":"Energy Level"}
       ],
       [{v: [8, 0, 0], f: '8 am'}, 1, .25],
       [{v: [9, 0, 0], f: '9 am'}, 2, .5],
@@ -67,8 +67,8 @@ export class ChartsComponent implements OnInit {
       [{v: [17, 0, 0], f: '5 pm'}, 10, 10],
     ];
     this.columnChartData = [
-      [{"dataType":'timeofday',"label":'Time of Day'},
-        {"dataType":"number", "label":'Motivation Level'}
+      [{"datatype":'timeofday',"label":'Time of Day'},
+        {"datatype":"number", "label":'Motivation Level'}
       ],
       [{v: [8, 0, 0], f: '8 am'}, 1],
       [{v: [9, 0, 0], f: '9 am'}, 2],
@@ -142,8 +142,8 @@ export class ChartsComponent implements OnInit {
       [ 6.5,    7]
     ];
     this.lineChartData=[
-      [{"dataType":"number" ,"label":'Day'},{"dataType":"number","label":'Guardians of the Galaxy'},
-        {"dataType":"number","label":'The Avengers'},{"dataType":"number","label":'Transformers: Age of Extinction'}
+      [{"datatype":"number" ,"label":'Day'},{"datatype":"number","label":'Guardians of the Galaxy'},
+        {"datatype":"number","label":'The Avengers'},{"datatype":"number","label":'Transformers: Age of Extinction'}
       ],
       [1,  37.8, 80.8, 41.8],
       [2,  30.9, 69.5, 32.4],
@@ -168,9 +168,9 @@ export class ChartsComponent implements OnInit {
       ['2016',  1030,      540]
     ];
     this.timelineChartData=[
-      [{"dataType":'string',"label":'Prime Minister'},
-        {"dataType":"date", "label":'Start'},
-        {"dataType":"date","label":"End"}
+      [{"datatype":'string',"label":'Prime Minister'},
+        {"datatype":"date", "label":'Start'},
+        {"datatype":"date","label":"End"}
       ],
       [ 'Washington', new Date(1789, 3, 30), new Date(1797, 2, 4) ],
       [ 'Adams',      new Date(1797, 2, 4),  new Date(1801, 2, 4) ],

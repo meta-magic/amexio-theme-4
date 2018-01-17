@@ -1,5 +1,5 @@
 
-<amexio-card [enableHeader]="true">
+<amexio-card [header]="true">
   <amexio-header>
     Datapoints
   </amexio-header>
@@ -7,69 +7,69 @@
     <amexio-row>
 <amexio-column [size]="12">
       <amexio-datapoints [west]="true" [center]="true" [east]="true" [south]="true">
-        <amexio-west [contentalign]="'center'" [width]="'100px'" [cClass]="'datapoint-west'">
+        <amexio-west [contentalign]="'center'" [width]="'100px'" [cclass]="'datapoint-west'">
           <i class="fa fa-line-chart fa-3x"></i>
         </amexio-west>
-        <amexio-center [contentalign]="'right'" [cClass]="'datapoint-center'">
+        <amexio-center [contentalign]="'right'" [cclass]="'datapoint-center'">
           <amexio-datapoints [north]="true" [center]="true" [south]="true">
-            <amexio-north [cClass]="'datapoints-north'">
+            <amexio-north [cclass]="'datapoints-north'">
               <span>200 Million</span>
             </amexio-north>
-            <amexio-center  [cClass]="'datapoints-center'">
+            <amexio-center  [cclass]="'datapoints-center'">
               <span>Sales Volume</span>
             </amexio-center>
           </amexio-datapoints>
         </amexio-center>
-        <amexio-south [contentalign]="'center'"  [cClass]="'datapoint-south'" >10% More than last year</amexio-south>
+        <amexio-south [contentalign]="'center'"  [cclass]="'datapoint-south'" >10% More than last year</amexio-south>
       </amexio-datapoints>
     </amexio-column>
   <amexio-column [size]="12">
       <amexio-datapoints [west]="true" [center]="true" [east]="true" [south]="true" >
-        <amexio-west [contentalign]="'center'" [width]="'100px'"  [cClass]="'datapoint-west'">
+        <amexio-west [contentalign]="'center'" [width]="'100px'"  [cclass]="'datapoint-west'">
           <i class="fa fa-line-chart fa-3x"></i>
         </amexio-west>
-        <amexio-center [contentalign]="'right'"  [cClass]="'datapoint-center'">
+        <amexio-center [contentalign]="'right'"  [cclass]="'datapoint-center'">
           <amexio-datapoints [north]="true" [center]="true" [south]="true">
-            <amexio-north  [cClass]="'datapoints-north'">
+            <amexio-north  [cclass]="'datapoints-north'">
               <span>$10 Million</span>
             </amexio-north>
-            <amexio-center  [cClass]="'datapoints-center'">
+            <amexio-center  [cclass]="'datapoints-center'">
               <span>Sales Revenue</span>
             </amexio-center>
           </amexio-datapoints>
         </amexio-center>
-        <amexio-south [contentalign]="'center'"   [cClass]="'datapoint-south'" >5% more than last year</amexio-south>
+        <amexio-south [contentalign]="'center'"   [cclass]="'datapoint-south'" >5% more than last year</amexio-south>
       </amexio-datapoints>
     </amexio-column>
     <amexio-column [size]="12">
       <amexio-datapoints [west]="true" [center]="true" [east]="true" [south]="true">
-        <amexio-west [contentalign]="'center'" [width]="'100px'"  [cClass]="'datapoint-west'">
+        <amexio-west [contentalign]="'center'" [width]="'100px'"  [cclass]="'datapoint-west'">
           <i class="fa fa-line-chart fa-3x"></i>
         </amexio-west>
-        <amexio-center [contentalign]="'right'"  [cClass]="'datapoint-center'">
+        <amexio-center [contentalign]="'right'"  [cclass]="'datapoint-center'">
           <amexio-datapoints [north]="true" [center]="true" [south]="true">
-            <amexio-north  [cClass]="'datapoints-north'">
+            <amexio-north  [cclass]="'datapoints-north'">
               <span>$2 Million</span>
             </amexio-north>
-            <amexio-center  [cClass]="'datapoints-center'">
+            <amexio-center  [cclass]="'datapoints-center'">
               <span >Profit</span>
             </amexio-center>
           </amexio-datapoints>
         </amexio-center>
-        <amexio-south [contentalign]="'center'"    [cClass]="'datapoint-south'" >10% more than last year</amexio-south>
+        <amexio-south [contentalign]="'center'"    [cclass]="'datapoint-south'" >10% more than last year</amexio-south>
       </amexio-datapoints>
     </amexio-column>
   </amexio-row>
     </amexio-body>
     </amexio-card>
 <br>
-  <amexio-card [enableFooter]="false" [enableHeader]="true">
+  <amexio-card [footer]="false" [header]="true">
     <!-- <amexio-row>
     <amexio-column [size]="6"> -->
     <amexio-header>Computational resources</amexio-header>
     <amexio-body>
-      <amexio-dashboard-gauge [height]="'300px'" [width]="'100%'" [data]="gaugeData" [redColorFrom]="90" [redColorTo]="100" [yellowColorFrom]="75"
-                          [yellowColorTo]="90" [minorTicks]="5"></amexio-dashboard-gauge>
+      <amexio-dashboard-gauge [height]="'300px'" [width]="'100%'" [data]="gaugeData" [redcolorfrom]="90" [redcolorto]="100" [yellowcolorfrom]="75"
+                          [yellowcolorto]="90" [scalevalue]="5"></amexio-dashboard-gauge>
     </amexio-body>
   <!-- </amexio-column>
   </amexio-row> -->

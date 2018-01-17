@@ -1,7 +1,7 @@
 
 <amexio-row>
   <amexio-column [size]="5">
-    <amexio-card  [enableHeader] = "true" [enableFooter]="false">
+    <amexio-card  [header] = "true" [footer]="false">
       <amexio-header>
         Araf Karsh
       </amexio-header>
@@ -14,7 +14,7 @@
         </amexio-row>
         <amexio-row>
           <amexio-column [size]="12">
-            <amexio-image [imagePath]="'assets/images/profile/karsh.jpg'" [cClass]="'image-responsive'"></amexio-image>
+            <amexio-image [path]="'assets/images/profile/karsh.jpg'" [cclass]="'image-responsive'"></amexio-image>
           </amexio-column>
         </amexio-row>
 
@@ -36,8 +36,8 @@
   </amexio-column>
   <amexio-column [size]="7">
          <amexio-listbox [height]="620" [data]="bindData" [filter]="true" [header] = "'Contacts'"
-                        [enableCheckBox] = "false" [dataReader]="'response.data'"
-                        [displayField]="'name'">
+                        [enableCheckBox] = "false" [datareader]="'response.data'"
+                        [displayfield]="'name'">
           <ng-template #amexioBodyTmpl let-row="row">
             <amexio-row>
              <amexio-column [size]="2">

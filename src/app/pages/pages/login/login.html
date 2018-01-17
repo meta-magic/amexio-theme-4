@@ -1,20 +1,20 @@
 <amexio-row>
   <amexio-column [size]="3"></amexio-column>
   <amexio-column [size]="6">
-      <amexio-card [showCard]="true" [enableFooter]="true" [enableHeader] = "true">
+      <amexio-card [show]="true" [footer]="true" [header] = "true">
         <amexio-header>
           Sign into Your account
         </amexio-header>
         <amexio-body>
           <amexio-row>
             <amexio-column [size]="12" >
-              <amexio-email-input [fieldLabel]="'Email'" name="email"
+              <amexio-email-input [fieldlabel]="'Email'" name="email"
                                   [placeholder]="' Email'">
               </amexio-email-input>
               <amexio-password-input
-                [fieldLabel]="'Password'" name="password"
+                [fieldlabel]="'Password'" name="password"
                 [placeholder]="' Password'"
-                [iconFeedBack]="true"
+                [iconfeedback]="true"
               >
             </amexio-password-input>
               <div class="forgot-password"><a href="#">Forgot Password</a></div>
@@ -26,8 +26,8 @@
         <amexio-action>
 
             <amexio-btn-group [size]="'small'">
-              <amexio-button [label]="'Signup'" [type]="'primary'" [tooltipMessage]="'Sign-up'"></amexio-button>
-                <amexio-button [label]="'Login'" [type]="'secondary'" [tooltipMessage]="'Login Account'"></amexio-button>
+              <amexio-button [label]="'Signup'" [type]="'primary'" [tooltip]="'Sign-up'"></amexio-button>
+                <amexio-button [label]="'Login'" [type]="'secondary'" [tooltip]="'Login Account'"></amexio-button>
 
           </amexio-btn-group>
 

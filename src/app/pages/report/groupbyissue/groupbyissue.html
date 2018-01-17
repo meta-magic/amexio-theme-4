@@ -1,23 +1,23 @@
-<amexio-card [enableHeader] = "true">
+<amexio-card [header] = "true">
   <amexio-header>
 Issue Severity Details
   </amexio-header>
   <amexio-body>
       <amexio-datagrid
         [title]="'Issue group by Severity'"
-        [pageSize] = "10"
-        [groupByColumn]="true"
-        [groupByColumnIndex]="'severity'"
-        [dataReader]="'response.data'"
-        [checkboxSelect]="false"
-        [httpUrl]="'assets/data/issue.json'"
-        [httpMethod]="'get'"
+        [pagesize] = "10"
+        [groupby]="true"
+        [groupbydataindex]="'severity'"
+        [datareader]="'response.data'"
+        [enablecheckbox]="false"
+        [httpurl]="'assets/data/issue.json'"
+        [httpmethod]="'get'"
         (selectedRowData)="onRowSelect($event)"
-        (rowSelect)="onRowClick($event)" [cClass]="'gridStyle'" [tableDatacClass]="'datagridrow'" [tableTitlecClass]="'headerStyle'" [tableHeadercClass]="'headerStyleColumn'">
-        <amexio-data-table-column [dataIndex]="'status'" [dataType]="'string'" [hidden]="false" [text]="'Status'"></amexio-data-table-column>
-        <amexio-data-table-column [dataIndex]="'issue'" [dataType]="'string'" [hidden]="false" [text]="'Issue'"></amexio-data-table-column>
-        <amexio-data-table-column [dataIndex]="'severity'" [dataType]="'string'" [hidden]="false" [text]="'Severity'"></amexio-data-table-column>
-        <amexio-data-table-column [dataIndex]="'date'" [dataType]="'string'" [hidden]="false" [text]="'Date'"></amexio-data-table-column>
+        (rowSelect)="onRowClick($event)" [cclass]="'gridStyle'" [tableDatacclass]="'datagridrow'" [tableTitlecclass]="'headerStyle'" [tableHeadercclass]="'headerStyleColumn'">
+        <amexio-data-table-column [dataindex]="'status'" [datatype]="'string'" [hidden]="false" [text]="'Status'"></amexio-data-table-column>
+        <amexio-data-table-column [dataindex]="'issue'" [datatype]="'string'" [hidden]="false" [text]="'Issue'"></amexio-data-table-column>
+        <amexio-data-table-column [dataindex]="'severity'" [datatype]="'string'" [hidden]="false" [text]="'Severity'"></amexio-data-table-column>
+        <amexio-data-table-column [dataindex]="'date'" [datatype]="'string'" [hidden]="false" [text]="'Date'"></amexio-data-table-column>
       </amexio-datagrid>
     </amexio-body>
     </amexio-card>

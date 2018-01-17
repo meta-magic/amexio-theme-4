@@ -5,15 +5,15 @@
       <amexio-tab title="Grid" active="true">
         <amexio-row>
           <amexio-column [size]="12">
-            <amexio-card [enableFooter]="false" [enableHeader]="true">
+            <amexio-card [footer]="false" [header]="true">
               <amexio-header>Simple Data Grid</amexio-header>
               <amexio-body>
                 <amexio-datagrid
-                  [columnToggle]="true" [checkboxSelect]="false"  [height]="300" title="Country Grid"   [httpMethod]="'get'" [httpUrl]="'assets/data/datagrid.json'" [dataReader]="'data'"  [pageSize] = "10" [filtering]="false">
-                  <amexio-data-table-column [dataIndex]="'name_official'" [dataType]="'string'" [hidden]="false" [text]="'Name'">
+                  [enablecolumnfiter]="true" [enablecheckbox]="false"  [height]="300" title="Country Grid"   [httpmethod]="'get'" [httpurl]="'assets/data/datagrid.json'" [datareader]="'data'"  [pagesize] = "10" [enabledatafilter]="false">
+                  <amexio-data-table-column [dataindex]="'name_official'" [datatype]="'string'" [hidden]="false" [text]="'Name'">
                   </amexio-data-table-column>
-                  <amexio-data-table-column [dataIndex]="'latitude'" [dataType]="'string'" [hidden]="false" [text]="'Latitude'"></amexio-data-table-column>
-                  <amexio-data-table-column [dataIndex]="'longitude'" [dataType]="'number'" [hidden]="false" [text]="'Longitude'"></amexio-data-table-column>
+                  <amexio-data-table-column [dataindex]="'latitude'" [datatype]="'string'" [hidden]="false" [text]="'Latitude'"></amexio-data-table-column>
+                  <amexio-data-table-column [dataindex]="'longitude'" [datatype]="'number'" [hidden]="false" [text]="'Longitude'"></amexio-data-table-column>
                 </amexio-datagrid>
               </amexio-body>
             </amexio-card>
@@ -21,19 +21,19 @@
         </amexio-row><br>
         <amexio-row>
           <amexio-column [size]="12">
-            <amexio-card [enableFooter]="false" [enableHeader]="true">
+            <amexio-card [footer]="false" [header]="true">
               <amexio-header>Data Grid with Template</amexio-header>
               <amexio-body>
-                <amexio-datagrid  [checkboxSelect]="true" title="Country Grid"   [httpMethod]="'get'" [httpUrl]="'assets/data/datagrid.json'" [dataReader]="'data'"  [pageSize] = "10" [filtering]="false">
-                  <amexio-data-table-column [width]="50" [dataIndex]="'name_official'" [dataType]="'string'" [hidden]="false" [text]="'Name'">
+                <amexio-datagrid  [enablecheckbox]="true" title="Country Grid"   [httpmethod]="'get'" [httpurl]="'assets/data/datagrid.json'" [datareader]="'data'"  [pagesize] = "10" [enabledatafilter]="false">
+                  <amexio-data-table-column [width]="50" [dataindex]="'name_official'" [datatype]="'string'" [hidden]="false" [text]="'Name'">
                     <ng-template #amexioBodyTmpl let-column let-row="row">
                         <span>
                             <img src="" [attr.src]="'http://amexio.org/showcaseapp/v3/assets/images/flags/flags/'+row.flag_32">&nbsp;{{row.name}} ( {{row.name_official}} )
                         </span>
                     </ng-template>
                   </amexio-data-table-column>
-                  <amexio-data-table-column [width]="20" [dataIndex]="'latitude'" [dataType]="'string'" [hidden]="false" [text]="'Latitude'"></amexio-data-table-column>
-                  <amexio-data-table-column [width]="20" [dataIndex]="'longitude'" [dataType]="'number'" [hidden]="false" [text]="'Longitude'"></amexio-data-table-column>
+                  <amexio-data-table-column [width]="20" [dataindex]="'latitude'" [datatype]="'string'" [hidden]="false" [text]="'Latitude'"></amexio-data-table-column>
+                  <amexio-data-table-column [width]="20" [dataindex]="'longitude'" [datatype]="'number'" [hidden]="false" [text]="'Longitude'"></amexio-data-table-column>
                 </amexio-datagrid>
               </amexio-body>
             </amexio-card>
@@ -41,17 +41,17 @@
         </amexio-row><br>
         <amexio-row>
           <amexio-column [size]="12">
-            <amexio-card [enableFooter]="false" [enableHeader]="true">
+            <amexio-card [footer]="false" [header]="true">
               <amexio-header>Data Grid with Filtering</amexio-header>
               <amexio-body>
-                <amexio-datagrid [columnToggle]="true"
-                                 [columnDefinition]="columnData"
-                                 [filtering]="true" title="Issue Record"
-                                 [checkboxSelect]="false"
+                <amexio-datagrid [enablecolumnfiter]="true"
+                                 [columndefintion]="columnData"
+                                 [enabledatafilter]="true" title="Issue Record"
+                                 [enablecheckbox]="false"
                                  [data]="localData"
-                                 [dataReader]=""
-                                 [pageSize] = "10"
-                                 [filtering]="true">
+                                 [datareader]=""
+                                 [pagesize] = "10"
+                                 [enabledatafilter]="true">
                 </amexio-datagrid>
               </amexio-body>
             </amexio-card>
@@ -59,15 +59,15 @@
         </amexio-row>
          <amexio-row>
           <amexio-column [size]="12">
-            <amexio-card [enableFooter]="false" [enableHeader]="true">
+            <amexio-card [footer]="false" [header]="true">
               <amexio-header>Group By Data Grid</amexio-header>
               <amexio-body>
                 <amexio-datagrid
-                  [columnToggle]="true"  [groupByColumn]="true"  [groupByColumnIndex]="'jobTitle'" [checkboxSelect]="true" title="Employee Details"   [httpMethod]="'get'" [httpUrl]="'assets/data/datagridgroupby.json'" [dataReader]="'data'"  [pageSize] = "5" [filtering]="false">
-                  <amexio-data-table-column [dataIndex]="'preferredFullName'" [dataType]="'string'" [hidden]="false" [text]="'FullName'"></amexio-data-table-column>
-                  <amexio-data-table-column [dataIndex]="'jobTitle'" [dataType]="'string'" [hidden]="false" [text]="'Job Title'">
+                  [enablecolumnfiter]="true"  [groupby]="true"  [groupbydataindex]="'jobTitle'" [enablecheckbox]="true" title="Employee Details"   [httpmethod]="'get'" [httpurl]="'assets/data/datagridgroupby.json'" [datareader]="'data'"  [pagesize] = "5" [enabledatafilter]="false">
+                  <amexio-data-table-column [dataindex]="'preferredFullName'" [datatype]="'string'" [hidden]="false" [text]="'FullName'"></amexio-data-table-column>
+                  <amexio-data-table-column [dataindex]="'jobTitle'" [datatype]="'string'" [hidden]="false" [text]="'Job Title'">
                   </amexio-data-table-column>
-                  <amexio-data-table-column [dataIndex]="'salary'" [dataType]="'number'" [hidden]="false" [text]="'Salary'"></amexio-data-table-column>
+                  <amexio-data-table-column [dataindex]="'salary'" [datatype]="'number'" [hidden]="false" [text]="'Salary'"></amexio-data-table-column>
                 </amexio-datagrid>
               </amexio-body>
             </amexio-card>
@@ -78,12 +78,12 @@
 
         <amexio-row>
           <amexio-column [size]="12">
-            <amexio-card [enableFooter]="false" [enableHeader]="true">
+            <amexio-card [footer]="false" [header]="true">
               <amexio-header>Tree Data Grid</amexio-header>
               <amexio-body>
-                <amexio-tree-data-table [httpMethod]="'get'" [httpUrl]="'assets/data/treedatatable.json'" [dataReader]="'data'">
-                  <amexio-data-table-column [dataIndex]="'user'" [dataType]="'string'" [hidden]="false" [text]="'User'"></amexio-data-table-column>
-                  <amexio-data-table-column [dataIndex]="'duration'" [dataType]="'number'" [hidden]="false" [text]="'Duration'"></amexio-data-table-column>
+                <amexio-tree-data-table [httpmethod]="'get'" [httpurl]="'assets/data/treedatatable.json'" [datareader]="'data'">
+                  <amexio-data-table-column [dataindex]="'user'" [datatype]="'string'" [hidden]="false" [text]="'User'"></amexio-data-table-column>
+                  <amexio-data-table-column [dataindex]="'duration'" [datatype]="'number'" [hidden]="false" [text]="'Duration'"></amexio-data-table-column>
                 </amexio-tree-data-table>
               </amexio-body>
             </amexio-card>
@@ -93,32 +93,32 @@
       <amexio-tab title="Tree">
         <amexio-row>
           <amexio-column [size]="3">
-            <amexio-card [enableFooter]="false" [enableHeader]="true">
+            <amexio-card [footer]="false" [header]="true">
               <amexio-header>Simple Tree</amexio-header>
               <amexio-body>
-                <amexio-treeview [dataReader]="'data'" [data]="treeLocalData">
+                <amexio-treeview [datareader]="'data'" [data]="treeLocalData">
                 </amexio-treeview>
               </amexio-body>
             </amexio-card>
           </amexio-column>
           <amexio-column [size]="3">
-            <amexio-card [enableFooter]="false" [enableHeader]="true">
+            <amexio-card [footer]="false" [header]="true">
               <amexio-header>Tree with Checkbox</amexio-header>
               <amexio-body>
-                <amexio-treeview [enableCheckBox]="true" [dataReader]="'data'"
-                                 [httpUrl]="'assets/data/treecheckbox.json'"
-                                 [httpMethod]="'get'">
+                <amexio-treeview [enableCheckBox]="true" [datareader]="'data'"
+                                 [httpurl]="'assets/data/treecheckbox.json'"
+                                 [httpmethod]="'get'">
                 </amexio-treeview>
               </amexio-body>
             </amexio-card>
           </amexio-column>
           <amexio-column [size]="3">
-            <amexio-card [enableFooter]="false" [enableHeader]="true">
+            <amexio-card [footer]="false" [header]="true">
               <amexio-header>Tree with Template</amexio-header>
               <amexio-body>
-                <amexio-treeview [dataReader]="'data'"
-                                 [httpUrl]="'assets/data/menus/sidebar.json'"
-                                 [httpMethod]="'get'">
+                <amexio-treeview [datareader]="'data'"
+                                 [httpurl]="'assets/data/menus/sidebar.json'"
+                                 [httpmethod]="'get'">
                   <ng-template #amexioTreeTemplate let-tree let-icon="icon" let-node="node">
                     <i [attr.class]="node.icon"></i> &nbsp; &nbsp;&nbsp;{{tree.text}}
                   </ng-template>
@@ -127,12 +127,12 @@
             </amexio-card>
           </amexio-column>
           <amexio-column [size]="3">
-            <amexio-card [enableFooter]="false" [enableHeader]="true">
+            <amexio-card [footer]="false" [header]="true">
               <amexio-header>Tree with Filtering</amexio-header>
               <amexio-body>
-                <amexio-tree-filter-view [dataReader]="'data'"
-                                         [httpMethod]="'get'"
-                                         [httpUrl]="'assets/data/menus/sidebar.json'">
+                <amexio-tree-filter-view [datareader]="'data'"
+                                         [httpmethod]="'get'"
+                                         [httpurl]="'assets/data/menus/sidebar.json'">
                 </amexio-tree-filter-view>
               </amexio-body>
             </amexio-card>
@@ -144,10 +144,10 @@
 
         <amexio-row>
           <amexio-column [size]="12">
-            <amexio-card [enableFooter]="false" [enableHeader]="true">
+            <amexio-card [footer]="false" [header]="true">
               <amexio-header>Horizontal Tree View</amexio-header>
               <amexio-body>
-                <amexio-horizontal-treeview [dataReader]="'data'" [httpUrl]="'assets/data/menus/sidebar.json'" [httpMethod]="'get'" label="Menu" (nodeClick)="onClick($event)"></amexio-horizontal-treeview>
+                <amexio-horizontal-treeview [datareader]="'data'" [httpurl]="'assets/data/menus/sidebar.json'" [httpmethod]="'get'" label="Menu" (nodeClick)="onClick($event)"></amexio-horizontal-treeview>
               </amexio-body>
             </amexio-card>
           </amexio-column>
@@ -168,18 +168,18 @@
       <amexio-tab title="Grid" active="true">
         <amexio-row>
           <amexio-column [size]="12">
-            <amexio-card [enableFooter]="false" [enableHeader]="true">
+            <amexio-card [footer]="false" [header]="true">
               <amexio-header>Simple Data Grid</amexio-header>
               <amexio-body>
                 <amexio-datagrid-1
-                  [columnToggle]="true" [height]="200"  [groupByColumn]="false"  [groupByColumnIndex]="'jobTitle'" [checkboxSelect]="false" title="Employee Details"   [httpMethod]="'get'" [httpUrl]="'assets/data/datagridgroupby.json'" [dataReader]="'data'"  [pageSize] = "5" [filtering]="false">
-                  <amexio-data-table-column-1 [width]="50" [dataIndex]="'preferredFullName'" [dataType]="'string'" [hidden]="false" [text]="'FullName'"></amexio-data-table-column-1>
-                  <amexio-data-table-column-1 [width]="30" [dataIndex]="'jobTitle'" [dataType]="'string'" [hidden]="false" [text]="'Job Title'">
+                  [enablecolumnfiter]="true" [height]="200"  [groupby]="false"  [groupbydataindex]="'jobTitle'" [enablecheckbox]="false" title="Employee Details"   [httpmethod]="'get'" [httpurl]="'assets/data/datagridgroupby.json'" [datareader]="'data'"  [pagesize] = "5" [enabledatafilter]="false">
+                  <amexio-data-table-column-1 [width]="50" [dataindex]="'preferredFullName'" [datatype]="'string'" [hidden]="false" [text]="'FullName'"></amexio-data-table-column-1>
+                  <amexio-data-table-column-1 [width]="30" [dataindex]="'jobTitle'" [datatype]="'string'" [hidden]="false" [text]="'Job Title'">
                   </amexio-data-table-column-1>
-                  <amexio-data-table-column-1  [width]="10" [dataIndex]="'salary'" [dataType]="'number'" [hidden]="false" [text]="'Salary'"></amexio-data-table-column-1>
-                  <amexio-data-table-column-1  [width]="10" [dataIndex]="'salary'" [dataType]="'number'" [hidden]="false" [text]="'Salary'"></amexio-data-table-column-1>
-                  <amexio-data-table-column-1  [width]="10" [dataIndex]="'salary'" [dataType]="'number'" [hidden]="false" [text]="'Salary'"></amexio-data-table-column-1>
-                  <amexio-data-table-column-1  [width]="10" [dataIndex]="'salary'" [dataType]="'number'" [hidden]="false" [text]="'Salary'"></amexio-data-table-column-1>
+                  <amexio-data-table-column-1  [width]="10" [dataindex]="'salary'" [datatype]="'number'" [hidden]="false" [text]="'Salary'"></amexio-data-table-column-1>
+                  <amexio-data-table-column-1  [width]="10" [dataindex]="'salary'" [datatype]="'number'" [hidden]="false" [text]="'Salary'"></amexio-data-table-column-1>
+                  <amexio-data-table-column-1  [width]="10" [dataindex]="'salary'" [datatype]="'number'" [hidden]="false" [text]="'Salary'"></amexio-data-table-column-1>
+                  <amexio-data-table-column-1  [width]="10" [dataindex]="'salary'" [datatype]="'number'" [hidden]="false" [text]="'Salary'"></amexio-data-table-column-1>
                 </amexio-datagrid-1>
               </amexio-body>
             </amexio-card>

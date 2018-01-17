@@ -17,11 +17,11 @@
     <i class="fa fa-snowflake-o fa-fw fa-lg" (click)="toggle()" style="cursor: pointer;"></i>
     <div style="position: absolute;" *ngIf="flag">
       <amexio-listbox [height]="400" [header]="'Themes'"
-                      [httpUrl]="'assets/data/themes/theme.json'"
-                      [httpMethod]="'get'"
-                      [dataReader]="'data'"
+                      [httpurl]="'assets/data/themes/theme.json'"
+                      [httpmethod]="'get'"
+                      [datareader]="'data'"
                       [searchPlaceHolder]="'Search Theme'"
-                      [displayField]="'themeName'"
+                      [displayfield]="'themeName'"
                       [filter]="true"
                       [enableCheckBox]="false"
                       (rowClick)="themeChange($event)">
@@ -42,7 +42,7 @@
 
 <amexio-row>
   <amexio-column [size]="'2pt5'">
-    <amexio-side-nav [httpUrl]="'/assets/data/menus/sidebar.json'" [httpMethod]="'get'" [dataReader]="'data'"
+    <amexio-side-nav [httpurl]="'/assets/data/menus/sidebar.json'" [httpmethod]="'get'" [datareader]="'data'"
                      (nodeClick)="routeToLink($event)"></amexio-side-nav>
   </amexio-column>
   <amexio-column [size]="'9pt5'">
@@ -63,8 +63,8 @@
 <!--<amexio-body>-->
 <!--<amexio-row>-->
 <!--<amexio-column [size]="12">-->
-<!--<amexio-dropdown [httpUrl]="'assets/data/themes/theme.json'"-->
-<!--[httpMethod]="'get'" [displayField]="'themeName'" [valueField]="'themeCssFile'"-->
+<!--<amexio-dropdown [httpurl]="'assets/data/themes/theme.json'"-->
+<!--[httpmethod]="'get'" [displayfield]="'themeName'" [valuefield]="'themeCssFile'"-->
 <!--(onSingleSelect)="themeChange($event)"-->
 <!--&gt;-->
 <!--</amexio-dropdown>-->

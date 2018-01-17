@@ -11,7 +11,7 @@ import {FormsModule} from "@angular/forms";
  selector: 'forms-utils',
  template : `
 
-   <amexio-card [enableHeader]="true">
+   <amexio-card [header]="true">
 
      <amexio-header>
        Amexio Forms Utilities.
@@ -26,7 +26,7 @@ import {FormsModule} from "@angular/forms";
 
        <amexio-row>
         <amexio-column size="6">
-          <amexio-rating-input [max]="5" [(ngModel)]="rate" [fullIcon]="'☑'" [emptyIcon]="'☐'"></amexio-rating-input>
+          <amexio-rating-input [max]="5" [(ngModel)]="rate" [fullicon]="'☑'" [emptyicon]="'☐'"></amexio-rating-input>
           <b><p>Rated : {{rate}}</p></b>
         </amexio-column>
          
@@ -119,7 +119,7 @@ import {FormsModule} from "@angular/forms";
        <amexio-row>
          <amexio-column [size]="6">
            <amexio-date-time-picker
-             [fieldLabel]="'Date Of Birth'"
+             [fieldlabel]="'Date Of Birth'"
              [timepicker]="false"
              [datepicker]="true"
              [(ngModel)]="currentDate">
@@ -128,7 +128,7 @@ import {FormsModule} from "@angular/forms";
 
          <amexio-column [size]="6">
            <amexio-date-time-picker
-             [fieldLabel]="'Date Of Birth'"
+             [fieldlabel]="'Date Of Birth'"
              [timepicker]="true"
              [datepicker]="false"
              [(ngModel)]="currentDate1">
@@ -146,10 +146,10 @@ import {FormsModule} from "@angular/forms";
        </amexio-row>
        <amexio-row>
          <amexio-column [size]="12">
-           <amexio-item-selector [height]="200" [displayField]="'countryName'"
-                                 [valueField]="'countryId'"
-                                 [httpUrl]="'assets/data/itemdata.json'"
-                                 [httpMethod]="'get'" [dataReader]="'data'" >
+           <amexio-item-selector [height]="200" [displayfield]="'countryName'"
+                                 [valuefield]="'countryId'"
+                                 [httpurl]="'assets/data/itemdata.json'"
+                                 [httpmethod]="'get'" [datareader]="'data'" >
            </amexio-item-selector>
          </amexio-column>
        </amexio-row>
@@ -164,24 +164,24 @@ import {FormsModule} from "@angular/forms";
            <amexio-fieldset [collapsible]="true" title="Employee Registration">
              <amexio-row>
                <amexio-column [size]="6">
-                 <amexio-text-input [fieldLabel]="'Name'" name="country"
+                 <amexio-text-input [fieldlabel]="'Name'" name="country"
                                     [placeholder]="'Enter name'"
-                                    [enablePopOver]="true"
-                                    [iconFeedBack]="true"
-                                    [allowBlank]="false" [errorMsg]="'Please enter name'"
-                                    [minLength]="3" [maxLength]="15" [minErrorMsg]="'Name should be minimum 3 characters'"
-                                    [maxErrorMsg]="'Name should be less than 15 characters'"
+                                    [enablepopover]="true"
+                                    [iconfeedback]="true"
+                                    [allowblank]="false" [errormsg]="'Please enter name'"
+                                    [minlength]="3" [maxlength]="15" [minerrormsg]="'Name should be minimum 3 characters'"
+                                    [maxerrormsg]="'Name should be less than 15 characters'"
                  >
                  </amexio-text-input>
                </amexio-column>
                <amexio-column [size]="6">
-                 <amexio-text-input [fieldLabel]="'Surname'" name="name"
+                 <amexio-text-input [fieldlabel]="'Surname'" name="name"
                                     [placeholder]="'Enter surname'"
-                                    [enablePopOver]="true"
-                                    [iconFeedBack]="true"
-                                    [allowBlank]="false" [errorMsg]="'Please enter Surname'"
-                                    [minLength]="3" [maxLength]="15" [minErrorMsg]="'Surname should be minimum 3 characters'"
-                                    [maxErrorMsg]="'Surname should be less than 15 characters'"
+                                    [enablepopover]="true"
+                                    [iconfeedback]="true"
+                                    [allowblank]="false" [errormsg]="'Please enter Surname'"
+                                    [minlength]="3" [maxlength]="15" [minerrormsg]="'Surname should be minimum 3 characters'"
+                                    [maxerrormsg]="'Surname should be less than 15 characters'"
                  >
                  </amexio-text-input>
                </amexio-column>
@@ -189,12 +189,12 @@ import {FormsModule} from "@angular/forms";
              <amexio-row>
                <amexio-column [size]="6">
 
-                 <amexio-textarea-input [fieldLabel]="'Address'" name="Address"
+                 <amexio-textarea-input [fieldlabel]="'Address'" name="Address"
                                         [placeholder]="'Enter address'"
-                                        [errorMsg]="'Please enter address'"
-                                        [iconFeedBack]="true"
-                                        [noOfrows]="'1'" [noOfCols]="'2'"
-                                        [allowBlank]="false" [enablePopOver]="true"
+                                        [errormsg]="'Please enter address'"
+                                        [iconfeedback]="true"
+                                        [rows]="'1'" [columns]="'2'"
+                                        [allowblank]="false" [enablepopover]="true"
 
                  >
                  </amexio-textarea-input>
@@ -202,12 +202,12 @@ import {FormsModule} from "@angular/forms";
 
                </amexio-column>
                <amexio-column [size]="6">
-                 <amexio-typeahead [dataReader]="'response.data'"
-                                   [httpUrl]="'assets/data/country.json'"
-                                   [httpMethod]="'get'"
+                 <amexio-typeahead [datareader]="'response.data'"
+                                   [httpurl]="'assets/data/country.json'"
+                                   [httpmethod]="'get'"
                                    [key]="'countryName'"
 
-                                   [fieldLabel]="'Nationality'" [placeholder]="'Search'">
+                                   [fieldlabel]="'Nationality'" [placeholder]="'Search'">
                  </amexio-typeahead>
                </amexio-column>
              </amexio-row>
@@ -238,7 +238,7 @@ import {FormsModule} from "@angular/forms";
 
        <amexio-row>
          <amexio-column [size]="12">
-             <amexio-image [imagePath]="'https://pluralsight2.imgix.net/paths/images/angular-14a0f6532f.png'"></amexio-image>
+             <amexio-image [path]="'https://pluralsight2.imgix.net/paths/images/angular-14a0f6532f.png'"></amexio-image>
          </amexio-column>
        </amexio-row>
 

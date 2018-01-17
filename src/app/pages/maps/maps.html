@@ -1,6 +1,6 @@
 <amexio-row>
 <amexio-column [size]="12">
-    <amexio-card [enableFooter]="false" [enableHeader]="true">
+    <amexio-card [footer]="false" [header]="true">
       <amexio-header>Region Geo-Charts</amexio-header>
       <amexio-body>
         <amexio-map-geo-chart [height]="'500px'" [width]="'100%'" [data]="geoChartData">
@@ -12,11 +12,11 @@
 <br>
 <amexio-row>
   <amexio-column [size]="12">
-    <amexio-card [enableFooter]="false" [enableHeader]="true">
+    <amexio-card [footer]="false" [header]="true">
       <amexio-header>Treemaps</amexio-header>
       <amexio-body>
         <amexio-map-treemap [height]="'500px'" [width]="'100%'" [data]="treeMapData"
-                            [maxColor]="'#0d0'" [midColor]="'#ddd'" [minColor]="'#f00'" [maxPostDepth]="2" [showScale]="true">
+                            [maxcolor]="'#0d0'" [midcolor]="'#ddd'" [mincolor]="'#f00'" [maxpostdepth]="2" [showscale]="true">
         </amexio-map-treemap>
       </amexio-body>
     </amexio-card>

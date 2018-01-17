@@ -10,7 +10,7 @@ import {AmexioDataModule, AmexioFormsModule, AmexioLayoutModule, AmexioWidgetMod
   selector: 'action-component',
   template : `
 
-    <amexio-card [enableHeader]="true">
+    <amexio-card [header]="true">
 
       <amexio-header>
         Amexio Button Variation.
@@ -25,46 +25,46 @@ import {AmexioDataModule, AmexioFormsModule, AmexioLayoutModule, AmexioWidgetMod
 
         <amexio-row>
           <amexio-column [size]="3">
-            <amexio-button [size]="'small'" [label]="'Secondary'" [type]="'secondary'" [tooltipMessage]="'Secondary Button'"></amexio-button>
+            <amexio-button [size]="'small'" [label]="'Secondary'" [type]="'secondary'" [tooltip]="'Secondary Button'"></amexio-button>
           </amexio-column>
           <amexio-column [size]="3">
-            <amexio-button  [size]="'small'" [label]="'Primary'" [type]="'primary'" [tooltipMessage]="'Primary Button'"></amexio-button>
+            <amexio-button  [size]="'small'" [label]="'Primary'" [type]="'primary'" [tooltip]="'Primary Button'"></amexio-button>
           </amexio-column>
           <amexio-column [size]="3">
-            <amexio-button  [size]="'small'" [label]="'Success'" [type]="'success'" [tooltipMessage]="'Success Button'"></amexio-button>
+            <amexio-button  [size]="'small'" [label]="'Success'" [type]="'success'" [tooltip]="'Success Button'"></amexio-button>
           </amexio-column>
           <amexio-column [size]="3">
-            <amexio-button  [size]="'small'" [label]="'Danger'" [type]="'danger'" [tooltipMessage]="'Danger Button'"></amexio-button>
-          </amexio-column>
-        </amexio-row>
-
-        <amexio-row>
-          <amexio-column [size]="3">
-            <amexio-button [label]="'Secondary'" [type]="'secondary'" [tooltipMessage]="'Secondary Button'"></amexio-button>
-          </amexio-column>
-          <amexio-column [size]="3">
-            <amexio-button  [label]="'Primary'" [type]="'primary'" [tooltipMessage]="'Primary Button'"></amexio-button>
-          </amexio-column>
-          <amexio-column [size]="3">
-            <amexio-button   [label]="'Success'" [type]="'success'" [tooltipMessage]="'Success Button'"></amexio-button>
-          </amexio-column>
-          <amexio-column [size]="3">
-            <amexio-button  [label]="'Danger'" [type]="'danger'" [tooltipMessage]="'Danger Button'"></amexio-button>
+            <amexio-button  [size]="'small'" [label]="'Danger'" [type]="'danger'" [tooltip]="'Danger Button'"></amexio-button>
           </amexio-column>
         </amexio-row>
 
         <amexio-row>
           <amexio-column [size]="3">
-            <amexio-button [size]="'large'" [label]="'Secondary'" [type]="'secondary'" [tooltipMessage]="'Secondary Button'"></amexio-button>
+            <amexio-button [label]="'Secondary'" [type]="'secondary'" [tooltip]="'Secondary Button'"></amexio-button>
           </amexio-column>
           <amexio-column [size]="3">
-            <amexio-button  [size]="'large'" [label]="'Primary'" [type]="'primary'" [tooltipMessage]="'Primary Button'"></amexio-button>
+            <amexio-button  [label]="'Primary'" [type]="'primary'" [tooltip]="'Primary Button'"></amexio-button>
           </amexio-column>
           <amexio-column [size]="3">
-            <amexio-button   [size]="'large'" [label]="'Success'" [type]="'success'" [tooltipMessage]="'Success Button'"></amexio-button>
+            <amexio-button   [label]="'Success'" [type]="'success'" [tooltip]="'Success Button'"></amexio-button>
           </amexio-column>
           <amexio-column [size]="3">
-            <amexio-button  [size]="'large'" [label]="'Danger'" [type]="'danger'" [tooltipMessage]="'Danger Button'"></amexio-button>
+            <amexio-button  [label]="'Danger'" [type]="'danger'" [tooltip]="'Danger Button'"></amexio-button>
+          </amexio-column>
+        </amexio-row>
+
+        <amexio-row>
+          <amexio-column [size]="3">
+            <amexio-button [size]="'large'" [label]="'Secondary'" [type]="'secondary'" [tooltip]="'Secondary Button'"></amexio-button>
+          </amexio-column>
+          <amexio-column [size]="3">
+            <amexio-button  [size]="'large'" [label]="'Primary'" [type]="'primary'" [tooltip]="'Primary Button'"></amexio-button>
+          </amexio-column>
+          <amexio-column [size]="3">
+            <amexio-button   [size]="'large'" [label]="'Success'" [type]="'success'" [tooltip]="'Success Button'"></amexio-button>
+          </amexio-column>
+          <amexio-column [size]="3">
+            <amexio-button  [size]="'large'" [label]="'Danger'" [type]="'danger'" [tooltip]="'Danger Button'"></amexio-button>
           </amexio-column>
         </amexio-row>
 
@@ -79,20 +79,20 @@ import {AmexioDataModule, AmexioFormsModule, AmexioLayoutModule, AmexioWidgetMod
         <amexio-row>
           <amexio-column [size]="4">
             <amexio-btn-group [size]="'small'">
-              <amexio-button [label]="'Save'" [type]="'secondary'" [tooltipMessage]="'Secondary Button'"></amexio-button>
-              <amexio-button  [label]="'Cancel'" [type]="'secondary'" [tooltipMessage]="'Secondary Button'"></amexio-button>
+              <amexio-button [label]="'Save'" [type]="'secondary'" [tooltip]="'Secondary Button'"></amexio-button>
+              <amexio-button  [label]="'Cancel'" [type]="'secondary'" [tooltip]="'Secondary Button'"></amexio-button>
             </amexio-btn-group>
           </amexio-column>
           <amexio-column [size]="4">
             <amexio-btn-group [size]="'default'">
-              <amexio-button [label]="'Save'" [type]="'success'" [tooltipMessage]="'Secondary Button'"></amexio-button>
-              <amexio-button  [label]="'Cancel'" [type]="'success'" [tooltipMessage]="'Secondary Button'"></amexio-button>
+              <amexio-button [label]="'Save'" [type]="'success'" [tooltip]="'Secondary Button'"></amexio-button>
+              <amexio-button  [label]="'Cancel'" [type]="'success'" [tooltip]="'Secondary Button'"></amexio-button>
             </amexio-btn-group>
           </amexio-column>
           <amexio-column [size]="4">
             <amexio-btn-group [size]="'large'">
-              <amexio-button [label]="'Secondary'" [type]="'danger'" [tooltipMessage]="'Secondary Button'"></amexio-button>
-              <amexio-button  [label]="'Cancel'" [type]="'danger'" [tooltipMessage]="'Secondary Button'"></amexio-button>
+              <amexio-button [label]="'Secondary'" [type]="'danger'" [tooltip]="'Secondary Button'"></amexio-button>
+              <amexio-button  [label]="'Cancel'" [type]="'danger'" [tooltip]="'Secondary Button'"></amexio-button>
             </amexio-btn-group>
           </amexio-column>
         </amexio-row>
