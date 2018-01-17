@@ -63,6 +63,9 @@ const route: Routes = [
   },
   {
     path : 'formutils', loadChildren : './pages/formsutil/formsutil#FormUtilsRoutingModule'
+  },
+  {
+    path: 'navigation', loadChildren: './pages/navigation/navigation.module#NavigationModule'
   }
 ];
 

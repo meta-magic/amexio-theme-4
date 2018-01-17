@@ -119,6 +119,12 @@
           "icon": "fa fa-television fa-fw",
           "mdbIcon": "layout",
           "link": "layout"
+        },
+        {
+          "text": "Navigation",
+          "icon": "fa fa-bars fa-fw",
+          "mdbIcon": "navigation",
+          "link": "navigation"
         }
       ]
     }

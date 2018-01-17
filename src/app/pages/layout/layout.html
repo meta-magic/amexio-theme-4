@@ -58,12 +58,8 @@
 
         </amexio-tab>
 
-    </amexio-tab-view>
-</amexio-column></amexio-row>
-<amexio-row>
-  <amexio-column [size]="12">
-  <amexio-tab-view  [closable]="true">
-    <amexio-tab [title]="'Carousel View'" [active]="true" >
+
+    <amexio-tab [title]="'Carousel View'" [icon]="'fa fa-eercast'" >
       <amexio-carousel [data]="viewData" mode="single" [headerName]="'Amexio Themes'" >
         <ng-template let-i amexioTemplate="item">
           <div style="height: 200px;width: 700px;">
@@ -72,7 +68,7 @@
         </ng-template>
       </amexio-carousel>
     </amexio-tab>
-  <amexio-tab [title]="'Accordion'" >
+  <amexio-tab [title]="'Accordion'" [icon]="'fa fa-eercast'" >
     <amexio-accordion>
       <amexio-accordion-tab [header]="'Accordion Pane-I'" [expanded]="true">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
       </amexio-accordion-tab>
@@ -85,12 +81,15 @@
 </amexio-accordion>
   </amexio-tab>
 
-<amexio-tab [title]="'Fieldset'" >
-  <amexio-fieldset [title]="Fieldset" [collapsible]="false">
+<amexio-tab [title]="'Fieldset'" [icon]="'fa fa-eercast'">
+  <amexio-fieldset [title]="Fieldset1" [collapsible]="false">
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  </amexio-fieldset>
+  <amexio-fieldset [title]="Fieldset2" [collapsible]="true">
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
   </amexio-fieldset>
 </amexio-tab>
-<amexio-tab [title]="'Vertical Tab View'">
+<amexio-tab [title]="'Vertical Tab View'" [icon]="'fa fa-eercast'">
   <amexio-row>
     <amexio-column [size]="12">
   <amexio-vertical-tab-view >
@@ -148,20 +147,20 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
   </amexio-column>
   </amexio-row>
 </amexio-tab>
-<amexio-tab [title]="'Right Vertical Tab'">
+<amexio-tab [title]="'Right Vertical Tab'" [icon]="'fa fa-eercast'">
         <amexio-right-vertical-tab-view>
         <amexio-tab [title]="'Step box'" [icon]="'fa fa-eercast'">
           <amexio-card [enableHeader]="false" [enableFooter]="false">
               <amexio-body>
-                   <amexio-steps  [showBlockBox]="true" [showIndex]="true">
+                   <amexio-steps  [showBlockBox]="true" onBlockClick="stepBlockClick($event)">
                       <amexio-step-block [label]="'User'" [active]="true"></amexio-step-block>
                       <amexio-step-block [label]="'Shop'" [active]="false"></amexio-step-block>
                       <amexio-step-block [label]="'Payment'" [active]="false"></amexio-step-block>
                       <amexio-step-block [label]="'Confirmation'" [active]="false"></amexio-step-block>
                   </amexio-steps>
                   <br />
-                  <!--Step box & icons with clickabel -->
-                   <amexio-steps  [showBlockBox]="true" [showIndex]="true">
+
+                   <amexio-steps  [showBlockBox]="true" [showIcon]="true">
                       <amexio-step-block [label]="'User'" [icon]="'fa fa-eercast'"></amexio-step-block>
                       <amexio-step-block [label]="'Shop'" [icon]="'fa fa-eercast'"></amexio-step-block>
                       <amexio-step-block [label]="'Payment'" [icon]="'fa fa-eercast'"></amexio-step-block>
@@ -169,7 +168,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
                   </amexio-steps>
                   <br />
                   <!--Step-box index -->
-                  <amexio-steps  [showBlockBox]="true" [showIndex]="true">
+                  <amexio-steps  [showBlockBox]="true" [showIndex]="true" >
                       <amexio-step-block [label]="'step-1'" [active]="true"></amexio-step-block>
                       <amexio-step-block [label]="'step-2'" [active]="false"></amexio-step-block>
                       <amexio-step-block [label]="'step-3'" [active]="false"></amexio-step-block>
