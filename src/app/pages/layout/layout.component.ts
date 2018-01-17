@@ -14,8 +14,32 @@ export class LayoutComponent implements OnInit {
   bindData : any;
   data:any;
   isVisible:boolean;
+  viewData:any;
+
   constructor() {
     this.flag=false;
+    this.viewData=
+        [
+          {
+            "title":"view 1",
+            "img":"./assets/images/theme/blue-grey.jpg",
+            "caption":"Blue-Grey",
+            "active" : true
+          },
+          {
+            "title":"view 2",
+            "img":"./assets/images/theme/brown.jpg",
+            "caption":"Brown",
+            "active" : false
+          },
+          {
+            "title":"view 3",
+            "img":"./assets/images/theme/deeporange.jpg",
+            "caption":"Deep-Orange",
+            "active" : false
+          }
+        ];
+
     this.bindData ={
       "response": {
         "success": true,
