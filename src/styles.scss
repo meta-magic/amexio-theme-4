@@ -1,6 +1,6 @@
 //@import "../node_modules/amexio-ng-extensions/styles/mdb/mdb-amber.scss";
 //@import "../node_modules/amexio-ng-extensions/styles/mdb/mdb-black.scss";
-//@import "../node_modules/amexio-ng-extensions/styles/mdb/mdb-blue.scss";
+@import "../node_modules/amexio-ng-extensions/styles/mdb/mdb-blue.scss";
 //@import "../node_modules/amexio-ng-extensions/styles/mdb/mdb-bluegrey.scss";
 //@import "../node_modules/amexio-ng-extensions/styles/mdb/mdb-brown.scss";
 //@import "../node_modules/amexio-ng-extensions/styles/mdb/mdb-indigo.scss";
@@ -26,3 +26,7 @@
 //@import "../node_modules/amexio-ng-extensions/styles/mdb/mdb-chocolate-russet.scss";
 
 //@import "../node_modules/amexio-ng-extensions/styles/mdb/mdb-ash-stone.scss";
+
+.themerow{
+  color: $defaultColor;
+}

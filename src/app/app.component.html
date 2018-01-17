@@ -4,7 +4,7 @@
   </amexio-nav-item>
   <amexio-nav-item position-right>
     <i class="fa fa-bell fa-fw fa-lg"></i>
-    <amexio-notification [closable]= "true"[messageData]="Hello"></amexio-notification>
+    <amexio-notification [closable]="true" [messageData]="Hello"></amexio-notification>
   </amexio-nav-item>
   <amexio-nav-item position-right>
     <span>John Doe</span>
@@ -14,41 +14,66 @@
   </amexio-nav-item>
 
   <amexio-nav-item position-right>
-    <i class="fa fa-snowflake-o fa-fw fa-lg" (click)="themeChange()" style="cursor: pointer;"></i>
-  </amexio-nav-item>
+    <i class="fa fa-snowflake-o fa-fw fa-lg" (click)="toggle()" style="cursor: pointer;"></i>
+    <div style="position: absolute;" *ngIf="flag">
+      <amexio-listbox [height]="400" [header]="'Themes'"
+                      [httpUrl]="'assets/data/themes/theme.json'"
+                      [httpMethod]="'get'"
+                      [dataReader]="'data'"
+                      [searchPlaceHolder]="'Search Theme'"
+                      [displayField]="'themeName'"
+                      [filter]="false"
+                      [enableCheckBox]="false"
+                      (rowClick)="themeChange($event)"
+      >
+        <ng-template #amexioBodyTmpl let-row="row">
+          <amexio-row>
+            <amexio-column [size]="12">
+                <div class="themerow">{{row.themeName}}</div>
+            </amexio-column>
 
+          </amexio-row>
+        </ng-template>
+      </amexio-listbox>
+    </div>
+  </amexio-nav-item>
 </amexio-nav>
 
 <br><br><br>
 
 <amexio-row>
   <amexio-column [size]="'2pt5'">
-    <amexio-side-nav  [httpUrl]="'/assets/data/menus/sidebar.json'" [httpMethod]="'get'" [dataReader]="'data'" (nodeClick)="routeToLink($event)"></amexio-side-nav>
+    <amexio-side-nav [httpUrl]="'/assets/data/menus/sidebar.json'" [httpMethod]="'get'" [dataReader]="'data'"
+                     (nodeClick)="routeToLink($event)"></amexio-side-nav>
   </amexio-column>
   <amexio-column [size]="'9pt5'">
     <div style="padding: 20px 10px 20px 0px">
       <!--<dashboard></dashboard>-->
-       <!--<sampleform></sampleform>-->
+      <!--<sampleform></sampleform>-->
       <router-outlet></router-outlet>
     </div>
 
   </amexio-column>
 </amexio-row>
 
-<amexio-window [(showWindow)]="flag" [closable]="true">
-  <amexio-header>
-    Select theme
-  </amexio-header>
+<!--<amexio-window [(showWindow)]="flag" [closable]="true">-->
+<!--<amexio-header>-->
+<!--Select theme-->
+<!--</amexio-header>-->
 
-  <amexio-body>
-    <amexio-row>
-      <amexio-column [size]="12">
-        This is the window layout
-      </amexio-column>
-    </amexio-row>
-  </amexio-body>
+<!--<amexio-body>-->
+<!--<amexio-row>-->
+<!--<amexio-column [size]="12">-->
+<!--<amexio-dropdown [httpUrl]="'assets/data/themes/theme.json'"-->
+<!--[httpMethod]="'get'" [displayField]="'themeName'" [valueField]="'themeCssFile'"-->
+<!--(onSingleSelect)="themeChange($event)"-->
+<!--&gt;-->
+<!--</amexio-dropdown>-->
+<!--</amexio-column>-->
+<!--</amexio-row>-->
+<!--</amexio-body>-->
 
-  <amexio-action>
-    Select
-  </amexio-action>
-</amexio-window>
+<!--<amexio-action>-->
+<!--Select-->
+<!--</amexio-action>-->
+<!--</amexio-window>-->

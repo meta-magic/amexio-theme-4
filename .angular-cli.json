@@ -20,6 +20,7 @@
       "prefix": "app",
       "styles": [
         "styles.scss",
+        "assets/themes/mdb-blue.css",
         "../node_modules/font-awesome/css/font-awesome.css"
       ],
       "scripts": [],
