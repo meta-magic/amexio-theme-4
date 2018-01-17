@@ -25,15 +25,15 @@
               <amexio-header>Data Grid with Template</amexio-header>
               <amexio-body>
                 <amexio-datagrid  [checkboxSelect]="true" title="Country Grid"   [httpMethod]="'get'" [httpUrl]="'assets/data/datagrid.json'" [dataReader]="'data'"  [pageSize] = "10" [filtering]="false">
-                  <amexio-data-table-column [dataIndex]="'name_official'" [dataType]="'string'" [hidden]="false" [text]="'Name'">
+                  <amexio-data-table-column [width]="50" [dataIndex]="'name_official'" [dataType]="'string'" [hidden]="false" [text]="'Name'">
                     <ng-template #amexioBodyTmpl let-column let-row="row">
                         <span>
                             <img src="" [attr.src]="'http://amexio.org/showcaseapp/v3/assets/images/flags/flags/'+row.flag_32">&nbsp;{{row.name}} ( {{row.name_official}} )
                         </span>
                     </ng-template>
                   </amexio-data-table-column>
-                  <amexio-data-table-column [dataIndex]="'latitude'" [dataType]="'string'" [hidden]="false" [text]="'Latitude'"></amexio-data-table-column>
-                  <amexio-data-table-column [dataIndex]="'longitude'" [dataType]="'number'" [hidden]="false" [text]="'Longitude'"></amexio-data-table-column>
+                  <amexio-data-table-column [width]="20" [dataIndex]="'latitude'" [dataType]="'string'" [hidden]="false" [text]="'Latitude'"></amexio-data-table-column>
+                  <amexio-data-table-column [width]="20" [dataIndex]="'longitude'" [dataType]="'number'" [hidden]="false" [text]="'Longitude'"></amexio-data-table-column>
                 </amexio-datagrid>
               </amexio-body>
             </amexio-card>
@@ -172,28 +172,15 @@
               <amexio-header>Simple Data Grid</amexio-header>
               <amexio-body>
                 <amexio-datagrid-1
-                  [columnToggle]="true" [height]="200"  [groupByColumn]="true"  [groupByColumnIndex]="'jobTitle'" [checkboxSelect]="true" title="Employee Details"   [httpMethod]="'get'" [httpUrl]="'assets/data/datagridgroupby.json'" [dataReader]="'data'"  [pageSize] = "5" [filtering]="false">
-                  <amexio-data-table-column-1 [dataIndex]="'preferredFullName'" [dataType]="'string'" [hidden]="false" [text]="'FullName'"></amexio-data-table-column-1>
-                  <amexio-data-table-column-1 [dataIndex]="'jobTitle'" [dataType]="'string'" [hidden]="false" [text]="'Job Title'">
+                  [columnToggle]="true" [height]="200"  [groupByColumn]="false"  [groupByColumnIndex]="'jobTitle'" [checkboxSelect]="false" title="Employee Details"   [httpMethod]="'get'" [httpUrl]="'assets/data/datagridgroupby.json'" [dataReader]="'data'"  [pageSize] = "5" [filtering]="false">
+                  <amexio-data-table-column-1 [width]="50" [dataIndex]="'preferredFullName'" [dataType]="'string'" [hidden]="false" [text]="'FullName'"></amexio-data-table-column-1>
+                  <amexio-data-table-column-1 [width]="30" [dataIndex]="'jobTitle'" [dataType]="'string'" [hidden]="false" [text]="'Job Title'">
                   </amexio-data-table-column-1>
-                  <amexio-data-table-column-1 [dataIndex]="'salary'" [dataType]="'number'" [hidden]="false" [text]="'Salary'"></amexio-data-table-column-1>
+                  <amexio-data-table-column-1  [width]="10" [dataIndex]="'salary'" [dataType]="'number'" [hidden]="false" [text]="'Salary'"></amexio-data-table-column-1>
+                  <amexio-data-table-column-1  [width]="10" [dataIndex]="'salary'" [dataType]="'number'" [hidden]="false" [text]="'Salary'"></amexio-data-table-column-1>
+                  <amexio-data-table-column-1  [width]="10" [dataIndex]="'salary'" [dataType]="'number'" [hidden]="false" [text]="'Salary'"></amexio-data-table-column-1>
+                  <amexio-data-table-column-1  [width]="10" [dataIndex]="'salary'" [dataType]="'number'" [hidden]="false" [text]="'Salary'"></amexio-data-table-column-1>
                 </amexio-datagrid-1>
-                  <amexio-listbox-1 [height]="300" [header] = "'Contacts'" [searchPlaceHolder]="'Search Contacts'" [data]="bindData" [filter]="false"
-                                  [enableCheckBox] = "false" [dataReader]="'response.data'"
-                                  [displayField]="'name'">
-                    <ng-template #amexioBodyTmpl let-row="row">
-                      <amexio-row>
-                        <amexio-column [size]="12">
-                          <div class="profile-image">
-                            <img src="assets/images/profile/{{row.profile}}">
-                            <a>{{row.name}}</a>
-                          </div>
-                        </amexio-column>
-
-                      </amexio-row>
-                    </ng-template>
-                  </amexio-listbox-1>
-
               </amexio-body>
             </amexio-card>
           </amexio-column>

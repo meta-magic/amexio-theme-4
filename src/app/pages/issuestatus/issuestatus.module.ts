@@ -5,7 +5,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import {CommonModule} from "@angular/common";
 import {FormsModule} from "@angular/forms";
-import {AmexioWidgetModule,AmexioLayoutModule} from "amexio-ng-extensions";
+import {AmexioWidgetModule,AmexioLayoutModule,AmexioPaneModule} from "amexio-ng-extensions";
 import {IssueStatusComponent} from "./issuestatus.component";
 
 const routes: Routes = [
@@ -15,7 +15,7 @@ const routes: Routes = [
 @NgModule({
   imports: [
     CommonModule,FormsModule,
-    RouterModule.forChild(routes),
+    RouterModule.forChild(routes),AmexioPaneModule,
     AmexioWidgetModule
   ],
   exports: [RouterModule],

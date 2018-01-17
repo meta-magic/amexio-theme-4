@@ -7,7 +7,7 @@ import { CommonModule} from "@angular/common";
 import { FormsModule} from "@angular/forms";
 import { LayoutComponent} from "./layout.component";
 import {AmexioFormsModule,AmexioLayoutModule,
-  AmexioPaneModule,AmexioDataModule} from "amexio-ng-extensions";
+  AmexioPaneModule,AmexioDataModule,AmexioNavModule} from "amexio-ng-extensions";
 
 const routes: Routes = [
   { path: '', component: LayoutComponent }
@@ -21,6 +21,7 @@ const routes: Routes = [
     AmexioLayoutModule,
     AmexioPaneModule,
     AmexioDataModule,
+    AmexioNavModule,
     RouterModule.forChild(routes)
   ],
   exports: [RouterModule],
@@ -29,4 +30,4 @@ const routes: Routes = [
   ],
   providers : []
 })
-export class LayoutModule { }
+export class LayoutModule {}

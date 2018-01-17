@@ -19,6 +19,7 @@ export class AppComponent {
   }
 
   routeToLink(data: any){
+      console.log(JSON.stringify(data));
     if(!data.hasOwnProperty('children') && data.link)
       this._router.navigate([data.link]);
   }
@@ -38,8 +39,9 @@ export class AppComponent {
     );
   }
   onClick(menuItem:any){
+    debugger;
     if(menuItem.menuId && menuItem.menuId==1){
-      this._router.navigate(['/home/dashboard']);
+      this._router.navigate(['dashboard']);
     }
     if(menuItem.menuId && menuItem.menuId==2){
       this.data.push({'msg':'You have new email', 'type' : 'info'});

@@ -4,6 +4,7 @@
   </amexio-nav-item>
   <amexio-nav-item position-right>
     <i class="fa fa-bell fa-fw fa-lg"></i>
+    <amexio-notification [closable]= "true"[messageData]="Hello"></amexio-notification>
   </amexio-nav-item>
   <amexio-nav-item position-right>
     <span>John Doe</span>
@@ -31,7 +32,6 @@
       <router-outlet></router-outlet>
     </div>
 
-      <!-- <amexio-notification [messageData]="data"></amexio-notification> -->
   </amexio-column>
 </amexio-row>
 

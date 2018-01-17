@@ -120,11 +120,13 @@
           Customer Feedback
         </amexio-header>
         <amexio-body>
-             <!-- <amexio-carousel [isContent]="true"
-                             [data]="'data'"
-                             [httpMethod]="'get'"
-                             [httpUrl]="'assets/data/feedback.json'">
-            </amexio-carousel> -->
+          <amexio-carousel [data]="feedbackData" mode="single" >
+  <ng-template let-feedback amexioTemplate="item">
+    <div style="height: 200px;width: 320px;">
+    {{feedback.content}}
+    </div>
+  </ng-template>
+</amexio-carousel>
         </amexio-body>
       </amexio-card>
     </amexio-column>
