@@ -78,6 +78,9 @@ input:disabled {
   opacity: 0.55;
   cursor: not-allowed; }
 
+.defaultcolor {
+  color: rgba(255, 255, 255, 0.7); }
+
 /**BUTTON**/
 .button {
   display: inline-block;

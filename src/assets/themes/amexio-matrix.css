@@ -78,6 +78,9 @@ input:disabled {
   opacity: 0.55;
   cursor: not-allowed; }
 
+.defaultcolor {
+  color: rgba(255, 255, 255, 0.7); }
+
 /**BUTTON**/
 .button {
   display: inline-block;
@@ -2343,5 +2346,8 @@ div.profile-image img {
 div.profile-image a {
   text-transform: capitalize;
   color: rgba(255, 255, 255, 0.7); }
+
+.defaultcolor {
+  color: #16E73C; }
 
 /*# sourceMappingURL=amexio-matrix.css.map */

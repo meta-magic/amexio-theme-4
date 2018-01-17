@@ -78,6 +78,9 @@ input:disabled {
   opacity: 0.55;
   cursor: not-allowed; }
 
+.defaultcolor {
+  color: #603A63; }
+
 /**BUTTON**/
 .button {
   display: inline-block;

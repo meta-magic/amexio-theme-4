@@ -78,6 +78,9 @@ input:disabled {
   opacity: 0.55;
   cursor: not-allowed; }
 
+.defaultcolor {
+  color: black; }
+
 /**BUTTON**/
 .button {
   display: inline-block;
@@ -2388,5 +2391,8 @@ div.profile-image img {
 div.profile-image a {
   text-transform: capitalize;
   color: black; }
+
+.defaultcolor {
+  color: #417505; }
 
 /*# sourceMappingURL=amexio-limegreen.css.map */
