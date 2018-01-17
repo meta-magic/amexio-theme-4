@@ -6,7 +6,8 @@ import { Routes, RouterModule } from '@angular/router';
 import { CommonModule} from "@angular/common";
 import { FormsModule} from "@angular/forms";
 import { LayoutComponent} from "./layout.component";
-import {AmexioFormsModule,AmexioLayoutModule,AmexioDataModule} from "amexio-ng-extensions";
+import {AmexioFormsModule,AmexioLayoutModule,
+  AmexioPaneModule,AmexioDataModule} from "amexio-ng-extensions";
 
 const routes: Routes = [
   { path: '', component: LayoutComponent }
@@ -14,9 +15,13 @@ const routes: Routes = [
 
 @NgModule({
   imports: [
-    CommonModule,FormsModule,
-    AmexioFormsModule,AmexioLayoutModule,AmexioDataModule,
-    RouterModule.forChild(routes),
+    CommonModule,
+    FormsModule,
+    AmexioFormsModule,
+    AmexioLayoutModule,
+    AmexioPaneModule,
+    AmexioDataModule,
+    RouterModule.forChild(routes)
   ],
   exports: [RouterModule],
   declarations : [
