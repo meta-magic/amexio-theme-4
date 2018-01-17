@@ -14,7 +14,48 @@ export class DataGridComponent implements OnInit {
   columnData: any[] = [];
   localData: any[] = [];
   treeLocalData: any;
+  bindData: any;
   constructor() {
+
+    this.bindData ={
+      "response": {
+        "success": true,
+        "message": "Fetching  Data  Request Succeeded: Profile",
+        "data": [
+          {
+            "name": "Ketan Gote",
+            "name_official": "Ketan Gote",
+            "profile": "ketan.jpg"
+          },
+          {
+            "name": "Pratik Kelwalkar",
+            "name_official": "Pratik Kelwalkar",
+            "profile": "pratik.jpg"
+          },
+          {
+            "name": "Dattaram Gawas",
+            "name_official": "Dattaram Gawas",
+            "profile": "dats.jpg"
+          },
+          {
+            "name": "Sagar Jadhav",
+            "name_official": "Sagar Jadhav",
+            "profile": "sagar.jpg"
+          },
+          {
+            "name": "Mahesh Pardeshi",
+            "name_official": "Mahesh Pardeshi",
+            "profile": "mahesh.jpg"
+          },
+          {
+            "name": "Ashutosh Jadhav",
+            "name_official": "Ashutosh Jadhav",
+            "profile": "ahutosh.jpg"
+          }
+        ]
+      }
+    };
+
     this.localData = [
       {
         "status": "Open",
@@ -130,25 +171,29 @@ export class DataGridComponent implements OnInit {
         'dataIndex':'status',
         'dataType':'string',
         'hidden':false,
-        'text':'Name'
+        'text':'Name',
+        'width': 10
       },
       {
         'dataIndex':'issue',
         'dataType':'string',
         'hidden':false,
-        'text':'Code1'
+        'text':'Code1',
+        'width': 50
       },
       {
         'dataIndex':'severity',
         'dataType':'string',
         'hidden':false,
-        'text':'severity'
+        'text':'severity',
+        'width': 10
       },
       {
         'dataIndex':'date',
         'dataType':'string',
         'hidden':false,
-        'text':'date'
+        'text':'date',
+        'width': 20
       }
     );
 
