@@ -52,6 +52,44 @@
         }
       ]
     },
+  {
+    "text": "Components",
+    "icon": "fa fa-clone fa-fw",
+    "mdbIcon": "dashboard",
+    "expand": true,
+    "children": [
+      {
+        "text": "Data",
+        "icon": "fa fa-database fa-fw",
+        "mdbIcon": "bug_report",
+        "link": "datagrid"
+      },
+      {
+        "text": "Action Button",
+        "icon": "fa fa-keyboard-o fa-fw",
+        "mdbIcon": "",
+        "link": "action"
+      },
+      {
+        "text": "Form Utilities",
+        "icon": "fa fa-bolt",
+        "mdbIcon": "",
+        "link": "formutils"
+      },
+      {
+        "text": "Layout",
+        "icon": "fa fa-television fa-fw",
+        "mdbIcon": "layout",
+        "link": "layout"
+      },
+      {
+        "text": "Navigation",
+        "icon": "fa fa-bars fa-fw",
+        "mdbIcon": "navigation",
+        "link": "navigation"
+      }
+    ]
+  },
     {
       "text": "Reports",
       "icon": "fa fa-picture-o fa-fw",
@@ -89,44 +127,6 @@
       "icon" : "fa fa-television fa-fw",
       "mdbIcon":"dashboard",
       "link" : "dashboard"
-    },
-    {
-      "text": "Components",
-      "icon": "fa fa-clone fa-fw",
-      "mdbIcon": "dashboard",
-      "expand": true,
-      "children": [
-        {
-          "text": "Data",
-          "icon": "fa fa-database fa-fw",
-          "mdbIcon": "bug_report",
-          "link": "datagrid"
-        },
-        {
-          "text": "Action Button",
-          "icon": "fa fa-keyboard-o fa-fw",
-          "mdbIcon": "",
-          "link": "action"
-        },
-        {
-          "text": "Form Utilities",
-          "icon": "fa fa-bolt",
-          "mdbIcon": "",
-          "link": "formutils"
-        },
-        {
-          "text": "Layout",
-          "icon": "fa fa-television fa-fw",
-          "mdbIcon": "layout",
-          "link": "layout"
-        },
-        {
-          "text": "Navigation",
-          "icon": "fa fa-bars fa-fw",
-          "mdbIcon": "navigation",
-          "link": "navigation"
-        }
-      ]
     }
   ]
 }
