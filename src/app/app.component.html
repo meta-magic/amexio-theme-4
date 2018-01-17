@@ -12,6 +12,10 @@
     <i class="fa fa-user-circle fa-fw fa-lg"></i>
   </amexio-nav-item>
 
+  <amexio-nav-item position-right>
+    <i class="fa fa-snowflake-o fa-fw fa-lg" (click)="themeChange()" style="cursor: pointer;"></i>
+  </amexio-nav-item>
+
 </amexio-nav>
 
 <br><br><br>
@@ -30,3 +34,21 @@
       <!-- <amexio-notification [messageData]="data"></amexio-notification> -->
   </amexio-column>
 </amexio-row>
+
+<amexio-window [(showWindow)]="flag" [closable]="true">
+  <amexio-header>
+    Select theme
+  </amexio-header>
+
+  <amexio-body>
+    <amexio-row>
+      <amexio-column [size]="12">
+        This is the window layout
+      </amexio-column>
+    </amexio-row>
+  </amexio-body>
+
+  <amexio-action>
+    Select
+  </amexio-action>
+</amexio-window>

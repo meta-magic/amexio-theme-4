@@ -21,7 +21,7 @@ export class SampleComponent implements OnInit {
   radioGroupData:any;
 
   bindData : any;
-
+  rate : number = 5;
 
   constructor() {
     this.checkboxGroupdata = {

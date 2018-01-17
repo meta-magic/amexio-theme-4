@@ -12,6 +12,8 @@ export class AppComponent {
   data : any=[];
   httpResponse : any;
   menuData : any[] = [];
+  flag : boolean;
+
   nodeClick(data){
     console.log(JSON.stringify(data));
   }
@@ -22,6 +24,7 @@ export class AppComponent {
   }
 
   constructor(public _http : Http,private _router : Router){
+    this.flag = false;
     this._http.get('assets/data/menus/topmenu.json').subscribe(
       response=>{
         this.httpResponse = response.json()
@@ -41,5 +44,10 @@ export class AppComponent {
     if(menuItem.menuId && menuItem.menuId==2){
       this.data.push({'msg':'You have new email', 'type' : 'info'});
     }
+  }
+
+  themeChange(){
+    debugger;
+    this.flag=!this.flag;
   }
 }
