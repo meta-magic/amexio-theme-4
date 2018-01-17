@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import {Routes, RouterModule} from '@angular/router';
 import { AppComponent } from './app.component';
+import {CookieService} from 'ngx-cookie-service';
 import {
   AmexioFormsModule, AmexioLayoutModule, AmexioNavModule, AmexioWidgetModule,  CommonDataService,
   DeviceQueryService,IconLoaderService,AmexioChartsModule
@@ -85,7 +86,7 @@ const route: Routes = [
     AmexioLayoutModule,AmexioFormsModule,
 
   ],
-  providers: [DeviceQueryService,CommonDataService,IconLoaderService],
+  providers: [DeviceQueryService,CommonDataService,IconLoaderService,CookieService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

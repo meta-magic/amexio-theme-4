@@ -26,7 +26,7 @@ import {FormsModule} from "@angular/forms";
 
        <amexio-row>
         <amexio-column size="6">
-          <amexio-rating-input [max]="5" [(ngModel)]="rate"></amexio-rating-input>
+          <amexio-rating-input [max]="5" [(ngModel)]="rate" [fullIcon]="'☑'" [emptyIcon]="'☐'"></amexio-rating-input>
           <b><p>Rated : {{rate}}</p></b>
         </amexio-column>
          
@@ -283,7 +283,7 @@ import {FormsModule} from "@angular/forms";
 })
 
 export class FormUtilsComponent implements OnInit {
-  rate : number;
+  rate : number=3;
   rate1 : number = 7;
   currentDate1 : any;
   toggleMsgArrayR : any[] = [];

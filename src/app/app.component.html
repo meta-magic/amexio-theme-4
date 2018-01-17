@@ -22,10 +22,9 @@
                       [dataReader]="'data'"
                       [searchPlaceHolder]="'Search Theme'"
                       [displayField]="'themeName'"
-                      [filter]="false"
+                      [filter]="true"
                       [enableCheckBox]="false"
-                      (rowClick)="themeChange($event)"
-      >
+                      (rowClick)="themeChange($event)">
         <ng-template #amexioBodyTmpl let-row="row">
           <amexio-row>
             <amexio-column [size]="12">
