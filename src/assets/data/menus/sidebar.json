@@ -77,7 +77,7 @@
         "link": "formutils"
       },
       {
-        "text": "Layout",
+        "text": "Panels",
         "icon": "fa fa-television fa-fw",
         "mdbIcon": "layout",
         "link": "layout"
