@@ -71,8 +71,7 @@
           [fieldlabel]="'Time Of Birth'"
           [timepicker]="true"
           [datepicker]="false"
-          [ngModel]="time"
-          (ngModelChange)="onChangeTime($event)">
+          [ngModel]="time">
         </amexio-date-time-picker>
       </amexio-column>
     </amexio-row>
@@ -127,7 +126,7 @@
     <amexio-row>
       <amexio-column [size]="6">
         <amexio-checkbox-group
-          (onSelection)="onClick($event)" [fieldlabel]="'Hobbies'" name="language"
+          [fieldlabel]="'Hobbies'" name="language"
           [horizontal]="true"
 
                          [datareader]="'response.data'"
@@ -141,7 +140,7 @@
 
       <amexio-column [size]="6">
         <amexio-radio-group
-          name="name" (onSelection)="onClick($event)"
+          name="name"
                                   [fieldlabel] = "'Gender'"
                             [horizontal]="true"
                             [datareader]="'response.data'"
@@ -152,18 +151,6 @@
         </amexio-radio-group>
       </amexio-column>
     </amexio-row>
-
-<!--
-    <amexio-row>
-      <amexio-column [size]="6">
-        <amexio-toggle [fieldlabel]="'On/Off'" (onChange)="onClick($event)"></amexio-toggle>
-      </amexio-column>
-      <amexio-column [size]="6">
-        <amexio-checkbox  [fieldlabel]="'I Agree'" (onSelection)="onClick($event)"></amexio-checkbox>
-      </amexio-column>
-    </amexio-row>
--->
-
     <amexio-row>
       <amexio-column [size]="6">
         <amexio-tag-input [datareader]="'response.data'"
@@ -171,8 +158,7 @@
                           [httpmethod]="'get'"
                           [key]="'countryName'"
                           [displayfield]="'countryName'"
-                          [fieldlabel]="'Having visa'"
-                          (onChange)="value = $event">
+                          [fieldlabel]="'Having visa'">
         </amexio-tag-input>
       </amexio-column>
       <amexio-column [size]="6">

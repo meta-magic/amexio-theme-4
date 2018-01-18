@@ -12,7 +12,7 @@ export class AppComponent {
   menuData: any[] = [];
   flag: boolean;
   newThemePath: string;
-
+  msgList:any=[];
   routeToLink(data: any) {
     console.log(JSON.stringify(data));
     if (!data.hasOwnProperty('children') && data.link) this._router.navigate([data.link]);
@@ -40,6 +40,11 @@ export class AppComponent {
       linkEl.href = 'assets/themes/mdb-blue.css';
       document.head.appendChild(linkEl);
     }
+  }
+  //on Bell Click
+  onBellClick(){
+    debugger;
+  this.msgList.push('Hello,User');
   }
 
   //Window Open

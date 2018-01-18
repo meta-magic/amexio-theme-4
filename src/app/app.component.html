@@ -3,8 +3,8 @@
     <i class="fa fa-home fa-fw fa-lg"></i>
   </amexio-nav-item>
   <amexio-nav-item position-right>
-    <i class="fa fa-bell fa-fw fa-lg"></i>
-    <amexio-notification [closable]="true" [messageData]="Hello"></amexio-notification>
+    <i class="fa fa-bell fa-fw fa-lg" (click)="onBellClick()"></i>
+    <amexio-notification [autodismissmsginterval]="2000" [autodismissmsg]="true" [verticalposition]="'top'" [horizontalposition]="'right'" [closable]="true" [messageData]="msgList"></amexio-notification>
   </amexio-nav-item>
   <amexio-nav-item position-right>
     <span>John Doe</span>
@@ -54,25 +54,3 @@
 
   </amexio-column>
 </amexio-row>
-
-<!--<amexio-window [(showWindow)]="flag" [closable]="true">-->
-<!--<amexio-header>-->
-<!--Select theme-->
-<!--</amexio-header>-->
-
-<!--<amexio-body>-->
-<!--<amexio-row>-->
-<!--<amexio-column [size]="12">-->
-<!--<amexio-dropdown [httpurl]="'assets/data/themes/theme.json'"-->
-<!--[httpmethod]="'get'" [displayfield]="'themeName'" [valuefield]="'themeCssFile'"-->
-<!--(onSingleSelect)="themeChange($event)"-->
-<!--&gt;-->
-<!--</amexio-dropdown>-->
-<!--</amexio-column>-->
-<!--</amexio-row>-->
-<!--</amexio-body>-->
-
-<!--<amexio-action>-->
-<!--Select-->
-<!--</amexio-action>-->
-<!--</amexio-window>-->

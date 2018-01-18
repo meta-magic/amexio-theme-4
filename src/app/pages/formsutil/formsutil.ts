@@ -286,6 +286,7 @@ export class FormUtilsComponent implements OnInit {
   rate : number=3;
   rate1 : number = 7;
   currentDate1 : any;
+  currentDate:any;
   toggleMsgArrayR : any[] = [];
   toggleMsgArrayL : any[] = [];
  constructor() { }

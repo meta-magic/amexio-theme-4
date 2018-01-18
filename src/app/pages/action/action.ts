@@ -105,20 +105,20 @@ import {AmexioDataModule, AmexioFormsModule, AmexioLayoutModule, AmexioWidgetMod
         <amexio-row>
           <amexio-column [size]="4">
             <amexio-btn-dropdown [label]="'Button'" [type]="'primary'" [size]="'default'">
-              <amexio-btn-dropdown-item [label]="'Expand'" [icon]="'fa fa-arrows-alt'" (onItemClick)="onItemClick($event)"></amexio-btn-dropdown-item>
-              <amexio-btn-dropdown-item [label]="'Delete'"  [icon]="'fa fa-trash'" (onItemClick)="onItemClick($event)"></amexio-btn-dropdown-item>
+              <amexio-btn-dropdown-item [label]="'Expand'" [icon]="'fa fa-arrows-alt'" ></amexio-btn-dropdown-item>
+              <amexio-btn-dropdown-item [label]="'Delete'"  [icon]="'fa fa-trash'" ></amexio-btn-dropdown-item>
             </amexio-btn-dropdown>
           </amexio-column>
           <amexio-column [size]="4">
             <amexio-btn-dropdown [label]="'Button'" [type]="'success'" [size]="'default'">
-              <amexio-btn-dropdown-item [label]="'Expand'" [icon]="'fa fa-arrows-alt'" (onItemClick)="onItemClick($event)"></amexio-btn-dropdown-item>
-              <amexio-btn-dropdown-item [label]="'Delete'"  [icon]="'fa fa-trash'" (onItemClick)="onItemClick($event)"></amexio-btn-dropdown-item>
+              <amexio-btn-dropdown-item [label]="'Expand'" [icon]="'fa fa-arrows-alt'"></amexio-btn-dropdown-item>
+              <amexio-btn-dropdown-item [label]="'Delete'"  [icon]="'fa fa-trash'" ></amexio-btn-dropdown-item>
             </amexio-btn-dropdown>
           </amexio-column>
           <amexio-column [size]="4">
             <amexio-btn-dropdown [label]="'Button'" [type]="'danger'" [size]="'default'">
-              <amexio-btn-dropdown-item [label]="'Expand'" [icon]="'fa fa-arrows-alt'" (onItemClick)="onItemClick($event)"></amexio-btn-dropdown-item>
-              <amexio-btn-dropdown-item [label]="'Delete'"  [icon]="'fa fa-trash'" (onItemClick)="onItemClick($event)"></amexio-btn-dropdown-item>
+              <amexio-btn-dropdown-item [label]="'Expand'" [icon]="'fa fa-arrows-alt'"></amexio-btn-dropdown-item>
+              <amexio-btn-dropdown-item [label]="'Delete'"  [icon]="'fa fa-trash'" ></amexio-btn-dropdown-item>
             </amexio-btn-dropdown>
           </amexio-column>
         </amexio-row>

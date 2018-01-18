@@ -19,7 +19,8 @@ export class SampleComponent implements OnInit {
   checkboxGroupdata : any;
 
   radioGroupData:any;
-
+  time:any;
+  name:any;
   bindData : any;
   rate : number = 5;
 
