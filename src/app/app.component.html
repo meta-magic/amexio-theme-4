@@ -15,7 +15,7 @@
 
   <amexio-nav-item position-right>
     <i class="fa fa-snowflake-o fa-fw fa-lg" (click)="toggle()" style="cursor: pointer;"></i>
-    <div style="position: absolute;" *ngIf="flag">
+    <div style="position: absolute;padding-right: 30px" *ngIf="flag">
       <amexio-listbox [height]="400" [header]="'Themes'"
                       [httpurl]="'assets/data/themes/theme.json'"
                       [httpmethod]="'get'"
