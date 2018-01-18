@@ -22,10 +22,10 @@
 
         <amexio-treeview  [data]="data"
                           (selectedRecord)="onRowSelect($event)"
-                          [enableCheckBox]="false">
+                          [enablecheckbox]="false">
         </amexio-treeview>
-        <amexio-listbox [searchPlaceHolder]="'Search Contacts'" [data]="bindData" [filter]="true"
-                        [enableCheckBox] = "false" [datareader]="'response.data'"
+        <amexio-listbox [searchplaceholder]="'Search Contacts'" [data]="bindData" [filter]="true"
+                        [enablecheckbox] = "false" [datareader]="'response.data'"
                         [displayfield]="'name'">
           <ng-template #amexioBodyTmpl let-row="row">
             <div class="profile-image">
