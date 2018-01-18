@@ -1830,21 +1830,22 @@ input[type=range]:focus::-ms-fill-upper {
 .sidenav .defaultnode .node-icon {
   padding-right: 20px; }
 
-.amexio-dockbar {
+.dockbar {
   float: left;
   width: 70px;
-  border: 1px solid #f1f1f1;
-  background-color: #dee0e3;
-  position: relative; }
+  background-color: #FF0090;
+  color: #ced4da;
+  position: relative;
+  border-top: 1px solid #ced4da; }
 
-.amexio-dockbar-item {
-  background-color: #f1f1f1; }
+.dockbar-content {
+  background-color: white; }
 
 /* Style the buttons inside the tab */
-.amexio-dockbar button {
+.dockbar button {
   display: block;
   background-color: inherit;
-  color: #adadad;
+  color: #ced4da;
   padding: 5px;
   width: 100%;
   border: none;
@@ -1853,36 +1854,43 @@ input[type=range]:focus::-ms-fill-upper {
   cursor: pointer;
   transition: 0.3s;
   font-size: 17px;
-  border-bottom: 1px solid #c7c7c7;
-  border-left: 5px solid #dee0e3;
+  border-bottom: 1px solid #ced4da;
+  border-left: 1px solid #ced4da;
   height: 50px; }
 
 /* Change background color of buttons on hover */
-.amexio-dockbar button:hover {
-  background-color: #f1f1f1; }
+.dockbar button:hover {
+  background-color: #ff66bc;
+  color: white; }
 
 /* Create an active/current "tab button" class */
-.amexio-dockbar button.active {
-  background-color: #f1f1f1;
-  color: black;
-  border-left: 5px solid #3192e1; }
+.dockbar button.active {
+  background-color: #ff66bc;
+  color: white;
+  border-left: 3px solid #cc0073; }
 
-.amexio-dockbar-label-highlight {
+.dockbar-label-highlight {
   color: black;
   font-weight: bold; }
 
-.amexio-dockbar-item-close-bar {
+.dockbar-item-close-bar {
   font-size: 24px;
   float: right;
-  color: black;
-  font-weight: 500; }
+  color: #cc0073;
+  font-weight: 500;
+  cursor: pointer; }
 
-.amexio-dockbar-title {
-  box-sizing: border-box;
+.dockbar-title {
   font-size: 17px;
   font-weight: 500;
   padding: 15px 10px 10px 90px;
-  border-bottom: 1px solid #c7c7c7; }
+  border-bottom: 1px solid #cc0073; }
+
+.dockbar-active-content {
+  border-top: 3px solid #cc0073;
+  border-right: 3px solid #cc0073;
+  border-bottom: 3px solid #cc0073;
+  height: 100%; }
 
 .accordion {
   background-color: #ff66bc;
