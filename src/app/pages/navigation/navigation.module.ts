@@ -7,8 +7,6 @@ import { CommonModule} from "@angular/common";
 import { FormsModule} from "@angular/forms";
 import { NavigationComponent } from "./navigation.component";
 import {AmexioFormsModule,AmexioNavModule,AmexioLayoutModule,AmexioDataModule,AmexioPaneModule} from "amexio-ng-extensions";
-import {TestDockbarComponent} from "../../component/dockedbar/dockbaritem";
-import {TestDockedBarToolComponent} from "../../component/dockedbar/dockettoolbar.component";
 
 const routes: Routes = [
   { path: '', component: NavigationComponent }
@@ -22,9 +20,7 @@ const routes: Routes = [
   ],
   exports: [RouterModule],
   declarations : [
-    NavigationComponent,
-    TestDockbarComponent,
-    TestDockedBarToolComponent
+    NavigationComponent
   ],
   providers : []
 })
