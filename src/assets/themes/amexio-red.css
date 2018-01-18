@@ -1112,6 +1112,11 @@ input:checked + .toggle-slider:before {
   margin: 1px 0;
   padding: 10px;
   text-align: left; }
+  .listbox .list .list-items .datatable {
+    border: none;
+    border-collapse: inherit; }
+  .listbox .list .list-items .datatable-row:nth-child(odd) {
+    background: none; }
 
 .listbox .list .list-items:hover {
   background-color: #c1292c; }
