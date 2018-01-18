@@ -60,11 +60,9 @@
 
 
     <amexio-tab [title]="'Carousel View'" [icon]="'fa fa-eercast'" >
-      <amexio-carousel [data]="viewData" mode="single" [header]="'Amexio Themes'" >
+      <amexio-carousel [data]="viewData" mode="multiple" [header]="'Amexio Themes'" shuffleinterval="2000" >
         <ng-template let-i amexioTemplate="item">
-          <div style="height: 200px;width: 700px;">
-            {{i.caption}} <img src={{i.img}}/>
-            </div>
+          <img src={{i.img}}/>            
         </ng-template>
       </amexio-carousel>
     </amexio-tab>
