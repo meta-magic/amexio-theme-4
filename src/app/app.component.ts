@@ -32,18 +32,19 @@ export class AppComponent {
       this.removeExistingTheme(currentTheme);
       let linkEl = document.createElement('link');
       linkEl.setAttribute('rel', 'stylesheet');
+      linkEl.id='themeid';
       linkEl.href = 'assets/themes/'+this.cookieService.get('theme_name')+'.css';
       document.head.appendChild(linkEl);
     } else {
       let linkEl = document.createElement('link');
       linkEl.setAttribute('rel', 'stylesheet');
+      linkEl.id='themeid';
       linkEl.href = 'assets/themes/mdb-blue.css';
       document.head.appendChild(linkEl);
     }
   }
   //on Bell Click
   onBellClick(){
-    debugger;
   this.msgList.push('Hello,User');
   }
 
@@ -65,6 +66,7 @@ export class AppComponent {
   addNewTheme(newTheme: any) {
     let linkEl = document.createElement('link');
     linkEl.setAttribute('rel', 'stylesheet');
+    linkEl.id='themeid';
     linkEl.href = newTheme;
     document.head.appendChild(linkEl);
   }
@@ -73,6 +75,7 @@ export class AppComponent {
   removeExistingTheme(keyList: any) {
     if (keyList != null && keyList && keyList.length != 0) {
       keyList.forEach((key) => {
+        if(key.id=='themeid')
         document.head.removeChild(key);
       });
     }

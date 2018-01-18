@@ -28,7 +28,7 @@
                   <amexio-data-table-column [width]="50" [dataindex]="'name_official'" [datatype]="'string'" [hidden]="false" [text]="'Name'">
                     <ng-template #amexioBodyTmpl let-column let-row="row">
                         <span>
-                            <img src="" [attr.src]="'http://amexio.org/showcaseapp/v3/assets/images/flags/flags/'+row.flag_32">&nbsp;{{row.name}} ( {{row.name_official}} )
+                            <img src="" [attr.src]="'http://amexio.org/showcaseapp/v3assets/images/flags/flags/'+row.flag_32">&nbsp;{{row.name}} ( {{row.name_official}} )
                         </span>
                     </ng-template>
                   </amexio-data-table-column>

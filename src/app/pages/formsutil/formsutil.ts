@@ -261,7 +261,7 @@ import {FormsModule} from "@angular/forms";
        
        <amexio-row>
          <amexio-column size="12">
-           <amexio-video-player path="http://www.amexio.org/showcaseapp/v3/assets/videos/sample_bunny.mp4"></amexio-video-player>
+           <amexio-video-player path="http://www.amexio.org/showcaseapp/v3assets/videos/sample_bunny.mp4"></amexio-video-player>
          </amexio-column>
        </amexio-row>
        
