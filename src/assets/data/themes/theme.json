@@ -1,87 +1,85 @@
 {
   "data":[{
-    "themeName":"Cyan",
+    "themeName":"MDB Blue",
+    "themeCssFile":"mdb-blue"
+  }, {
+    "themeName":"MDB Amber",
+    "themeCssFile":"mdb-amber"
+  },{
+    "themeName":"MDB Army-Olive",
+    "themeCssFile":"mdb-army-olive"
+  },{
+    "themeName":"MDB Black",
+    "themeCssFile":"mdb-black"
+  },{
+    "themeName":"MDB Blue Grey",
+    "themeCssFile":"mdb-bluegrey"
+  },{
+    "themeName":"MDB Cerise Magenta",
+    "themeCssFile":"mdb-cerise-magenta"
+  },{
+    "themeName":"MDB Charcoal Iron",
+    "themeCssFile":"mdb-charcoal-iron"
+  },{
+    "themeName":"MDB Chocolate Russet",
+    "themeCssFile":"mdb-chocolate-russet"
+  },{
+    "themeName":"MDB Fern Lime",
+    "themeCssFile":"mdb-fern-lime"
+  },{
+    "themeName":"MDB French Rose Mulberry",
+    "themeCssFile":"mdb-frenchrose-mulberry"
+  },{
+    "themeName":"MDB Grape Voliet",
+    "themeCssFile":"mdb-grape-voliet"
+  },{
+    "themeName":"MDB Hot Pink Fuchsia",
+    "themeCssFile":"mdb-hot-pint-fuchsia"
+  },{
+    "themeName":"MDB Indigo",
+    "themeCssFile":"mdb-indigo"
+  },{
+    "themeName":"MDB Jungle Mint",
+    "themeCssFile":"mdb-jungle-mint"
+  },{
+    "themeName":"MDB Light Blue",
+    "themeCssFile":"mdb-lightblue"
+  },{
+    "themeName":"MDB Mahogany Barny Red",
+    "themeCssFile":"mdb-mahogany-barny-red"
+  },{
+    "themeName":"MDB Navy Egyptian",
+    "themeCssFile":"mdb-navy-egyptian"
+  },{
+    "themeName":"MDB Rasberry Sangria",
+    "themeCssFile":"mdb-rasberry-sangria"
+  },{
+    "themeName":"MDB Red Maroon",
+    "themeCssFile":"mdb-red-maroon"
+  },{
+    "themeName":"MDB Sacramento Jade",
+    "themeCssFile":"mdb-sacramento-jade"
+  },{
+    "themeName":"Amexio Cyan",
     "themeCssFile":"amexio-cyan"
   },{
-    "themeName":"Deep-Orange",
+    "themeName":"Amexio Deep Orange",
     "themeCssFile":"amexio-deep-orange"
   },{
-    "themeName":"Matrix",
+    "themeName":"Amexio Matrix",
     "themeCssFile":"amexio-matrix"
   },{
-    "themeName":"Orange",
+    "themeName":"Amexio Orange",
     "themeCssFile":"amexio-orange"
   },{
-    "themeName":"Polygon",
+    "themeName":"Amexio Polygon",
     "themeCssFile":"amexio-polygon"
   },{
-    "themeName":"Pyramind",
+    "themeName":"Amexio Pyramind",
     "themeCssFile":"amexio-pyramind"
   }, {
-    "themeName":"Red",
+    "themeName":"Amexio Red",
     "themeCssFile":"amexio-red"
-  },
-
-    {
-      "themeName":"Amber",
-      "themeCssFile":"mdb-amber"
-    },{
-      "themeName":"Army-Olive",
-      "themeCssFile":"mdb-army-olive"
-    },{
-      "themeName":"Black",
-      "themeCssFile":"mdb-black"
-    },{
-      "themeName":"Blue",
-      "themeCssFile":"mdb-blue"
-    },{
-      "themeName":"Bluegrey",
-      "themeCssFile":"mdb-bluegrey"
-    },{
-      "themeName":"Cerise-Magenta",
-      "themeCssFile":"mdb-cerise-magenta"
-    },{
-      "themeName":"Charcoal-Iron",
-      "themeCssFile":"mdb-charcoal-iron"
-    },{
-      "themeName":"Chocolate-Russet",
-      "themeCssFile":"mdb-chocolate-russet"
-    },{
-      "themeName":"Fern-Lime",
-      "themeCssFile":"mdb-fern-lime"
-    },{
-      "themeName":"Frenchrose-Mulberry",
-      "themeCssFile":"mdb-frenchrose-mulberry"
-    },{
-      "themeName":"Grape-Voliet",
-      "themeCssFile":"mdb-grape-voliet"
-    },{
-      "themeName":"Hot-Pint-Fuchsia",
-      "themeCssFile":"mdb-hot-pint-fuchsia"
-    },{
-      "themeName":"Indigo",
-      "themeCssFile":"mdb-indigo"
-    },{
-      "themeName":"Jungle-Mint",
-      "themeCssFile":"mdb-jungle-mint"
-    },{
-      "themeName":"Lightblue",
-      "themeCssFile":"mdb-lightblue"
-    },{
-      "themeName":"Mahogany-Barny-Red",
-      "themeCssFile":"mdb-mahogany-barny-red"
-    },{
-      "themeName":"Navy-Egyptian",
-      "themeCssFile":"mdb-navy-egyptian"
-    },{
-      "themeName":"Rasberry-Sangria",
-      "themeCssFile":"mdb-rasberry-sangria"
-    },{
-      "themeName":"Red-Maroon",
-      "themeCssFile":"mdb-red-maroon"
-    },{
-      "themeName":"Sacramento-Jade",
-      "themeCssFile":"mdb-sacramento-jade"
-    }]
+  }]
 
 }
