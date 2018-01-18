@@ -30,21 +30,54 @@ clickMsgArray:any=[];
         [
           {
             "title":"view 1",
-            "img":"./assets/images/theme/blue-grey.jpg",
-            "caption":"Blue-Grey",
+            "img":"./assets/images/carousel/set1/1.jpg",
             "active" : true
           },
           {
             "title":"view 2",
-            "img":"./assets/images/theme/brown.jpg",
-            "caption":"Brown",
-            "active" : false
+            "img":"./assets/images/carousel/set1/2.jpg"
           },
           {
             "title":"view 3",
-            "img":"./assets/images/theme/deeporange.jpg",
-            "caption":"Deep-Orange",
-            "active" : false
+            "img":"./assets/images/carousel/set1/3.jpg"
+
+          },
+          {
+            "title":"view 4",
+            "img":"./assets/images/carousel/set1/4.jpg"
+          },
+          {
+            "title":"view 5",
+            "img":"./assets/images/carousel/set1/5.jpg"
+
+          },
+          {
+            "title":"view 6",
+            "img":"./assets/images/carousel/set1/6.jpg"
+          },
+          {
+            "title":"view 7",
+            "img":"./assets/images/carousel/set1/7.jpg"
+          },
+          {
+            "title":"view 8",
+            "img":"./assets/images/carousel/set1/8.jpg"
+          },
+          {
+            "title":"view 9",
+            "img":"./assets/images/carousel/set1/9.jpg"
+          },
+          {
+            "title":"view 10",
+            "img":"./assets/images/carousel/set1/10.jpg"
+          },
+          {
+            "title":"view 11",
+            "img":"./assets/images/carousel/set1/11.jpg"
+          },
+          {
+            "title":"view 12",
+            "img":"./assets/images/carousel/set1/12.jpg"
           }
         ];
 
