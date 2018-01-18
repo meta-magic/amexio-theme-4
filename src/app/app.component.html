@@ -24,7 +24,7 @@
                       [displayfield]="'themeName'"
                       [filter]="true"
                       [enablecheckbox]="false"
-                      (rowClick)="themeChange($event)">
+                      (onRowClick)="themeChange($event)">
         <ng-template #amexioBodyTmpl let-row="row">
           <amexio-row>
             <amexio-column [size]="12">

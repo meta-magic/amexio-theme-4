@@ -127,7 +127,7 @@
     <amexio-row>
       <amexio-column [size]="6">
         <amexio-checkbox-group
-          (selectedValue)="onClick($event)" [fieldlabel]="'Hobbies'" name="language"
+          (onSelection)="onClick($event)" [fieldlabel]="'Hobbies'" name="language"
           [horizontal]="true"
 
                          [datareader]="'response.data'"
@@ -141,7 +141,7 @@
 
       <amexio-column [size]="6">
         <amexio-radio-group
-          name="name" (selectedValue)="onClick($event)"
+          name="name" (onSelection)="onClick($event)"
                                   [fieldlabel] = "'Gender'"
                             [horizontal]="true"
                             [datareader]="'response.data'"
@@ -159,7 +159,7 @@
         <amexio-toggle [fieldlabel]="'On/Off'" (onChange)="onClick($event)"></amexio-toggle>
       </amexio-column>
       <amexio-column [size]="6">
-        <amexio-checkbox  [fieldlabel]="'I Agree'" (selectedValue)="onClick($event)"></amexio-checkbox>
+        <amexio-checkbox  [fieldlabel]="'I Agree'" (onSelection)="onClick($event)"></amexio-checkbox>
       </amexio-column>
     </amexio-row>
 -->
