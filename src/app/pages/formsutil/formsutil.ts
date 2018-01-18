@@ -45,13 +45,13 @@ import {FormsModule} from "@angular/forms";
        <amexio-row>
          <h3>Primary</h3>
          <amexio-column [size]="4">
-           <amexio-progress-bar [currentValue]="'50'" [infinteMode]="false" type="primary"></amexio-progress-bar>
+           <amexio-progress-bar [currentvalue]="'50'" [infinite]="false" type="primary"></amexio-progress-bar>
          </amexio-column>
          <amexio-column [size]="4">
-           <amexio-progress-bar [currentValue]="'80'" [infinteMode]="false" type="success"></amexio-progress-bar>
+           <amexio-progress-bar [currentvalue]="'80'" [infinite]="false" type="success"></amexio-progress-bar>
          </amexio-column>
          <amexio-column [size]="4">
-           <amexio-progress-bar [currentValue]="'100'" [infinteMode]="false" type="success"></amexio-progress-bar>
+           <amexio-progress-bar [currentvalue]="'100'" [infinite]="false" type="success"></amexio-progress-bar>
          </amexio-column>
        </amexio-row>
 
@@ -59,26 +59,26 @@ import {FormsModule} from "@angular/forms";
        <amexio-row>
          <h3>Warning</h3>
          <amexio-column [size]="4">
-           <amexio-progress-bar [currentValue]="'30'" [infinteMode]="false" type="warning"></amexio-progress-bar>
+           <amexio-progress-bar [currentvalue]="'30'" [infinite]="false" type="warning"></amexio-progress-bar>
          </amexio-column>
          <amexio-column [size]="4">
-           <amexio-progress-bar [currentValue]="'55'" [infinteMode]="false" type="warning"></amexio-progress-bar>
+           <amexio-progress-bar [currentvalue]="'55'" [infinite]="false" type="warning"></amexio-progress-bar>
          </amexio-column>
          <amexio-column [size]="4">
-           <amexio-progress-bar [currentValue]="'95'" [infinteMode]="false" type="warning"></amexio-progress-bar>
+           <amexio-progress-bar [currentvalue]="'95'" [infinite]="false" type="warning"></amexio-progress-bar>
          </amexio-column>
        </amexio-row>
 
        <amexio-row>
          <h3>Success</h3>
          <amexio-column [size]="4">
-           <amexio-progress-bar [currentValue]="'45'" [infinteMode]="false" type="success"></amexio-progress-bar>
+           <amexio-progress-bar [currentvalue]="'45'" [infinite]="false" type="success"></amexio-progress-bar>
          </amexio-column>
          <amexio-column [size]="4">
-           <amexio-progress-bar [currentValue]="'63'" [infinteMode]="false" type="success"></amexio-progress-bar>
+           <amexio-progress-bar [currentvalue]="'63'" [infinite]="false" type="success"></amexio-progress-bar>
          </amexio-column>
          <amexio-column [size]="4">
-           <amexio-progress-bar [currentValue]="'99'" [infinteMode]="false" type="success"></amexio-progress-bar>
+           <amexio-progress-bar [currentvalue]="'99'" [infinite]="false" type="success"></amexio-progress-bar>
          </amexio-column>
        </amexio-row>
 
@@ -86,13 +86,13 @@ import {FormsModule} from "@angular/forms";
        <amexio-row>
          <h3>Danger</h3>
          <amexio-column [size]="4">
-           <amexio-progress-bar [currentValue]="'54'" [infinteMode]="false" type="danger"></amexio-progress-bar>
+           <amexio-progress-bar [currentvalue]="'54'" [infinite]="false" type="danger"></amexio-progress-bar>
          </amexio-column>
          <amexio-column [size]="4">
-           <amexio-progress-bar [currentValue]="'32'" [infinteMode]="false" type="danger"></amexio-progress-bar>
+           <amexio-progress-bar [currentvalue]="'32'" [infinite]="false" type="danger"></amexio-progress-bar>
          </amexio-column>
          <amexio-column [size]="4">
-           <amexio-progress-bar [currentValue]="'85'" [infinteMode]="false" type="danger"></amexio-progress-bar>
+           <amexio-progress-bar [currentvalue]="'85'" [infinite]="false" type="danger"></amexio-progress-bar>
          </amexio-column>
        </amexio-row>
 
@@ -100,13 +100,13 @@ import {FormsModule} from "@angular/forms";
        <amexio-row>
          <h3>Infinite</h3>
          <amexio-column [size]="4">
-           <amexio-progress-bar [currentValue]="'54'" [infinteMode]="true" type="danger"></amexio-progress-bar>
+           <amexio-progress-bar [currentvalue]="'54'" [infinite]="true" type="danger"></amexio-progress-bar>
          </amexio-column>
          <amexio-column [size]="4">
-           <amexio-progress-bar [currentValue]="'32'" [infinteMode]="true" type="success"></amexio-progress-bar>
+           <amexio-progress-bar [currentvalue]="'32'" [infinite]="true" type="success"></amexio-progress-bar>
          </amexio-column>
          <amexio-column [size]="4">
-           <amexio-progress-bar [currentValue]="'85'" [infinteMode]="true" type="warning"></amexio-progress-bar>
+           <amexio-progress-bar [currentvalue]="'85'" [infinite]="true" type="warning"></amexio-progress-bar>
          </amexio-column>
        </amexio-row>
 
