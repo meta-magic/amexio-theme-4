@@ -1,5 +1,5 @@
 <amexio-tab-view  [closable]="false">
-    <amexio-tab [title]="'Top Menu'" [active]="true" [icon]="'fa fa-bars'">
+    <amexio-tab [title]="'Top Menu'"[icon]="'fa fa-bars'">
        <amexio-card [header]="true">
   <amexio-header>Top Menu</amexio-header>
   <amexio-body>
@@ -34,7 +34,7 @@
 </amexio-card>
 
 </amexio-tab>
-<amexio-tab [title]="'Dockbar'" [icon]="'fa fa-cube'">
+<amexio-tab [title]="'Dockbar'"  [active]="true" [icon]="'fa fa-cube'">
 
 <amexio-card [header]="true">
   <amexio-header>Dockbar</amexio-header>
@@ -44,17 +44,17 @@
       <amexio-dockbar [height]="'300px'">
           <amexio-dockbar-item [icon]="'fa fa-star'"
                 [title]="'Menu-I'"
-                [width]="'350px'">
+                [width]="'350px'"  [height]="'295px'">
                 This is 1st dockbar item of Dockbar
           </amexio-dockbar-item>
           <amexio-dockbar-item [icon]="'fa fa-cube'"
                     [title]="'Menu-II'"
-                    [width]="'350px'">
+                    [width]="'350px'" [height]="'295px'">
                 This is 2nd dockbar item of Dockbar
           </amexio-dockbar-item>
           <amexio-dockbar-item [icon]="'fa fa-bug'"
                       [title]="'Menu-III'"
-                      [width]="'350px'">
+                      [width]="'350px'" [height]="'295px'">
                 This is 3rd dockbar item of Dockbar
           </amexio-dockbar-item>
       </amexio-dockbar>
