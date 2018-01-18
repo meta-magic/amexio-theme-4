@@ -9,7 +9,6 @@ import {
 } from "amexio-ng-extensions";
 import {DashboardComponent} from "./pages/dashboardex/dashboardex.component";
 import {SampleFormComponent} from "./pages/sampleformex/sampleformex.component";
-import {AmexioItemSelectorComponent1} from "./pages/sampleformex/item.selector.component";
 import {FormsModule} from "@angular/forms";
 
 const route: Routes = [
@@ -75,7 +74,6 @@ const route: Routes = [
     AppComponent,
     DashboardComponent,
     SampleFormComponent,
-    AmexioItemSelectorComponent1
   ],
   imports: [
     BrowserModule,
