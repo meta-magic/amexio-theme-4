@@ -193,7 +193,7 @@ import {FormsModule} from "@angular/forms";
                                         [placeholder]="'Enter address'"
                                         [errormsg]="'Please enter address'"
                                         [iconfeedback]="true"
-                                        [rows]="'1'" [columns]="'2'"
+                                        [rows]="'5'" [columns]="'2'"
                                         [allowblank]="false" [enablepopover]="true"
 
                  >
