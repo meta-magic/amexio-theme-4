@@ -8,6 +8,7 @@ import { FormsModule} from "@angular/forms";
 import { LayoutComponent} from "./layout.component";
 import {AmexioFormsModule,AmexioLayoutModule,
   AmexioPaneModule,AmexioDataModule,AmexioNavModule} from "amexio-ng-extensions";
+import {TestAmexioWindowPaneComponent} from "../../component/window.pane.component";
 
 const routes: Routes = [
   { path: '', component: LayoutComponent }
@@ -26,7 +27,8 @@ const routes: Routes = [
   ],
   exports: [RouterModule],
   declarations : [
-    LayoutComponent
+    LayoutComponent,
+    TestAmexioWindowPaneComponent
   ],
   providers : []
 })
