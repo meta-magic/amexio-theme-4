@@ -2,7 +2,7 @@
 "data":[
   {
     "text": "Home",
-    "icon" : "fa fa-home fa-fw fa-lg",
+    "icon" : "fa fa-home fa-fw",
     "mdbIcon" : "home",
     "link" : "home",
     "active":true
