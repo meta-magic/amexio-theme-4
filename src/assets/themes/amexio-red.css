@@ -1781,7 +1781,7 @@ input[type='range']::-webkit-slider-thumb {
 
 .card-header {
   display: flex;
-  padding: 20px 24px;
+  padding: 10px 24px;
   background: transparent;
   border-bottom: 3px solid #8d7d26;
   font-size: 20px;
@@ -1850,7 +1850,7 @@ fieldset {
   content: " ";
   width: 100%;
   height: 1px;
-  background-color: #D33134;
+  background-color: none;
   z-index: 0; }
 
 .stepwizard-step {
@@ -1878,18 +1878,18 @@ fieldset {
 .step-box-table-item {
   width: 2px;
   display: table-cell;
-  background-color: lightgray;
+  background-color: none;
   text-align: center;
   vertical-align: middle;
   line-height: 15px;
-  border: 1px solid black;
+  border: 1px solid #601221;
   font-weight: bolder; }
 
 .step-box-table-item.active {
-  background-color: #D33134; }
+  background-color: #D33134 !important; }
 
 .step-box-table-item.disbaled {
-  background-color: white;
+  background-color: #e9889b;
   cursor: not-allowed; }
 
 .tab {
@@ -2077,7 +2077,6 @@ button.app-button {
   border-bottom: 1px solid #601221; }
 
 .datatable .datatable-header .datatable-col {
-  height: 50px;
   font-weight: 500; }
 
 .datatable .datatable-header {
