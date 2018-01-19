@@ -151,7 +151,7 @@
                 <amexio-card [header]="false" [footer]="false">
                   <amexio-body>
                     <amexio-button type="primary" (onClick)="toggleClosable()" label="Dialog Box"></amexio-button>
-                    <amexio-test-window [showWindow]="showClosable" [closable]="true" type="window">
+                    <amexio-window [showWindow]="showClosable" [closable]="true" type="window">
                       <amexio-header>
                           Confirm
                         </amexio-header>
@@ -163,7 +163,7 @@
                                 <amexio-button (onClick)="showClosable = false" label="Cancel"></amexio-button>
                                 <amexio-button (onClick)="showClosable = false" label="Ok"></amexio-button>
                               </amexio-action>
-                    </amexio-test-window>
+                    </amexio-window>
                   </amexio-body>
                 </amexio-card>
               </amexio-tab>
