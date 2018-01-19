@@ -3,7 +3,7 @@
   <amexio-body>
 
     <amexio-tab-view  [closable]="false">
-      <amexio-tab [title]="'Form'" [active]="true" [icon]="'fa fa-laptop fa-fw'">
+      <amexio-tab [title]="'Form'" [active]="true"  [icon]="'fa fa-laptop fa-fw'">
         <amexio-card [header]="true" [footer]="true">
           <amexio-header>
             Card
@@ -223,7 +223,36 @@
           </amexio-tab>
         </amexio-right-vertical-tab-view>-->
       </amexio-tab>
+
+      <amexio-tab [title]="'Layouts'" [icon]="'fa fa-th'" >
+          <h4>Border Layout</h4>
+          <amexio-borderlayout>
+            <amexio-borderlayout-item position="north">
+              <amexio-card><amexio-body>NORTH</amexio-body></amexio-card>
+            </amexio-borderlayout-item>
+            <amexio-borderlayout-item position="east">
+              <amexio-card><amexio-body>EAST</amexio-body></amexio-card>
+            </amexio-borderlayout-item>
+            <amexio-borderlayout-item position="center">
+              <amexio-card><amexio-body>CENTER</amexio-body></amexio-card>
+            </amexio-borderlayout-item>
+            <amexio-borderlayout-item position="west">
+              <amexio-card><amexio-body>WEST</amexio-body></amexio-card>
+            </amexio-borderlayout-item>
+            <amexio-borderlayout-item position="south">
+              <amexio-card><amexio-body>SOUTH</amexio-body></amexio-card>
+            </amexio-borderlayout-item>
+          </amexio-borderlayout>
+          <h4>Row Column Layout</h4>
+          <amexio-row>
+            <amexio-column size="4"><amexio-card><amexio-body>COL Size 4</amexio-body></amexio-card></amexio-column>
+            <amexio-column size="3"><amexio-card><amexio-body>COL Size 3</amexio-body></amexio-card></amexio-column>
+            <amexio-column size="2"><amexio-card><amexio-body>COL Size 2</amexio-body></amexio-card></amexio-column>
+            <amexio-column size="3"><amexio-card><amexio-body>COL Size 3</amexio-body></amexio-card></amexio-column>
+          </amexio-row>
+      </amexio-tab>
     </amexio-tab-view>
+
 
   </amexio-body>
 </amexio-card>
