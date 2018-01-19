@@ -1375,7 +1375,10 @@ input[type='range']::-webkit-slider-thumb {
   .menubar .menuheader .menulink:hover .menu-content {
     display: block; }
   .menubar .menuheader .menulink:hover a {
-    color: #020103; }
+    color: blue; }
+
+.menulink:hover {
+  color: blue; }
 
 .menu-content {
   display: none;
@@ -1423,7 +1426,7 @@ input[type='range']::-webkit-slider-thumb {
   color: #603A63; }
 
 .menu-content .menu-content-cols .content .menu-links-header:hover {
-  color: #020103; }
+  color: blue; }
 
 .menu-content .menu-content-cols .content .menulinks {
   width: 100%;
@@ -1432,7 +1435,7 @@ input[type='range']::-webkit-slider-thumb {
   color: #603A63; }
 
 .menu-content .menu-content-cols .content .menulinks:hover {
-  color: #020103; }
+  color: blue; }
 
 @media only screen and (max-width: 959px) {
   .menu-content .menu-content-cols .col-menu-nodes {
@@ -1459,7 +1462,7 @@ input[type='range']::-webkit-slider-thumb {
     .menubar .menuheader .menulink:hover .menu-content {
       display: none; }
     .menubar .menuheader .menulink:hover a {
-      color: #020103; } }
+      color: blue; } }
 /**Dockbar **/
 .amexio-dockbar-item-close-bar {
   font-size: 24px;
