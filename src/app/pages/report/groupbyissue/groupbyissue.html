@@ -5,19 +5,18 @@ Issue Severity Details
   <amexio-body>
       <amexio-datagrid
         [title]="'Issue group by Severity'"
-        [pagesize] = "10"
+        [pagesize] ="10"
         [groupby]="true"
+        [enablecheckbox]="true"
         [groupbydataindex]="'severity'"
         [datareader]="'response.data'"
         [enablecheckbox]="false"
         [httpurl]="'assets/data/issue.json'"
-        [httpmethod]="'get'"
-        (selectedRowData)="onRowSelect($event)"
-        (rowSelect)="onRowClick($event)" [cclass]="'gridStyle'" [tableDatacclass]="'datagridrow'" [tableTitlecclass]="'headerStyle'" [tableHeadercclass]="'headerStyleColumn'">
-        <amexio-data-table-column [dataindex]="'status'" [datatype]="'string'" [hidden]="false" [text]="'Status'"></amexio-data-table-column>
-        <amexio-data-table-column [dataindex]="'issue'" [datatype]="'string'" [hidden]="false" [text]="'Issue'"></amexio-data-table-column>
-        <amexio-data-table-column [dataindex]="'severity'" [datatype]="'string'" [hidden]="false" [text]="'Severity'"></amexio-data-table-column>
-        <amexio-data-table-column [dataindex]="'date'" [datatype]="'string'" [hidden]="false" [text]="'Date'"></amexio-data-table-column>
+        [httpmethod]="'get'">
+        <amexio-data-table-column [width]="10" [dataindex]="'status'" [datatype]="'string'" [hidden]="false" [text]="'Status'"></amexio-data-table-column>
+        <amexio-data-table-column [width]="50" [dataindex]="'issue'" [datatype]="'string'" [hidden]="false" [text]="'Issue'"></amexio-data-table-column>
+        <amexio-data-table-column [width]="10" [dataindex]="'severity'" [datatype]="'string'" [hidden]="false" [text]="'Severity'"></amexio-data-table-column>
+        <amexio-data-table-column [width]="20" [dataindex]="'date'" [datatype]="'string'" [hidden]="false" [text]="'Date'"></amexio-data-table-column>
       </amexio-datagrid>
     </amexio-body>
     </amexio-card>
