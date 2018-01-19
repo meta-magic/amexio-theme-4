@@ -39,7 +39,7 @@ export class AppComponent {
       let linkEl = document.createElement('link');
       linkEl.setAttribute('rel', 'stylesheet');
       linkEl.id='themeid';
-      linkEl.href = 'assets/themes/mdb-blue.css';
+      linkEl.href = 'assets/themes/mda-blue.css';
       document.head.appendChild(linkEl);
     }
   }
