@@ -27,9 +27,12 @@
                 <amexio-datagrid  [enablecheckbox]="true" title="Country Grid"   [httpmethod]="'get'" [httpurl]="'assets/data/datagrid.json'" [datareader]="'data'"  [pagesize] = "10" [enabledatafilter]="false">
                   <amexio-data-table-column [width]="50" [dataindex]="'name_official'" [datatype]="'string'" [hidden]="false" [text]="'Name'">
                     <ng-template #amexioBodyTmpl let-column let-row="row">
-                        <span>
-                            <img src="" [attr.src]="'http://amexio.org/showcaseapp/v3assets/images/flags/flags/'+row.flag_32">&nbsp;{{row.name}} ( {{row.name_official}} )
-                        </span>
+                      <div class="table" >
+                        <div class="tablerow" style="height:50px;">
+                          <div class="tablecol"> <img src="" [attr.src]="'http://amexio.org/showcaseapp/v3assets/images/flags/flags/'+row.flag_32"/></div>
+                          <div class="tablecol"> {{row.name}} ( {{row.name_official}} )</div>
+                        </div>
+                      </div>
                     </ng-template>
                   </amexio-data-table-column>
                   <amexio-data-table-column [width]="20" [dataindex]="'latitude'" [datatype]="'string'" [hidden]="false" [text]="'Latitude'"></amexio-data-table-column>
