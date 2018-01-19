@@ -10,8 +10,6 @@ import {Component, OnInit} from '@angular/core';
 })
 
 export class DataGridComponent implements OnInit {
-
-  columnData: any[] = [];
   localData: any[] = [];
   treeLocalData: any;
   bindData: any;
@@ -165,37 +163,6 @@ export class DataGridComponent implements OnInit {
         "date":"11-04-2017"
       }
     ];
-
-    this.columnData.push(
-      {
-        'dataindex':'status',
-        'datatype':'string',
-        'hidden':false,
-        'text':'Name',
-        'width': 10
-      },
-      {
-        'dataindex':'issue',
-        'datatype':'string',
-        'hidden':false,
-        'text':'Code1',
-        'width': 50
-      },
-      {
-        'dataindex':'severity',
-        'datatype':'string',
-        'hidden':false,
-        'text':'severity',
-        'width': 10
-      },
-      {
-        'dataindex':'date',
-        'datatype':'string',
-        'hidden':false,
-        'text':'date',
-        'width': 20
-      }
-    );
 
     this.treeLocalData = {
       "data": [{
