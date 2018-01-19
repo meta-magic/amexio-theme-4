@@ -72,7 +72,7 @@
       },
       {
         "text": "Form Utilities",
-        "icon": "fa fa-bolt",
+        "icon": "fa fa-bolt fa-fw",
         "mdbIcon": "",
         "link": "formutils"
       },
