@@ -15,7 +15,7 @@ export class LayoutComponent implements OnInit {
   data:any;
   isVisible:boolean;
   viewData:any;
-  confirmStatus:any;
+  confirmStatus:string;
   toggleConfirm:any;
   toggleAlert:any;
 clickMsgArray:any=[];
@@ -23,6 +23,12 @@ clickMsgArray:any=[];
   shop:boolean;
   payment:boolean;
   confirmation:boolean;
+
+  showBasicWindow : boolean;
+  showAlertWindow : boolean;
+  showClosable : boolean;
+  showDialog : boolean;
+
   constructor() {
    this.user=false;
    this.shop=true;
@@ -33,17 +39,16 @@ clickMsgArray:any=[];
         [
           {
             "title":"view 1",
-            "img":".assets/images/carousel/set1/1.jpg",
+            "img":"assets/images/carousel/set1/1.jpg",
             "active" : true
           },
           {
             "title":"view 2",
-            "img":".assets/images/carousel/set1/2.jpg"
+            "img":"assets/images/carousel/set1/2.jpg"
           },
           {
             "title":"view 3",
-            "img":".assets/images/carousel/set1/3.jpg"
-
+            "img":"assets/images/carousel/set1/3.jpg"
           },
           {
             "title":"view 4",
@@ -51,36 +56,36 @@ clickMsgArray:any=[];
           },
           {
             "title":"view 5",
-            "img":".assets/images/carousel/set1/5.jpg"
+            "img":"assets/images/carousel/set1/5.jpg"
 
           },
           {
             "title":"view 6",
-            "img":".assets/images/carousel/set1/6.jpg"
+            "img":"assets/images/carousel/set1/6.jpg"
           },
           {
             "title":"view 7",
-            "img":".assets/images/carousel/set1/7.jpg"
+            "img":"assets/images/carousel/set1/7.jpg"
           },
           {
             "title":"view 8",
-            "img":".assets/images/carousel/set1/8.jpg"
+            "img":"assets/images/carousel/set1/8.jpg"
           },
           {
             "title":"view 9",
-            "img":".assets/images/carousel/set1/9.jpg"
+            "img":"assets/images/carousel/set1/9.jpg"
           },
           {
             "title":"view 10",
-            "img":".assets/images/carousel/set1/10.jpg"
+            "img":"assets/images/carousel/set1/10.jpg"
           },
           {
             "title":"view 11",
-            "img":".assets/images/carousel/set1/11.jpg"
+            "img":"assets/images/carousel/set1/11.jpg"
           },
           {
             "title":"view 12",
-            "img":".assets/images/carousel/set1/12.jpg"
+            "img":"assets/images/carousel/set1/12.jpg"
           }
         ];
 
@@ -124,6 +129,23 @@ clickMsgArray:any=[];
     };
     this.isVisible=false;
   }
+
+  toggleBasicWindow(){
+   this.showBasicWindow = true;
+  }
+
+  toggleAlertWindow(){
+    this.showAlertWindow = true;
+  }
+
+  toggleClosable(){
+    this.showClosable = true;
+  }
+
+  toggleDialog(){
+    this.showDialog = true;
+  }
+
   onRowSelect(event:any){
     if(event.length>0){
       this.isVisible=true;
@@ -135,6 +157,7 @@ clickMsgArray:any=[];
   onRowClick(event:any){
 
   }
+
   toggle(){
     this.flag = !this.flag;
   }
