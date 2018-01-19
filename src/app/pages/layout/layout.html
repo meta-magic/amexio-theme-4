@@ -88,7 +88,7 @@
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </amexio-fieldset>
       </amexio-tab>
-      <amexio-tab [title]="'Vertical Tab View'" [icon]="'fa fa-folder fa-fw'">
+      <amexio-tab [title]="'Window'" [icon]="'fa fa-windows fa-fw'">
         <amexio-row>
           <amexio-column [size]="12">
             <amexio-vertical-tab-view >
@@ -146,8 +146,30 @@
           </amexio-column>
         </amexio-row>
       </amexio-tab>
-      <amexio-tab [title]="'Right Vertical Tab'" [icon]="'fa fa-folder fa-fw'">
-        <amexio-right-vertical-tab-view>
+      <amexio-tab [title]="'Step Box'" [icon]="'fa fa-step-forward fa-fw'">
+        <amexio-steps  [block]="true" onClick="stepBlockClick($event)">
+          <amexio-step-block [label]="'User'" [active]="true"></amexio-step-block>
+          <amexio-step-block [label]="'Shop'" [active]="false"></amexio-step-block>
+          <amexio-step-block [label]="'Payment'" [active]="false"></amexio-step-block>
+          <amexio-step-block [label]="'Confirmation'" [active]="false"></amexio-step-block>
+        </amexio-steps>
+        <br />
+
+        <amexio-steps  [block]="true" [icon]="true">
+          <amexio-step-block [label]="'User'" [icon]="'fa fa-eercast'"></amexio-step-block>
+          <amexio-step-block [label]="'Shop'" [icon]="'fa fa-eercast'"></amexio-step-block>
+          <amexio-step-block [label]="'Payment'" [icon]="'fa fa-eercast'"></amexio-step-block>
+          <amexio-step-block [label]="'Confirmation'" [icon]="'fa fa-eercast'"></amexio-step-block>
+        </amexio-steps>
+        <br />
+        <!--Step-box index -->
+        <amexio-steps  [block]="true" [index]="true" >
+          <amexio-step-block [label]="'step-1'" [active]="true"></amexio-step-block>
+          <amexio-step-block [label]="'step-2'" [active]="false"></amexio-step-block>
+          <amexio-step-block [label]="'step-3'" [active]="false"></amexio-step-block>
+          <amexio-step-block [label]="'step-4'" [active]="false"></amexio-step-block>
+        </amexio-steps>
+        <!--<amexio-right-vertical-tab-view>
           <amexio-tab [title]="'Step box'" [icon]="'fa fa-eercast'">
             <amexio-card [header]="false" [footer]="false">
               <amexio-body>
@@ -166,7 +188,7 @@
                   <amexio-step-block [label]="'Confirmation'" [icon]="'fa fa-eercast'"></amexio-step-block>
                 </amexio-steps>
                 <br />
-                <!--Step-box index -->
+                &lt;!&ndash;Step-box index &ndash;&gt;
                 <amexio-steps  [block]="true" [index]="true" >
                   <amexio-step-block [label]="'step-1'" [active]="true"></amexio-step-block>
                   <amexio-step-block [label]="'step-2'" [active]="false"></amexio-step-block>
@@ -199,7 +221,7 @@
               </amexio-body>
             </amexio-card>
           </amexio-tab>
-        </amexio-right-vertical-tab-view>
+        </amexio-right-vertical-tab-view>-->
       </amexio-tab>
     </amexio-tab-view>
 
