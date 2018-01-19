@@ -15,7 +15,30 @@
 
   <amexio-nav-item position-right>
     <i class="fa fa-snowflake-o fa-fw fa-lg" (click)="toggle()" style="cursor: pointer;"></i>
-    <div style="position: absolute;padding-right: 30px" *ngIf="flag">
+    <div style="position: absolute;padding-right: 30px;right: 10px;" *ngIf="flag">
+      <amexio-card [header]="true">
+        <amexio-header>
+          Select Theme
+        </amexio-header>
+        <amexio-body>
+          <amexio-row>
+            <amexio-column [size]="4"><img src="http://via.placeholder.com/140x150"/><br><b>Theme Name</b></amexio-column>
+            <amexio-column [size]="4"><img src="http://via.placeholder.com/140x150"/><br><b>Theme Name</b></amexio-column>
+            <amexio-column [size]="4"><img src="http://via.placeholder.com/140x150"/><br><b>Theme Name</b></amexio-column>
+          </amexio-row>
+          <amexio-row>
+            <amexio-column [size]="4"><img src="http://via.placeholder.com/140x150"/><br><b>Theme Name</b></amexio-column>
+            <amexio-column [size]="4"><img src="http://via.placeholder.com/140x150"/><br><b>Theme Name</b></amexio-column>
+            <amexio-column [size]="4"><img src="http://via.placeholder.com/140x150"/><br><b>Theme Name</b></amexio-column>
+          </amexio-row>
+          <amexio-row>
+            <amexio-column [size]="4"><img src="http://via.placeholder.com/140x150"/><br><b>Theme Name</b></amexio-column>
+            <amexio-column [size]="4"><img src="http://via.placeholder.com/140x150"/><br><b>Theme Name</b></amexio-column>
+            <amexio-column [size]="4"><img src="http://via.placeholder.com/140x150"/><br><b>Theme Name</b></amexio-column>
+          </amexio-row>
+        </amexio-body>
+      </amexio-card>
+      <!--
       <amexio-listbox [height]="400" [header]="'Themes'"
                       [httpurl]="'assets/data/themes/theme.json'"
                       [httpmethod]="'get'"
@@ -33,7 +56,7 @@
 
           </amexio-row>
         </ng-template>
-      </amexio-listbox>
+      </amexio-listbox>-->
     </div>
   </amexio-nav-item>
 </amexio-nav>
