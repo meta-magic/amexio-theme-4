@@ -1,13 +1,12 @@
 <amexio-card [header] = "true">
   <amexio-header>
-Issue Severity Details
+Issue Details
   </amexio-header>
   <amexio-body>
       <amexio-datagrid
-        [title]="'Issue group by Severity'"
-        [pagesize] ="10"
+        [title]="'Issue Details by Severity'"
+        [pagesize] = "10"
         [groupby]="true"
-        [enablecheckbox]="true"
         [groupbydataindex]="'severity'"
         [datareader]="'response.data'"
         [enablecheckbox]="false"
