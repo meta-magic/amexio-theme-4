@@ -52,7 +52,7 @@ body {
 
 /**HEADER STYLE STARTS **/
 .header {
-  background-color: #1134A6;
+  background-color: #98BF98;
   color: white;
   padding: 10px;
   overflow: hidden; }
@@ -124,12 +124,12 @@ button {
   background-color: #e6e6e6; }
 
 .button-primary {
-  background-color: #1134A6;
-  border-color: #1134A6;
+  background-color: #98BF98;
+  border-color: #98BF98;
   color: white; }
 
 .button-primary:hover {
-  background-color: #0c2678; }
+  background-color: #79ab79; }
 
 .button-success {
   background-color: #5cb85c;
@@ -188,7 +188,7 @@ button {
   z-index: 1; }
   .datetimepicker .datetimepickertopbar {
     padding: 10px 25px;
-    background: #1134A6;
+    background: #98BF98;
     text-align: center; }
     .datetimepicker .datetimepickertopbar .title {
       font-size: 18px;
@@ -220,7 +220,7 @@ button {
       text-align: center; }
   .datetimepicker .days {
     padding: 10px 0;
-    background: #ecf0fd;
+    background: white;
     margin: 0;
     cursor: pointer;
     list-style: none; }
@@ -235,11 +235,11 @@ button {
       color: #777;
       cursor: pointer; }
     .datetimepicker .days li:hover {
-      color: #1134A6; }
+      color: #98BF98; }
     .datetimepicker .days .active {
       border-radius: 135px;
       padding: 5px;
-      background: #1134A6;
+      background: #98BF98;
       color: white; }
     .datetimepicker .days .date-today {
       padding-top: 1%;
@@ -295,7 +295,7 @@ button {
 
 .dropdown-list .list-items:hover {
   color: white;
-  background-color: #1134A6; }
+  background-color: #98BF98; }
 
 .drodown-caret-down {
   position: absolute;
@@ -429,7 +429,7 @@ button {
 
 .input-box .active {
   border: 1px solid #ced4da;
-  background: #1134A6;
+  background: #98BF98;
   color: white; }
 
 .input-box-container {
@@ -457,7 +457,7 @@ button {
 
 /* When the checkbox is checked, add a blue background */
 .input-box-container input:checked ~ .input-box-checkbox-label {
-  background-color: #1134A6; }
+  background-color: #98BF98; }
 
 /* Create the input-box-container-label/indicator (hidden when not checked) */
 .input-box-checkbox-label:after {
@@ -492,7 +492,7 @@ button {
 
 /* When the checkbox is checked, add a blue background */
 .input-box-container input:checked ~ .input-box-radiobox-label {
-  background-color: #1134A6; }
+  background-color: #98BF98; }
 
 /* Create the input-box-container-label/indicator (hidden when not checked) */
 .input-box-radiobox-label:after {
@@ -525,7 +525,7 @@ button {
     height: 30px;
     font-size: 11px;
     line-height: 30px;
-    background-color: #1134A6;
+    background-color: #98BF98;
     color: white;
     border: 1px solid #ced4da; }
     .tag-input .tag .closebtn {
@@ -559,7 +559,7 @@ button {
   margin: 10px;
   padding: 10px;
   min-width: 250px;
-  background-color: #1134A6;
+  background-color: #98BF98;
   color: white;
   text-align: center;
   border-radius: 2px;
@@ -687,7 +687,7 @@ button {
   border-color: 1px solid #ced4da; }
 
 .star-icon:before {
-  color: #1134A6;
+  color: #98BF98;
   content: attr(data-icon) " ";
   position: absolute;
   left: 0;
@@ -769,7 +769,7 @@ Toggle Button styles
   transition: .4s; }
 
 input:checked + .toggle-slider {
-  background-color: #1134A6; }
+  background-color: #98BF98; }
 
 input:focus + .toggle-slider {
   box-shadow: 0 0 1px #ced4da; }
@@ -810,7 +810,7 @@ input[type='range']::-webkit-slider-thumb {
 }*/
 .datapoints {
   background: white;
-  color: #1134A6;
+  color: #98BF98;
   font-size: 125%;
   /* Border */
   border-radius: 0px;
@@ -820,10 +820,10 @@ input[type='range']::-webkit-slider-thumb {
   .datapoints .title {
     font-size: 36px;
     font-weight: bold;
-    color: #1134A6; }
+    color: #98BF98; }
   .datapoints .footer {
     /* Background */
-    background-color: #1134A6;
+    background-color: #98BF98;
     color: white;
     border-radius: 0px;
     font-size: 20px;
@@ -864,7 +864,7 @@ input[type='range']::-webkit-slider-thumb {
   background-color: #F5F5F5; }
 
 .datatable-height::-webkit-scrollbar-thumb {
-  background-color: #1134A6; }
+  background-color: #98BF98; }
 
 .datatable .title {
   font-size: 1.5em;
@@ -880,11 +880,11 @@ input[type='range']::-webkit-slider-thumb {
   display: table-row; }
 
 .datatable .datatable-row:hover {
-  background-color: #8fa7f4;
+  background-color: white;
   cursor: pointer; }
 
 .datatable .datatable-row-active {
-  background-color: #8fa7f4; }
+  background-color: white; }
 
 .datatable .datatable-col {
   display: table-cell;
@@ -1029,14 +1029,14 @@ input[type='range']::-webkit-slider-thumb {
     flex-direction: column;
     justify-content: space-between; }
     .item-selector-action-panel .actionbar .actionbarinner .action {
-      background-color: #1134A6;
+      background-color: #98BF98;
       color: white;
       width: 50px;
       height: 30px;
       text-align: center;
       cursor: pointer; }
     .item-selector-action-panel .actionbar .actionbarinner .actiondisable {
-      background-color: #becbf8; }
+      background-color: white; }
     .item-selector-action-panel .actionbar .actionbarinner .movetop {
       display: block; }
     .item-selector-action-panel .actionbar .actionbarinner .moveup {
@@ -1078,7 +1078,7 @@ input[type='range']::-webkit-slider-thumb {
       .item-selector-action-panel .actionbar .actionbarinner .action {
         transform: rotate(90deg); } }
 .list-item-active {
-  background-color: #6182ef; }
+  background-color: #f6faf6; }
 
 /**LISTBOX STARTS**/
 .listbox {
@@ -1098,7 +1098,7 @@ input[type='range']::-webkit-slider-thumb {
   background-color: #F5F5F5; }
 
 .listbox-height::-webkit-scrollbar-thumb {
-  background-color: #1134A6; }
+  background-color: #98BF98; }
 
 .listbox .list {
   margin: 0;
@@ -1512,7 +1512,7 @@ input[type='range']::-webkit-slider-thumb {
 .amexio-dockbar button.active {
   background-color: #ced4da;
   color: black;
-  border-left: 5px solid #1134A6; }
+  border-left: 5px solid #98BF98; }
 
 .amexio-dockbar-label-highlight {
   color: black;
@@ -1520,7 +1520,7 @@ input[type='range']::-webkit-slider-thumb {
 
 .navbar-container {
   width: 100%;
-  background-color: #000080;
+  background-color: #29AB87;
   vertical-align: middle;
   padding: 0px 15px;
   box-shadow: 0px 0px 2px 2px #ced4da;
@@ -1597,11 +1597,11 @@ input[type='range']::-webkit-slider-thumb {
   border-radius: 2px; }
 
 .paginator .paginator-pages .paginator-page:hover {
-  background-color: #1134A6;
+  background-color: #98BF98;
   color: white; }
 
 .paginator .paginator-pages .active {
-  background-color: #0c2678;
+  background-color: #79ab79;
   color: white; }
 
 .sidenav {
@@ -1631,7 +1631,7 @@ input[type='range']::-webkit-slider-thumb {
 
 .sidenav .title {
   cursor: pointer;
-  background-color: #1134A6;
+  background-color: #98BF98;
   color: white;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -1675,7 +1675,7 @@ input[type='range']::-webkit-slider-thumb {
 .dockbar {
   float: left;
   width: 70px;
-  background-color: #1134A6;
+  background-color: #98BF98;
   color: #ced4da;
   position: relative;
   border-top: 1px solid #ced4da; }
@@ -1702,14 +1702,14 @@ input[type='range']::-webkit-slider-thumb {
 
 /* Change background color of buttons on hover */
 .dockbar button:hover {
-  background-color: #335eea;
+  background-color: #d7e6d7;
   color: white; }
 
 /* Create an active/current "tab button" class */
 .dockbar button.active {
-  background-color: #335eea;
+  background-color: #d7e6d7;
   color: white;
-  border-left: 3px solid #0c2678; }
+  border-left: 3px solid #79ab79; }
 
 .dockbar-label-highlight {
   color: black;
@@ -1718,7 +1718,7 @@ input[type='range']::-webkit-slider-thumb {
 .dockbar-item-close-bar {
   font-size: 24px;
   float: right;
-  color: #0c2678;
+  color: #79ab79;
   font-weight: 500;
   cursor: pointer; }
 
@@ -1726,16 +1726,16 @@ input[type='range']::-webkit-slider-thumb {
   font-size: 17px;
   font-weight: 500;
   padding: 15px 10px 10px 90px;
-  border-bottom: 1px solid #0c2678; }
+  border-bottom: 1px solid #79ab79; }
 
 .dockbar-active-content {
-  border-top: 3px solid #0c2678;
-  border-right: 3px solid #0c2678;
-  border-bottom: 3px solid #0c2678;
+  border-top: 3px solid #79ab79;
+  border-right: 3px solid #79ab79;
+  border-bottom: 3px solid #79ab79;
   height: 100%; }
 
 .accordion {
-  background-color: #335eea;
+  background-color: #d7e6d7;
   color: white;
   cursor: pointer;
   padding: 18px;
@@ -1747,7 +1747,7 @@ input[type='range']::-webkit-slider-thumb {
   transition: 0.4s; }
 
 .active-accordion, .accordion:hover {
-  background-color: #1134A6;
+  background-color: #98BF98;
   color: white; }
 
 .accordion:after {
@@ -1782,7 +1782,7 @@ input[type='range']::-webkit-slider-thumb {
 .card-header {
   display: flex;
   padding: 20px 24px;
-  background: #1134A6;
+  background: #98BF98;
   border-bottom: 1px solid #ced4da;
   font-size: 20px;
   color: white;
@@ -1799,7 +1799,7 @@ input[type='range']::-webkit-slider-thumb {
 
 .card-footer {
   display: flex;
-  background-color: #1134A6;
+  background-color: #98BF98;
   color: white;
   border-top: 1px solid #ced4da; }
 
@@ -1886,7 +1886,7 @@ fieldset {
   font-weight: bolder; }
 
 .step-box-table-item.active {
-  background-color: #1134A6 !important; }
+  background-color: #98BF98 !important; }
 
 .step-box-table-item.disbaled {
   background-color: gray;
@@ -1915,7 +1915,7 @@ fieldset {
   white-space: nowrap; }
 
 .activetab {
-  border-bottom: 3px solid #0c2678; }
+  border-bottom: 3px solid #79ab79; }
 
 .tabnavigation {
   padding: 10px 16px;
@@ -1948,11 +1948,11 @@ fieldset {
 
 .verticalnavtab .leftactivetab {
   background-color: #ced4da;
-  border-left: 3px solid #0c2678; }
+  border-left: 3px solid #79ab79; }
 
 .verticalnavtab .rightactivetab {
   background-color: #ced4da;
-  border-right: 3px solid #0c2678; }
+  border-right: 3px solid #79ab79; }
 
 .verticalnavtab-left {
   border-right: 1px solid #ced4da; }
@@ -2075,7 +2075,7 @@ button.app-button {
   font-weight: 500; }
 
 .datatable .datatable-header {
-  background-color: #1134A6;
+  background-color: #98BF98;
   font-size: larger;
   color: white; }
 
@@ -2083,7 +2083,7 @@ button.app-button {
   vertical-align: middle; }
 
 .datapoints {
-  color: #1134A6; }
+  color: #98BF98; }
   .datapoints .datapoints {
     border: none;
     box-shadow: none; }
@@ -2091,10 +2091,10 @@ button.app-button {
 .datapoints-north {
   font-size: 36px;
   font-weight: bold;
-  color: #1134A6; }
+  color: #98BF98; }
 
 .datapoint-south {
-  background-color: #1134A6;
+  background-color: #98BF98;
   color: white;
   border-radius: 0px;
   font-size: 20px;
@@ -2122,7 +2122,7 @@ button.app-button {
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6); }
 
 .sidenav .activenode {
-  color: #000080; }
+  color: #29AB87; }
 
 .image-responsive {
   max-width: 100%;
@@ -2153,4 +2153,4 @@ div.profile-image img {
 div.profile-image a {
   text-transform: capitalize; }
 
-/*# sourceMappingURL=mdb-navy-egyptian.css.map */
+/*# sourceMappingURL=mda-jungle-mint.css.map */
