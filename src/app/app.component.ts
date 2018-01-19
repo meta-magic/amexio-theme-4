@@ -34,13 +34,13 @@ export class AppComponent {
       linkEl.setAttribute('rel', 'stylesheet');
       linkEl.id='themeid';
       linkEl.href = 'assets/themes/'+this.cookieService.get('theme_name')+'.css';
-      //document.head.appendChild(linkEl);
+      document.head.appendChild(linkEl);
     } else {
       let linkEl = document.createElement('link');
       linkEl.setAttribute('rel', 'stylesheet');
       linkEl.id='themeid';
       linkEl.href = 'assets/themes/mdb-blue.css';
-      //document.head.appendChild(linkEl);
+      document.head.appendChild(linkEl);
     }
   }
   //on Bell Click
