@@ -4,7 +4,8 @@
   </amexio-nav-item>
   <amexio-nav-item position-right>
     <i class="fa fa-bell fa-fw fa-lg" (click)="onBellClick()"></i>
-    <amexio-notification [autodismissmsginterval]="2000" [autodismissmsg]="true" [verticalposition]="'top'" [horizontalposition]="'right'" [closable]="true" [messageData]="msgList"></amexio-notification>
+    <amexio-notification [autodismissmsginterval]="2000" [autodismissmsg]="true" [verticalposition]="'top'"
+                         [horizontalposition]="'right'" [closable]="true" [messageData]="msgList"></amexio-notification>
   </amexio-nav-item>
   <amexio-nav-item position-right>
     <span>John Doe</span>
@@ -15,25 +16,38 @@
 
   <amexio-nav-item position-right>
     <i class="fa fa-snowflake-o fa-fw fa-lg faa-tada animated fa-2x" (click)="toggle()" style="cursor: pointer;"></i>
-    <div style="position: absolute;padding-right: 30px" *ngIf="flag">
-      <amexio-listbox [height]="400" [header]="'Themes'"
-                      [httpurl]="'assets/data/themes/theme.json'"
-                      [httpmethod]="'get'"
-                      [datareader]="'data'"
-                      [searchplaceholder]="'Search Theme'"
-                      [displayfield]="'themeName'"
-                      [filter]="true"
-                      [enablecheckbox]="false"
-                      (onRowClick)="themeChange($event)">
-        <ng-template #amexioBodyTmpl let-row="row">
-          <amexio-row>
-            <amexio-column [size]="12">
-                <div class="defaultcolor">{{row.themeName}}</div>
-            </amexio-column>
+    <div style="position: absolute;padding-right: 30px;right: 10px;" *ngIf="flag">
+      <amexio-card [header]="true">
+        <amexio-header>
+          Select Theme
+        </amexio-header>
+        <amexio-body>
+          <amexio-tab-view  [closable]="false">
+            <amexio-tab title="Material" [active]="true">
+              <div style="height: 350px;overflow-x: auto">
+                <amexio-row *ngFor="let objArray of materialThemeArray" >
+                  <ng-container *ngFor="let obj of objArray">
+                    <amexio-column style="cursor: pointer" [size]="4"  (click)="themeChange(obj)"><img src="http://via.placeholder.com/140x150"/><br><b>{{obj.themeName}}</b>
+                    </amexio-column>
+                  </ng-container>
+                </amexio-row>
+              </div>
 
-          </amexio-row>
-        </ng-template>
-      </amexio-listbox>
+            </amexio-tab>
+            <amexio-tab title="Amexio">
+              <div style="height: 350px;overflow-x: auto">
+                <amexio-row *ngFor="let objArray of amexioThemeArray" >
+                  <ng-container *ngFor="let obj of objArray">
+                    <amexio-column style="cursor: pointer" [size]="4"  (click)="themeChange(obj)"><img src="http://via.placeholder.com/140x150"/><br><b>{{obj.themeName}}</b>
+                    </amexio-column>
+                  </ng-container>
+                </amexio-row>
+              </div>
+            </amexio-tab>
+          </amexio-tab-view>
+
+        </amexio-body>
+      </amexio-card>
     </div>
   </amexio-nav-item>
 </amexio-nav>

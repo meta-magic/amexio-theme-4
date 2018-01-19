@@ -12,14 +12,17 @@ export class AppComponent {
   menuData: any[] = [];
   flag: boolean;
   newThemePath: string;
-  msgList:any=[];
+  msgList: any = [];
+  amexioThemeArray: any;
+  materialThemeArray : any;
+
   routeToLink(data: any) {
-    console.log(JSON.stringify(data));
     if (!data.hasOwnProperty('children') && data.link) this._router.navigate([data.link]);
   }
 
   constructor(public _http: Http, private _router: Router, private cookieService: CookieService) {
     this.flag = false;
+
     this._http.get('assets/data/menus/topmenu.json').subscribe(response => {
       this.httpResponse = response.json()
     }, error => {
@@ -27,25 +30,49 @@ export class AppComponent {
     }, () => {
       this.menuData = this.httpResponse.menus;
     });
+
     if (this.cookieService.get('theme_name')) {
       let currentTheme = document.head.querySelectorAll(`link[rel="stylesheet"]`);
       this.removeExistingTheme(currentTheme);
       let linkEl = document.createElement('link');
       linkEl.setAttribute('rel', 'stylesheet');
-      linkEl.id='themeid';
-      linkEl.href = 'assets/themes/'+this.cookieService.get('theme_name')+'.css';
+      linkEl.id = 'themeid';
+      linkEl.href = 'assets/themes/' + this.cookieService.get('theme_name') + '.css';
       document.head.appendChild(linkEl);
     } else {
       let linkEl = document.createElement('link');
       linkEl.setAttribute('rel', 'stylesheet');
-      linkEl.id='themeid';
+      linkEl.id = 'themeid';
       linkEl.href = 'assets/themes/mda-blue.css';
       document.head.appendChild(linkEl);
     }
+    //Get Data of Themes
+    this.getTheThemesData();
   }
+
+  getTheThemesData() {
+    let amexioThemeRepsonse: any;
+    let materialThemeResponse: any;
+    //HTML FILE
+    this._http.get('assets/data/themes/amexio.json').subscribe(data => {
+      amexioThemeRepsonse = data.json();
+    }, error => {
+    }, () => {
+      this.amexioThemeArray = amexioThemeRepsonse;
+    });
+
+    //HTML FILE
+    this._http.get('assets/data/themes/material.json').subscribe(data => {
+      materialThemeResponse = data.json();
+    }, error => {
+    }, () => {
+      this.materialThemeArray = materialThemeResponse;
+    });
+  }
+
   //on Bell Click
-  onBellClick(){
-  this.msgList.push('Hello,User');
+  onBellClick() {
+    this.msgList.push('Hello,User');
   }
 
   //Window Open
@@ -66,7 +93,7 @@ export class AppComponent {
   addNewTheme(newTheme: any) {
     let linkEl = document.createElement('link');
     linkEl.setAttribute('rel', 'stylesheet');
-    linkEl.id='themeid';
+    linkEl.id = 'themeid';
     linkEl.href = newTheme;
     document.head.appendChild(linkEl);
   }
@@ -75,8 +102,7 @@ export class AppComponent {
   removeExistingTheme(keyList: any) {
     if (keyList != null && keyList && keyList.length != 0) {
       keyList.forEach((key) => {
-        if(key.id=='themeid')
-        document.head.removeChild(key);
+        if (key.id == 'themeid') document.head.removeChild(key);
       });
     }
   }

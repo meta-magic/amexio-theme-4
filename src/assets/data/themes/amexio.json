@@ -1,0 +1,40 @@
+[
+  [
+    {
+      "themeName": "Tiger",
+      "themeCssFile": "at-am-tiger"
+    },
+    {
+      "themeName": "Matrix",
+      "themeCssFile": "at-am-matrix"
+    },
+    {
+      "themeName": "Ocean Blue",
+      "themeCssFile": "at-am-ocean-blue"
+    }
+  ],
+  [
+    {
+      "themeName": "Byzantine Crystal",
+      "themeCssFile": "at-am-byzantine-crystal"
+    },
+    {
+      "themeName": "Honey Prussian",
+      "themeCssFile": "at-am-honey-prussian"
+    },
+    {
+      "themeName": "Persian Laguna",
+      "themeCssFile": "at-am-persian-laguna"
+    }
+  ],
+  [
+    {
+      "themeName": "Spicy Apricot",
+      "themeCssFile": "at-am-spicy-apricot"
+    },
+    {
+      "themeName": "Lime Green",
+      "themeCssFile": "at-am-limegreen"
+    }
+  ]
+]
