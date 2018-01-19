@@ -2,7 +2,26 @@
   <amexio-header>Panels</amexio-header>
   <amexio-body>
     <amexio-tab-view  [closable]="false">
-      <amexio-tab [title]="'Form'" [active]="true"  [icon]="'fa fa-laptop fa-fw'">
+
+      <amexio-tab [title]="'Carousel'"  [active]="true" [icon]="'fa fa-desktop fa-fw '" >
+
+
+        <amexio-carousel [data]="viewData" mode="multiple" [header]="'Collections'" shuffleinterval="2000" >
+          <ng-template let-i amexioTemplate="item">
+            <amexio-card>
+              <amexio-body>
+                <div style="height: 375px;">
+                  <img src={{i.img}}/>
+                  <p>"{{i.desc}}"</p>
+                </div>
+              </amexio-body>
+            </amexio-card>
+          </ng-template>
+        </amexio-carousel>
+
+      </amexio-tab>
+
+      <amexio-tab [title]="'Form'" [icon]="'fa fa-laptop fa-fw'">
         <amexio-card [header]="true" [footer]="true">
           <amexio-header>
             Card
@@ -59,13 +78,7 @@
       </amexio-tab>
 
 
-      <amexio-tab [title]="'Carousel View'" [icon]="'fa fa-desktop fa-fw '" >
-        <amexio-carousel [data]="viewData" mode="multiple" [header]="'Amexio Themes'" shuffleinterval="2000" >
-          <ng-template let-i amexioTemplate="item">
-            <img src={{i.img}}/>
-          </ng-template>
-        </amexio-carousel>
-      </amexio-tab>
+
       <amexio-tab [title]="'Accordion'" [icon]="'fa fa-eercast'" >
         <amexio-accordion>
           <amexio-accordion-tab [header]="'Accordion Pane-I'" [expanded]="true">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.

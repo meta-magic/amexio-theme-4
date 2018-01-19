@@ -40,52 +40,54 @@ clickMsgArray:any=[];
           {
             "title":"view 1",
             "img":"assets/images/carousel/set1/1.jpg",
+            "desc":"The vision must be followed by the venture. It is not enough to stare up the steps - we must step up the stairs.",
             "active" : true
           },
           {
             "title":"view 2",
-            "img":"assets/images/carousel/set1/2.jpg"
+            "img":"assets/images/carousel/set1/2.jpg",
+            "desc":"If this is coffee, please bring me some tea; but if this is tea, please bring me some coffee."
           },
           {
             "title":"view 3",
-            "img":"assets/images/carousel/set1/3.jpg"
-          },
-          {
-            "title":"view 4",
-            "img":".assets/images/carousel/set1/4.jpg"
+            "img":"assets/images/carousel/set1/3.jpg",
+            "desc":"Either you run the day or the day runs you."
           },
           {
             "title":"view 5",
-            "img":"assets/images/carousel/set1/5.jpg"
+            "img":"assets/images/carousel/set1/5.jpg",
+            "desc":"If I had asked people what they wanted, they would have said faster horses."
 
           },
           {
             "title":"view 6",
-            "img":"assets/images/carousel/set1/6.jpg"
+            "img":"assets/images/carousel/set1/6.jpg",
+            "desc":"Coffee is a beverage that puts one to sleep when not drank."
           },
           {
             "title":"view 7",
-            "img":"assets/images/carousel/set1/7.jpg"
+            "img":"assets/images/carousel/set1/7.jpg",
+            "desc":"Together we can face any challenges as deep as the ocean and as high as the sky."
           },
           {
             "title":"view 8",
-            "img":"assets/images/carousel/set1/8.jpg"
+            "img":"assets/images/carousel/set1/8.jpg",
+            "desc":"Momma said life is like a box of chocolates, you never know what you're gonna get."
           },
           {
             "title":"view 9",
-            "img":"assets/images/carousel/set1/9.jpg"
+            "img":"assets/images/carousel/set1/9.jpg",
+            "desc":"Alcohol may be man's worst enemy, but the bible says love your enemy."
           },
           {
             "title":"view 10",
-            "img":"assets/images/carousel/set1/10.jpg"
+            "img":"assets/images/carousel/set1/10.jpg",
+            "desc":"You only need one a day, but i will have 4 :)"
           },
           {
             "title":"view 11",
-            "img":"assets/images/carousel/set1/11.jpg"
-          },
-          {
-            "title":"view 12",
-            "img":"assets/images/carousel/set1/12.jpg"
+            "img":"assets/images/carousel/set1/11.jpg",
+            "desc":"Dogs don’t rationalize. They don’t hold anything against a person. They don’t see the outside of a human but the inside of a human"
           }
         ];
 
