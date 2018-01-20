@@ -31,7 +31,7 @@ export class AppComponent {
       this.menuData = this.httpResponse.menus;
     });
 
-    if (this.cookieService.get('theme_name')) {
+   /* if (this.cookieService.get('theme_name')) {
       let currentTheme = document.head.querySelectorAll(`link[rel="stylesheet"]`);
       this.removeExistingTheme(currentTheme);
       let linkEl = document.createElement('link');
@@ -45,7 +45,7 @@ export class AppComponent {
       linkEl.id = 'themeid';
       linkEl.href = 'assets/themes/mda-blue.css';
       document.head.appendChild(linkEl);
-    }
+    }*/
     //Get Data of Themes
     this.getTheThemesData();
   }
