@@ -1,7 +1,7 @@
 [
   [
     {
-      "themeName": "Burgandy Magenta",
+      "themeName": "Byzantine Magenta",
       "themeCssFile": "at-am-burgandy-magenta",
       "link": "AT-AM-Byzantine-Magenta.jpg"
     },
@@ -11,12 +11,17 @@
       "link": "AT-AM-Byzantine-Crystal.jpg"
     },
     {
-      "themeName": "Honey Prussian",
-      "themeCssFile": "at-am-honey-prussian",
-      "link": "AT-AM-Honey-Prussian.jpg"
+      "themeName": "Byzantine Navy",
+      "themeCssFile": "at-am-navy-grape",
+      "link": "AT-AM-Byzantine-Navy.jpg"
     }
     ],
   [
+  {
+    "themeName": "Honey Prussian",
+    "themeCssFile": "at-am-honey-prussian",
+    "link": "AT-AM-Honey-Prussian.jpg"
+  },
     {
       "themeName": "Lime Green",
       "themeCssFile": "at-am-limegreen",
@@ -26,14 +31,14 @@
       "themeName": "Matrix",
       "themeCssFile": "at-am-matrix",
       "link": "AT-AM-Matrix.jpg"
-    },
+    }
+  ],
+  [
     {
       "themeName": "Matrix Maya",
       "themeCssFile": "at-am-matrix-maya",
       "link": "AT-AM-Matrix-Maya.jpg"
-    }
-  ],
-  [
+    },
     {
       "themeName": "Matrix Amber",
       "themeCssFile": "at-am-matrix-amber",
@@ -43,18 +48,13 @@
       "themeName": "Matrix Cream",
       "themeCssFile": "at-am-matrix-cream",
       "link": "AT-AM-Matrix-Cream.jpg"
-    },
-    {
-      "themeName": "Matrix Ultra",
-      "themeCssFile": "at-am-matrix-ultra",
-      "link": "AT-AM-Matrix-Ultra.jpg"
     }
   ],
   [
     {
-      "themeName": "Navy Grape",
-      "themeCssFile": "at-am-navy-grape",
-      "link": "AT-AM-Navy-Grape.jpg"
+      "themeName": "Matrix Ultra",
+      "themeCssFile": "at-am-matrix-ultra",
+      "link": "AT-AM-Matrix-Ultra.jpg"
     },
     {
       "themeName": "Ocean Blue",
