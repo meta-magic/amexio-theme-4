@@ -3,7 +3,7 @@
     <amexio-card [footer]="false" [header]="true">
       <amexio-header>Bubble Chart</amexio-header>
       <amexio-body>
-        <amexio-chart-bubble [data]="bubbleChartData" [axiscolor]="['yellow', 'red']">
+        <amexio-chart-bubble [data]="bubbleChartData" [axis-color]="['yellow', 'red']">
           <amexio-chart-title [title]="'Correlation between life expectancy,fertility rate'"></amexio-chart-title>
           <amexio-chart-horizontal-axis [title]="'Life Expectancy'"></amexio-chart-horizontal-axis>
           <amexio-chart-vertical-axis [title]="'Fertility Rate'"></amexio-chart-vertical-axis>
@@ -15,7 +15,7 @@
     <amexio-card [footer]="false" [header]="true">
       <amexio-header>Color Axis Bubble Chart</amexio-header>
       <amexio-body>
-        <amexio-chart-bubble [data]="bubbleChartColorAxis" [axiscolor]="['yellow', 'red']">
+        <amexio-chart-bubble [data]="bubbleChartColorAxis" [axis-color]="['yellow', 'red']">
         </amexio-chart-bubble>
       </amexio-body>
     </amexio-card>
@@ -76,8 +76,8 @@
     <amexio-card [footer]="false" [header]="true">
       <amexio-header>Candlestick Waterfall Chart</amexio-header>
       <amexio-body>
-        <amexio-chart-candlestick-waterfall [data]="candlestickWaterfallChart" [barwidth]="'100%'"
-                                            [fallingcolor]="'#a52714'" [risingcolor]="'#0f9d58'">
+        <amexio-chart-candlestick-waterfall [data]="candlestickWaterfallChart" [bar-width]="'100%'"
+                                            [falling-color]="'#a52714'" [rising-color]="'#0f9d58'">
           <amexio-chart-title [title]="'Stock Statistics'"></amexio-chart-title>
         </amexio-chart-candlestick-waterfall>
       </amexio-body>

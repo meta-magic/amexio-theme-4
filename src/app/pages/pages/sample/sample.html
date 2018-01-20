@@ -5,24 +5,24 @@
   <amexio-body>
     <amexio-row>
       <amexio-column [size]="6">
-        <amexio-text-input [fieldlabel]="'Name'" name="country"
+        <amexio-text-input [field-label]="'Name'" name="country"
                            [placeholder]="'Enter name'"
-                           [enablepopover]="true"
-                           [iconfeedback]="true"
-                           [allowblank]="false" [errormsg]="'Please enter name'"
-                           [minlength]="3" [maxlength]="15" [minerrormsg]="'Name should be minimum 3 characters'"
-                           [maxerrormsg]="'Name should be less than 15 characters'"
+                           [enable-popover]="true"
+                           [icon-feedback]="true"
+                           [allow-blank]="false" [error-msg]="'Please enter name'"
+                           [min-length]="3" [max-length]="15" [min-error-msg]="'Name should be minimum 3 characters'"
+                           [max-error-msg]="'Name should be less than 15 characters'"
         >
         </amexio-text-input>
       </amexio-column>
       <amexio-column [size]="6">
-        <amexio-text-input [fieldlabel]="'Surname'" name="name"
+        <amexio-text-input [field-label]="'Surname'" name="name"
                            [placeholder]="'Enter surname'"
-                           [enablepopover]="true"
-                           [iconfeedback]="true"
-                           [allowblank]="false" [errormsg]="'Please enter Surname'"
-                           [minlength]="3" [maxlength]="15" [minerrormsg]="'Surname should be minimum 3 characters'"
-                           [maxerrormsg]="'Surname should be less than 15 characters'"
+                           [enable-popover]="true"
+                           [icon-feedback]="true"
+                           [allow-blank]="false" [error-msg]="'Please enter Surname'"
+                           [min-length]="3" [max-length]="15" [min-error-msg]="'Surname should be minimum 3 characters'"
+                           [max-error-msg]="'Surname should be less than 15 characters'"
         >
         </amexio-text-input>
       </amexio-column>
@@ -32,12 +32,12 @@
     <amexio-row>
       <amexio-column [size]="6">
 
-        <amexio-textarea-input [fieldlabel]="'Address'" name="Address"
+        <amexio-textarea-input [field-label]="'Address'" name="Address"
                                [placeholder]="'Enter address'"
-                               [errormsg]="'Please enter address'"
-                               [iconfeedback]="true"
+                               [error-msg]="'Please enter address'"
+                               [icon-feedback]="true"
                                [rows]="'1'" [columns]="'2'"
-                               [allowblank]="false" [enablepopover]="true"
+                               [allow-blank]="false" [enable-popover]="true"
 
         >
         </amexio-textarea-input>
@@ -45,12 +45,12 @@
 
       </amexio-column>
       <amexio-column [size]="6">
-        <amexio-typeahead [datareader]="'response.data'"
-                          [httpurl]="'assets/data/country.json'"
-                          [httpmethod]="'get'"
+        <amexio-typeahead [data-reader]="'response.data'"
+                          [http-url]="'assets/data/country.json'"
+                          [http-method]="'get'"
                           [key]="'countryName'"
-                          [displayfield]="'countryName'"
-                          [fieldlabel]="'Nationality'" [placeholder]="'Search'">
+                          [display-field]="'countryName'"
+                          [field-label]="'Nationality'" [placeholder]="'Search'">
         </amexio-typeahead>
       </amexio-column>
     </amexio-row>
@@ -59,7 +59,7 @@
       <amexio-column [size]="6">
 
         <amexio-date-time-picker
-          [fieldlabel]="'Date Of Birth'"
+          [field-label]="'Date Of Birth'"
           [timepicker]="false"
           [datepicker]="true"
           [(ngModel)]="currentDate">
@@ -68,7 +68,7 @@
       </amexio-column>
       <amexio-column [size]="6">
         <amexio-date-time-picker
-          [fieldlabel]="'Time Of Birth'"
+          [field-label]="'Time Of Birth'"
           [timepicker]="true"
           [datepicker]="false"
           [ngModel]="time">
@@ -78,7 +78,7 @@
     <amexio-row>
       <amexio-column [size]="6">
 
-          <amexio-number-input [fieldlabel]="'Age'" name ="age"
+          <amexio-number-input [field-label]="'Age'" name ="age"
                              [placeholder]="'Enter Age'">
         </amexio-number-input>
 
@@ -88,37 +88,37 @@
                                  [(ngModel)]="country"
                                  [placeholder]="'Choose City'"
                                  name="country"
-                                 [datareader]="'response.data'"
-                                 [fieldlabel]="'City'"
-                                 [httpurl]="'assets/data/cities.json'"
-                                 [httpmethod]="'get'"
+                                 [data-reader]="'response.data'"
+                                 [field-label]="'City'"
+                                 [http-url]="'assets/data/cities.json'"
+                                 [http-method]="'get'"
                                  [search]="'true'"
-                                 [displayfield]="'cityName'"
-                                 [valuefield]="'cityName'"
+                                 [display-field]="'cityName'"
+                                 [value-field]="'cityName'"
                                  >
                 </amexio-dropdown>
       </amexio-column>
     </amexio-row>
     <amexio-row>
       <amexio-column [size]="6">
-        <amexio-email-input [fieldlabel]="'Email'" name="email"
+        <amexio-email-input [field-label]="'Email'" name="email"
                             [placeholder]="'Enter mail id'"
-                            [enablepopover]="true"
-                            [iconfeedback]="true"
-                            [allowblank]="false" [errormsg]="'Please enter correct mail id'">
+                            [enable-popover]="true"
+                            [icon-feedback]="true"
+                            [allow-blank]="false" [error-msg]="'Please enter correct mail id'">
         </amexio-email-input>
 
       </amexio-column>
       <amexio-column [size]="6">
-        <amexio-password-input [fieldlabel]="'Password'" name="password"
+        <amexio-password-input [field-label]="'Password'" name="password"
                                [placeholder]="'Enter Password'"
-                               [allowblank]="false"
-                               [errormsg]="'Please enter password'"
-                               [minlength]="6"
-                               [minerrormsg]="'Minimum 6 char required'"
-                               [maxlength]="32"
-                               [maxerrormsg]="'Maximum 32 char allowed'"
-                               [enablepopover]="true">
+                               [allow-blank]="false"
+                               [error-msg]="'Please enter password'"
+                               [min-length]="6"
+                               [min-error-msg]="'Minimum 6 char required'"
+                               [max-length]="32"
+                               [max-error-msg]="'Maximum 32 char allowed'"
+                               [enable-popover]="true">
         </amexio-password-input>
 
       </amexio-column>
@@ -126,12 +126,12 @@
     <amexio-row>
       <amexio-column [size]="6">
         <amexio-checkbox-group
-          [fieldlabel]="'Hobbies'" name="language"
+          [field-label]="'Hobbies'" name="language"
           [horizontal]="true"
 
-                         [datareader]="'response.data'"
-                         [displayfield]="'language'"
-                         [valuefield]="'checked'"
+                         [data-reader]="'response.data'"
+                         [display-field]="'language'"
+                         [value-field]="'checked'"
                          [column]="4"
                          [data]="checkboxGroupdata">
         </amexio-checkbox-group>
@@ -141,11 +141,11 @@
       <amexio-column [size]="6">
         <amexio-radio-group
           name="name"
-                                  [fieldlabel] = "'Gender'"
+                                  [field-label] = "'Gender'"
                             [horizontal]="true"
-                            [datareader]="'response.data'"
-                            [displayfield]="'gender'"
-                            [valuefield]="'genderId'"
+                            [data-reader]="'response.data'"
+                            [display-field]="'gender'"
+                            [value-field]="'genderId'"
                             [data]="radioGroupData"
                            >
         </amexio-radio-group>
@@ -153,25 +153,25 @@
     </amexio-row>
     <amexio-row>
       <amexio-column [size]="6">
-        <amexio-tag-input [datareader]="'response.data'"
-                          [httpurl]="'assets/data/country.json'"
-                          [httpmethod]="'get'"
+        <amexio-tag-input [data-reader]="'response.data'"
+                          [http-url]="'assets/data/country.json'"
+                          [http-method]="'get'"
                           [key]="'countryName'"
-                          [displayfield]="'countryName'"
-                          [fieldlabel]="'Having visa'">
+                          [display-field]="'countryName'"
+                          [field-label]="'Having visa'">
         </amexio-tag-input>
       </amexio-column>
       <amexio-column [size]="6">
-        <amexio-rating-input [fieldlabel]="'Credit rating'"  [(ngModel)]="rate" [max]="10" name="rate"></amexio-rating-input>
+        <amexio-rating-input [field-label]="'Credit rating'"  [(ngModel)]="rate" [max]="10" name="rate"></amexio-rating-input>
       </amexio-column>
     </amexio-row>
 
     <amexio-row>
       <amexio-column [size]="12">
-      <amexio-item-selector [height]="200" [displayfield]="'countryName'"
-                            [valuefield]="'countryId'"
-                            [httpurl]="'assets/data/itemdata.json'"
-                            [httpmethod]="'get'" [datareader]="'data'" >
+      <amexio-item-selector [height]="200" [display-field]="'countryName'"
+                            [value-field]="'countryId'"
+                            [http-url]="'assets/data/itemdata.json'"
+                            [http-method]="'get'" [data-reader]="'data'" >
       </amexio-item-selector>
       </amexio-column>
     </amexio-row>

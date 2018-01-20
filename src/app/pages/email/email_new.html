@@ -22,11 +22,11 @@
 
         <amexio-treeview  [data]="data"
                           (selectedRecord)="onRowSelect($event)"
-                          [enablecheckbox]="false">
+                          [enable-checkbox]="false">
         </amexio-treeview>
-        <amexio-listbox [searchplaceholder]="'Search Contacts'" [data]="bindData" [filter]="true"
-                        [enablecheckbox] = "false" [datareader]="'response.data'"
-                        [displayfield]="'name'">
+        <amexio-listbox [search-placeholder]="'Search Contacts'" [data]="bindData" [filter]="true"
+                        [enable-checkbox] = "false" [data-reader]="'response.data'"
+                        [display-field]="'name'">
           <ng-template #amexioBodyTmpl let-row="row">
             <div class="profile-image">
               <img src="assets/images/profile/{{row.profile}}">
@@ -38,17 +38,17 @@
       <amexio-column [size]="10">
         <amexio-datagrid
           [title]="'Inbox'"
-          [pagesize] = "15"
-          [datareader]="'response.data'"
-          [enablecheckbox]="true"
-          [httpurl]="'assets/data/email.json'"
-          [httpmethod]="'get'"
-          [enabledatafilter]="false"
+          [page-size] = "15"
+          [data-reader]="'response.data'"
+          [enable-checkbox]="true"
+          [http-url]="'assets/data/email.json'"
+          [http-method]="'get'"
+          [enable-data-filter]="false"
           (selectedRowData)="onRowSelect($event)"
-          (rowSelect)="onRowClick($event)" [cclass]="'gridStyle'" [tableDatacclass]="'datagridrow'" [tableTitlecclass]="'headerStyle'" [tableHeadercclass]="'headerStyleColumn'">
-          <amexio-data-table-column [dataindex]="'date'" [datatype]="'string'" [hidden]="false" [text]="'Date'"></amexio-data-table-column>
-          <amexio-data-table-column [dataindex]="'from'" [datatype]="'string'" [hidden]="false" [text]="'From'"></amexio-data-table-column>
-          <amexio-data-table-column [dataindex]="'title'" [datatype]="'string'" [hidden]="false" [text]="'Subject'"></amexio-data-table-column>
+          (rowSelect)="onRowClick($event)" [c-class]="'gridStyle'" [tableDatacclass]="'datagridrow'" [tableTitlecclass]="'headerStyle'" [tableHeadercclass]="'headerStyleColumn'">
+          <amexio-data-table-column [data-index]="'date'" [data-type]="'string'" [hidden]="false" [text]="'Date'"></amexio-data-table-column>
+          <amexio-data-table-column [data-index]="'from'" [data-type]="'string'" [hidden]="false" [text]="'From'"></amexio-data-table-column>
+          <amexio-data-table-column [data-index]="'title'" [data-type]="'string'" [hidden]="false" [text]="'Subject'"></amexio-data-table-column>
         </amexio-datagrid>
       </amexio-column>
     </amexio-row>
@@ -66,15 +66,15 @@
   <amexio-body>
     <amexio-row>
       <amexio-column [size] = "12">
-        <amexio-text-input [fieldlabel]="'To'" name ="to"
-                           [haslabel]="false"
+        <amexio-text-input [field-label]="'To'" name ="to"
+                           [has-label]="false"
                            [placeholder]="'To'">
         </amexio-text-input>
-        <amexio-text-input [fieldlabel]="'Subject'" name ="subject"
-                           [haslabel]="false"
+        <amexio-text-input [field-label]="'Subject'" name ="subject"
+                           [has-label]="false"
                            [placeholder]="'Subject'">
         </amexio-text-input>
-        <amexio-textarea-input [fieldlabel]="'Content'"  [rows]="3" [columns]="3"></amexio-textarea-input>
+        <amexio-textarea-input [field-label]="'Content'"  [rows]="3" [columns]="3"></amexio-textarea-input>
       </amexio-column>
     </amexio-row>
   </amexio-body>

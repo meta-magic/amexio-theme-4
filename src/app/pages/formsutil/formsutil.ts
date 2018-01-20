@@ -26,7 +26,7 @@ import {FormsModule} from "@angular/forms";
 
        <amexio-row>
         <amexio-column size="6">
-          <amexio-rating-input [max]="5" [(ngModel)]="rate" [fullicon]="'☑'" [emptyicon]="'☐'"></amexio-rating-input>
+          <amexio-rating-input [max]="5" [(ngModel)]="rate" [full-icon]="'☑'" [empty-icon]="'☐'"></amexio-rating-input>
           <b><p>Rated : {{rate}}</p></b>
         </amexio-column>
          
@@ -45,13 +45,13 @@ import {FormsModule} from "@angular/forms";
        <amexio-row>
          <h3>Primary</h3>
          <amexio-column [size]="4">
-           <amexio-progress-bar [currentvalue]="'50'" [infinite]="false" type="primary"></amexio-progress-bar>
+           <amexio-progress-bar [current-value]="'50'" [infinite]="false" type="primary"></amexio-progress-bar>
          </amexio-column>
          <amexio-column [size]="4">
-           <amexio-progress-bar [currentvalue]="'80'" [infinite]="false" type="success"></amexio-progress-bar>
+           <amexio-progress-bar [current-value]="'80'" [infinite]="false" type="success"></amexio-progress-bar>
          </amexio-column>
          <amexio-column [size]="4">
-           <amexio-progress-bar [currentvalue]="'100'" [infinite]="false" type="success"></amexio-progress-bar>
+           <amexio-progress-bar [current-value]="'100'" [infinite]="false" type="success"></amexio-progress-bar>
          </amexio-column>
        </amexio-row>
 
@@ -59,26 +59,26 @@ import {FormsModule} from "@angular/forms";
        <amexio-row>
          <h3>Warning</h3>
          <amexio-column [size]="4">
-           <amexio-progress-bar [currentvalue]="'30'" [infinite]="false" type="warning"></amexio-progress-bar>
+           <amexio-progress-bar [current-value]="'30'" [infinite]="false" type="warning"></amexio-progress-bar>
          </amexio-column>
          <amexio-column [size]="4">
-           <amexio-progress-bar [currentvalue]="'55'" [infinite]="false" type="warning"></amexio-progress-bar>
+           <amexio-progress-bar [current-value]="'55'" [infinite]="false" type="warning"></amexio-progress-bar>
          </amexio-column>
          <amexio-column [size]="4">
-           <amexio-progress-bar [currentvalue]="'95'" [infinite]="false" type="warning"></amexio-progress-bar>
+           <amexio-progress-bar [current-value]="'95'" [infinite]="false" type="warning"></amexio-progress-bar>
          </amexio-column>
        </amexio-row>
 
        <amexio-row>
          <h3>Success</h3>
          <amexio-column [size]="4">
-           <amexio-progress-bar [currentvalue]="'45'" [infinite]="false" type="success"></amexio-progress-bar>
+           <amexio-progress-bar [current-value]="'45'" [infinite]="false" type="success"></amexio-progress-bar>
          </amexio-column>
          <amexio-column [size]="4">
-           <amexio-progress-bar [currentvalue]="'63'" [infinite]="false" type="success"></amexio-progress-bar>
+           <amexio-progress-bar [current-value]="'63'" [infinite]="false" type="success"></amexio-progress-bar>
          </amexio-column>
          <amexio-column [size]="4">
-           <amexio-progress-bar [currentvalue]="'99'" [infinite]="false" type="success"></amexio-progress-bar>
+           <amexio-progress-bar [current-value]="'99'" [infinite]="false" type="success"></amexio-progress-bar>
          </amexio-column>
        </amexio-row>
 
@@ -86,13 +86,13 @@ import {FormsModule} from "@angular/forms";
        <amexio-row>
          <h3>Danger</h3>
          <amexio-column [size]="4">
-           <amexio-progress-bar [currentvalue]="'54'" [infinite]="false" type="danger"></amexio-progress-bar>
+           <amexio-progress-bar [current-value]="'54'" [infinite]="false" type="danger"></amexio-progress-bar>
          </amexio-column>
          <amexio-column [size]="4">
-           <amexio-progress-bar [currentvalue]="'32'" [infinite]="false" type="danger"></amexio-progress-bar>
+           <amexio-progress-bar [current-value]="'32'" [infinite]="false" type="danger"></amexio-progress-bar>
          </amexio-column>
          <amexio-column [size]="4">
-           <amexio-progress-bar [currentvalue]="'85'" [infinite]="false" type="danger"></amexio-progress-bar>
+           <amexio-progress-bar [current-value]="'85'" [infinite]="false" type="danger"></amexio-progress-bar>
          </amexio-column>
        </amexio-row>
 
@@ -100,13 +100,13 @@ import {FormsModule} from "@angular/forms";
        <amexio-row>
          <h3>Infinite</h3>
          <amexio-column [size]="4">
-           <amexio-progress-bar [currentvalue]="'54'" [infinite]="true" type="danger"></amexio-progress-bar>
+           <amexio-progress-bar [current-value]="'54'" [infinite]="true" type="danger"></amexio-progress-bar>
          </amexio-column>
          <amexio-column [size]="4">
-           <amexio-progress-bar [currentvalue]="'32'" [infinite]="true" type="success"></amexio-progress-bar>
+           <amexio-progress-bar [current-value]="'32'" [infinite]="true" type="success"></amexio-progress-bar>
          </amexio-column>
          <amexio-column [size]="4">
-           <amexio-progress-bar [currentvalue]="'85'" [infinite]="true" type="warning"></amexio-progress-bar>
+           <amexio-progress-bar [current-value]="'85'" [infinite]="true" type="warning"></amexio-progress-bar>
          </amexio-column>
        </amexio-row>
 
@@ -119,7 +119,7 @@ import {FormsModule} from "@angular/forms";
        <amexio-row>
          <amexio-column [size]="6">
            <amexio-date-time-picker
-             [fieldlabel]="'Date Of Birth'"
+             [field-label]="'Date Of Birth'"
              [timepicker]="false"
              [datepicker]="true"
              [(ngModel)]="currentDate">
@@ -128,7 +128,7 @@ import {FormsModule} from "@angular/forms";
 
          <amexio-column [size]="6">
            <amexio-date-time-picker
-             [fieldlabel]="'Date Of Birth'"
+             [field-label]="'Date Of Birth'"
              [timepicker]="true"
              [datepicker]="false"
              [(ngModel)]="currentDate1">
@@ -146,10 +146,10 @@ import {FormsModule} from "@angular/forms";
        </amexio-row>
        <amexio-row>
          <amexio-column [size]="12">
-           <amexio-item-selector [height]="200" [displayfield]="'countryName'"
-                                 [valuefield]="'countryId'"
-                                 [httpurl]="'assets/data/itemdata.json'"
-                                 [httpmethod]="'get'" [datareader]="'data'" >
+           <amexio-item-selector [height]="200" [display-field]="'countryName'"
+                                 [value-field]="'countryId'"
+                                 [http-url]="'assets/data/itemdata.json'"
+                                 [http-method]="'get'" [data-reader]="'data'" >
            </amexio-item-selector>
          </amexio-column>
        </amexio-row>
@@ -164,24 +164,24 @@ import {FormsModule} from "@angular/forms";
            <amexio-fieldset [collapsible]="true" title="Employee Registration">
              <amexio-row>
                <amexio-column [size]="6">
-                 <amexio-text-input [fieldlabel]="'Name'" name="country"
+                 <amexio-text-input [field-label]="'Name'" name="country"
                                     [placeholder]="'Enter name'"
-                                    [enablepopover]="true"
-                                    [iconfeedback]="true"
-                                    [allowblank]="false" [errormsg]="'Please enter name'"
-                                    [minlength]="3" [maxlength]="15" [minerrormsg]="'Name should be minimum 3 characters'"
-                                    [maxerrormsg]="'Name should be less than 15 characters'"
+                                    [enable-popover]="true"
+                                    [icon-feedback]="true"
+                                    [allow-blank]="false" [error-msg]="'Please enter name'"
+                                    [min-length]="3" [max-length]="15" [min-error-msg]="'Name should be minimum 3 characters'"
+                                    [max-error-msg]="'Name should be less than 15 characters'"
                  >
                  </amexio-text-input>
                </amexio-column>
                <amexio-column [size]="6">
-                 <amexio-text-input [fieldlabel]="'Surname'" name="name"
+                 <amexio-text-input [field-label]="'Surname'" name="name"
                                     [placeholder]="'Enter surname'"
-                                    [enablepopover]="true"
-                                    [iconfeedback]="true"
-                                    [allowblank]="false" [errormsg]="'Please enter Surname'"
-                                    [minlength]="3" [maxlength]="15" [minerrormsg]="'Surname should be minimum 3 characters'"
-                                    [maxerrormsg]="'Surname should be less than 15 characters'"
+                                    [enable-popover]="true"
+                                    [icon-feedback]="true"
+                                    [allow-blank]="false" [error-msg]="'Please enter Surname'"
+                                    [min-length]="3" [max-length]="15" [min-error-msg]="'Surname should be minimum 3 characters'"
+                                    [max-error-msg]="'Surname should be less than 15 characters'"
                  >
                  </amexio-text-input>
                </amexio-column>
@@ -189,12 +189,12 @@ import {FormsModule} from "@angular/forms";
              <amexio-row>
                <amexio-column [size]="6">
 
-                 <amexio-textarea-input [fieldlabel]="'Address'" name="Address"
+                 <amexio-textarea-input [field-label]="'Address'" name="Address"
                                         [placeholder]="'Enter address'"
-                                        [errormsg]="'Please enter address'"
-                                        [iconfeedback]="true"
+                                        [error-msg]="'Please enter address'"
+                                        [icon-feedback]="true"
                                         [rows]="'5'" [columns]="'2'"
-                                        [allowblank]="false" [enablepopover]="true"
+                                        [allow-blank]="false" [enable-popover]="true"
 
                  >
                  </amexio-textarea-input>
@@ -202,12 +202,12 @@ import {FormsModule} from "@angular/forms";
 
                </amexio-column>
                <amexio-column [size]="6">
-                 <amexio-typeahead [datareader]="'response.data'"
-                                   [httpurl]="'assets/data/country.json'"
-                                   [httpmethod]="'get'"
+                 <amexio-typeahead [data-reader]="'response.data'"
+                                   [http-url]="'assets/data/country.json'"
+                                   [http-method]="'get'"
                                    [key]="'countryName'"
 
-                                   [fieldlabel]="'Nationality'" [placeholder]="'Search'">
+                                   [field-label]="'Nationality'" [placeholder]="'Search'">
                  </amexio-typeahead>
                </amexio-column>
              </amexio-row>

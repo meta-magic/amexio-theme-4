@@ -11,7 +11,7 @@
               <td align="left">
                 <amexio-progress-bar [showProgress]="true"
                                      [infinite]="false"
-                                     [currentvalue]="70">
+                                     [current-value]="70">
                 </amexio-progress-bar>
               </td>
             </tr>
@@ -20,7 +20,7 @@
               <td align="left">
                  <amexio-progress-bar [showProgress]="true"
                                      [infinite]="false"
-                                     [currentvalue]="20">
+                                     [current-value]="20">
                 </amexio-progress-bar>
               </td>
             </tr>
@@ -29,7 +29,7 @@
               <td align="left">
                 <amexio-progress-bar [showProgress]="true"
                                      [infinite]="false"
-                                     [currentvalue]="10">
+                                     [current-value]="10">
                 </amexio-progress-bar>
               </td>
             </tr>
@@ -51,7 +51,7 @@
               <td align="left">
                  <amexio-progress-bar [showProgress]="true"
                                      [infinite]="false"
-                                     [currentvalue]="20">
+                                     [current-value]="20">
 
                 </amexio-progress-bar>
               </td>
@@ -61,7 +61,7 @@
               <td align="left">
                 <amexio-progress-bar [showProgress]="true"
                                      [infinite]="false"
-                                     [currentvalue]="50"
+                                     [current-value]="50"
 
                 >
 
@@ -73,7 +73,7 @@
               <td align="left">
                 <amexio-progress-bar [showProgress]="true"
                                      [infinite]="false"
-                                     [currentvalue]="30"
+                                     [current-value]="30"
 
                 >
 
@@ -94,12 +94,12 @@
         </amexio-header>
         <amexio-body>
           <amexio-checkbox-group name="openissue"
-                           [datareader]="'response.data'"
-                           [displayfield]="'issueName'"
-                           [valuefield]="'checked'"
+                           [data-reader]="'response.data'"
+                           [display-field]="'issueName'"
+                           [value-field]="'checked'"
                            [data]="openIssuedata" >
           </amexio-checkbox-group>
-            <amexio-text-input name="issuename" [placeholder]="'Issue name'" [haslabel]="false">
+            <amexio-text-input name="issuename" [placeholder]="'Issue name'" [has-label]="false">
             </amexio-text-input>
             <amexio-button [label]="'Add'" [type]="'warning'"></amexio-button>
         </amexio-body>

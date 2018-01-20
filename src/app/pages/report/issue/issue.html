@@ -6,15 +6,15 @@
 <amexio-row>
   <amexio-column [size]="4">
     <amexio-datapoints [west]="true" [center]="true" [east]="true" [south]="true"  >
-      <amexio-west [contentalign]="'center'" [cclass]="'datapoint-west'">
+      <amexio-west [contentalign]="'center'" [c-class]="'datapoint-west'">
         <i class="fa fa-check fa-3x"></i>
       </amexio-west>
       <amexio-center [contentalign]="'right'">
         <amexio-datapoints [north]="true" [center]="true" [south]="true">
-          <amexio-north [cclass]="'datapoints-center-issue'">
+          <amexio-north [c-class]="'datapoints-center-issue'">
             <span >8</span>
           </amexio-north>
-          <amexio-center [cclass]="'datapoints-center'">
+          <amexio-center [c-class]="'datapoints-center'">
             <span >Closed</span>
           </amexio-center>
         </amexio-datapoints>
@@ -24,15 +24,15 @@
 
   <amexio-column [size]="4">
     <amexio-datapoints [west]="true" [center]="true" [east]="true" [south]="true"  >
-      <amexio-west [contentalign]="'center'" [cclass]="'datapoint-west'">
+      <amexio-west [contentalign]="'center'" [c-class]="'datapoint-west'">
         <i class="fa fa-envelope-open fa-3x"></i>
       </amexio-west>
       <amexio-center [contentalign]="'right'">
         <amexio-datapoints [north]="true" [center]="true" [south]="true">
-          <amexio-north [cclass]="'datapoints-center-issue'">
+          <amexio-north [c-class]="'datapoints-center-issue'">
             <span >13</span>
           </amexio-north>
-          <amexio-center [cclass]="'datapoints-center'">
+          <amexio-center [c-class]="'datapoints-center'">
             <span >Open</span>
           </amexio-center>
         </amexio-datapoints>
@@ -42,15 +42,15 @@
 
 <amexio-column [size]="4">
     <amexio-datapoints [west]="true" [center]="true" [east]="true" [south]="true" >
-      <amexio-west [contentalign]="'center'" [cclass]="'datapoint-west'">
+      <amexio-west [contentalign]="'center'" [c-class]="'datapoint-west'">
         <i class="fa fa-bolt fa-3x"></i>
       </amexio-west>
       <amexio-center [contentalign]="'right'">
         <amexio-datapoints [north]="true" [center]="true" [south]="true">
-          <amexio-north [cclass]="'datapoints-center-issue'">
+          <amexio-north [c-class]="'datapoints-center-issue'">
             <span >6</span>
           </amexio-north>
-          <amexio-center [cclass]="'datapoints-center'">
+          <amexio-center [c-class]="'datapoints-center'">
             <span >High</span>
           </amexio-center>
         </amexio-datapoints>
@@ -60,15 +60,15 @@
 
 <amexio-column [size]="4">
     <amexio-datapoints [west]="true" [center]="true" [east]="true" [south]="true" >
-      <amexio-west [contentalign]="'center'" [cclass]="'datapoint-west'">
+      <amexio-west [contentalign]="'center'" [c-class]="'datapoint-west'">
         <i class="fa fa-medium fa-3x"></i>
       </amexio-west>
       <amexio-center [contentalign]="'right'">
         <amexio-datapoints [north]="true" [center]="true" [south]="true">
-          <amexio-north [cclass]="'datapoints-center-issue'">
+          <amexio-north [c-class]="'datapoints-center-issue'">
             <span >9</span>
           </amexio-north>
-          <amexio-center [cclass]="'datapoints-center'">
+          <amexio-center [c-class]="'datapoints-center'">
             <span >Medium</span>
           </amexio-center>
         </amexio-datapoints>
@@ -78,15 +78,15 @@
 
 <amexio-column [size]="4">
     <amexio-datapoints [west]="true" [center]="true" [east]="true" [south]="true" >
-      <amexio-west [contentalign]="'center'" [cclass]="'datapoint-west'">
+      <amexio-west [contentalign]="'center'" [c-class]="'datapoint-west'">
         <i class="fa fa-low-vision fa-3x"></i>
       </amexio-west>
       <amexio-center [contentalign]="'right'">
         <amexio-datapoints [north]="true" [center]="true" [south]="true">
-          <amexio-north [cclass]="'datapoints-center-issue'">
+          <amexio-north [c-class]="'datapoints-center-issue'">
             <span >6</span>
           </amexio-north>
-          <amexio-center [cclass]="'datapoints-center'">
+          <amexio-center [c-class]="'datapoints-center'">
             <span >Low</span>
           </amexio-center>
         </amexio-datapoints>
@@ -99,17 +99,17 @@
 <amexio-datagrid
       [height]="500"
       [title]="'List of Issues Raised'"
-      [pagesize] = "10"
-      [datareader]="'response.data'"
-      [enablecheckbox]="false"
-      [httpurl]="'assets/data/issue.json'"
-      [httpmethod]="'get'"
+      [page-size] = "10"
+      [data-reader]="'response.data'"
+      [enable-checkbox]="false"
+      [http-url]="'assets/data/issue.json'"
+      [http-method]="'get'"
       (selectedRowData)="onRowSelect($event)"
-      (rowSelect)="onRowClick($event)" [cclass]="'gridStyle'" [tableDatacclass]="'datagridrow'" [tableTitlecclass]="'headerStyle'" [tableHeadercclass]="'headerStyleColumn'">
-      <amexio-data-table-column [dataindex]="'date'" [datatype]="'string'" [hidden]="false" [text]="'Date'"></amexio-data-table-column>
-      <amexio-data-table-column [dataindex]="'status'" [datatype]="'string'" [hidden]="false" [text]="'Status'"></amexio-data-table-column>
-      <amexio-data-table-column [dataindex]="'issue'" [datatype]="'string'" [hidden]="false" [text]="'Issue'"></amexio-data-table-column>
-      <amexio-data-table-column [dataindex]="'severity'" [datatype]="'string'" [hidden]="false" [text]="'Severity'"></amexio-data-table-column>
+      (rowSelect)="onRowClick($event)" [c-class]="'gridStyle'" [tableDatacclass]="'datagridrow'" [tableTitlecclass]="'headerStyle'" [tableHeadercclass]="'headerStyleColumn'">
+      <amexio-data-table-column [data-index]="'date'" [data-type]="'string'" [hidden]="false" [text]="'Date'"></amexio-data-table-column>
+      <amexio-data-table-column [data-index]="'status'" [data-type]="'string'" [hidden]="false" [text]="'Status'"></amexio-data-table-column>
+      <amexio-data-table-column [data-index]="'issue'" [data-type]="'string'" [hidden]="false" [text]="'Issue'"></amexio-data-table-column>
+      <amexio-data-table-column [data-index]="'severity'" [data-type]="'string'" [hidden]="false" [text]="'Severity'"></amexio-data-table-column>
     </amexio-datagrid>
 </amexio-body>
 </amexio-card>
