@@ -27,7 +27,8 @@
               <div style="height: 350px;overflow-x: auto">
                 <amexio-row *ngFor="let objArray of materialThemeArray" >
                   <ng-container *ngFor="let obj of objArray">
-                    <amexio-column style="cursor: pointer" [size]="4"  (click)="themeChange(obj)"><img src="http://via.placeholder.com/140x150"/><br><b>{{obj.themeName}}</b>
+                    <amexio-column style="cursor: pointer" [size]="4"  (click)="themeChange(obj)">
+                      <img height="100px" width="130px" [attr.src]="'assets/images/themematerialicons/'+ obj.link"/><br><b>{{obj.themeName}}</b>
                     </amexio-column>
                   </ng-container>
                 </amexio-row>
@@ -38,7 +39,8 @@
               <div style="height: 350px;overflow-x: auto">
                 <amexio-row *ngFor="let objArray of amexioThemeArray" >
                   <ng-container *ngFor="let obj of objArray">
-                    <amexio-column style="cursor: pointer" [size]="4"  (click)="themeChange(obj)"><img src="http://via.placeholder.com/140x150"/><br><b>{{obj.themeName}}</b>
+                    <amexio-column style="cursor: pointer" [size]="4"  (click)="themeChange(obj)">
+                      <img height="100px" width="130px" [attr.src]="'assets/images/themeamexioicon/'+ obj.link"/><br><b>{{obj.themeName}}</b>
                     </amexio-column>
                   </ng-container>
                 </amexio-row>
