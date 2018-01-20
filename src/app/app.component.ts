@@ -87,7 +87,7 @@ export class AppComponent {
     this.addNewTheme(this.newThemePath);
     this.cookieService.set('theme_name', theme.themeCssFile);
     this.toggle();
-    window.location.reload();
+   // window.location.reload();
   }
 
   addNewTheme(newTheme: any) {
