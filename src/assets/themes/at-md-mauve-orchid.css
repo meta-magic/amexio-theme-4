@@ -1947,20 +1947,22 @@ fieldset {
   padding: 10px; }
 
 .verticalnavtab .defaultnode:hover {
-  background-color: #ced4da; }
+  font-weight: bold; }
 
 .verticalnavtab .leftactivetab {
-  background-color: #ced4da;
-  border-left: 3px solid #973be9; }
-
-.verticalnavtab .rightactivetab {
-  background-color: #ced4da;
+  font-weight: bold;
   border-right: 3px solid #973be9; }
 
+.verticalnavtab .rightactivetab {
+  font-weight: bold;
+  border-left: 3px solid #973be9; }
+
 .verticalnavtab-left {
+  font-weight: bold;
   border-right: 1px solid #ced4da; }
 
 .verticalnavtab-right {
+  font-weight: bold;
   border-left: 1px solid #ced4da; }
 
 /*
