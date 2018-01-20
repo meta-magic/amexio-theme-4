@@ -13,7 +13,9 @@ import {FormsModule} from "@angular/forms";
 
 const route: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full'},
-
+  {
+    path: 'carouseldemo', loadChildren: './pages/carouseldemo/carouseldemo.module#CarouselDemoModule'
+  },
   {
     path: 'email', loadChildren: './pages/email/email.module#EmailModule'
   },
