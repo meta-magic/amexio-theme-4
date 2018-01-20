@@ -2169,7 +2169,8 @@ button.app-button {
   border: none !important; }
 
 .datatable .datatable-row:hover {
-  background-color: #f8de8b; }
+  background-color: #f8de8b;
+  font-weight: bold; }
 
 .datatable .datatable-row-active {
   background-color: #F3C22A; }
