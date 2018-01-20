@@ -1,0 +1,56 @@
+<amexio-card [header]="true">
+  <amexio-header>Carousel View</amexio-header>
+  <amexio-body>
+    <amexio-tab-view  [closable]="false">
+      <amexio-tab [title]="'99-Store'"  [active]="true" [icon]="'fa fa-usd fa-fw '" >
+        <amexio-carousel [data]="dealData" mode="multiple" [header]="'Black Friday Deals ...'" shuffleinterval="2000" >
+          <ng-template let-i amexioTemplate="item">
+            <amexio-card>
+              <amexio-body>
+                <div style="height: 380px;">
+                  <img src={{i.img}}/>
+                    <p class="deal-text">{{i.desc}}  </p>
+                    <amexio-row>
+                      <amexio-column [size]="9"></amexio-column>
+                    <!-- <amexio-rating-input [max]="10" [(ngModel)]="{{i.rate}}"></amexio-rating-input> -->
+                      <amexio-column [size]="3">
+                        <a class="deal-price">
+                          ₹ {{i.price}}
+                        </a>
+                      </amexio-column>
+                    </amexio-row>
+                </div>
+              </amexio-body>
+            </amexio-card>
+          </ng-template>
+        </amexio-carousel>
+
+      </amexio-tab>
+
+      <amexio-tab [title]="'Quotes'"  [active]="false" [icon]="'fa fa-thumbs-o-up '" >
+        <amexio-carousel [data]="viewData" mode="multiple" [header]="'Penny for your thoughts..'" shuffleinterval="2000" >
+          <ng-template let-i amexioTemplate="item">
+            <amexio-card>
+              <amexio-body>
+                <div style="height: 200px;width:300px;">
+                  <!-- <p class="quotation-mark">"</p> -->
+                  <p class="quote-text">
+                  {{i.quote}}
+
+                  <br /> <br />
+                  <!-- <div class="quote-right"> -->
+                  <b>-{{i.by}}</b>
+                  <!-- <p class="quotation-mark-right">"</p> -->
+                <!-- </div> -->
+                </div>
+              </amexio-body>
+            </amexio-card>
+          </ng-template>
+        </amexio-carousel>
+
+      </amexio-tab>
+    </amexio-tab-view>
+
+
+  </amexio-body>
+</amexio-card>

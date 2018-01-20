@@ -87,6 +87,13 @@
         "icon": "fa fa-bars fa-fw",
         "mdbIcon": "navigation",
         "link": "navigation"
+      },
+      {
+        "text": "Carousel Demo",
+        "icon": "fa fa-tasks",
+        "mdbIcon": "carouseldemo",
+        "link": "carouseldemo",
+        "active":true
       }
     ]
   },

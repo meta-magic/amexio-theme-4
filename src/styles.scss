@@ -893,3 +893,36 @@
   -webkit-animation: burst 3s infinite linear;
   animation: burst 3s infinite linear;
 }
+
+// App Specific styles for Carousel View
+
+.quotation-mark{
+    margin-top: 10px;
+    font-weight: bold;
+    font-size:80px;
+    color:inherit;
+    font-family: "Times New Roman", Georgia, Serif;
+}
+
+.quote-text{
+    font-size: 19px;
+  // margin-top: -65px;
+}
+
+.quote-right{
+  justify-content: flex-end;
+}
+
+.deal-text{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.deal-price{
+    font-size: 25px;
+    margin-bottom: 10px;
+    padding-right: 10px;
+    justify-content: flex-end;
+    color:red;
+    font-weight: bold;
+}
