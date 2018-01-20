@@ -1595,6 +1595,7 @@ input[type='range']::-webkit-slider-thumb {
   margin-right: .063em;
   text-decoration: none;
   vertical-align: middle;
+  color: inherit;
   border: 3px solid #601221;
   border-radius: 0 px; }
 
@@ -2166,7 +2167,8 @@ button.app-button {
   background-color: rgba(66, 31, 38, 0.4) !important; }
 
 .datatable .datatable-row:hover {
-  background-color: rgba(66, 31, 38, 0.4);
+  color: #043963 !important;
+  background-color: rgba(66, 31, 38, 0.4) !important;
   font-weight: bold; }
 
 .datatable .datatable-row-active {
