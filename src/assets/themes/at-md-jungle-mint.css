@@ -53,7 +53,7 @@ body {
 /**HEADER STYLE STARTS **/
 .header {
   background-color: #98BF98;
-  color: white;
+  color: black;
   padding: 10px;
   overflow: hidden; }
 
@@ -126,7 +126,7 @@ button {
 .button-primary {
   background-color: #98BF98;
   border-color: #98BF98;
-  color: white; }
+  color: black; }
 
 .button-primary:hover {
   background-color: #79ab79; }
@@ -291,7 +291,7 @@ button {
   text-align: left; }
 
 .dropdown-list .list-items:hover {
-  color: white;
+  color: black;
   background-color: #98BF98; }
 
 .drodown-caret-down {
@@ -427,7 +427,7 @@ button {
 .input-box .active {
   border: 1px solid #ced4da;
   background: #98BF98;
-  color: white; }
+  color: black; }
 
 .input-box-container {
   display: block;
@@ -524,7 +524,7 @@ button {
     font-size: 11px;
     line-height: 30px;
     background-color: #98BF98;
-    color: white;
+    color: black;
     border: 1px solid #ced4da; }
     .tag-input .tag .closebtn {
       padding-left: 10px;
@@ -532,9 +532,9 @@ button {
       float: right;
       font-size: 20px;
       cursor: pointer;
-      color: #cccccc; }
+      color: black; }
     .tag-input .tag .closebtn:hover {
-      color: white; }
+      color: black; }
 
 .toastbar {
   position: fixed;
@@ -558,7 +558,7 @@ button {
   padding: 10px;
   min-width: 250px;
   background-color: #98BF98;
-  color: white;
+  color: black;
   text-align: center;
   border-radius: 2px;
   padding: 16px;
@@ -1028,7 +1028,7 @@ input[type='range']::-webkit-slider-thumb {
     justify-content: space-between; }
     .item-selector-action-panel .actionbar .actionbarinner .action {
       background-color: #98BF98;
-      color: white;
+      color: black;
       width: 50px;
       height: 30px;
       text-align: center;
@@ -1600,11 +1600,11 @@ input[type='range']::-webkit-slider-thumb {
 
 .paginator .paginator-pages .paginator-page:hover {
   background-color: #98BF98;
-  color: white; }
+  color: black; }
 
 .paginator .paginator-pages .active {
   background-color: #79ab79;
-  color: white; }
+  color: black; }
 
 .sidenav {
   height: 100%;
@@ -1634,7 +1634,7 @@ input[type='range']::-webkit-slider-thumb {
 .sidenav .title {
   cursor: pointer;
   background-color: #98BF98;
-  color: white;
+  color: black;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 100%;
@@ -1705,12 +1705,12 @@ input[type='range']::-webkit-slider-thumb {
 /* Change background color of buttons on hover */
 .dockbar button:hover {
   background-color: #d7e6d7;
-  color: white; }
+  color: black; }
 
 /* Create an active/current "tab button" class */
 .dockbar button.active {
   background-color: #d7e6d7;
-  color: white;
+  color: black;
   border-left: 3px solid #79ab79; }
 
 .dockbar-label-highlight {
@@ -1738,7 +1738,7 @@ input[type='range']::-webkit-slider-thumb {
 
 .accordion {
   background-color: #d7e6d7;
-  color: white;
+  color: black;
   cursor: pointer;
   padding: 18px;
   width: 100%;
@@ -1750,7 +1750,7 @@ input[type='range']::-webkit-slider-thumb {
 
 .active-accordion, .accordion:hover {
   background-color: #98BF98;
-  color: white; }
+  color: black; }
 
 .accordion:after {
   color: red;
@@ -1787,7 +1787,7 @@ input[type='range']::-webkit-slider-thumb {
   background: #98BF98;
   border-bottom: 1px solid #ced4da;
   font-size: 20px;
-  color: white;
+  color: black;
   font-weight: 300;
   text-transform: capitalize;
   overflow: auto; }
@@ -1802,7 +1802,7 @@ input[type='range']::-webkit-slider-thumb {
 .card-footer {
   display: flex;
   background-color: #98BF98;
-  color: white;
+  color: black;
   border-top: 1px solid #ced4da; }
 
 .carouselnavigation {
@@ -2079,7 +2079,7 @@ fieldset {
   height: 100%; }
 
 .modal-window-header {
-  background-color: white;
+  background-color: black;
   border-bottom: 1px solid #ced4da; }
 
 .modal-window-middle {
@@ -2087,7 +2087,7 @@ fieldset {
   min-height: 85% !important; }
 
 .modal-window-footer {
-  background-color: white;
+  background-color: black;
   border-top: 1px solid #ced4da;
   display: flex; }
 
@@ -2154,7 +2154,7 @@ button.app-button {
 .datatable .datatable-header {
   background-color: #98BF98;
   font-size: larger;
-  color: white; }
+  color: black; }
 
 .datatable .datatable-col {
   vertical-align: middle; }
@@ -2172,7 +2172,7 @@ button.app-button {
 
 .datapoint-south {
   background-color: #98BF98;
-  color: white;
+  color: black;
   border-radius: 0px;
   font-size: 20px;
   padding: 5px;
