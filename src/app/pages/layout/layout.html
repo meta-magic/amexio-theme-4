@@ -2,10 +2,7 @@
   <amexio-header>Panels</amexio-header>
   <amexio-body>
     <amexio-tab-view  [closable]="false">
-
       <amexio-tab [title]="'Carousel'" [active]="true" [icon]="'fa fa-desktop fa-fw '" >
-
-
         <amexio-carousel [data]="viewData" mode="multiple" [header]="'Collections'" shuffleinterval="2000" >
           <ng-template let-i amexioTemplate="item">
             <amexio-card>
@@ -18,9 +15,7 @@
             </amexio-card>
           </ng-template>
         </amexio-carousel>
-
       </amexio-tab>
-
       <amexio-tab [title]="'Form'" [icon]="'fa fa-laptop fa-fw'">
         <amexio-card [header]="true" [footer]="true">
           <amexio-header>
@@ -60,44 +55,118 @@
         </amexio-card>
       </amexio-tab>
       <amexio-tab [title]="'Image'" [icon]="'fa fa-picture-o fa-fw'">
-
+        <amexio-row>
+          <amexio-column [size]="6">
         <amexio-card [header]="true" [footer]="true">
           <amexio-header>Image</amexio-header>
           <amexio-body>
-            <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20%2840%29.jpg" class="layout-fit-img">
+            <img src="assets/images/carousel/set2/1.jpg" class="layout-fit-img">
             <br/>
-            <h5 class="red-text"><i class="fa fa-money"></i> “There's a sunrise and a sunset every single day, and they're absolutely free. Don't miss so many of them.”
-              ― Jo Walton</h5>
-
           </amexio-body>
-          <amexio-action>
-
-          </amexio-action>
         </amexio-card>
-
+      </amexio-column>
+      <amexio-column [size]="6">
+        <amexio-card [header]="true" [footer]="true">
+          <amexio-header>Image</amexio-header>
+          <amexio-body>
+            <img src="assets/images/carousel/set2/2.jpg" class="layout-fit-img">
+            <br/>
+          </amexio-body>
+        </amexio-card>
+      </amexio-column>
+      <amexio-column [size]="6">
+        <amexio-card [header]="true" [footer]="true">
+          <amexio-header>Image</amexio-header>
+          <amexio-body>
+            <img src="assets/images/carousel/set2/3.jpg" class="layout-fit-img">
+            <br/>
+          </amexio-body>
+          </amexio-card>
+        </amexio-column>
+        <amexio-column [size]="6">
+        <amexio-card [header]="true" [footer]="true">
+          <amexio-header>Image</amexio-header>
+          <amexio-body>
+            <img src="assets/images/carousel/set2/4.jpg" class="layout-fit-img">
+            <br/>
+          </amexio-body>
+        </amexio-card>
+      </amexio-column>
+    </amexio-row>
+    <amexio-row>
+      <amexio-column [size]="6">
+    <amexio-card [header]="true" [footer]="true">
+      <amexio-header>Image</amexio-header>
+      <amexio-body>
+        <img src="assets/images/carousel/set2/5.jpg" class="layout-fit-img">
+        <br/>
+      </amexio-body>
+    </amexio-card>
+  </amexio-column>
+  <amexio-column [size]="6">
+    <amexio-card [header]="true" [footer]="true">
+      <amexio-header>Image</amexio-header>
+      <amexio-body>
+        <img src="assets/images/carousel/set2/6.jpg" class="layout-fit-img">
+        <br/>
+      </amexio-body>
+    </amexio-card>
+  </amexio-column>
+  <amexio-column [size]="6">
+    <amexio-card [header]="true" [footer]="true">
+      <amexio-header>Image</amexio-header>
+      <amexio-body>
+        <img src="assets/images/carousel/set2/7.jpg" class="layout-fit-img">
+        <br/>
+      </amexio-body>
+      </amexio-card>
+    </amexio-column>
+    <amexio-column [size]="6">
+    <amexio-card [header]="true" [footer]="true">
+      <amexio-header>Image</amexio-header>
+      <amexio-body>
+        <img src="assets/images/carousel/set2/8.jpg" class="layout-fit-img">
+        <br/>
+      </amexio-body>
+    </amexio-card>
+  </amexio-column>
+</amexio-row>
       </amexio-tab>
-
-
-
-      <amexio-tab [title]="'Accordion'" [icon]="'fa fa-eercast'" >
+      <amexio-tab [title]="'Accordion'" [icon]="'fa fa-minus-square-o'" >
         <amexio-accordion>
-          <amexio-accordion-tab [header]="'Accordion Pane-I'" [expanded]="true">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          <amexio-accordion-tab [header]="'Accordion Pane-I'" [expanded]="true">
+            <div class ="div-padding-layout">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </div>
           </amexio-accordion-tab>
-          <amexio-accordion-tab [header]="'Accordion Pane-II'">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          <amexio-accordion-tab [header]="'Accordion Pane-II'">
+            <div class ="div-padding-layout">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </div>
           </amexio-accordion-tab>
-          <amexio-accordion-tab [header]="'Accordion Pane-III'" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          <amexio-accordion-tab [header]="'Accordion Pane-III'" >
+            <div class ="div-padding-layout">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </div>
           </amexio-accordion-tab>
-          <amexio-accordion-tab [header]="'Accordion Pane-IV'" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          <amexio-accordion-tab [header]="'Accordion Pane-IV'" >
+            <div class ="div-padding-layout">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </div>
           </amexio-accordion-tab>
         </amexio-accordion>
       </amexio-tab>
 
       <amexio-tab [title]="'Fieldset'" [icon]="'fa fa-clone fa-fw'">
         <amexio-fieldset [title]="'Fieldset1'" [collapsible]="false">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          <div class ="div-padding-layout">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </div>
         </amexio-fieldset>
         <amexio-fieldset [title]="'Fieldset2'" [collapsible]="true">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          <div class ="div-padding-layout">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </div>
         </amexio-fieldset>
       </amexio-tab>
       <amexio-tab [title]="'Window'"   [icon]="'fa fa-windows fa-fw'">
@@ -279,19 +348,31 @@
           <h4>Border Layout</h4>
           <amexio-borderlayout>
             <amexio-borderlayout-item position="north">
-              <amexio-card><amexio-body>NORTH</amexio-body></amexio-card>
+              <amexio-card><amexio-body>  <div class ="div-padding-layout">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </div></amexio-body></amexio-card>
             </amexio-borderlayout-item>
             <amexio-borderlayout-item position="east">
-              <amexio-card><amexio-body>EAST</amexio-body></amexio-card>
+              <amexio-card><amexio-body>  <div class ="div-padding-layout">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </div></amexio-body></amexio-card>
             </amexio-borderlayout-item>
             <amexio-borderlayout-item position="center">
-              <amexio-card><amexio-body>CENTER</amexio-body></amexio-card>
+              <amexio-card><amexio-body>  <div class ="div-padding-layout">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+              </div></amexio-body></amexio-card>
             </amexio-borderlayout-item>
             <amexio-borderlayout-item position="west">
-              <amexio-card><amexio-body>WEST</amexio-body></amexio-card>
+              <amexio-card><amexio-body>  <div class ="div-padding-layout">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </div></amexio-body></amexio-card>
             </amexio-borderlayout-item>
             <amexio-borderlayout-item position="south">
-              <amexio-card><amexio-body>SOUTH</amexio-body></amexio-card>
+              <amexio-card><amexio-body>  <div class ="div-padding-layout">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </div></amexio-body></amexio-card>
             </amexio-borderlayout-item>
           </amexio-borderlayout>
           <h4>Row Column Layout</h4>
