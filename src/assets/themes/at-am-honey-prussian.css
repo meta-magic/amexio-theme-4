@@ -73,6 +73,7 @@ body {
 .table .tablerow .tablecol {
   display: table-cell;
   padding-right: 5px;
+  padding-left: 5px;
   vertical-align: middle; }
 
 /** Disabled **/
@@ -1950,7 +1951,9 @@ fieldset {
   font-weight: bold; }
 
 .verticalnavtab .leftactivetab {
+  background-color: #F3C22A;
   font-weight: bold;
+  color: white;
   border-right: 3px solid rgba(0, 18, 36, 0.7); }
 
 .verticalnavtab .rightactivetab {
