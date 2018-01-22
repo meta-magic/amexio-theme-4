@@ -84,6 +84,17 @@ input:disabled {
 .defaultcolor {
   color: black; }
 
+.verticalalign-tableft {
+  vertical-align: top !important;
+  border-right: 1px solid #ced4da !important; }
+
+.verticalalign-tabright {
+  vertical-align: top !important;
+  border-left: 1px solid #ced4da !important; }
+
+.verticalalign-tabcontent {
+  vertical-align: top !important; }
+
 /**BUTTON**/
 button {
   display: inline-block;
@@ -882,11 +893,11 @@ input[type='range']::-webkit-slider-thumb {
   display: table-row; }
 
 .datatable .datatable-row:hover {
-  background-color: #f7c6ce;
+  background-color: white;
   cursor: pointer; }
 
 .datatable .datatable-row-active {
-  background-color: #f7c6ce; }
+  background-color: white; }
 
 .datatable .datatable-col {
   display: table-cell;
@@ -2168,6 +2179,13 @@ button.app-button {
 .drodown-caret-down {
   top: 35px;
   color: #ced4da; }
+
+.datatable .datatable-row:hover {
+  background-color: #f09aa8;
+  cursor: pointer; }
+
+.datatable .datatable-row-active {
+  background-color: #f09aa8; }
 
 .datatable .datatable-row {
   height: 50px; }
