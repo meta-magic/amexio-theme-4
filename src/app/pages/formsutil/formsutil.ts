@@ -14,7 +14,7 @@ import {FormsModule} from "@angular/forms";
    <amexio-card [header]="true">
 
      <amexio-header>
-       Amexio Forms Utilities.
+       Amexio Forms Utilities
      </amexio-header>
      <amexio-body>
 
