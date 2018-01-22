@@ -1,7 +1,7 @@
 version: 0.1
 environment_variables:
     plaintext:
-        S3_BUCKET: "amexio2"
+        S3_BUCKET: "amexiotheme"
         BUILD_ENV: "prod"
 phases:
     install:
@@ -28,7 +28,7 @@ phases:
          commands:
             - cp appspec.yml dist
             - echo Build completed on `date`
-            - aws s3 cp dist s3://amexio2 --recursive
+            - aws s3 cp dist s3://amexiotheme --recursive
 artifacts:
     files:
         - '**/*'
