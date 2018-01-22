@@ -541,6 +541,9 @@ button {
   position: fixed;
   z-index: 3; }
 
+.toast-left {
+  left: 10px; }
+
 .toast-right {
   right: 0px; }
 
@@ -1134,6 +1137,7 @@ input[type='range']::-webkit-slider-thumb {
 
 .treenode {
   width: 100%;
+  padding-left: 20px;
   transition: .5s;
   background-attachment: scroll;
   background-color: transparent;
@@ -1148,6 +1152,9 @@ input[type='range']::-webkit-slider-thumb {
   cursor: pointer;
   position: relative;
   padding-top: 10px; }
+
+.treenode-empty-space {
+  padding-left: 15px; }
 
 .treenode-label {
   padding: 10px;
@@ -1617,6 +1624,17 @@ input[type='range']::-webkit-slider-thumb {
   color: black;
   z-index: 1; }
 
+.sidenav::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #F5F5F5; }
+
+.sidenav::-webkit-scrollbar {
+  width: 6px;
+  background-color: #F5F5F5; }
+
+.sidenav::-webkit-scrollbar-thumb {
+  background-color: #CF912A; }
+
 .left {
   left: 0;
   position: fixed; }
@@ -1928,6 +1946,7 @@ fieldset {
 .tabcontent {
   width: 100%;
   position: relative;
+  vertical-align: top !important;
   padding: 20px 20px 10px 0px; }
 
 /**VERTICAL TABS**/
@@ -1961,12 +1980,21 @@ fieldset {
   border-left: 3px solid #a57321; }
 
 .verticalnavtab-left {
-  font-weight: bold;
-  border-right: 1px solid #ced4da; }
+  font-weight: bold; }
 
 .verticalnavtab-right {
-  font-weight: bold;
-  border-left: 1px solid #ced4da; }
+  font-weight: bold; }
+
+.verticalalign-tableft {
+  vertical-align: top !important;
+  border-right: 1px solid #ced4da !important; }
+
+.verticalalign-tabright {
+  vertical-align: top !important;
+  border-left: 1px solid #ced4da !important; }
+
+.verticalalign-tabcontent {
+  vertical-align: top !important; }
 
 /*
 .modal-window{
