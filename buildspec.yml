@@ -1,0 +1,38 @@
+version: 0.1
+environment_variables:
+    plaintext:
+        S3_BUCKET: "amexio2"
+        BUILD_ENV: "prod"
+phases:
+    install:
+        commands:         
+            - echo Installing source NPM dependencies...
+            - npm install
+            - npm install -g @angular/cli
+            - npm cache clean -f
+            - npm install -g n
+            - n stable
+            - n latest
+            - npm install 
+            - npm i node-sass --save-dev
+            - ng set defaults.styleExt scss
+            - node -v
+            - ng --version
+
+
+    build:
+        commands:
+            - echo Build started on `date`
+            - ng build --prod
+
+    post_build:
+         commands:
+            - cp appspec.yml dist
+            - echo Build completed on `date`
+            - aws s3 cp dist s3://amexio2 --recursive
+artifacts:
+    files:
+        - '**/*'
+    base-directory: 'dist*'
+    discard-paths: yes
+
