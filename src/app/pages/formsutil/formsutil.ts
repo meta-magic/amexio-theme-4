@@ -237,8 +237,8 @@ import {FormsModule} from "@angular/forms";
        </amexio-row>
 
        <amexio-row>
-         <amexio-column [size]="12">
-             <amexio-image [path]="'https://pluralsight2.imgix.net/paths/images/angular-14a0f6532f.png'"></amexio-image>
+         <amexio-column [size]="4">
+             <amexio-image [path]="'assets/images/logos/amexio-logo.png'"></amexio-image>
          </amexio-column>
        </amexio-row>
 
