@@ -2,14 +2,14 @@
   "data": [
     {
       "task": "Project: Shopping 1",
-      "duration": 1325,
+      "duration": 592,
       "user": "Tommy Maintz",
       "iconCls": "task-folder",
       "expanded": false,
       "children": [
         {
           "task": "Housewares",
-          "duration": 125,
+          "duration": 35,
           "user": "Tommy Maintz",
           "iconCls": "task-folder",
           "children": [
@@ -46,7 +46,7 @@
         },
         {
           "task": "Remodeling",
-          "duration": 12,
+          "duration": 557,
           "user": "Tommy Maintz",
           "iconCls": "task-folder",
           "expanded": true,
@@ -60,7 +60,7 @@
             },
             {
               "task": "Paint bedroom",
-              "duration": 275,
+              "duration": 140,
               "user": "Tommy Maintz",
               "iconCls": "task-folder",
               "children": [
@@ -109,7 +109,7 @@
     },
     {
       "task": "Project: Testing",
-      "duration": 2,
+      "duration": 203,
       "user": "Core Team",
       "iconCls": "task-folder",
       "children": [
@@ -144,7 +144,7 @@
         },
         {
           "task": "Windows",
-          "duration": 375,
+          "duration": 78,
           "user": "Darrell Meyer",
           "iconCls": "task-folder",
           "children": [
@@ -180,7 +180,7 @@
         },
         {
           "task": "Linux",
-          "duration": 5,
+          "duration": 50,
           "user": "Aaron Conran",
           "iconCls": "task-folder",
           "children": [

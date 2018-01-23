@@ -174,15 +174,13 @@
           <amexio-column [size]="12">
             <amexio-vertical-tab-view >
               <amexio-tab [title]="'Window'" [active]="true">
-                <amexio-card [header]="false">
-                  <amexio-body>
                     <amexio-button [label]="'Window Layout'" [type]="'primary'" [tooltip]="'Hide/UnHide'" (click)="toggle()"> </amexio-button>
-                    <amexio-window [(showWindow)]="flag" [closable]="true">
+                    <amexio-window [(showWindow)]="flag" [closable]="true" [footer]="true">
                       <amexio-header>
                         Employee Registration
                       </amexio-header>
                       <amexio-body>
-                        <div class ="div-padding-layout">
+
                         <amexio-row>
                           <amexio-column [size]="6">
                             <amexio-text-input [field-label]="'FirstName'" name="name" [placeholder]="'Enter firstname'" [icon-feedback]="true">
@@ -209,31 +207,30 @@
                             </amexio-text-input>
                           </amexio-column>
                         </amexio-row>
-                      </div>
+
                       </amexio-body>
                       <amexio-action>
                         <amexio-button [label]="'Save'" [type]="'success'" [tooltip]="'save'"></amexio-button>
                       </amexio-action>
                     </amexio-window>
-                  </amexio-body>
-                </amexio-card>
               </amexio-tab>
-              <amexio-tab [title]="'Dialog Box'">
+              <amexio-tab [title]="'Confirm Box'">
                 <amexio-card [header]="false" [footer]="false">
                   <amexio-body>
-                    <amexio-button type="primary" (onClick)="toggleClosable()" label="Dialog Box"></amexio-button>
-                    <amexio-window [showWindow]="showClosable" [closable]="true" type="window">
+                    <amexio-button type="primary" (onClick)="toggleClosable()" label="Confirm Box"></amexio-button>
+                    <amexio-window [showWindow]="showClosable" [closable]="true" [dialog]="true" [footer]="true">
                       <amexio-header>
                           Confirm
                         </amexio-header>
                         <amexio-body >
-                                Please confirm
-                                Are you sure you want to continue?
+                              <h3>
+                                Please confirm Are you sure you want to continue?
+                              </h3>
                         </amexio-body>
-                              <amexio-action>
-                                <amexio-button (onClick)="showClosable = false" label="Cancel"></amexio-button>
-                                <amexio-button (onClick)="showClosable = false" label="Ok"></amexio-button>
-                              </amexio-action>
+                        <amexio-action>
+                          <amexio-button (onClick)="showClosable = false" label="Cancel"></amexio-button>
+                          <amexio-button (onClick)="showClosable = false" label="Ok"></amexio-button>
+                        </amexio-action>
                     </amexio-window>
                   </amexio-body>
                 </amexio-card>
@@ -242,16 +239,15 @@
                 <amexio-card [header]="false" [footer]="false">
                   <amexio-body>
                     <amexio-button type="primary" (onClick)="toggleAlertWindow()" label="Alert Box"></amexio-button>
-                    <div style="height=100px;width=100px" >
-                    <amexio-window [showWindow]="showAlertWindow" [closable]="false" type="window">
+                    <amexio-window [showWindow]="showAlertWindow" [closable]="false"  [closable]="true" [dialog]="true" [footer]="true">
                       <amexio-header>
-                        Staus
+                        Alert
                       </amexio-header>
                       <amexio-body>
                         <amexio-row>
                           <amexio-column [size]="6">
                             <amexio-body>
-                              Changes saved successfully !
+                              <h3>Record saved successfully !</h3>
                             </amexio-body>
                           </amexio-column>
                         </amexio-row>
@@ -260,7 +256,6 @@
                         <amexio-button (onClick)="showAlertWindow = false" label="Close"></amexio-button>
                       </amexio-action>
                     </amexio-window>
-                  </div>
                   </amexio-body>
                 </amexio-card>
               </amexio-tab>
