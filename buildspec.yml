@@ -16,7 +16,6 @@ phases:
             - npm install 
             - npm i node-sass --save-dev
             - node -v
-            - ng --version
 
 
     build:
