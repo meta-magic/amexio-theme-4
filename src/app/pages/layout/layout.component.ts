@@ -18,11 +18,15 @@ export class LayoutComponent implements OnInit {
   confirmStatus:string;
   toggleConfirm:any;
   toggleAlert:any;
-clickMsgArray:any=[];
+
+//  htmlCode: string;
+  //typeScriptCode: string;
+  copyMsgArray: any[];
   user:boolean;
   shop:boolean;
   payment:boolean;
   confirmation:boolean;
+  clickMsgArray:any=[];
 
   showBasicWindow : boolean;
   showAlertWindow : boolean;
@@ -30,10 +34,10 @@ clickMsgArray:any=[];
   showDialog : boolean;
 
   constructor() {
-   this.user=false;
-   this.shop=true;
-   this.payment=false;
-   this.confirmation=false;
+    this.user=false;
+    this.shop=true;
+    this.payment=false;
+    this.confirmation=false;
    this.flag=false;
    this.viewData=
         [
@@ -210,35 +214,38 @@ clickMsgArray:any=[];
       ]
 
    }
-   updateFlag(user:boolean,shop:boolean,payment:boolean,confirmation:boolean){
-       this.user=user;
-       this.shop=shop;
-       this.payment=payment;
-       this.confirmation=confirmation;
+
+   stepBlockClick(event:any){
+     debugger;
+     if(event.label=="User"){
+       this.updateFlag(true,false,false,false);
+       this.showMsg("Step 1 User");
+     }else if(event.label=="Shop"){
+       this.updateFlag(false,true,false,false);
+       this.showMsg("Step 2 Shop");
+     }else if(event.label=="Payment"){
+       this.showMsg("Step 3 Payment");
+       this.updateFlag(false,false,true,false);
+     }else if(event.label=="Confirmation"){
+       this.updateFlag(false,false,false,true);
+       this.showMsg("Step 4 Confirmation");
      }
-     showMsg(msg){
-    if(this.clickMsgArray.length>=1){
-      this.clickMsgArray=[];
-      this.clickMsgArray.push({'msg':msg, 'type' : 'info'});
-    }else{
-      this.clickMsgArray.push({'msg':msg, 'type' : 'info'});
-    }
-  }
-   // step box click event
-  stepBlockClick(event:any){
-    debugger;
-    if(event.label=="User"){
-      this.updateFlag(true,false,false,false);
-      this.showMsg("Step 1 User");
-    }else if(event.label=="Shop"){
-      this.updateFlag(false,true,false,false);
-      this.showMsg("Step 2 Shop");
-    }else if(event.label=="Payment"){
-      this.showMsg("Step 3 Payment");
-      this.updateFlag(false,false,true,false);
-    }else if(event.label=="Confirmation"){
-      this.updateFlag(false,false,false,true);
-      this.showMsg("Step 4 Confirmation");
-    }
-  }
+   }
+
+   updateFlag(user:boolean,shop:boolean,payment:boolean,confirmation:boolean){
+     this.user=user;
+     this.shop=shop;
+     this.payment=payment;
+     this.confirmation=confirmation;
+   }
+   showMsg(msg){
+     if(this.clickMsgArray.length>=1){
+       this.clickMsgArray=[];
+       this.clickMsgArray.push(msg);
+     }else{
+       this.clickMsgArray.push(msg);
+     }
+   }
+
+
 }
