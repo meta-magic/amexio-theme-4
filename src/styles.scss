@@ -24,7 +24,12 @@
 
 //@import "../node_modules/amexio-ng-extensions/styles/mdb/mdb-chocolate-russet.scss";
 
-//@import "../node_modules/amexio-ng-extensions/styles/mdb/mdb-ash-stone.scss";
+@import "../node_modules/amexio-ng-extensions/styles/mda/at-md-army-olive.scss";
+
+
+.modal-window-content{
+  height: auto!important;
+}
 @-webkit-keyframes wrench {
   0% {
     -webkit-transform: rotate(-12deg);
