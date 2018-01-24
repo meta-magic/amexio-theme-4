@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /var/www/html/showacseapp_test/themev4/
+    destination: /var/www/html/showacaseapp_test/themev4/
 hooks:
   BeforeInstall:
     - location: install_dependencies
