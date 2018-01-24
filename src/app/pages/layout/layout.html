@@ -244,23 +244,22 @@
         </amexio-row>
       </amexio-tab>
       <amexio-tab [title]="'Step Box'" [icon]="'fa fa-step-forward fa-fw'">
-        <amexio-steps  [block]="true" onClick="stepBlockClick($event)">
-          <amexio-step-block [label]="'User'" [active]="true"></amexio-step-block>
-          <amexio-step-block [label]="'Shop'" [active]="false"></amexio-step-block>
-          <amexio-step-block [label]="'Payment'" [active]="false"></amexio-step-block>
-          <amexio-step-block [label]="'Confirmation'" [active]="false"></amexio-step-block>
+        <amexio-steps [block]="true" (onClick)="stepBlockClick($event)">
+          <amexio-step-block [label]="'User'" [active]="user" ></amexio-step-block>
+          <amexio-step-block [label]="'Shop'" [active]="shop" ></amexio-step-block>
+          <amexio-step-block [label]="'Payment'" [active]="payment" ></amexio-step-block>
+          <amexio-step-block [label]="'Confirmation'" [active]="confirmation" [icon]="'fa fa-cc-visa'"></amexio-step-block>
         </amexio-steps>
         <br />
-
         <amexio-steps  [block]="true" [icon]="true">
-          <amexio-step-block [label]="'User'" [icon]="'fa fa-eercast'"></amexio-step-block>
-          <amexio-step-block [label]="'Shop'" [icon]="'fa fa-eercast'"></amexio-step-block>
-          <amexio-step-block [label]="'Payment'" [icon]="'fa fa-eercast'"></amexio-step-block>
-          <amexio-step-block [label]="'Confirmation'" [icon]="'fa fa-eercast'"></amexio-step-block>
+          <amexio-step-block [label]="'User'" [icon]="'fa fa-user'"></amexio-step-block>
+          <amexio-step-block [label]="'Shop'" [icon]="'fa fa-shopping-cart'"></amexio-step-block>
+          <amexio-step-block [label]="'Payment'" [active]="true" [icon]="'fa fa-credit-card'"></amexio-step-block>
+          <amexio-step-block [label]="'Confirmation'" [icon]="'fa fa-thumbs-o-up'"></amexio-step-block>
         </amexio-steps>
         <br />
         <!--Step-box index -->
-        <amexio-steps  [block]="true" [index]="true" >
+        <amexio-steps [index]="true" >
           <amexio-step-block [label]="'step-1'" [active]="true"></amexio-step-block>
           <amexio-step-block [label]="'step-2'" [active]="false"></amexio-step-block>
           <amexio-step-block [label]="'step-3'" [active]="false"></amexio-step-block>
