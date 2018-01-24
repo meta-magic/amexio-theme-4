@@ -2,4 +2,9 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /var/www/html/showacseapp_test/
+    destination: /var/www/html/showacseapp_test/themev4/
+hooks:
+  BeforeInstall:
+    - location: install_dependencies
+      timeout: 300
+      runas: root
