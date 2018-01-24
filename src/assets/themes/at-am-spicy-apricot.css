@@ -894,7 +894,8 @@ input[type='range']::-webkit-slider-thumb {
 .datatable .datatable-header {
   display: table-header-group;
   background-color: #ced4da;
-  text-align: left; }
+  text-align: left;
+  cursor: pointer; }
 
 .datatable .datatable-row {
   border: 2px solid #3C1D5F;
@@ -1809,7 +1810,7 @@ input[type='range']::-webkit-slider-thumb {
   background-color: rgba(203, 74, 7, 0.5);
   color: white;
   cursor: pointer;
-  padding: 18px;
+  padding: 10px;
   width: 100%;
   border-color: #3C1D5F;
   text-align: left;
@@ -1936,25 +1937,7 @@ fieldset {
   padding: 6px 0;
   font-size: 12px;
   line-height: 1.428571429;
-  border-radius: 15px;
-  background-color: #F3C22A;
-  border-color: #F3C22A;
-  color: white;
-  display: inline-block;
-  font-weight: 400;
-  line-height: 1.25;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: middle;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  outline: none;
-  user-select: none;
-  border: 1px solid #3C1D5F;
-  padding: .5rem 1rem;
-  border-radius: 5px;
-  transition: all .2s ease-in-out; }
+  border-radius: 15px; }
 
 .step-box-sqaure {
   width: 100%;
@@ -2259,6 +2242,39 @@ fieldset {
   display: table-cell;
   vertical-align: middle; }
 
+.panel-accordion {
+  background-color: rgba(203, 74, 7, 0.5);
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  border-color: #3C1D5F;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s; }
+
+.active-accordion, .panel-accordion:hover {
+  background-color: rgba(55, 20, 2, 0.5);
+  color: white; }
+
+.panel-accordion:after {
+  color: red;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px; }
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  color: #603A63;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out; }
+
+.panel-box {
+  border: 2px solid rgba(55, 20, 2, 0.5);
+  width: 100%; }
+
 body {
   background-image: url(/assets/images/theme/bootstrap/DeepOrange-bg.jpg);
   background-repeat: repeat-x;
@@ -2505,5 +2521,9 @@ div.profile-image img {
 div.profile-image a {
   text-transform: capitalize;
   color: #FF8B00 !important; }
+
+.horizontaltreeview-node-label:hover {
+  border-color: #603A63;
+  background-color: rgba(55, 20, 2, 0.5); }
 
 /*# sourceMappingURL=at-am-spicy-apricot.css.map */
