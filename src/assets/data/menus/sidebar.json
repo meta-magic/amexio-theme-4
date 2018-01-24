@@ -117,23 +117,32 @@
         }
       ]
     },
-    {
-      "text": "Charts",
-      "icon": "fa fa-bar-chart fa-fw",
-      "mdbIcon": "insert_chart",
-      "link": "charts"
-    },
-    {
-      "text": "Maps",
-      "icon": "fa fa-map-marker fa-fw",
-      "mdbIcon": "location_on",
-      "link": "maps"
-    },
-    {
-      "text": "Dashboard",
-      "icon" : "fa fa-television fa-fw",
-      "mdbIcon":"dashboard",
-      "link" : "dashboard"
-    }
+  {
+    "text": "Dashboards",
+    "icon": "fa fa-picture-o fa-fw",
+    "mdbIcon": "assignment",
+    "expand": true,
+    "children": [
+      {
+        "text": "Charts",
+        "icon": "fa fa-bar-chart fa-fw",
+        "mdbIcon": "insert_chart",
+        "link": "charts"
+      },
+      {
+        "text": "Maps",
+        "icon": "fa fa-map-marker fa-fw",
+        "mdbIcon": "location_on",
+        "link": "maps"
+      },
+      {
+        "text": "Gauges",
+        "icon" : "fa fa-television fa-fw",
+        "mdbIcon":"dashboard",
+        "link" : "dashboard"
+      }
+    ]
+  }
+
   ]
 }

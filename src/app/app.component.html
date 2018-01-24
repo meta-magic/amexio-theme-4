@@ -61,8 +61,8 @@
     <amexio-side-nav [http-url]="'assets/data/menus/sidebar.json'" [http-method]="'get'" [height]="'92%'" [data-reader]="'data'"
                      (nodeClick)="routeToLink($event)"></amexio-side-nav>
   </amexio-column>
-  <amexio-column [size]="'9pt5'" style="padding-top: 68px;">
-    <div style="padding: 20px 10px 20px 0px">
+  <amexio-column [size]="'9pt5'">
+    <div class="route-container">
       <!--<dashboard></dashboard>-->
       <!--<sampleform></sampleform>-->
       <router-outlet></router-outlet>

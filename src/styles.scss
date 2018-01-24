@@ -24,7 +24,18 @@
 
 //@import "../node_modules/amexio-ng-extensions/styles/mdb/mdb-chocolate-russet.scss";
 
-@import "../node_modules/amexio-ng-extensions/styles/mda/at-md-army-olive.scss";
+//@import "../node_modules/amexio-ng-extensions/styles/mda/at-md-army-olive.scss";
+
+
+.route-container{
+  padding: 88px 10px 20px 0px;
+}
+
+@media only screen and (max-width: 767px) {
+  .route-container{
+    padding: 20px 10px 20px 0px;
+  }
+}
 
 
 .modal-window-content{

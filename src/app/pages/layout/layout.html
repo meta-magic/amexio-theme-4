@@ -218,20 +218,11 @@
                 <amexio-card [header]="false" [footer]="false">
                   <amexio-body>
                     <amexio-button type="primary" (onClick)="toggleClosable()" label="Confirm Box"></amexio-button>
-                    <amexio-window [showWindow]="showClosable" [closable]="true" [dialog]="true" [footer]="true">
-                      <amexio-header>
-                          Confirm
-                        </amexio-header>
-                        <amexio-body >
-                              <h3>
-                                Please confirm Are you sure you want to continue?
-                              </h3>
-                        </amexio-body>
-                        <amexio-action>
-                          <amexio-button (onClick)="showClosable = false" label="Cancel"></amexio-button>
-                          <amexio-button (onClick)="showClosable = false" label="Ok"></amexio-button>
-                        </amexio-action>
-                    </amexio-window>
+                    <amexio-dialogue
+                        [showWindow]="showClosable"[title]="'Confirm'"
+                        [message]="'Please confirm Are you sure you want to continue?'" [messageType]="'error'"
+                        [type]="'confirm'">
+                    </amexio-dialogue>
                   </amexio-body>
                 </amexio-card>
               </amexio-tab>
@@ -239,23 +230,12 @@
                 <amexio-card [header]="false" [footer]="false">
                   <amexio-body>
                     <amexio-button type="primary" (onClick)="toggleAlertWindow()" label="Alert Box"></amexio-button>
-                    <amexio-window [showWindow]="showAlertWindow" [closable]="false"  [closable]="true" [dialog]="true" [footer]="true">
-                      <amexio-header>
-                        Alert
-                      </amexio-header>
-                      <amexio-body>
-                        <amexio-row>
-                          <amexio-column [size]="6">
-                            <amexio-body>
-                              <h3>Record saved successfully !</h3>
-                            </amexio-body>
-                          </amexio-column>
-                        </amexio-row>
-                      </amexio-body>
-                      <amexio-action>
-                        <amexio-button (onClick)="showAlertWindow = false" label="Close"></amexio-button>
-                      </amexio-action>
-                    </amexio-window>
+                    <amexio-dialogue
+                      [showWindow]="showAlertWindow"[title]="'Alert'"
+                      [message]="'Record saved successfully'" [messageType]="'help'"
+                      [type]="'alert'">
+                    </amexio-dialogue>
+
                   </amexio-body>
                 </amexio-card>
               </amexio-tab>
