@@ -15,6 +15,7 @@ phases:
             - n latest
             - npm install 
             - npm i node-sass --save-dev
+            - ng set defaults.styleExt scss
             - node -v
 
 
