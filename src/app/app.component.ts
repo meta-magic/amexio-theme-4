@@ -30,7 +30,7 @@ export class AppComponent {
     }, () => {
       this.menuData = this.httpResponse.menus;
     });
-/*
+
     if (this.cookieService.get('theme_name')) {
       let currentTheme = document.head.querySelectorAll(`link[rel="stylesheet"]`);
       this.removeExistingTheme(currentTheme);
@@ -45,7 +45,7 @@ export class AppComponent {
       linkEl.id = 'themeid';
       linkEl.href = 'assets/themes/at-md-blue.css';
       document.head.appendChild(linkEl);
-    }*/
+    }
     //Get Data of Themes
     this.getTheThemesData();
   }
