@@ -2020,7 +2020,25 @@ fieldset {
   padding: 6px 0;
   font-size: 12px;
   line-height: 1.428571429;
-  border-radius: 15px; }
+  border-radius: 15px;
+  background-color: #7C0A02;
+  border-color: #7C0A02;
+  color: white;
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.25;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  outline: none;
+  user-select: none;
+  border: 1px solid #ced4da;
+  padding: .5rem 1rem;
+  border-radius: 2px;
+  transition: all .2s ease-in-out; }
 
 .step-box-sqaure {
   width: 100%;
