@@ -7,7 +7,7 @@ phases:
     install:
         commands:         
             - echo Installing source NPM dependencies..
-            - wget ' http://s3code.s3-website.us-east-2.amazonaws.com/amexio-ng-extensions-4.0.0.tgz'
+            - wget 'http://s3code.s3-website.us-east-2.amazonaws.com/amexio-ng-extensions-4.0.0.tgz'
             - npm install
             - npm install -g @angular/cli
             - npm cache clean -f
