@@ -57,8 +57,8 @@
 
 
 
-<amexio-window [(showWindow)]="isComposeOpen" [closable]="true">
-  <!-- <amexio-header [closable] ="true" [showWindow] ="true"> -->
+<amexio-window [(show-window)]="isComposeOpen" [closable]="true">
+  <!-- <amexio-header [closable] ="true" [show-window] ="true"> -->
   <amexio-header>
     New Message
   </amexio-header>
@@ -68,11 +68,11 @@
       <amexio-column [size] = "12">
         <amexio-text-input [field-label]="'To'" name ="to"
                            [has-label]="false"
-                           [placeholder]="'To'">
+                           [place-holder]="'To'">
         </amexio-text-input>
         <amexio-text-input [field-label]="'Subject'" name ="subject"
                            [has-label]="false"
-                           [placeholder]="'Subject'">
+                           [place-holder]="'Subject'">
         </amexio-text-input>
         <amexio-textarea-input [field-label]="'Content'"  [rows]="3" [columns]="3"></amexio-textarea-input>
       </amexio-column>

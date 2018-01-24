@@ -120,8 +120,8 @@ import {FormsModule} from "@angular/forms";
          <amexio-column [size]="6">
            <amexio-date-time-picker
              [field-label]="'Date Of Birth'"
-             [timepicker]="false"
-             [datepicker]="true"
+             [time-picker]="false"
+             [date-picker]="true"
              [(ngModel)]="currentDate">
            </amexio-date-time-picker>
          </amexio-column>
@@ -129,8 +129,8 @@ import {FormsModule} from "@angular/forms";
          <amexio-column [size]="6">
            <amexio-date-time-picker
              [field-label]="'Date Of Birth'"
-             [timepicker]="true"
-             [datepicker]="false"
+             [time-picker]="true"
+             [date-picker]="false"
              [(ngModel)]="currentDate1">
            </amexio-date-time-picker>
          </amexio-column>
@@ -165,7 +165,7 @@ import {FormsModule} from "@angular/forms";
              <amexio-row>
                <amexio-column [size]="6">
                  <amexio-text-input [field-label]="'Name'" name="country"
-                                    [placeholder]="'Enter name'"
+                                    [place-holder]="'Enter name'"
                                     [enable-popover]="true"
                                     [icon-feedback]="true"
                                     [allow-blank]="false" [error-msg]="'Please enter name'"
@@ -176,7 +176,7 @@ import {FormsModule} from "@angular/forms";
                </amexio-column>
                <amexio-column [size]="6">
                  <amexio-text-input [field-label]="'Surname'" name="name"
-                                    [placeholder]="'Enter surname'"
+                                    [place-holder]="'Enter surname'"
                                     [enable-popover]="true"
                                     [icon-feedback]="true"
                                     [allow-blank]="false" [error-msg]="'Please enter Surname'"
@@ -190,7 +190,7 @@ import {FormsModule} from "@angular/forms";
                <amexio-column [size]="6">
 
                  <amexio-textarea-input [field-label]="'Address'" name="Address"
-                                        [placeholder]="'Enter address'"
+                                        [place-holder]="'Enter address'"
                                         [error-msg]="'Please enter address'"
                                         [icon-feedback]="true"
                                         [rows]="'5'" [columns]="'2'"
@@ -207,7 +207,7 @@ import {FormsModule} from "@angular/forms";
                                    [http-method]="'get'"
                                    [key]="'countryName'"
 
-                                   [field-label]="'Nationality'" [placeholder]="'Search'">
+                                   [field-label]="'Nationality'" [place-holder]="'Search'">
                  </amexio-typeahead>
                </amexio-column>
              </amexio-row>
@@ -252,8 +252,8 @@ import {FormsModule} from "@angular/forms";
          <amexio-column size="3"><amexio-button [type]="'warning'" [label]="'Top Left'" (onClick)="toggleMsgArrayL.push('Check Your inbox')"></amexio-button></amexio-column>
        </amexio-row>
 
-       <amexio-notification [messageData]="toggleMsgArrayR" [verticalposition]="'top'" [horizontalposition]="'right'"></amexio-notification>
-       <amexio-notification [messageData]="toggleMsgArrayL" [verticalposition]="'top'" [horizontalposition]="'left'"></amexio-notification>
+       <amexio-notification [data]="toggleMsgArrayR" [vertical-position]="'top'" [horizontal-position]="'right'"></amexio-notification>
+       <amexio-notification [data]="toggleMsgArrayL" [vertical-position]="'top'" [horizontal-position]="'left'"></amexio-notification>
        
        <amexio-row>
          <amexio-column size="6"><h2>Video Player</h2></amexio-column>

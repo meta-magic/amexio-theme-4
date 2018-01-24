@@ -9,7 +9,7 @@
             <tr>
               <td width="15%">Open</td>
               <td align="left">
-                <amexio-progress-bar [showProgress]="true"
+                <amexio-progress-bar [show]="true"
                                      [infinite]="false"
                                      [current-value]="70">
                 </amexio-progress-bar>
@@ -18,7 +18,7 @@
             <tr>
               <td width="15%">Close</td>
               <td align="left">
-                 <amexio-progress-bar [showProgress]="true"
+                 <amexio-progress-bar [show]="true"
                                      [infinite]="false"
                                      [current-value]="20">
                 </amexio-progress-bar>
@@ -27,7 +27,7 @@
             <tr>
               <td width="20%">In-Progress</td>
               <td align="left">
-                <amexio-progress-bar [showProgress]="true"
+                <amexio-progress-bar [show]="true"
                                      [infinite]="false"
                                      [current-value]="10">
                 </amexio-progress-bar>
@@ -49,7 +49,7 @@
             <tr>
               <td width="20px">Low</td>
               <td align="left">
-                 <amexio-progress-bar [showProgress]="true"
+                 <amexio-progress-bar [show]="true"
                                      [infinite]="false"
                                      [current-value]="20">
 
@@ -59,7 +59,7 @@
             <tr>
               <td width="20px">High</td>
               <td align="left">
-                <amexio-progress-bar [showProgress]="true"
+                <amexio-progress-bar [show]="true"
                                      [infinite]="false"
                                      [current-value]="50"
 
@@ -71,7 +71,7 @@
             <tr>
               <td width="20px">Medium</td>
               <td align="left">
-                <amexio-progress-bar [showProgress]="true"
+                <amexio-progress-bar [show]="true"
                                      [infinite]="false"
                                      [current-value]="30"
 
@@ -99,7 +99,7 @@
                            [value-field]="'checked'"
                            [data]="openIssuedata" >
           </amexio-checkbox-group>
-            <amexio-text-input name="issuename" [placeholder]="'Issue name'" [has-label]="false">
+            <amexio-text-input name="issuename" [place-holder]="'Issue name'" [has-label]="false">
             </amexio-text-input>
             <amexio-button [label]="'Add'" [type]="'warning'"></amexio-button>
         </amexio-body>

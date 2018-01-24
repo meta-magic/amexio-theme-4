@@ -24,27 +24,27 @@
           <amexio-body>
             <amexio-row>
               <amexio-column [size]="6">
-                <amexio-text-input [field-label]="'FirstName'" name="name" [placeholder]="'Enter firstname'" [icon-feedback]="true">
+                <amexio-text-input [field-label]="'FirstName'" name="name" [place-holder]="'Enter firstname'" [icon-feedback]="true">
                 </amexio-text-input>
               </amexio-column>
               <amexio-column [size]="6">
-                <amexio-text-input [field-label]="'Last Name'" name="name" [placeholder]="'Enter lastname'" [icon-feedback]="true">
+                <amexio-text-input [field-label]="'Last Name'" name="name" [place-holder]="'Enter lastname'" [icon-feedback]="true">
                 </amexio-text-input>
               </amexio-column>
             </amexio-row>
             <amexio-row>
               <amexio-column [size]="12">
-                <amexio-text-input [field-label]="'Address'" name="address" [placeholder]="'Enter address'" [icon-feedback]="true">
+                <amexio-text-input [field-label]="'Address'" name="address" [place-holder]="'Enter address'" [icon-feedback]="true">
                 </amexio-text-input>
               </amexio-column>
             </amexio-row>
             <amexio-row>
               <amexio-column [size]="6">
-                <amexio-text-input [field-label]="'Phone'" name="phone" [placeholder]="'Enter phone'" [icon-feedback]="true">
+                <amexio-text-input [field-label]="'Phone'" name="phone" [place-holder]="'Enter phone'" [icon-feedback]="true">
                 </amexio-text-input>
               </amexio-column>
               <amexio-column [size]="6">
-                <amexio-text-input [field-label]="'Email'" name="email" [placeholder]="'Enter Email'" [icon-feedback]="true">
+                <amexio-text-input [field-label]="'Email'" name="email" [place-holder]="'Enter Email'" [icon-feedback]="true">
                 </amexio-text-input>
               </amexio-column>
             </amexio-row>
@@ -175,7 +175,7 @@
             <amexio-vertical-tab-view >
               <amexio-tab [title]="'Window'" [active]="true">
                     <amexio-button [label]="'Window Layout'" [type]="'primary'" [tooltip]="'Hide/UnHide'" (click)="toggle()"> </amexio-button>
-                    <amexio-window [(showWindow)]="flag" [closable]="true" [footer]="true">
+                    <amexio-window [(show-window)]="flag" [closable]="true" [footer]="true">
                       <amexio-header>
                         Employee Registration
                       </amexio-header>
@@ -183,27 +183,27 @@
 
                         <amexio-row>
                           <amexio-column [size]="6">
-                            <amexio-text-input [field-label]="'FirstName'" name="name" [placeholder]="'Enter firstname'" [icon-feedback]="true">
+                            <amexio-text-input [field-label]="'FirstName'" name="name" [place-holder]="'Enter firstname'" [icon-feedback]="true">
                             </amexio-text-input>
                           </amexio-column>
                           <amexio-column [size]="6">
-                            <amexio-text-input [field-label]="'Last Name'" name="name" [placeholder]="'Enter lastname'" [icon-feedback]="true">
+                            <amexio-text-input [field-label]="'Last Name'" name="name" [place-holder]="'Enter lastname'" [icon-feedback]="true">
                             </amexio-text-input>
                           </amexio-column>
                         </amexio-row>
                         <amexio-row>
                           <amexio-column [size]="12">
-                            <amexio-text-input [field-label]="'Address'" name="address" [placeholder]="'Enter address'" [icon-feedback]="true">
+                            <amexio-text-input [field-label]="'Address'" name="address" [place-holder]="'Enter address'" [icon-feedback]="true">
                             </amexio-text-input>
                           </amexio-column>
                         </amexio-row>
                         <amexio-row>
                           <amexio-column [size]="6">
-                            <amexio-text-input [field-label]="'Phone'" name="phone" [placeholder]="'Enter phone'" [icon-feedback]="true">
+                            <amexio-text-input [field-label]="'Phone'" name="phone" [place-holder]="'Enter phone'" [icon-feedback]="true">
                             </amexio-text-input>
                           </amexio-column>
                           <amexio-column [size]="6">
-                            <amexio-text-input [field-label]="'Email'" name="email" [placeholder]="'Enter Email'" [icon-feedback]="true">
+                            <amexio-text-input [field-label]="'Email'" name="email" [place-holder]="'Enter Email'" [icon-feedback]="true">
                             </amexio-text-input>
                           </amexio-column>
                         </amexio-row>
@@ -219,7 +219,7 @@
                   <amexio-body>
                     <amexio-button type="primary" (onClick)="toggleClosable()" label="Confirm Box"></amexio-button>
                     <amexio-dialogue
-                        [showWindow]="showClosable"[title]="'Confirm'"
+                        [show-window]="showClosable"[title]="'Confirm'"
                         [message]="'Please confirm Are you sure you want to continue?'" [messageType]="'error'"
                         [type]="'confirm'">
                     </amexio-dialogue>
@@ -231,7 +231,7 @@
                   <amexio-body>
                     <amexio-button type="primary" (onClick)="toggleAlertWindow()" label="Alert Box"></amexio-button>
                     <amexio-dialogue
-                      [showWindow]="showAlertWindow"[title]="'Alert'"
+                      [show-window]="showAlertWindow"[title]="'Alert'"
                       [message]="'Record saved successfully'" [messageType]="'help'"
                       [type]="'alert'">
                     </amexio-dialogue>

@@ -10,7 +10,7 @@
           <amexio-row>
             <amexio-column [size]="6">
                 <amexio-text-input [field-label]="'First Name'" name="fname"
-                                   [placeholder]="'Enter first name'"
+                                   [place-holder]="'Enter first name'"
                                    [enable-popover]="true"
                                    [allow-blank]="false"
                                    [error-msg]="'Please enter first name'"
@@ -21,7 +21,7 @@
             </amexio-column>
               <amexio-column [size]="6">
                 <amexio-text-input [field-label]="'Last name'" name="lname"
-                                   [placeholder]="'Enter last-name'"
+                                   [place-holder]="'Enter last-name'"
                                    [enable-popover]="true"
                                    [allow-blank]="false"
                                    [error-msg]="'Please enter last name'"
@@ -35,15 +35,15 @@
               <amexio-column [size]="6">
                 <amexio-date-time-picker
                   [field-label]="'Date of Birth'"
-                  [timepicker]="false"
-                  [datepicker]="true"
+                  [time-picker]="false"
+                  [date-picker]="true"
                   [(ngModel)]="currentDate">
                 </amexio-date-time-picker>
               </amexio-column>
             <amexio-column [size]="6">
                 <br>
                 <amexio-text-input [field-label]="'Phone'" name="phone"
-                                   [placeholder]="'Enter phone number'"
+                                   [place-holder]="'Enter phone number'"
                                    [enable-popover]="true"
                                    [allow-blank]="false"
                                    [error-msg]="'Please enter phone number'"
@@ -56,7 +56,7 @@
               <amexio-column [size]="6">
                   <amexio-password-input
                   [field-label]="'Password'" name="password"
-                  [placeholder]="'Enter password'"
+                  [place-holder]="'Enter password'"
                   [enable-popover]="true"
                   [allow-blank]="false"
                   [error-msg]="'Please enter Password'"
@@ -67,7 +67,7 @@
               <amexio-column [size]="6">
                 <amexio-password-input
                   [field-label]="'Confirm Password'" name="confirmpassword"
-                  [placeholder]="'Enter confirm password'"
+                  [place-holder]="'Enter confirm password'"
                   [enable-popover]="true"
                   [allow-blank]="false"
                   [error-msg]="'Please enter confirm password'"
@@ -82,7 +82,7 @@
               <amexio-column [size]="4">
                   <amexio-dropdown
                   [(ngModel)]="countryName"
-                  [placeholder]="'Choose country'"
+                  [place-holder]="'Choose country'"
                   name="countryName"
                   [data-reader]="'response.data'"
                   [field-label]="'Country'"
@@ -98,7 +98,7 @@
 
                 <amexio-dropdown
                   [(ngModel)]="stateName"
-                  [placeholder]="'Choose state'"
+                  [place-holder]="'Choose state'"
                   name="stateName"
                   [data-reader]="'response.data'"
                   [field-label]="'State'"
@@ -112,7 +112,7 @@
               <amexio-column [size]="4">
                 <amexio-dropdown
                   [(ngModel)]="cityName"
-                  [placeholder]="'Choose city'"
+                  [place-holder]="'Choose city'"
                   name="cityName"
                   [data-reader]="'response.data'"
                   [field-label]="'City'"
@@ -128,7 +128,7 @@
             <amexio-row>
               <amexio-column [size]="6">
                <amexio-textarea-input [field-label]="'Address1'" name="Address1"
-                                       [placeholder]="'Enter address 1'"
+                                       [place-holder]="'Enter address 1'"
                                        [enable-popover]="true"
                                        [allow-blank]="true" [error-msg]="'Please enter Address 1'"
                                         [rows]="'2'" [columns]="'2'"
@@ -138,7 +138,7 @@
               </amexio-column>
               <amexio-column [size]="6">
                 <amexio-textarea-input [field-label]="'Address2'" name="Address2"
-                                       [placeholder]="'Enter address 2'" [enable-popover]="true"
+                                       [place-holder]="'Enter address 2'" [enable-popover]="true"
                                        [allow-blank]="true" [error-msg]="'Please enter Address 2'"
                                        [rows]="'2'" [columns]="'2'"
                                        >
@@ -148,7 +148,7 @@
               <amexio-row>
                 <amexio-column [size]="6">
                 <amexio-text-input [field-label]="'Pincode'" name="pincode"
-                                   [placeholder]="'Enter pincode'"
+                                   [place-holder]="'Enter pincode'"
                                    [error-msg]="'Please enter pincode'"
                                    [min-length]="6" [enable-popover]="true"
                                    [allow-blank]="false"

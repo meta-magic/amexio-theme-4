@@ -6,7 +6,7 @@
     <amexio-row>
       <amexio-column [size]="6">
         <amexio-text-input [field-label]="'Name'" name="country"
-                           [placeholder]="'Enter name'"
+                           [place-holder]="'Enter name'"
                            [enable-popover]="true"
                            [icon-feedback]="true"
                            [allow-blank]="false" [error-msg]="'Please enter name'"
@@ -17,7 +17,7 @@
       </amexio-column>
       <amexio-column [size]="6">
         <amexio-text-input [field-label]="'Surname'" name="name"
-                           [placeholder]="'Enter surname'"
+                           [place-holder]="'Enter surname'"
                            [enable-popover]="true"
                            [icon-feedback]="true"
                            [allow-blank]="false" [error-msg]="'Please enter Surname'"
@@ -33,7 +33,7 @@
       <amexio-column [size]="6">
 
         <amexio-textarea-input [field-label]="'Address'" name="Address"
-                               [placeholder]="'Enter address'"
+                               [place-holder]="'Enter address'"
                                [error-msg]="'Please enter address'"
                                [icon-feedback]="true"
                                [rows]="'1'" [columns]="'2'"
@@ -50,7 +50,7 @@
                           [http-method]="'get'"
                           [key]="'countryName'"
                           [display-field]="'countryName'"
-                          [field-label]="'Nationality'" [placeholder]="'Search'">
+                          [field-label]="'Nationality'" [place-holder]="'Search'">
         </amexio-typeahead>
       </amexio-column>
     </amexio-row>
@@ -60,8 +60,8 @@
 
         <amexio-date-time-picker
           [field-label]="'Date Of Birth'"
-          [timepicker]="false"
-          [datepicker]="true"
+          [time-picker]="false"
+          [date-picker]="true"
           [(ngModel)]="currentDate">
         </amexio-date-time-picker>
 
@@ -69,8 +69,8 @@
       <amexio-column [size]="6">
         <amexio-date-time-picker
           [field-label]="'Time Of Birth'"
-          [timepicker]="true"
-          [datepicker]="false"
+          [time-picker]="true"
+          [date-picker]="false"
           [ngModel]="time">
         </amexio-date-time-picker>
       </amexio-column>
@@ -79,14 +79,14 @@
       <amexio-column [size]="6">
 
           <amexio-number-input [field-label]="'Age'" name ="age"
-                             [placeholder]="'Enter Age'">
+                             [place-holder]="'Enter Age'">
         </amexio-number-input>
 
       </amexio-column>
       <amexio-column [size]="6">
                   <amexio-dropdown
                                  [(ngModel)]="country"
-                                 [placeholder]="'Choose City'"
+                                 [place-holder]="'Choose City'"
                                  name="country"
                                  [data-reader]="'response.data'"
                                  [field-label]="'City'"
@@ -102,7 +102,7 @@
     <amexio-row>
       <amexio-column [size]="6">
         <amexio-email-input [field-label]="'Email'" name="email"
-                            [placeholder]="'Enter mail id'"
+                            [place-holder]="'Enter mail id'"
                             [enable-popover]="true"
                             [icon-feedback]="true"
                             [allow-blank]="false" [error-msg]="'Please enter correct mail id'">
@@ -111,7 +111,7 @@
       </amexio-column>
       <amexio-column [size]="6">
         <amexio-password-input [field-label]="'Password'" name="password"
-                               [placeholder]="'Enter Password'"
+                               [place-holder]="'Enter Password'"
                                [allow-blank]="false"
                                [error-msg]="'Please enter password'"
                                [min-length]="6"
