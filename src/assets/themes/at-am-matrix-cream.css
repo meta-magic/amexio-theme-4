@@ -52,8 +52,8 @@ body {
 
 /**HEADER STYLE STARTS **/
 .header {
-  background-color: #000000;
-  color: #FFFDD0;
+  background-color: #FFFDD0;
+  color: #000000;
   padding: 10px;
   overflow: hidden; }
 
@@ -133,20 +133,20 @@ button {
   font-size: 1.25rem; }
 
 .button-secondary {
-  background-color: #ffffff;
+  background-color: gray;
   border-color: #FFFDD0;
-  color: rgba(255, 255, 255, 0.7); }
-
-.button-secondary:hover {
-  background-color: #e6e6e6; }
-
-.button-primary {
-  background-color: #000000;
-  border-color: #000000;
   color: #FFFDD0; }
 
+.button-secondary:hover {
+  background-color: #666666; }
+
+.button-primary {
+  background-color: #FFFDD0;
+  border-color: #FFFDD0;
+  color: #000000; }
+
 .button-primary:hover {
-  background-color: black; }
+  background-color: #fffb9d; }
 
 .button-success {
   background-color: #5cb85c;
@@ -183,6 +183,9 @@ button {
   float: left;
   /* Float the buttons side by side */ }
 
+.btn-group button {
+  cursor: pointer; }
+
 /* Clear floats (clearfix hack) */
 .btn-group:after {
   content: "";
@@ -202,7 +205,7 @@ button {
   z-index: 1; }
   .datetimepicker .datetimepickertopbar {
     padding: 10px 25px;
-    background: #000000;
+    background: #FFFDD0;
     text-align: center; }
     .datetimepicker .datetimepickertopbar .title {
       font-size: 18px;
@@ -234,7 +237,7 @@ button {
       text-align: center; }
   .datetimepicker .days {
     padding: 10px 0;
-    background: #999999;
+    background: white;
     margin: 0;
     cursor: pointer;
     list-style: none; }
@@ -249,11 +252,11 @@ button {
       color: #777;
       cursor: pointer; }
     .datetimepicker .days li:hover {
-      color: #000000; }
+      color: #FFFDD0; }
     .datetimepicker .days .active {
       border-radius: 135px;
       padding: 5px;
-      background: #000000;
+      background: #FFFDD0;
       color: #000000; }
     .datetimepicker .days .date-today {
       padding-top: 1%;
@@ -443,8 +446,8 @@ button {
 
 .input-box .active {
   border: 2px solid #FFFDD0;
-  background: #000000;
-  color: #FFFDD0; }
+  background: #FFFDD0;
+  color: #000000; }
 
 .input-box-container {
   display: block;
@@ -472,7 +475,7 @@ button {
 
 /* When the checkbox is checked, add a blue background */
 .input-box-container input:checked ~ .input-box-checkbox-label {
-  background-color: #000000; }
+  background-color: #FFFDD0; }
 
 /* Create the input-box-container-label/indicator (hidden when not checked) */
 .input-box-checkbox-label:after {
@@ -507,7 +510,7 @@ button {
 
 /* When the checkbox is checked, add a blue background */
 .input-box-container input:checked ~ .input-box-radiobox-label {
-  background-color: #000000; }
+  background-color: #FFFDD0; }
 
 /* Create the input-box-container-label/indicator (hidden when not checked) */
 .input-box-radiobox-label:after {
@@ -540,8 +543,8 @@ button {
     height: 30px;
     font-size: 11px;
     line-height: 30px;
-    background-color: #000000;
-    color: #FFFDD0;
+    background-color: #FFFDD0;
+    color: #000000;
     border: 2px solid #FFFDD0; }
     .tag-input .tag .closebtn {
       padding-left: 10px;
@@ -549,9 +552,9 @@ button {
       float: right;
       font-size: 20px;
       cursor: pointer;
-      color: #fff96a; }
+      color: black; }
     .tag-input .tag .closebtn:hover {
-      color: #FFFDD0; }
+      color: #000000; }
 
 .toastbar {
   position: fixed;
@@ -787,7 +790,7 @@ Toggle Button styles
   transition: .4s; }
 
 input:checked + .toggle-slider {
-  background-color: #000000; }
+  background-color: #FFFDD0; }
 
 input:focus + .toggle-slider {
   box-shadow: 0 0 1px #FFFDD0; }
@@ -1047,14 +1050,14 @@ input[type='range']::-webkit-slider-thumb {
     flex-direction: column;
     justify-content: space-between; }
     .item-selector-action-panel .actionbar .actionbarinner .action {
-      background-color: #000000;
-      color: #FFFDD0;
+      background-color: #FFFDD0;
+      color: #000000;
       width: 50px;
       height: 30px;
       text-align: center;
       cursor: pointer; }
     .item-selector-action-panel .actionbar .actionbarinner .actiondisable {
-      background-color: gray; }
+      background-color: white; }
     .item-selector-action-panel .actionbar .actionbarinner .movetop {
       display: block; }
     .item-selector-action-panel .actionbar .actionbarinner .moveup {
@@ -1096,7 +1099,7 @@ input[type='range']::-webkit-slider-thumb {
       .item-selector-action-panel .actionbar .actionbarinner .action {
         transform: rotate(90deg); } }
 .list-item-active {
-  background-color: #4d4d4d; }
+  background-color: white; }
 
 /**LISTBOX STARTS**/
 .listbox {
@@ -1556,7 +1559,7 @@ input[type='range']::-webkit-slider-thumb {
 .amexio-dockbar button.active {
   background-color: #FFFDD0;
   color: black;
-  border-left: 5px solid #000000; }
+  border-left: 5px solid #FFFDD0; }
 
 .amexio-dockbar-label-highlight {
   color: black;
@@ -1699,8 +1702,8 @@ input[type='range']::-webkit-slider-thumb {
 
 .sidenav .title {
   cursor: pointer;
-  background-color: #000000;
-  color: #FFFDD0;
+  background-color: #FFFDD0;
+  color: #000000;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 100%;
@@ -2318,9 +2321,9 @@ button.app-button {
   height: 50px; }
 
 .datatable .datatable-header {
-  background-color: #000000;
+  background-color: #FFFDD0;
   font-size: larger;
-  color: #FFFDD0; }
+  color: #000000; }
 
 .datatable .datatable-col {
   vertical-align: middle; }
@@ -2337,7 +2340,7 @@ button.app-button {
   color: #FFFDD0; }
 
 .datapoint-south {
-  background-color: #000000;
+  background-color: #FFFDD0;
   color: #FFFDD0;
   font-size: 20px;
   padding: 5px;

@@ -267,6 +267,9 @@ button {
   float: left;
   /* Float the buttons side by side */ }
 
+.btn-group button {
+  cursor: pointer; }
+
 /* Clear floats (clearfix hack) */
 .btn-group:after {
   content: "";

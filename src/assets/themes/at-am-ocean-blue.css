@@ -133,12 +133,12 @@ button {
   font-size: 1.25rem; }
 
 .button-secondary {
-  background-color: #ffffff;
+  background-color: white;
   border-color: #2CD2EC;
   color: white; }
 
 .button-secondary:hover {
-  background-color: #e6e6e6; }
+  background-color: #d0f5fb; }
 
 .button-primary {
   background-color: #2CD2EC;
@@ -182,6 +182,9 @@ button {
   /* Pointer/hand icon */
   float: left;
   /* Float the buttons side by side */ }
+
+.btn-group button {
+  cursor: pointer; }
 
 /* Clear floats (clearfix hack) */
 .btn-group:after {

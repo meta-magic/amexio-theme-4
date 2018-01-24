@@ -135,7 +135,7 @@ button {
 .button-secondary {
   background-color: #603A63;
   border-color: #3C1D5F;
-  color: #603A63; }
+  color: white; }
 
 .button-secondary:hover {
   background-color: #412743; }
@@ -182,6 +182,9 @@ button {
   /* Pointer/hand icon */
   float: left;
   /* Float the buttons side by side */ }
+
+.btn-group button {
+  cursor: pointer; }
 
 /* Clear floats (clearfix hack) */
 .btn-group:after {
