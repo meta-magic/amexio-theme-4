@@ -82,10 +82,6 @@ button {
 button:focus:not(:active)::after {
   animation: ripple 1s ease-out; }
 
-.horizontaltreeview-node-label:hover {
-  border-color: white;
-  background-color: #FF0090; }
-
 /**HELPER CLASS STARTS**/
 body {
   background: #ECEFF1;
@@ -283,6 +279,13 @@ button {
 .btn-group span:not(:last-child) {
   border-right: none;
   /* Prevent double borders */ }
+
+.button-dropdown {
+  padding: .5rem 1rem;
+  font-size: 1rem;
+  border: 1px solid #ced4da;
+  background-color: white;
+  z-index: 3; }
 
 .datetimepicker {
   display: block;
@@ -1111,7 +1114,6 @@ input[type='range']::-webkit-slider-thumb {
   padding: 5px 10px;
   line-height: 20px;
   text-align: center;
-  border: 2px solid #cccccc;
   border-radius: 5px;
   position: absolute;
   left: 0;
@@ -1123,6 +1125,10 @@ input[type='range']::-webkit-slider-thumb {
 .horizontaltreeview-node-label:hover {
   border-color: #b3b3b3;
   background-color: #b3b3b3; }
+
+.horizontaltreeview-node-label:hover {
+  color: white;
+  background-color: #FF0090; }
 
 .flex-col-45pt {
   max-width: 45%; }
@@ -1245,7 +1251,7 @@ input[type='range']::-webkit-slider-thumb {
 
 .treenode {
   width: 100%;
-  padding-left: 20px;
+  padding-left: 10px;
   transition: .5s;
   background-attachment: scroll;
   background-color: transparent;
@@ -1253,8 +1259,7 @@ input[type='range']::-webkit-slider-thumb {
   background-position: 0 0;
   background-repeat: repeat-y;
   list-style: none outside none;
-  margin: 0;
-  padding: .125em 0 0 0; }
+  margin: 0; }
 
 .treenode-toggler {
   cursor: pointer;
@@ -2025,7 +2030,25 @@ fieldset {
   padding: 6px 0;
   font-size: 12px;
   line-height: 1.428571429;
-  border-radius: 15px; }
+  border-radius: 15px;
+  background-color: #FF0090;
+  border-color: #FF0090;
+  color: white;
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.25;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  outline: none;
+  user-select: none;
+  border: 1px solid #ced4da;
+  padding: .5rem 1rem;
+  border-radius: 2px;
+  transition: all .2s ease-in-out; }
 
 .step-box-sqaure {
   width: 100%;
@@ -2408,7 +2431,7 @@ button.app-button {
   color: #ced4da; }
 
 .datatable .datatable-row:hover {
-  background-color: #ff99d3;
+  background-color: #ffcce9;
   cursor: pointer; }
 
 .datatable .datatable-row-active {
@@ -2511,9 +2534,5 @@ div.profile-image img {
 
 div.profile-image a {
   text-transform: capitalize; }
-
-.horizontaltreeview-node-label:hover {
-  border-color: white;
-  background-color: #FF0090; }
 
 /*# sourceMappingURL=at-md-cerise-magenta.css.map */
