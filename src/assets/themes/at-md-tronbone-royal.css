@@ -922,7 +922,7 @@ input[type='range']::-webkit-slider-thumb {
 }*/
 .datapoints {
   background: white;
-  color: #FADA5E;
+  color: #D2B558;
   font-size: 125%;
   /* Border */
   border-radius: 0px;
@@ -932,10 +932,10 @@ input[type='range']::-webkit-slider-thumb {
   .datapoints .title {
     font-size: 36px;
     font-weight: bold;
-    color: #FADA5E; }
+    color: #D2B558; }
   .datapoints .footer {
     /* Background */
-    background-color: #FADA5E;
+    background-color: #D2B558;
     color: white;
     border-radius: 0px;
     font-size: 20px;
@@ -2462,7 +2462,7 @@ button.app-button {
   vertical-align: middle; }
 
 .datapoints {
-  color: #FADA5E; }
+  color: #D2B558; }
   .datapoints .datapoints {
     border: none;
     box-shadow: none; }
@@ -2470,7 +2470,7 @@ button.app-button {
 .datapoints-north {
   font-size: 36px;
   font-weight: bold;
-  color: #FADA5E; }
+  color: #D2B558; }
 
 .datapoint-south {
   background-color: #FADA5E;
@@ -2533,5 +2533,9 @@ div.profile-image img {
 
 div.profile-image a {
   text-transform: capitalize; }
+
+.horizontaltreeview-node-label:hover {
+  border-color: black;
+  background-color: #FADA5E; }
 
 /*# sourceMappingURL=at-md-tronbone-royal.css.map */

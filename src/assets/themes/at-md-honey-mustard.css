@@ -922,7 +922,7 @@ input[type='range']::-webkit-slider-thumb {
 }*/
 .datapoints {
   background: white;
-  color: #FEDC56;
+  color: #EB9605;
   font-size: 125%;
   /* Border */
   border-radius: 0px;
@@ -932,10 +932,10 @@ input[type='range']::-webkit-slider-thumb {
   .datapoints .title {
     font-size: 36px;
     font-weight: bold;
-    color: #FEDC56; }
+    color: #EB9605; }
   .datapoints .footer {
     /* Background */
-    background-color: #FEDC56;
+    background-color: #EB9605;
     color: white;
     border-radius: 0px;
     font-size: 20px;
@@ -2462,7 +2462,7 @@ button.app-button {
   background-color: #fee789; }
 
 .datapoints {
-  color: #FEDC56; }
+  color: #EB9605; }
   .datapoints .datapoints {
     border: none;
     box-shadow: none; }
@@ -2470,7 +2470,7 @@ button.app-button {
 .datapoints-north {
   font-size: 36px;
   font-weight: bold;
-  color: #FEDC56; }
+  color: #EB9605; }
 
 .datapoint-south {
   background-color: #FEDC56;

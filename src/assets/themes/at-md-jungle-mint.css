@@ -922,7 +922,7 @@ input[type='range']::-webkit-slider-thumb {
 }*/
 .datapoints {
   background: white;
-  color: #98BF98;
+  color: #29AB87;
   font-size: 125%;
   /* Border */
   border-radius: 0px;
@@ -932,10 +932,10 @@ input[type='range']::-webkit-slider-thumb {
   .datapoints .title {
     font-size: 36px;
     font-weight: bold;
-    color: #98BF98; }
+    color: #29AB87; }
   .datapoints .footer {
     /* Background */
-    background-color: #98BF98;
+    background-color: #29AB87;
     color: white;
     border-radius: 0px;
     font-size: 20px;
@@ -2462,7 +2462,7 @@ button.app-button {
   vertical-align: middle; }
 
 .datapoints {
-  color: #98BF98; }
+  color: #29AB87; }
   .datapoints .datapoints {
     border: none;
     box-shadow: none; }
@@ -2470,7 +2470,7 @@ button.app-button {
 .datapoints-north {
   font-size: 36px;
   font-weight: bold;
-  color: #98BF98; }
+  color: #29AB87; }
 
 .datapoint-south {
   background-color: #98BF98;
@@ -2534,5 +2534,9 @@ div.profile-image img {
 
 div.profile-image a {
   text-transform: capitalize; }
+
+.horizontaltreeview-node-label:hover {
+  border-color: black;
+  background-color: #98BF98; }
 
 /*# sourceMappingURL=at-md-jungle-mint.css.map */

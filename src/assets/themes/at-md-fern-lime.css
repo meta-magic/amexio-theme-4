@@ -922,7 +922,7 @@ input[type='range']::-webkit-slider-thumb {
 }*/
 .datapoints {
   background: white;
-  color: #C7EA46;
+  color: #4F7942;
   font-size: 125%;
   /* Border */
   border-radius: 0px;
@@ -932,10 +932,10 @@ input[type='range']::-webkit-slider-thumb {
   .datapoints .title {
     font-size: 36px;
     font-weight: bold;
-    color: #C7EA46; }
+    color: #4F7942; }
   .datapoints .footer {
     /* Background */
-    background-color: #C7EA46;
+    background-color: #4F7942;
     color: white;
     border-radius: 0px;
     font-size: 20px;
@@ -2462,7 +2462,7 @@ button.app-button {
   vertical-align: middle; }
 
 .datapoints {
-  color: #C7EA46; }
+  color: #4F7942; }
   .datapoints .datapoints {
     border: none;
     box-shadow: none; }
@@ -2470,7 +2470,7 @@ button.app-button {
 .datapoints-north {
   font-size: 36px;
   font-weight: bold;
-  color: #C7EA46; }
+  color: #4F7942; }
 
 .datapoint-south {
   background-color: #C7EA46;
