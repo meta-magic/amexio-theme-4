@@ -219,8 +219,8 @@
                   <amexio-body>
                     <amexio-button type="primary" (onClick)="toggleClosable()" label="Confirm Box"></amexio-button>
                     <amexio-dialogue
-                        [show-window]="showClosable"[title]="'Confirm'"
-                        [message]="'Please confirm Are you sure you want to continue?'" [messageType]="'error'"
+                        [show-dialogue]="showClosable"[title]="'Confirm'"
+                        [message]="'Please confirm Are you sure you want to continue?'" [message-type]="'error'"
                         [type]="'confirm'">
                     </amexio-dialogue>
                   </amexio-body>
@@ -231,8 +231,8 @@
                   <amexio-body>
                     <amexio-button type="primary" (onClick)="toggleAlertWindow()" label="Alert Box"></amexio-button>
                     <amexio-dialogue
-                      [show-window]="showAlertWindow"[title]="'Alert'"
-                      [message]="'Record saved successfully'" [messageType]="'help'"
+                      [show-dialogue]="showAlertWindow"[title]="'Alert'"
+                      [message]="'Record saved successfully'" [message-type]="'help'"
                       [type]="'alert'">
                     </amexio-dialogue>
 
