@@ -196,6 +196,13 @@ button {
   border-right: none;
   /* Prevent double borders */ }
 
+.button-dropdown {
+  padding: .5rem 1rem;
+  font-size: 1rem;
+  border: 3px solid #2CD2EC;
+  background-color: white;
+  z-index: 3; }
+
 .datetimepicker {
   display: block;
   background: #1C2949;
@@ -1023,7 +1030,6 @@ input[type='range']::-webkit-slider-thumb {
   padding: 5px 10px;
   line-height: 20px;
   text-align: center;
-  border: 2px solid #cccccc;
   border-radius: 5px;
   position: absolute;
   left: 0;
@@ -1035,6 +1041,10 @@ input[type='range']::-webkit-slider-thumb {
 .horizontaltreeview-node-label:hover {
   border-color: #b3b3b3;
   background-color: #b3b3b3; }
+
+.horizontaltreeview-node-label:hover {
+  color: #1C2949;
+  background-color: #2CD2EC; }
 
 .flex-col-45pt {
   max-width: 45%; }
@@ -1157,7 +1167,7 @@ input[type='range']::-webkit-slider-thumb {
 
 .treenode {
   width: 100%;
-  padding-left: 20px;
+  padding-left: 10px;
   transition: .5s;
   background-attachment: scroll;
   background-color: transparent;
@@ -1165,8 +1175,7 @@ input[type='range']::-webkit-slider-thumb {
   background-position: 0 0;
   background-repeat: repeat-y;
   list-style: none outside none;
-  margin: 0;
-  padding: .125em 0 0 0; }
+  margin: 0; }
 
 .treenode-toggler {
   cursor: pointer;
@@ -1937,7 +1946,25 @@ fieldset {
   padding: 6px 0;
   font-size: 12px;
   line-height: 1.428571429;
-  border-radius: 15px; }
+  border-radius: 15px;
+  background-color: #2CD2EC;
+  border-color: #2CD2EC;
+  color: #1C2949;
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.25;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  outline: none;
+  user-select: none;
+  border: 1px solid #2CD2EC;
+  padding: .5rem 1rem;
+  border-radius: 0 px;
+  transition: all .2s ease-in-out; }
 
 .step-box-sqaure {
   width: 100%;
@@ -2462,9 +2489,5 @@ div.profile-image img {
 div.profile-image a {
   text-transform: capitalize;
   color: #F10897; }
-
-.horizontaltreeview-node-label:hover {
-  border-color: #1C2949;
-  background-color: #2CD2EC; }
 
 /*# sourceMappingURL=at-am-ocean-blue.css.map */
