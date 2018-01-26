@@ -1876,9 +1876,7 @@ input[type='range']::-webkit-slider-thumb {
   line-height: 24px;
   font-weight: 400;
   padding-left: 16px;
-  padding-right: 16px;
-  overflow-x: hidden;
-  overflow-y: auto; }
+  padding-right: 16px; }
 
 .cardbody::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
@@ -1996,7 +1994,8 @@ fieldset {
   line-height: 15px;
   border: 1px solid #8D021F;
   font-weight: bolder;
-  padding-top: 5px; }
+  padding-top: 5px;
+  cursor: pointer; }
 
 .step-box-table-item.active {
   background-color: #8D021F !important; }
