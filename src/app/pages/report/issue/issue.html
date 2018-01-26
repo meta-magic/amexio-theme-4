@@ -4,97 +4,73 @@
   </amexio-header>
   <amexio-body>
 <amexio-row>
-  <amexio-column size="1"></amexio-column>
+
   <amexio-column [size]="2">
-    <amexio-datapoints [west]="true" [center]="true" [east]="true" [south]="true"  >
-      <amexio-west [contentalign]="'center'" [c-class]="'datapoint-west'">
-        <i class="fa fa-check fa-3x"></i>
+    <amexio-datapoints [west]="true" [center]="true">
+      <amexio-west [contentalign]="'left'" [c-class]="'datapoint-west'">
+        <i class="fa fa-check fa-2x"></i>
       </amexio-west>
-      <amexio-center [contentalign]="'right'">
-        <amexio-datapoints [north]="true" [center]="true" [south]="true">
-          <amexio-north [c-class]="'datapoints-center-issue'">
-            <span >8</span>
-          </amexio-north>
-          <amexio-center [c-class]="'datapoints-center'">
-            <span >Closed</span>
-          </amexio-center>
-        </amexio-datapoints>
+      <amexio-center [contentalign]="'center'">
+        <span class="datapoints-center-issue">8</span><br/><span class="datapoints-center">Closed</span>
       </amexio-center>
     </amexio-datapoints>
   </amexio-column>
 
   <amexio-column [size]="2">
-    <amexio-datapoints [west]="true" [center]="true" [east]="true" [south]="true"  >
-      <amexio-west [contentalign]="'center'" [c-class]="'datapoint-west'">
-        <i class="fa fa-envelope-open fa-3x"></i>
+    <amexio-datapoints [west]="true" [center]="true">
+      <amexio-west [contentalign]="'left'" [c-class]="'datapoint-west'">
+        <i class="fa fa-envelope-open fa-2x"></i>
       </amexio-west>
-      <amexio-center [contentalign]="'right'">
-        <amexio-datapoints [north]="true" [center]="true" [south]="true">
-          <amexio-north [c-class]="'datapoints-center-issue'">
-            <span >13</span>
-          </amexio-north>
-          <amexio-center [c-class]="'datapoints-center'">
-            <span >Open</span>
-          </amexio-center>
-        </amexio-datapoints>
+      <amexio-center [contentalign]="'center'">
+        <span class="datapoints-center-issue">13</span><br/><span class="datapoints-center">Open</span>
+      </amexio-center>
+    </amexio-datapoints>
+  </amexio-column>
+
+  <amexio-column [size]="2">
+    <amexio-datapoints [west]="true" [center]="true" >
+      <amexio-west [contentalign]="'left'" [c-class]="'datapoint-west'">
+        <i class="fa fa-spinner fa-2x"></i>
+      </amexio-west>
+      <amexio-center [contentalign]="'center'">
+        <span class="datapoints-center-issue">3</span><br/><span class="datapoints-center">WIP</span>
+      </amexio-center>
+    </amexio-datapoints>
+  </amexio-column>
+
+  <amexio-column [size]="2">
+    <amexio-datapoints [west]="true" [center]="true">
+      <amexio-west [contentalign]="'left'" [c-class]="'datapoint-west'">
+        <i class="fa fa-bolt fa-2x"></i>
+      </amexio-west>
+      <amexio-center [contentalign]="'center'">
+        <span class="datapoints-center-issue">6</span><br/><span class="datapoints-center">High</span>
       </amexio-center>
     </amexio-datapoints>
   </amexio-column>
 
 <amexio-column [size]="2">
-    <amexio-datapoints [west]="true" [center]="true" [east]="true" [south]="true" >
-      <amexio-west [contentalign]="'center'" [c-class]="'datapoint-west'">
-        <i class="fa fa-bolt fa-3x"></i>
+    <amexio-datapoints [west]="true" [center]="true">
+      <amexio-west [contentalign]="'left'" [c-class]="'datapoint-west'">
+        <i class="fa fa-medium fa-2x"></i>
       </amexio-west>
-      <amexio-center [contentalign]="'right'">
-        <amexio-datapoints [north]="true" [center]="true" [south]="true">
-          <amexio-north [c-class]="'datapoints-center-issue'">
-            <span >6</span>
-          </amexio-north>
-          <amexio-center [c-class]="'datapoints-center'">
-            <span >High</span>
-          </amexio-center>
-        </amexio-datapoints>
+      <amexio-center [contentalign]="'center'">
+            <span class="datapoints-center-issue">9</span><br/><span class="datapoints-center">Medium</span>
       </amexio-center>
     </amexio-datapoints>
   </amexio-column>
 
-<amexio-column [size]="2">
-    <amexio-datapoints [west]="true" [center]="true" [east]="true" [south]="true" >
-      <amexio-west [contentalign]="'center'" [c-class]="'datapoint-west'">
-        <i class="fa fa-medium fa-3x"></i>
+  <amexio-column [size]="2">
+    <amexio-datapoints [west]="true" [center]="true">
+      <amexio-west [contentalign]="'left'" [c-class]="'datapoint-west'">
+        <i class="fa fa-low-vision fa-2x"></i>
       </amexio-west>
-      <amexio-center [contentalign]="'right'">
-        <amexio-datapoints [north]="true" [center]="true" [south]="true">
-          <amexio-north [c-class]="'datapoints-center-issue'">
-            <span >9</span>
-          </amexio-north>
-          <amexio-center [c-class]="'datapoints-center'">
-            <span >Medium</span>
-          </amexio-center>
-        </amexio-datapoints>
+      <amexio-center [contentalign]="'center'">
+        <span class="datapoints-center-issue">6</span><br/><span class="datapoints-center">Low</span>
       </amexio-center>
     </amexio-datapoints>
   </amexio-column>
 
-<amexio-column [size]="2">
-    <amexio-datapoints [west]="true" [center]="true" [east]="true" [south]="true" >
-      <amexio-west [contentalign]="'center'" [c-class]="'datapoint-west'">
-        <i class="fa fa-low-vision fa-3x"></i>
-      </amexio-west>
-      <amexio-center [contentalign]="'right'">
-        <amexio-datapoints [north]="true" [center]="true" [south]="true">
-          <amexio-north [c-class]="'datapoints-center-issue'">
-            <span >6</span>
-          </amexio-north>
-          <amexio-center [c-class]="'datapoints-center'">
-            <span >Low</span>
-          </amexio-center>
-        </amexio-datapoints>
-      </amexio-center>
-    </amexio-datapoints>
-  </amexio-column>
-  <amexio-column size="1"></amexio-column>
 </amexio-row>
 <br/>
 <amexio-datagrid
