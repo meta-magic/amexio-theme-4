@@ -88,6 +88,7 @@
               <amexio-header>Tree Data Grid</amexio-header>
               <amexio-body>
                 <amexio-tree-data-table [http-method]="'get'" [http-url]="'assets/data/treedatatable.json'" [data-reader]="'data'">
+                  <amexio-data-table-column [data-index]="'task'" [data-type]="'string'" [hidden]="false" [text]="'Task'"></amexio-data-table-column>
                   <amexio-data-table-column [data-index]="'user'" [data-type]="'string'" [hidden]="false" [text]="'User'"></amexio-data-table-column>
                   <amexio-data-table-column [data-index]="'duration'" [data-type]="'number'" [hidden]="false" [text]="'Duration'"></amexio-data-table-column>
                 </amexio-tree-data-table>
