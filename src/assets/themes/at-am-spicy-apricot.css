@@ -446,6 +446,13 @@ button {
   color: #222;
   border-color: #222; }
 
+/**SPECIAL SETTING REQUIRED FOR FIREFOX***/
+input:required {
+  box-shadow: none; }
+
+textarea:required {
+  box-shadow: none; }
+
 /*----------------------------------------------------------------------*/
 /***CHECKBOX & RADIOGROUP STYLE STARTS***/
 /*----------------------------------------------------------------------*/
@@ -1413,7 +1420,7 @@ input[type='range']::-webkit-slider-thumb {
   display: none;
   background: rgba(255, 255, 255, 0.7);
   padding: 10px;
-  position: absolute;
+  position: fixed;
   z-index: 99;
   box-shadow: 0 0 5px 0 #3C1D5F; }
 
@@ -2534,6 +2541,9 @@ button.app-button {
     background: none;
     border: none;
     box-shadow: none; }
+
+.datapoints-issue {
+  padding: 10px; }
 
 .datapoints-north {
   font-size: 36px;
