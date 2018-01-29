@@ -183,8 +183,12 @@
 
                         <amexio-row>
                           <amexio-column [size]="6">
-                            <amexio-text-input [field-label]="'FirstName'" name="name" [place-holder]="'Enter firstname'" [icon-feedback]="true">
-                            </amexio-text-input>
+                            <amexio-date-time-picker
+                              [field-label]="'Date Of Birth'"
+                              [time-picker]="false"
+                              [date-picker]="true"
+                              [(ngModel)]="currentDate">
+                            </amexio-date-time-picker>
                           </amexio-column>
                           <amexio-column [size]="6">
                             <amexio-text-input [field-label]="'Last Name'" name="name" [place-holder]="'Enter lastname'" [icon-feedback]="true">
@@ -260,10 +264,10 @@
         <br />
         <!--Step-box index -->
         <amexio-steps [index]="true" >
-          <amexio-step-block [label]="'step-1'" [active]="true"></amexio-step-block>
-          <amexio-step-block [label]="'step-2'" [active]="false"></amexio-step-block>
-          <amexio-step-block [label]="'step-3'" [active]="false"></amexio-step-block>
-          <amexio-step-block [label]="'step-4'" [active]="false"></amexio-step-block>
+          <amexio-step-block [label]="'Step-1'" [active]="true"></amexio-step-block>
+          <amexio-step-block [label]="'Step-2'" [active]="false"></amexio-step-block>
+          <amexio-step-block [label]="'Step-3'" [active]="false"></amexio-step-block>
+          <amexio-step-block [label]="'Step-4'" [active]="false"></amexio-step-block>
         </amexio-steps>
         <!--<amexio-right-vertical-tab-view>
           <amexio-tab [title]="'Step box'" [icon]="'fa fa-eercast'">
