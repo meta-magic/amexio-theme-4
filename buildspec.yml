@@ -27,7 +27,7 @@ phases:
 
     post_build:
          commands:
-            - cp appspec.yml dist
+            - cp appspec.yml install_dependencies dist
             - echo Build completed on `date`
             - aws s3 cp dist s3://amexiotheme --recursive
 artifacts:
