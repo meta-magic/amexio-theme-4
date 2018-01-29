@@ -1,3 +1,2 @@
 #!/bin/bash
-mkdir /var/www/html/showcaseapp_test/themev4/assets/
-aws s3 sync s3://s3code/assets/ /var/www/html/showcaseapp_test/themev4/assets/
+sudo aws s3 sync s3://amexiotheme/assets/ /var/www/html/showcaseapp_test/themev4/assets/ --region us-east-2
