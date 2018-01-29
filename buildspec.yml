@@ -18,6 +18,7 @@ phases:
             - npm i node-sass --save-dev
             - ng set defaults.styleExt scss
             - node -v
+            - npm install --save uglify-js
             - sudo rm -rf src/assets/themes/*
             - aws s3 sync s3://s3code/themes/ src/assets/themes/ --region us-east-2
 
