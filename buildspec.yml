@@ -18,14 +18,13 @@ phases:
             - npm i node-sass --save-dev
             - ng set defaults.styleExt scss
             - node -v
-            
+            - sudo rm -rf src/assets/themes/*
+            - aws s3 sync s3://s3code/themes/ src/assets/themes/ --region us-east-2
 
 
     build:
         commands:
             - echo Build started on `date`
-            - sudo rm -rf src/assets/themes/*
-            - aws s3 sync s3://s3code/themes/ src/assets/themes/ --region us-east-2
             - ng build --prod
 
     post_build:
