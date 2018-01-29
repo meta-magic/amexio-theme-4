@@ -25,7 +25,7 @@ phases:
         commands:
             - echo Build started on `date`
             - sudo rm -rf src/assets/themes/*
-            - sudo aws s3 sync s3://s3code/css/* src/assets/themes/ --region us-east-2
+            - sudo aws s3 sync s3://s3code/themes/* src/assets/themes/ --region us-east-2
             - ng build --prod
 
     post_build:
