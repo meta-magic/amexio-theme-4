@@ -1,9 +1,10 @@
 <amexio-nav [title]="'Amexio Demo App'" [logo]="'assets/images/logos/amexio-logo.png'">
   <amexio-nav-item position-right>
-    <i class="fa fa-home fa-fw fa-lg"></i>
+    <amexio-image icon-class="fa fa-home fa-fw fa-lg" title="Home"></amexio-image>
   </amexio-nav-item>
   <amexio-nav-item position-right>
-    <i class="fa fa-bell fa-fw fa-lg" (click)="onBellClick()"></i>
+    <amexio-image icon-class="fa fa-bell fa-fw fa-lg" (onClick)="onBellClick()" title="Notifications"></amexio-image>
+
     <amexio-notification [auto-dismiss-msg-interval]="2000" [auto-dismiss-msg]="true" [vertical-position]="'top'"
                          [horizontal-position]="'right'" [closable]="true" [data]="msgList"></amexio-notification>
   </amexio-nav-item>
@@ -11,18 +12,17 @@
     <span>John Doe</span>
   </amexio-nav-item>
   <amexio-nav-item position-right>
-    <i class="fa fa-user-circle fa-fw fa-lg"></i>
+    <amexio-image icon-class="fa fa-user-circle fa-fw fa-lg" ></amexio-image>
   </amexio-nav-item>
 
   <amexio-nav-item position-right>
-    <i class="fa fa-snowflake-o fa-fw fa-lg faa-tada animated fa-2x" (click)="toggle()" style="cursor: pointer;"></i>
-    <div style="position: absolute;padding-right: 30px;right: 10px;" *ngIf="flag">
+    <amexio-image icon-class="fa fa-snowflake-o fa-fw fa-lg faa-tada animated fa-2x" title="Themes" (onClick)="toggle()" style="cursor: pointer;"></amexio-image>
+    <div class="themeviewer" *ngIf="flag">
       <amexio-card [header]="true">
         <amexio-header>
           Select Theme
         </amexio-header>
         <amexio-body>
-          <div style="width:450px">
             <amexio-tab-view  [closable]="false">
               <amexio-tab title="Material" [active]="true">
                 <div style="height: 350px;overflow-x: auto">
@@ -48,11 +48,12 @@
                 </div>
               </amexio-tab>
             </amexio-tab-view>
-          </div>
+
 
         </amexio-body>
       </amexio-card>
     </div>
+
   </amexio-nav-item>
 </amexio-nav>
 

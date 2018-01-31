@@ -1,31 +1,21 @@
-//@import "../node_modules/amexio-ng-extensions/styles/mda/mda-amber.scss";
-//@import "../node_modules/amexio-ng-extensions/styles/mdb/mdb-black.scss";
-//@import "../node_modules/amexio-ng-extensions/styles/mdb/mdb-blue.scss";
-//@import "../node_modules/amexio-ng-extensions/styles/mda/mda-bluegrey.scss";
-//@import "../node_modules/amexio-ng-extensions/styles/mdb/mdb-brown.scss";
-//@import "../node_modules/amexio-ng-extensions/styles/mdb/mdb-indigo.scss";
-//@import "../node_modules/amexio-ng-extensions/styles/mdb/mdb-lightblue.scss";
 
-//@import "../node_modules/amexio-ng-extensions/styles/amexio/amexio-deep-orange.scss";
-//@import "../node_modules/amexio-ng-extensions/styles/amexio/amexio-matrix.scss";
-//@import "../node_modules/amexio-ng-extensions/styles/amexio/amexio-cyan.scss";
+.themeviewer{
+  position: absolute;
+  padding-right: 30px;
+  right: 10px;
+  width: 450px;
+}
 
-//@import "../node_modules/amexio-ng-extensions/styles/amexio/amexio-polygon.scss";
-//@import "../node_modules/amexio-ng-extensions/styles/amexio/amexio-red.scss";
-//@import "../node_modules/amexio-ng-extensions/styles/amexio/amexio-limegreen.scss";
-
-
-
-//@import "../node_modules/amexio-ng-extensions/styles/amexio/amexio-deep-orange.scss";
-
-//@import "../node_modules/amexio-ng-extensions/styles/amexio/amexio-pyramind.scss";
-//@import "../node_modules/amexio-ng-extensions/styles/amexio/amexio-orange.scss";
-
-
-//@import "../node_modules/amexio-ng-extensions/styles/mdb/mdb-chocolate-russet.scss";
-
-//@import "../node_modules/amexio-ng-extensions/styles/mda/at-md-army-olive.scss";
-
+@media only screen and (max-width: 767px) {
+  .themeviewer{
+    position: relative;
+    padding: 0;
+    left: 0;
+    right: 0;
+    overflow: auto;
+    width: auto;
+  }
+}
 
 .route-container{
   padding: 88px 10px 20px 0px;
@@ -33,7 +23,7 @@
 
 @media only screen and (max-width: 1024px) {
   .route-container{
-    padding: 20px 10px 20px 0px;
+    padding: 15px;
   }
 }
 
