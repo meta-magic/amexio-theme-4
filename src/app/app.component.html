@@ -15,15 +15,14 @@
     <amexio-image icon-class="fa fa-user-circle fa-fw fa-lg" title="Themes"></amexio-image>
   </amexio-nav-item>
 
-  <amexio-nav-item position-right>
+  <amexio-nav-item position-right>  
     <i class="fa fa-snowflake-o fa-fw fa-lg faa-tada animated fa-2x" (click)="toggle()" style="cursor: pointer;"></i>
-    <div style="position: absolute;padding-right: 30px;right: 10px;" *ngIf="flag">
+    <div class="themeviewer" *ngIf="flag">
       <amexio-card [header]="true">
         <amexio-header>
           Select Theme
         </amexio-header>
         <amexio-body>
-          <div style="width:450px">
             <amexio-tab-view  [closable]="false">
               <amexio-tab title="Material" [active]="true">
                 <div style="height: 350px;overflow-x: auto">
@@ -49,11 +48,12 @@
                 </div>
               </amexio-tab>
             </amexio-tab-view>
-          </div>
+          
 
         </amexio-body>
       </amexio-card>
     </div>
+   
   </amexio-nav-item>
 </amexio-nav>
 
