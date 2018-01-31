@@ -12,11 +12,11 @@
     <span>John Doe</span>
   </amexio-nav-item>
   <amexio-nav-item position-right>
-    <amexio-image icon-class="fa fa-user-circle fa-fw fa-lg" title="Themes"></amexio-image>
+    <amexio-image icon-class="fa fa-user-circle fa-fw fa-lg" ></amexio-image>
   </amexio-nav-item>
 
-  <amexio-nav-item position-right>  
-    <i class="fa fa-snowflake-o fa-fw fa-lg faa-tada animated fa-2x" (click)="toggle()" style="cursor: pointer;"></i>
+  <amexio-nav-item position-right>
+    <amexio-image icon-class="fa fa-snowflake-o fa-fw fa-lg faa-tada animated fa-2x" title="Themes" (onClick)="toggle()" style="cursor: pointer;"></amexio-image>
     <div class="themeviewer" *ngIf="flag">
       <amexio-card [header]="true">
         <amexio-header>
@@ -48,12 +48,12 @@
                 </div>
               </amexio-tab>
             </amexio-tab-view>
-          
+
 
         </amexio-body>
       </amexio-card>
     </div>
-   
+
   </amexio-nav-item>
 </amexio-nav>
 
