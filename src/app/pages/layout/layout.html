@@ -186,8 +186,7 @@
                             <amexio-date-time-picker
                               [field-label]="'Date Of Birth'"
                               [time-picker]="false"
-                              [date-picker]="true"
-                              [(ngModel)]="currentDate">
+                              [date-picker]="true">
                             </amexio-date-time-picker>
                           </amexio-column>
                           <amexio-column [size]="6">
@@ -364,9 +363,13 @@
           </amexio-row>
       </amexio-tab>
       <amexio-tab [title]="'Panel'" [icon]="'fa fa-columns'">
-        <amexio-panel [header]="true" title="Panel" expanded="true" [custom-header]="false">
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-        </amexio-panel>
+        <amexio-row>
+          <amexio-column [size]="12">
+            <amexio-panel [header]="true"  title="Panel" [expanded]="false" [custom-header]="true">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </amexio-panel>
+          </amexio-column>
+        </amexio-row>
       </amexio-tab>
     </amexio-tab-view>
 

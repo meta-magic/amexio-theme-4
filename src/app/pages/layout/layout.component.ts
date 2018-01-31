@@ -15,13 +15,6 @@ export class LayoutComponent implements OnInit {
   data:any;
   isVisible:boolean;
   viewData:any;
-  confirmStatus:string;
-  toggleConfirm:any;
-  toggleAlert:any;
-
-//  htmlCode: string;
-  //typeScriptCode: string;
-  copyMsgArray: any[];
   user:boolean;
   shop:boolean;
   payment:boolean;
