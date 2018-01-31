@@ -14,18 +14,10 @@
         "currencySymbol": "K",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 104,
-        "primaryKey": "024DD89E-0D48-445E-8B50-AF54F6CC77B8",
-        "countryId": "024DD89E-0D48-445E-8B50-AF54F6CC77B8",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Myanmar"
+        "isoNumeric": 104
       },
       {
-        "countryName": "U.S. Virgin Isssssss",
+        "countryName": "U.S. Virgin Island",
         "countryCode1": "VI",
         "countryCode2": "VIR",
         "countryFlag": "VI.png",
@@ -35,15 +27,7 @@
         "currencySymbol": "$",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 850,
-        "primaryKey": "02818773-23CF-40E5-8AD6-0E07EBD3569A",
-        "countryId": "02818773-23CF-40E5-8AD6-0E07EBD3569A",
-        "versionId": 8,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "U.S. Virgin Isssssss"
+        "isoNumeric": 850
       },
       {
         "countryName": "Latvia",
@@ -56,18 +40,10 @@
         "currencySymbol": "Ls",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 428,
-        "primaryKey": "03640A86-304D-40C8-AC82-3EB8509DF8C4",
-        "countryId": "03640A86-304D-40C8-AC82-3EB8509DF8C4",
-        "versionId": 2,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Latvia"
+        "isoNumeric": 428
       },
       {
-        "countryName": "British Indian Ocean Terr",
+        "countryName": "British Indian Ocean Teritory",
         "countryCode1": "IO",
         "countryCode2": "IOT",
         "countryFlag": "IO.png",
@@ -77,15 +53,7 @@
         "currencySymbol": "$",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 86,
-        "primaryKey": "03ABE27B-E251-4524-9F88-BD07671144FE",
-        "countryId": "03ABE27B-E251-4524-9F88-BD07671144FE",
-        "versionId": 4,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "British Indian Ocean Terr"
+        "isoNumeric": 86
       },
       {
         "countryName": "Reunion",
@@ -98,15 +66,7 @@
         "currencySymbol": "€",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 638,
-        "primaryKey": "05F7CA1F-B4F7-4028-B9A8-75DEFE6BD5DF",
-        "countryId": "05F7CA1F-B4F7-4028-B9A8-75DEFE6BD5DF",
-        "versionId": 2,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Reunion"
+        "isoNumeric": 638
       },
       {
         "countryName": "Gabon",
@@ -119,15 +79,7 @@
         "currencySymbol": "FCF",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 266,
-        "primaryKey": "06AA5BEF-8040-43C0-AC33-AB37CE67A3ED",
-        "countryId": "06AA5BEF-8040-43C0-AC33-AB37CE67A3ED",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Gabon"
+        "isoNumeric": 266
       },
       {
         "countryName": "Guyana",
@@ -140,15 +92,7 @@
         "currencySymbol": "$",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 328,
-        "primaryKey": "06E22C7A-A41E-4C88-9ACA-75182FD29FF1",
-        "countryId": "06E22C7A-A41E-4C88-9ACA-75182FD29FF1",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Guyana"
+        "isoNumeric": 328
       },
       {
         "countryName": "Tajikistan",
@@ -161,15 +105,7 @@
         "currencySymbol": "",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 762,
-        "primaryKey": "0802FB31-367D-4DEA-8BA8-ACB1B2B413C4",
-        "countryId": "0802FB31-367D-4DEA-8BA8-ACB1B2B413C4",
-        "versionId": 2,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Tajikistan"
+        "isoNumeric": 762
       },
       {
         "countryName": "Slovenia",
@@ -182,15 +118,7 @@
         "currencySymbol": "€",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 705,
-        "primaryKey": "0891E30B-6827-4F9A-B2A8-54DC981486A8",
-        "countryId": "0891E30B-6827-4F9A-B2A8-54DC981486A8",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Slovenia"
+        "isoNumeric": 705
       },
       {
         "countryName": "Martinique",
@@ -203,15 +131,7 @@
         "currencySymbol": "€",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 474,
-        "primaryKey": "0ADC41FF-1ABD-4C2C-950C-7D0C14F952B5",
-        "countryId": "0ADC41FF-1ABD-4C2C-950C-7D0C14F952B5",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Martinique"
+        "isoNumeric": 474
       },
       {
         "countryName": "Puerto Rico",
@@ -224,15 +144,7 @@
         "currencySymbol": "$",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 630,
-        "primaryKey": "0ED62045-3943-4A95-9C7D-1EEC37DC7EBA",
-        "countryId": "0ED62045-3943-4A95-9C7D-1EEC37DC7EBA",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Puerto Rico"
+        "isoNumeric": 630
       },
       {
         "countryName": "Niger",
@@ -245,15 +157,7 @@
         "currencySymbol": "",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 562,
-        "primaryKey": "1168B245-04A7-429C-ABAF-28B04600BD56",
-        "countryId": "1168B245-04A7-429C-ABAF-28B04600BD56",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Niger"
+        "isoNumeric": 562
       },
       {
         "countryName": "Faroe Islands",
@@ -266,15 +170,7 @@
         "currencySymbol": "kr",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 234,
-        "primaryKey": "12895F94-706E-41E6-896C-40FE6174EE16",
-        "countryId": "12895F94-706E-41E6-896C-40FE6174EE16",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Faroe Islands"
+        "isoNumeric": 234
       },
       {
         "countryName": "Reunion",
@@ -287,15 +183,7 @@
         "currencySymbol": null,
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": null,
-        "primaryKey": "12E926C2-0FF8-4704-BBED-BDE08E262D95",
-        "countryId": "12E926C2-0FF8-4704-BBED-BDE08E262D95",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Reunion"
+        "isoNumeric": 0
       },
       {
         "countryName": "Hong Kong",
@@ -308,15 +196,7 @@
         "currencySymbol": "$",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 344,
-        "primaryKey": "1571A3C5-6DB4-4ADD-A0CB-625AC4BD387E",
-        "countryId": "1571A3C5-6DB4-4ADD-A0CB-625AC4BD387E",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Hong Kong"
+        "isoNumeric": 344
       },
       {
         "countryName": "Bhutan",
@@ -329,15 +209,7 @@
         "currencySymbol": "",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 64,
-        "primaryKey": "163B5249-70EE-44F6-958F-7A44D3787380",
-        "countryId": "163B5249-70EE-44F6-958F-7A44D3787380",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Bhutan"
+        "isoNumeric": 64
       },
       {
         "countryName": "Tokelau",
@@ -350,15 +222,7 @@
         "currencySymbol": "$",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 772,
-        "primaryKey": "171CF28F-D5D1-4F8A-B93E-8327552CE156",
-        "countryId": "171CF28F-D5D1-4F8A-B93E-8327552CE156",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Tokelau"
+        "isoNumeric": 772
       },
       {
         "countryName": "Bahrain",
@@ -371,15 +235,7 @@
         "currencySymbol": "",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 48,
-        "primaryKey": "187778C6-5B72-4898-8098-5509BC57CFFE",
-        "countryId": "187778C6-5B72-4898-8098-5509BC57CFFE",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Bahrain"
+        "isoNumeric": 48
       },
       {
         "countryName": "Tonga",
@@ -392,15 +248,7 @@
         "currencySymbol": "T$",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 776,
-        "primaryKey": "18D5644D-DD30-47DF-AE49-38343DB025B2",
-        "countryId": "18D5644D-DD30-47DF-AE49-38343DB025B2",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Tonga"
+        "isoNumeric": 776
       },
       {
         "countryName": "El Salvador",
@@ -413,15 +261,7 @@
         "currencySymbol": "$",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 222,
-        "primaryKey": "196FA07E-F333-41C9-839B-8383F95D86DE",
-        "countryId": "196FA07E-F333-41C9-839B-8383F95D86DE",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "El Salvador"
+        "isoNumeric": 222
       },
       {
         "countryName": "Uruguay",
@@ -434,15 +274,7 @@
         "currencySymbol": "$U",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 858,
-        "primaryKey": "1D098499-ECE3-4996-9FD1-4DCB6E088221",
-        "countryId": "1D098499-ECE3-4996-9FD1-4DCB6E088221",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Uruguay"
+        "isoNumeric": 858
       },
       {
         "countryName": "Jamaica",
@@ -455,15 +287,7 @@
         "currencySymbol": "$",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 388,
-        "primaryKey": "1DC2EFD5-34EB-456D-994B-4BCE3388DD99",
-        "countryId": "1DC2EFD5-34EB-456D-994B-4BCE3388DD99",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Jamaica"
+        "isoNumeric": 388
       },
       {
         "countryName": "Libya",
@@ -476,15 +300,7 @@
         "currencySymbol": "",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 434,
-        "primaryKey": "1EB6C308-A3A6-4A4D-A310-6F92B33C6C9C",
-        "countryId": "1EB6C308-A3A6-4A4D-A310-6F92B33C6C9C",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Libya"
+        "isoNumeric": 434
       },
       {
         "countryName": "Bolivia",
@@ -497,15 +313,7 @@
         "currencySymbol": "$b",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 68,
-        "primaryKey": "1ED49FA9-6170-4585-9018-29BCFBCF4BC1",
-        "countryId": "1ED49FA9-6170-4585-9018-29BCFBCF4BC1",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Bolivia"
+        "isoNumeric": 68
       },
       {
         "countryName": "Grenada",
@@ -518,15 +326,7 @@
         "currencySymbol": "$",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 308,
-        "primaryKey": "208ADF44-C2BE-4ABD-83D5-8B7A474A65A5",
-        "countryId": "208ADF44-C2BE-4ABD-83D5-8B7A474A65A5",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Grenada"
+        "isoNumeric": 308
       },
       {
         "countryName": "French Guiana",
@@ -539,15 +339,7 @@
         "currencySymbol": "€",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 254,
-        "primaryKey": "209FE953-4CA6-4267-B117-9E57DB24D500",
-        "countryId": "209FE953-4CA6-4267-B117-9E57DB24D500",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "French Guiana"
+        "isoNumeric": 254
       },
       {
         "countryName": "Jordan",
@@ -560,15 +352,7 @@
         "currencySymbol": "",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 400,
-        "primaryKey": "20EFB8A8-71EA-497D-8804-CF5E51672DD0",
-        "countryId": "20EFB8A8-71EA-497D-8804-CF5E51672DD0",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Jordan"
+        "isoNumeric": 400
       },
       {
         "countryName": "ReunionChanged",
@@ -581,15 +365,7 @@
         "currencySymbol": null,
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": null,
-        "primaryKey": "21B62843-8969-4529-9377-B07BD323278A",
-        "countryId": "21B62843-8969-4529-9377-B07BD323278A",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "ReunionChanged"
+        "isoNumeric": 0
       },
       {
         "countryName": "Pakistan",
@@ -602,15 +378,7 @@
         "currencySymbol": "?",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 586,
-        "primaryKey": "22FC195A-DE76-49EF-AC9D-A4E60409B414",
-        "countryId": "22FC195A-DE76-49EF-AC9D-A4E60409B414",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Pakistan"
+        "isoNumeric": 586
       },
       {
         "countryName": "Thailand",
@@ -623,15 +391,7 @@
         "currencySymbol": "?",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 764,
-        "primaryKey": "2350C7F3-EF0D-408A-A0C9-26DC50F6362E",
-        "countryId": "2350C7F3-EF0D-408A-A0C9-26DC50F6362E",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Thailand"
+        "isoNumeric": 764
       },
       {
         "countryName": "East Timor",
@@ -644,15 +404,7 @@
         "currencySymbol": "$",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 626,
-        "primaryKey": "23C9BCEC-536E-4D04-A91E-919E3B0E0AF0",
-        "countryId": "23C9BCEC-536E-4D04-A91E-919E3B0E0AF0",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "East Timor"
+        "isoNumeric": 626
       },
       {
         "countryName": "Nepal",
@@ -665,15 +417,7 @@
         "currencySymbol": "?",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 524,
-        "primaryKey": "25E2A30F-E17B-4EBD-987D-DFAD072EDEBE",
-        "countryId": "25E2A30F-E17B-4EBD-987D-DFAD072EDEBE",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Nepal"
+        "isoNumeric": 524
       },
       {
         "countryName": "Colombia",
@@ -686,15 +430,7 @@
         "currencySymbol": "$",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 170,
-        "primaryKey": "28453EDD-A941-4ADB-B3A1-414E17B51537",
-        "countryId": "28453EDD-A941-4ADB-B3A1-414E17B51537",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Colombia"
+        "isoNumeric": 170
       },
       {
         "countryName": "Dominican Republic",
@@ -707,15 +443,7 @@
         "currencySymbol": "RD$",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 214,
-        "primaryKey": "28773C42-074D-4A00-B448-57892F4A65EC",
-        "countryId": "28773C42-074D-4A00-B448-57892F4A65EC",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Dominican Republic"
+        "isoNumeric": 214
       },
       {
         "countryName": "Saint Kitts and Nevis",
@@ -728,15 +456,7 @@
         "currencySymbol": "$",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 659,
-        "primaryKey": "28A97E04-3A5B-4518-9054-6280A6CD6346",
-        "countryId": "28A97E04-3A5B-4518-9054-6280A6CD6346",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Saint Kitts and Nevis"
+        "isoNumeric": 659
       },
       {
         "countryName": "Heard Island and McDonald Islands",
@@ -749,15 +469,7 @@
         "currencySymbol": "$",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 334,
-        "primaryKey": "28E40ED3-DAC9-4D50-9F7F-67798EF07E0C",
-        "countryId": "28E40ED3-DAC9-4D50-9F7F-67798EF07E0C",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Heard Island and McDonald Islands"
+        "isoNumeric": 334
       },
       {
         "countryName": "Bahamas",
@@ -770,15 +482,7 @@
         "currencySymbol": "$",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 44,
-        "primaryKey": "293FD6CB-1F50-41B1-9584-B452C96C1ED8",
-        "countryId": "293FD6CB-1F50-41B1-9584-B452C96C1ED8",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Bahamas"
+        "isoNumeric": 44
       },
       {
         "countryName": "Vanuatu",
@@ -791,15 +495,7 @@
         "currencySymbol": "Vt",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 548,
-        "primaryKey": "2D35F16F-30D3-4436-B416-20CBE8E06566",
-        "countryId": "2D35F16F-30D3-4436-B416-20CBE8E06566",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Vanuatu"
+        "isoNumeric": 548
       },
       {
         "countryName": "Mongolia",
@@ -812,15 +508,7 @@
         "currencySymbol": "?",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 496,
-        "primaryKey": "2F467B5A-3F58-4084-B32A-A3E5AE4FFA8F",
-        "countryId": "2F467B5A-3F58-4084-B32A-A3E5AE4FFA8F",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Mongolia"
+        "isoNumeric": 496
       },
       {
         "countryName": "Kuwait",
@@ -833,15 +521,7 @@
         "currencySymbol": "",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 414,
-        "primaryKey": "2FDD3FF4-B078-45AE-99A7-C08D1EE7F513",
-        "countryId": "2FDD3FF4-B078-45AE-99A7-C08D1EE7F513",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Kuwait"
+        "isoNumeric": 414
       },
       {
         "countryName": "Estonia",
@@ -854,15 +534,7 @@
         "currencySymbol": "kr",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 233,
-        "primaryKey": "2FE1EC1D-C76F-4E73-835B-B284F15AD81F",
-        "countryId": "2FE1EC1D-C76F-4E73-835B-B284F15AD81F",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Estonia"
+        "isoNumeric": 233
       },
       {
         "countryName": "Honduras",
@@ -875,15 +547,7 @@
         "currencySymbol": "L",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 340,
-        "primaryKey": "307C3507-AEC1-43BF-8973-B93AAA838351",
-        "countryId": "307C3507-AEC1-43BF-8973-B93AAA838351",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Honduras"
+        "isoNumeric": 340
       },
       {
         "countryName": "Armenia",
@@ -896,15 +560,7 @@
         "currencySymbol": "",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 51,
-        "primaryKey": "3148C417-9991-42FB-9FE1-E22E88CBECD2",
-        "countryId": "3148C417-9991-42FB-9FE1-E22E88CBECD2",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Armenia"
+        "isoNumeric": 51
       },
       {
         "countryName": "Eritrea",
@@ -917,15 +573,7 @@
         "currencySymbol": "Nfk",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 232,
-        "primaryKey": "328E00FA-0A9D-4C33-8423-0E4CC61CAE9D",
-        "countryId": "328E00FA-0A9D-4C33-8423-0E4CC61CAE9D",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Eritrea"
+        "isoNumeric": 232
       },
       {
         "countryName": "Zambia",
@@ -938,15 +586,7 @@
         "currencySymbol": "ZK",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 894,
-        "primaryKey": "33381D73-7311-42FF-BA94-F2950C087075",
-        "countryId": "33381D73-7311-42FF-BA94-F2950C087075",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Zambia"
+        "isoNumeric": 894
       },
       {
         "countryName": "Equatorial Guinea",
@@ -959,15 +599,7 @@
         "currencySymbol": "FCF",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 226,
-        "primaryKey": "33411DB9-3838-439E-A197-2383DF9B00C5",
-        "countryId": "33411DB9-3838-439E-A197-2383DF9B00C5",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Equatorial Guinea"
+        "isoNumeric": 226
       },
       {
         "countryName": "Cameroon",
@@ -980,15 +612,7 @@
         "currencySymbol": "FCF",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 120,
-        "primaryKey": "34E3D634-52C9-4CC7-8ABB-E43C54CBABCE",
-        "countryId": "34E3D634-52C9-4CC7-8ABB-E43C54CBABCE",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Cameroon"
+        "isoNumeric": 120
       },
       {
         "countryName": "Brazil",
@@ -1001,15 +625,7 @@
         "currencySymbol": "R$",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 76,
-        "primaryKey": "35106697-13DC-4522-8E4E-D8EC41F09A7F",
-        "countryId": "35106697-13DC-4522-8E4E-D8EC41F09A7F",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Brazil"
+        "isoNumeric": 76
       },
       {
         "countryName": "Turkmenistan",
@@ -1022,15 +638,7 @@
         "currencySymbol": "m",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 795,
-        "primaryKey": "36B77EE1-CBDA-48B9-A7B2-D17F0A0472E4",
-        "countryId": "36B77EE1-CBDA-48B9-A7B2-D17F0A0472E4",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Turkmenistan"
+        "isoNumeric": 795
       },
       {
         "countryName": "British Virgin Islands",
@@ -1043,15 +651,7 @@
         "currencySymbol": "$",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 92,
-        "primaryKey": "3A51E025-4F62-4C60-97F5-833F40E54088",
-        "countryId": "3A51E025-4F62-4C60-97F5-833F40E54088",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "British Virgin Islands"
+        "isoNumeric": 92
       },
       {
         "countryName": "Cape Verde",
@@ -1064,15 +664,7 @@
         "currencySymbol": "",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 132,
-        "primaryKey": "3C6A6FB0-BD5F-42F5-9DA1-3C203973A264",
-        "countryId": "3C6A6FB0-BD5F-42F5-9DA1-3C203973A264",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Cape Verde"
+        "isoNumeric": 132
       },
       {
         "countryName": "Romania",
@@ -1085,15 +677,7 @@
         "currencySymbol": "lei",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 642,
-        "primaryKey": "3F717433-3B63-4F36-974E-E0D5BCB08806",
-        "countryId": "3F717433-3B63-4F36-974E-E0D5BCB08806",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Romania"
+        "isoNumeric": 642
       },
       {
         "countryName": "Norfolk Island",
@@ -1106,15 +690,7 @@
         "currencySymbol": "$",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 574,
-        "primaryKey": "40C2B438-4F98-42E0-AF76-07EC122013A2",
-        "countryId": "40C2B438-4F98-42E0-AF76-07EC122013A2",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Norfolk Island"
+        "isoNumeric": 574
       },
       {
         "countryName": "Czech Republic",
@@ -1127,15 +703,7 @@
         "currencySymbol": "K?",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 203,
-        "primaryKey": "4513AF1B-10E2-4473-8470-145F958321CA",
-        "countryId": "4513AF1B-10E2-4473-8470-145F958321CA",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Czech Republic"
+        "isoNumeric": 203
       },
       {
         "countryName": "Democratic Republic of the Congo",
@@ -1148,15 +716,7 @@
         "currencySymbol": "",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 180,
-        "primaryKey": "46399B20-4B75-45DF-8BCE-AE2FEB36C4BA",
-        "countryId": "46399B20-4B75-45DF-8BCE-AE2FEB36C4BA",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Democratic Republic of the Congo"
+        "isoNumeric": 180
       },
       {
         "countryName": "Guam",
@@ -1169,15 +729,7 @@
         "currencySymbol": "$",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 316,
-        "primaryKey": "46527DF2-3F3D-4998-8898-4EB92B389C2B",
-        "countryId": "46527DF2-3F3D-4998-8898-4EB92B389C2B",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Guam"
+        "isoNumeric": 316
       },
       {
         "countryName": "Comoros",
@@ -1190,15 +742,7 @@
         "currencySymbol": "",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 174,
-        "primaryKey": "47D953B8-EE7B-4CEF-B8E6-B600A56055BC",
-        "countryId": "47D953B8-EE7B-4CEF-B8E6-B600A56055BC",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Comoros"
+        "isoNumeric": 174
       },
       {
         "countryName": "Turks and Caicos Islands",
@@ -1211,15 +755,7 @@
         "currencySymbol": "$",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 796,
-        "primaryKey": "47EA9FD7-73EA-4FBA-8C91-1855B2E9605B",
-        "countryId": "47EA9FD7-73EA-4FBA-8C91-1855B2E9605B",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Turks and Caicos Islands"
+        "isoNumeric": 796
       },
       {
         "countryName": "Guatemala",
@@ -1232,15 +768,7 @@
         "currencySymbol": "Q",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 320,
-        "primaryKey": "4865AA63-0C3B-4276-89FA-6E31C283A69B",
-        "countryId": "4865AA63-0C3B-4276-89FA-6E31C283A69B",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Guatemala"
+        "isoNumeric": 320
       },
       {
         "countryName": "Saint Vincent and the Grenadines",
@@ -1253,15 +781,7 @@
         "currencySymbol": "$",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 670,
-        "primaryKey": "487422EA-E66A-4BBA-9B40-2234739D49B2",
-        "countryId": "487422EA-E66A-4BBA-9B40-2234739D49B2",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Saint Vincent and the Grenadines"
+        "isoNumeric": 670
       },
       {
         "countryName": "Uganda",
@@ -1274,15 +794,7 @@
         "currencySymbol": "",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 800,
-        "primaryKey": "4A12F190-651D-48A7-87E8-6585072D7C34",
-        "countryId": "4A12F190-651D-48A7-87E8-6585072D7C34",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Uganda"
+        "isoNumeric": 800
       },
       {
         "countryName": "Yemen",
@@ -1295,15 +807,7 @@
         "currencySymbol": "?",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 887,
-        "primaryKey": "4A9C788B-7F64-44D7-9C43-D1282A8E6D1D",
-        "countryId": "4A9C788B-7F64-44D7-9C43-D1282A8E6D1D",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Yemen"
+        "isoNumeric": 887
       },
       {
         "countryName": "Bangladesh",
@@ -1316,15 +820,7 @@
         "currencySymbol": "",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 50,
-        "primaryKey": "4BF1C0E7-D439-455A-957A-A810B9A6DBF2",
-        "countryId": "4BF1C0E7-D439-455A-957A-A810B9A6DBF2",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Bangladesh"
+        "isoNumeric": 50
       },
       {
         "countryName": "Benin",
@@ -1337,15 +833,7 @@
         "currencySymbol": "",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 204,
-        "primaryKey": "4C6D659C-1CC1-4376-BD3A-A473D5961ECE",
-        "countryId": "4C6D659C-1CC1-4376-BD3A-A473D5961ECE",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Benin"
+        "isoNumeric": 204
       },
       {
         "countryName": "Northern Mariana Islands",
@@ -1358,15 +846,7 @@
         "currencySymbol": "$",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 580,
-        "primaryKey": "4CDCBA5E-5624-4D94-88C1-522ADDDCC131",
-        "countryId": "4CDCBA5E-5624-4D94-88C1-522ADDDCC131",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Northern Mariana Islands"
+        "isoNumeric": 580
       },
       {
         "countryName": "Liberia",
@@ -1379,15 +859,7 @@
         "currencySymbol": "$",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 430,
-        "primaryKey": "4DD7796C-CFE7-493F-AC32-5B41D60E46A9",
-        "countryId": "4DD7796C-CFE7-493F-AC32-5B41D60E46A9",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Liberia"
+        "isoNumeric": 430
       },
       {
         "countryName": "Ecuador",
@@ -1400,15 +872,7 @@
         "currencySymbol": "$",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 218,
-        "primaryKey": "4E8CC677-A349-458A-A1D6-974976388EEB",
-        "countryId": "4E8CC677-A349-458A-A1D6-974976388EEB",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Ecuador"
+        "isoNumeric": 218
       },
       {
         "countryName": "Belize",
@@ -1421,15 +885,7 @@
         "currencySymbol": "BZ$",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 84,
-        "primaryKey": "4E913FD7-5B9F-4774-BA30-2872992DCBC7",
-        "countryId": "4E913FD7-5B9F-4774-BA30-2872992DCBC7",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Belize"
+        "isoNumeric": 84
       },
       {
         "countryName": "Sudan",
@@ -1442,15 +898,7 @@
         "currencySymbol": "",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 736,
-        "primaryKey": "4F397C3D-A2C1-4353-BAE1-AB3334146A95",
-        "countryId": "4F397C3D-A2C1-4353-BAE1-AB3334146A95",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Sudan"
+        "isoNumeric": 736
       },
       {
         "countryName": "Laos",
@@ -1463,15 +911,7 @@
         "currencySymbol": "?",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 418,
-        "primaryKey": "4FEDAD2E-B141-4486-AAD3-09504CD70551",
-        "countryId": "4FEDAD2E-B141-4486-AAD3-09504CD70551",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Laos"
+        "isoNumeric": 418
       },
       {
         "countryName": "Cambodia",
@@ -1484,15 +924,7 @@
         "currencySymbol": "?",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 116,
-        "primaryKey": "5095D322-B94F-4C52-B0AE-403B7A95842A",
-        "countryId": "5095D322-B94F-4C52-B0AE-403B7A95842A",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Cambodia"
+        "isoNumeric": 116
       },
       {
         "countryName": "Namibia",
@@ -1505,15 +937,7 @@
         "currencySymbol": "$",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 516,
-        "primaryKey": "51CCB063-9F6E-4C08-99F9-A596EDFA9679",
-        "countryId": "51CCB063-9F6E-4C08-99F9-A596EDFA9679",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Namibia"
+        "isoNumeric": 516
       },
       {
         "countryName": "Togo",
@@ -1526,15 +950,7 @@
         "currencySymbol": "",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 768,
-        "primaryKey": "51EFCA91-090C-44FE-A52E-CF99A5F3B6C2",
-        "countryId": "51EFCA91-090C-44FE-A52E-CF99A5F3B6C2",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Togo"
+        "isoNumeric": 768
       },
       {
         "countryName": "Mali",
@@ -1547,15 +963,7 @@
         "currencySymbol": "",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 466,
-        "primaryKey": "53B5C712-2E69-437A-AB35-76E9F3A98FC0",
-        "countryId": "53B5C712-2E69-437A-AB35-76E9F3A98FC0",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Mali"
+        "isoNumeric": 466
       },
       {
         "countryName": "Guadeloupe",
@@ -1568,15 +976,7 @@
         "currencySymbol": "€",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 312,
-        "primaryKey": "5486D435-4C3A-45C7-91E1-BD85FA98757F",
-        "countryId": "5486D435-4C3A-45C7-91E1-BD85FA98757F",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Guadeloupe"
+        "isoNumeric": 312
       },
       {
         "countryName": "Seychelles",
@@ -1589,15 +989,7 @@
         "currencySymbol": "?",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 690,
-        "primaryKey": "549FB71E-0E95-484C-90B2-AF3F32004829",
-        "countryId": "549FB71E-0E95-484C-90B2-AF3F32004829",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Seychelles"
+        "isoNumeric": 690
       },
       {
         "countryName": "Argentina",
@@ -1610,15 +1002,7 @@
         "currencySymbol": "$",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 32,
-        "primaryKey": "5618C948-F8D1-4528-86E3-ACDCE7AFFECE",
-        "countryId": "5618C948-F8D1-4528-86E3-ACDCE7AFFECE",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Argentina"
+        "isoNumeric": 32
       },
       {
         "countryName": "Singapore",
@@ -1631,15 +1015,7 @@
         "currencySymbol": "$",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 702,
-        "primaryKey": "59C3BBD2-5D26-4A47-8FC1-2EFA628049CE",
-        "countryId": "59C3BBD2-5D26-4A47-8FC1-2EFA628049CE",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Singapore"
+        "isoNumeric": 702
       },
       {
         "countryName": "Djibouti",
@@ -1652,15 +1028,7 @@
         "currencySymbol": "",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 262,
-        "primaryKey": "5B592D2B-3278-4AB4-B3D9-287282D507E6",
-        "countryId": "5B592D2B-3278-4AB4-B3D9-287282D507E6",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Djibouti"
+        "isoNumeric": 262
       },
       {
         "countryName": "Fiji",
@@ -1673,15 +1041,7 @@
         "currencySymbol": "$",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 242,
-        "primaryKey": "5CA01AE5-797C-4102-BA95-07B302C7DF8A",
-        "countryId": "5CA01AE5-797C-4102-BA95-07B302C7DF8A",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Fiji"
+        "isoNumeric": 242
       },
       {
         "countryName": "Marshall Islands",
@@ -1694,15 +1054,7 @@
         "currencySymbol": "$",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 584,
-        "primaryKey": "5CC6BDCA-E972-4086-B8F2-2B78156FF320",
-        "countryId": "5CC6BDCA-E972-4086-B8F2-2B78156FF320",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Marshall Islands"
+        "isoNumeric": 584
       },
       {
         "countryName": "Burundi",
@@ -1715,15 +1067,7 @@
         "currencySymbol": "",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 108,
-        "primaryKey": "5E944885-7B74-4B52-9B48-AB2C0C72EA43",
-        "countryId": "5E944885-7B74-4B52-9B48-AB2C0C72EA43",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Burundi"
+        "isoNumeric": 108
       },
       {
         "countryName": "Kenya",
@@ -1736,15 +1080,7 @@
         "currencySymbol": "",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 404,
-        "primaryKey": "5EB9AA52-A64F-4E51-9E17-B10A43302B31",
-        "countryId": "5EB9AA52-A64F-4E51-9E17-B10A43302B31",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Kenya"
+        "isoNumeric": 404
       },
       {
         "countryName": "Solomon Islands",
@@ -1757,15 +1093,7 @@
         "currencySymbol": "$",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 90,
-        "primaryKey": "5FAF02D1-9FB3-44CE-9595-8E1C0941919D",
-        "countryId": "5FAF02D1-9FB3-44CE-9595-8E1C0941919D",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Solomon Islands"
+        "isoNumeric": 90
       },
       {
         "countryName": "North Korea",
@@ -1778,15 +1106,7 @@
         "currencySymbol": "?",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 408,
-        "primaryKey": "60E9C884-931A-4431-83CF-19830C08118C",
-        "countryId": "60E9C884-931A-4431-83CF-19830C08118C",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "North Korea"
+        "isoNumeric": 408
       },
       {
         "countryName": "Latvia",
@@ -1799,15 +1119,7 @@
         "currencySymbol": null,
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": null,
-        "primaryKey": "61DFCD5A-BD70-4CA8-86BF-CAD689113C89",
-        "countryId": "61DFCD5A-BD70-4CA8-86BF-CAD689113C89",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Latvia"
+        "isoNumeric": 0
       },
       {
         "countryName": "Tajikistan",
@@ -1820,15 +1132,7 @@
         "currencySymbol": null,
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": null,
-        "primaryKey": "62D7DF70-8603-45F1-A762-9ED47FF30213",
-        "countryId": "62D7DF70-8603-45F1-A762-9ED47FF30213",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Tajikistan"
+        "isoNumeric": 0
       },
       {
         "countryName": "Monaco",
@@ -1841,15 +1145,7 @@
         "currencySymbol": "€",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 492,
-        "primaryKey": "65E65744-7524-44A6-A50F-6F2CBF0EA69A",
-        "countryId": "65E65744-7524-44A6-A50F-6F2CBF0EA69A",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Monaco"
+        "isoNumeric": 492
       },
       {
         "countryName": "Azerbaijan",
@@ -1862,15 +1158,7 @@
         "currencySymbol": "???",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 31,
-        "primaryKey": "68B2E6E7-9D38-411E-A422-8CB9B074489F",
-        "countryId": "68B2E6E7-9D38-411E-A422-8CB9B074489F",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Azerbaijan"
+        "isoNumeric": 31
       },
       {
         "countryName": "Central African Republic",
@@ -1883,15 +1171,7 @@
         "currencySymbol": "FCF",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 140,
-        "primaryKey": "6A2F3087-03F5-491D-A648-956E5702AEBB",
-        "countryId": "6A2F3087-03F5-491D-A648-956E5702AEBB",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Central African Republic"
+        "isoNumeric": 140
       },
       {
         "countryName": "United States",
@@ -1904,15 +1184,7 @@
         "currencySymbol": "$",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 840,
-        "primaryKey": "6C7F1A34-BFEF-4B87-B3D8-2154C2A1E7FB",
-        "countryId": "6C7F1A34-BFEF-4B87-B3D8-2154C2A1E7FB",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "United States"
+        "isoNumeric": 840
       },
       {
         "countryName": "Uzbekistan",
@@ -1925,15 +1197,7 @@
         "currencySymbol": "??",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 860,
-        "primaryKey": "6D275E49-63C8-4592-9235-4C72F8F95369",
-        "countryId": "6D275E49-63C8-4592-9235-4C72F8F95369",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Uzbekistan"
+        "isoNumeric": 860
       },
       {
         "countryName": "Dominica",
@@ -1946,15 +1210,7 @@
         "currencySymbol": "$",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 212,
-        "primaryKey": "6E7DAAB0-BC7B-4925-8BCF-6B05A67C9A07",
-        "countryId": "6E7DAAB0-BC7B-4925-8BCF-6B05A67C9A07",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Dominica"
+        "isoNumeric": 212
       },
       {
         "countryName": "Swaziland",
@@ -1967,15 +1223,7 @@
         "currencySymbol": "",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 748,
-        "primaryKey": "6F07B36D-5632-46C0-954A-59065D0B25A7",
-        "countryId": "6F07B36D-5632-46C0-954A-59065D0B25A7",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Swaziland"
+        "isoNumeric": 748
       },
       {
         "countryName": "French Polynesia",
@@ -1988,15 +1236,7 @@
         "currencySymbol": "",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 258,
-        "primaryKey": "6F8524B4-26A5-49B5-B1BC-EC264A1B0AF4",
-        "countryId": "6F8524B4-26A5-49B5-B1BC-EC264A1B0AF4",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "French Polynesia"
+        "isoNumeric": 258
       },
       {
         "countryName": "Peru",
@@ -2009,15 +1249,7 @@
         "currencySymbol": "S/.",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 604,
-        "primaryKey": "6FFE6B16-A2BA-47B3-A8DD-41524D0D4562",
-        "countryId": "6FFE6B16-A2BA-47B3-A8DD-41524D0D4562",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Peru"
+        "isoNumeric": 604
       },
       {
         "countryName": "Antarctica",
@@ -2030,15 +1262,7 @@
         "currencySymbol": "",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 10,
-        "primaryKey": "7011914A-7498-4462-96EB-676816FFF6B8",
-        "countryId": "7011914A-7498-4462-96EB-676816FFF6B8",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Antarctica"
+        "isoNumeric": 10
       },
       {
         "countryName": "Myanmar",
@@ -2051,15 +1275,7 @@
         "currencySymbol": null,
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": null,
-        "primaryKey": "712A050E-6B38-4A81-AD03-CEE16933B1E4",
-        "countryId": "712A050E-6B38-4A81-AD03-CEE16933B1E4",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Myanmar"
+        "isoNumeric": 0
       },
       {
         "countryName": "Somalia",
@@ -2072,15 +1288,7 @@
         "currencySymbol": "S",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 706,
-        "primaryKey": "7248CE05-A738-46FA-8918-3F2C453A0410",
-        "countryId": "7248CE05-A738-46FA-8918-3F2C453A0410",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Somalia"
+        "isoNumeric": 706
       },
       {
         "countryName": "Albania",
@@ -2093,15 +1301,7 @@
         "currencySymbol": "Lek",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 8,
-        "primaryKey": "72A662DF-E81B-4648-AA32-DA6106090700",
-        "countryId": "72A662DF-E81B-4648-AA32-DA6106090700",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Albania"
+        "isoNumeric": 8
       },
       {
         "countryName": "Gambia",
@@ -2114,15 +1314,7 @@
         "currencySymbol": "D",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 270,
-        "primaryKey": "740ED513-329A-469A-AFB5-4E2CF603AF37",
-        "countryId": "740ED513-329A-469A-AFB5-4E2CF603AF37",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Gambia"
+        "isoNumeric": 270
       },
       {
         "countryName": "Panama",
@@ -2135,15 +1327,7 @@
         "currencySymbol": "B/.",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 591,
-        "primaryKey": "7416E379-EDB9-4A09-A314-DF96E31AE885",
-        "countryId": "7416E379-EDB9-4A09-A314-DF96E31AE885",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Panama"
+        "isoNumeric": 591
       },
       {
         "countryName": "Mauritius",
@@ -2156,15 +1340,7 @@
         "currencySymbol": "?",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 480,
-        "primaryKey": "7417687A-29F7-4386-BDFF-45E3F00F8088",
-        "countryId": "7417687A-29F7-4386-BDFF-45E3F00F8088",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Mauritius"
+        "isoNumeric": 480
       },
       {
         "countryName": "Reunion",
@@ -2177,15 +1353,7 @@
         "currencySymbol": null,
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": null,
-        "primaryKey": "74B48BC0-EBCB-456F-974F-E3972868829A",
-        "countryId": "74B48BC0-EBCB-456F-974F-E3972868829A",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Reunion"
+        "isoNumeric": 0
       },
       {
         "countryName": "Svalbard and Jan Mayen",
@@ -2198,15 +1366,7 @@
         "currencySymbol": "kr",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 744,
-        "primaryKey": "74F6F08B-CC61-4BD3-B6C5-F6C60CE8147C",
-        "countryId": "74F6F08B-CC61-4BD3-B6C5-F6C60CE8147C",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Svalbard and Jan Mayen"
+        "isoNumeric": 744
       },
       {
         "countryName": "Montserrat",
@@ -2219,15 +1379,7 @@
         "currencySymbol": "$",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 500,
-        "primaryKey": "7560AE94-12B0-4E15-8EAF-7C8801B53492",
-        "countryId": "7560AE94-12B0-4E15-8EAF-7C8801B53492",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Montserrat"
+        "isoNumeric": 500
       },
       {
         "countryName": "Qatar",
@@ -2240,15 +1392,7 @@
         "currencySymbol": "?",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 634,
-        "primaryKey": "75E43B65-DC30-474E-BC3D-571B8A54DB95",
-        "countryId": "75E43B65-DC30-474E-BC3D-571B8A54DB95",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Qatar"
+        "isoNumeric": 634
       },
       {
         "countryName": "Kiribati",
@@ -2261,15 +1405,7 @@
         "currencySymbol": "$",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 296,
-        "primaryKey": "76DB0F7C-5776-41FA-84A7-5FABCF981394",
-        "countryId": "76DB0F7C-5776-41FA-84A7-5FABCF981394",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Kiribati"
+        "isoNumeric": 296
       },
       {
         "countryName": "Germany",
@@ -2282,15 +1418,7 @@
         "currencySymbol": "€",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 276,
-        "primaryKey": "77720CC3-2C95-466C-A2A1-F238F669B1E6",
-        "countryId": "77720CC3-2C95-466C-A2A1-F238F669B1E6",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Germany"
+        "isoNumeric": 276
       },
       {
         "countryName": "Lesotho",
@@ -2303,15 +1431,7 @@
         "currencySymbol": "L",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 426,
-        "primaryKey": "7AB4CEA9-44F1-4DBF-B785-3D15C5030EFA",
-        "countryId": "7AB4CEA9-44F1-4DBF-B785-3D15C5030EFA",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Lesotho"
+        "isoNumeric": 426
       },
       {
         "countryName": "Greece",
@@ -2324,15 +1444,7 @@
         "currencySymbol": "€",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 300,
-        "primaryKey": "7B00FD93-0266-4C38-9E95-D00BD2800A9D",
-        "countryId": "7B00FD93-0266-4C38-9E95-D00BD2800A9D",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Greece"
+        "isoNumeric": 300
       },
       {
         "countryName": "Ireland",
@@ -2345,15 +1457,7 @@
         "currencySymbol": "€",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 372,
-        "primaryKey": "7B619072-8CEB-4EDF-BEE1-3938274E2A89",
-        "countryId": "7B619072-8CEB-4EDF-BEE1-3938274E2A89",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Ireland"
+        "isoNumeric": 372
       },
       {
         "countryName": "Zimbabwe",
@@ -2366,15 +1470,7 @@
         "currencySymbol": "Z$",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 716,
-        "primaryKey": "7DC6F1D8-959C-4C20-8035-2BBA6D8ABFD5",
-        "countryId": "7DC6F1D8-959C-4C20-8035-2BBA6D8ABFD5",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Zimbabwe"
+        "isoNumeric": 716
       },
       {
         "countryName": "Lithuania",
@@ -2387,15 +1483,7 @@
         "currencySymbol": "Lt",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 440,
-        "primaryKey": "7E2A55E0-CB17-42F1-A019-61C1A25F7E5C",
-        "countryId": "7E2A55E0-CB17-42F1-A019-61C1A25F7E5C",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Lithuania"
+        "isoNumeric": 440
       },
       {
         "countryName": "Austria",
@@ -2408,15 +1496,7 @@
         "currencySymbol": "€",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 40,
-        "primaryKey": "8078341B-DABC-4205-A35E-1A31FFC7E2D4",
-        "countryId": "8078341B-DABC-4205-A35E-1A31FFC7E2D4",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Austria"
+        "isoNumeric": 40
       },
       {
         "countryName": "Wallis and Futuna",
@@ -2429,15 +1509,7 @@
         "currencySymbol": "",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 876,
-        "primaryKey": "824F076C-A8F4-4A3D-AE98-F8B230F39C3F",
-        "countryId": "824F076C-A8F4-4A3D-AE98-F8B230F39C3F",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Wallis and Futuna"
+        "isoNumeric": 876
       },
       {
         "countryName": "Italy",
@@ -2450,15 +1522,7 @@
         "currencySymbol": "€",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 380,
-        "primaryKey": "827AF885-2BBA-4C11-A508-BA238BFB9408",
-        "countryId": "827AF885-2BBA-4C11-A508-BA238BFB9408",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Italy"
+        "isoNumeric": 380
       },
       {
         "countryName": "Bulgaria",
@@ -2471,15 +1535,7 @@
         "currencySymbol": "??",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 100,
-        "primaryKey": "827ECDB7-2FAF-46F0-90E1-0A3E59DBCA37",
-        "countryId": "827ECDB7-2FAF-46F0-90E1-0A3E59DBCA37",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Bulgaria"
+        "isoNumeric": 100
       },
       {
         "countryName": "Greenland",
@@ -2492,15 +1548,7 @@
         "currencySymbol": "kr",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 304,
-        "primaryKey": "83988BF2-ECBF-444A-A486-4F446EB9B8EB",
-        "countryId": "83988BF2-ECBF-444A-A486-4F446EB9B8EB",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Greenland"
+        "isoNumeric": 304
       },
       {
         "countryName": "Switzerland",
@@ -2513,15 +1561,7 @@
         "currencySymbol": "CHF",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 756,
-        "primaryKey": "839CD2B6-FF9F-4467-87EC-923F676637C8",
-        "countryId": "839CD2B6-FF9F-4467-87EC-923F676637C8",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Switzerland"
+        "isoNumeric": 756
       },
       {
         "countryName": "South Africa",
@@ -2534,15 +1574,7 @@
         "currencySymbol": "R",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 710,
-        "primaryKey": "84C3B5CA-1006-4329-B618-4952AFFAA34B",
-        "countryId": "84C3B5CA-1006-4329-B618-4952AFFAA34B",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "South Africa"
+        "isoNumeric": 710
       },
       {
         "countryName": "Spain",
@@ -2555,15 +1587,7 @@
         "currencySymbol": "€",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 724,
-        "primaryKey": "8556CC50-4CA1-48D1-AD28-173D4E11708D",
-        "countryId": "8556CC50-4CA1-48D1-AD28-173D4E11708D",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Spain"
+        "isoNumeric": 724
       },
       {
         "countryName": "Mozambique",
@@ -2576,15 +1600,7 @@
         "currencySymbol": "MT",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 508,
-        "primaryKey": "873C5CB1-6E52-40D0-9539-7E033B6DEBE1",
-        "countryId": "873C5CB1-6E52-40D0-9539-7E033B6DEBE1",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Mozambique"
+        "isoNumeric": 508
       },
       {
         "countryName": "Ivory Coast",
@@ -2597,15 +1613,7 @@
         "currencySymbol": "",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 384,
-        "primaryKey": "874C1956-F491-48F3-ABCC-3D51546F5584",
-        "countryId": "874C1956-F491-48F3-ABCC-3D51546F5584",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Ivory Coast"
+        "isoNumeric": 384
       },
       {
         "countryName": "Saudi Arabia",
@@ -2618,15 +1626,7 @@
         "currencySymbol": "?",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 682,
-        "primaryKey": "87ACDB9F-5CBD-4D25-8CDA-84DC7CF17EC8",
-        "countryId": "87ACDB9F-5CBD-4D25-8CDA-84DC7CF17EC8",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Saudi Arabia"
+        "isoNumeric": 682
       },
       {
         "countryName": "Netherlands",
@@ -2639,15 +1639,7 @@
         "currencySymbol": "€",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 528,
-        "primaryKey": "88483EBB-C55D-45FF-89C5-06A5300CB530",
-        "countryId": "88483EBB-C55D-45FF-89C5-06A5300CB530",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Netherlands"
+        "isoNumeric": 528
       },
       {
         "countryName": "Serbia and Montenegro",
@@ -2660,15 +1652,7 @@
         "currencySymbol": "???",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 891,
-        "primaryKey": "887860AA-71E9-49EE-A4FE-A04C57585525",
-        "countryId": "887860AA-71E9-49EE-A4FE-A04C57585525",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Serbia and Montenegro"
+        "isoNumeric": 891
       },
       {
         "countryName": "Malta",
@@ -2681,15 +1665,7 @@
         "currencySymbol": "",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 470,
-        "primaryKey": "899A685D-F39C-4D5F-B76A-D8332560A192",
-        "countryId": "899A685D-F39C-4D5F-B76A-D8332560A192",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Malta"
+        "isoNumeric": 470
       },
       {
         "countryName": "Sao Tome and Principe",
@@ -2702,15 +1678,7 @@
         "currencySymbol": "Db",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 678,
-        "primaryKey": "8B0F4BF6-5DBE-4314-A535-1BCC6D5088D3",
-        "countryId": "8B0F4BF6-5DBE-4314-A535-1BCC6D5088D3",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Sao Tome and Principe"
+        "isoNumeric": 678
       },
       {
         "countryName": "Reunion",
@@ -2723,15 +1691,7 @@
         "currencySymbol": null,
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": null,
-        "primaryKey": "8D19BCB1-A785-4D50-9CFC-075BE62C4DB0",
-        "countryId": "8D19BCB1-A785-4D50-9CFC-075BE62C4DB0",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Reunion"
+        "isoNumeric": 0
       },
       {
         "countryName": "Iceland",
@@ -2744,15 +1704,7 @@
         "currencySymbol": "kr",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 352,
-        "primaryKey": "8F0DFCE0-DF78-44D3-9127-05E1AD108C3A",
-        "countryId": "8F0DFCE0-DF78-44D3-9127-05E1AD108C3A",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Iceland"
+        "isoNumeric": 352
       },
       {
         "countryName": "Netherlands Antilles",
@@ -2765,15 +1717,7 @@
         "currencySymbol": "ƒ",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 530,
-        "primaryKey": "90162E4E-1C56-42CD-89BB-2E8EEB8EDB7D",
-        "countryId": "90162E4E-1C56-42CD-89BB-2E8EEB8EDB7D",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Netherlands Antilles"
+        "isoNumeric": 530
       },
       {
         "countryName": "Andorra",
@@ -2786,15 +1730,7 @@
         "currencySymbol": "€",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 20,
-        "primaryKey": "901F11DD-81E7-4F6C-ACDC-3A1A02F04647",
-        "countryId": "901F11DD-81E7-4F6C-ACDC-3A1A02F04647",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Andorra"
+        "isoNumeric": 20
       },
       {
         "countryName": "United Arab Emirates",
@@ -2807,15 +1743,7 @@
         "currencySymbol": "",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 784,
-        "primaryKey": "9044F82A-5CC9-4989-9553-75D13EE1D970",
-        "countryId": "9044F82A-5CC9-4989-9553-75D13EE1D970",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "United Arab Emirates"
+        "isoNumeric": 784
       },
       {
         "countryName": "Pitcairn",
@@ -2828,15 +1756,7 @@
         "currencySymbol": "$",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 612,
-        "primaryKey": "927367C4-045E-4B5B-B744-7C70F5977C5B",
-        "countryId": "927367C4-045E-4B5B-B744-7C70F5977C5B",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Pitcairn"
+        "isoNumeric": 612
       },
       {
         "countryName": "Haiti",
@@ -2849,15 +1769,7 @@
         "currencySymbol": "G",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 332,
-        "primaryKey": "942F8488-DA89-449A-9D55-E6669DC6D502",
-        "countryId": "942F8488-DA89-449A-9D55-E6669DC6D502",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Haiti"
+        "isoNumeric": 332
       },
       {
         "countryName": "Macao",
@@ -2870,15 +1782,7 @@
         "currencySymbol": "MOP",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 446,
-        "primaryKey": "94DF40FF-BEC9-4CD3-8683-E8A910181940",
-        "countryId": "94DF40FF-BEC9-4CD3-8683-E8A910181940",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Macao"
+        "isoNumeric": 446
       },
       {
         "countryName": "Ethiopia",
@@ -2891,15 +1795,7 @@
         "currencySymbol": "",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 231,
-        "primaryKey": "9529E764-F46C-401E-B13F-E27E9B5ED8DE",
-        "countryId": "9529E764-F46C-401E-B13F-E27E9B5ED8DE",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Ethiopia"
+        "isoNumeric": 231
       },
       {
         "countryName": "Kazakhstan",
@@ -2912,15 +1808,7 @@
         "currencySymbol": "??",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 398,
-        "primaryKey": "953444A1-4FCA-4203-84ED-D129C8A7109D",
-        "countryId": "953444A1-4FCA-4203-84ED-D129C8A7109D",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Kazakhstan"
+        "isoNumeric": 398
       },
       {
         "countryName": "Tuvalu",
@@ -2933,15 +1821,7 @@
         "currencySymbol": "$",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 798,
-        "primaryKey": "96E92CD9-7745-4846-8A5E-32F2E5540334",
-        "countryId": "96E92CD9-7745-4846-8A5E-32F2E5540334",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Tuvalu"
+        "isoNumeric": 798
       },
       {
         "countryName": "Cayman Islands",
@@ -2954,15 +1834,7 @@
         "currencySymbol": "$",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 136,
-        "primaryKey": "9A641339-2256-4E49-9E83-C107774DB1DF",
-        "countryId": "9A641339-2256-4E49-9E83-C107774DB1DF",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Cayman Islands"
+        "isoNumeric": 136
       },
       {
         "countryName": "Portugal",
@@ -2975,15 +1847,7 @@
         "currencySymbol": "€",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 620,
-        "primaryKey": "9B61A0C2-8188-4826-8687-2E859413FD02",
-        "countryId": "9B61A0C2-8188-4826-8687-2E859413FD02",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Portugal"
+        "isoNumeric": 620
       },
       {
         "countryName": "Poland",
@@ -2996,15 +1860,7 @@
         "currencySymbol": "z?",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 616,
-        "primaryKey": "9EF719D4-BCFA-48EA-8513-FFB9A464526A",
-        "countryId": "9EF719D4-BCFA-48EA-8513-FFB9A464526A",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Poland"
+        "isoNumeric": 616
       },
       {
         "countryName": "Finland",
@@ -3017,15 +1873,7 @@
         "currencySymbol": "€",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 246,
-        "primaryKey": "9F532254-7A93-46DE-A5EE-E404313C1B0B",
-        "countryId": "9F532254-7A93-46DE-A5EE-E404313C1B0B",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Finland"
+        "isoNumeric": 246
       },
       {
         "countryName": "Senegal",
@@ -3038,15 +1886,7 @@
         "currencySymbol": "",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 686,
-        "primaryKey": "9F835675-DB4D-4CF5-B4A1-88E559101B62",
-        "countryId": "9F835675-DB4D-4CF5-B4A1-88E559101B62",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Senegal"
+        "isoNumeric": 686
       },
       {
         "countryName": "Belgium",
@@ -3059,15 +1899,7 @@
         "currencySymbol": "€",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 56,
-        "primaryKey": "A3BCCB84-DF84-43DF-B8FA-61D01EB8EB84",
-        "countryId": "A3BCCB84-DF84-43DF-B8FA-61D01EB8EB84",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Belgium"
+        "isoNumeric": 56
       },
       {
         "countryName": "India",
@@ -3080,15 +1912,7 @@
         "currencySymbol": "?",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 356,
-        "primaryKey": "A5001AED-DDA1-4296-8312-223D383F96F5",
-        "countryId": "A5001AED-DDA1-4296-8312-223D383F96F5",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "India"
+        "isoNumeric": 356
       },
       {
         "countryName": "Nicaragua",
@@ -3101,15 +1925,7 @@
         "currencySymbol": "C$",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 558,
-        "primaryKey": "A6423395-58CF-4D3C-91E0-FEE9178AE9FA",
-        "countryId": "A6423395-58CF-4D3C-91E0-FEE9178AE9FA",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Nicaragua"
+        "isoNumeric": 558
       },
       {
         "countryName": "Hungary",
@@ -3122,15 +1938,7 @@
         "currencySymbol": "Ft",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 348,
-        "primaryKey": "AC3FFD16-DE2E-4B1B-8FE3-5D98F414C239",
-        "countryId": "AC3FFD16-DE2E-4B1B-8FE3-5D98F414C239",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Hungary"
+        "isoNumeric": 348
       },
       {
         "countryName": "Mayotte",
@@ -3143,15 +1951,7 @@
         "currencySymbol": "€",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 175,
-        "primaryKey": "AC49639B-F056-43D3-898F-6A626F1E8F4F",
-        "countryId": "AC49639B-F056-43D3-898F-6A626F1E8F4F",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Mayotte"
+        "isoNumeric": 175
       },
       {
         "countryName": "Cuba",
@@ -3164,15 +1964,7 @@
         "currencySymbol": "?",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 192,
-        "primaryKey": "AC6FC097-7467-4DE2-96AA-BE36FA6B7EA1",
-        "countryId": "AC6FC097-7467-4DE2-96AA-BE36FA6B7EA1",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Cuba"
+        "isoNumeric": 192
       },
       {
         "countryName": "Chad",
@@ -3185,15 +1977,7 @@
         "currencySymbol": "",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 148,
-        "primaryKey": "AC9C8134-966E-49A5-8D3F-8AAD1260EE9E",
-        "countryId": "AC9C8134-966E-49A5-8D3F-8AAD1260EE9E",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Chad"
+        "isoNumeric": 148
       },
       {
         "countryName": "Sweden",
@@ -3206,15 +1990,7 @@
         "currencySymbol": "kr",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 752,
-        "primaryKey": "ACAC12D8-E152-4805-AECF-B1AA53B4CC42",
-        "countryId": "ACAC12D8-E152-4805-AECF-B1AA53B4CC42",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Sweden"
+        "isoNumeric": 752
       },
       {
         "countryName": "Costa Rica",
@@ -3227,15 +2003,7 @@
         "currencySymbol": "?",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 188,
-        "primaryKey": "AE0B16AB-4E71-47EC-B73E-4C8323D0B3C9",
-        "countryId": "AE0B16AB-4E71-47EC-B73E-4C8323D0B3C9",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Costa Rica"
+        "isoNumeric": 188
       },
       {
         "countryName": "New Zealand",
@@ -3248,15 +2016,7 @@
         "currencySymbol": "$",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 554,
-        "primaryKey": "AF335B98-A038-4984-AD3A-AE33B924CB63",
-        "countryId": "AF335B98-A038-4984-AD3A-AE33B924CB63",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "New Zealand"
+        "isoNumeric": 554
       },
       {
         "countryName": "Tunisia",
@@ -3269,15 +2029,7 @@
         "currencySymbol": "",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 788,
-        "primaryKey": "AF5BD64F-2B64-4FF9-BF8A-A3D8EB12F486",
-        "countryId": "AF5BD64F-2B64-4FF9-BF8A-A3D8EB12F486",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Tunisia"
+        "isoNumeric": 788
       },
       {
         "countryName": "Barbados",
@@ -3290,15 +2042,7 @@
         "currencySymbol": "$",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 52,
-        "primaryKey": "AFFD160E-D2D8-4BE7-B63D-5FB0176F0E40",
-        "countryId": "AFFD160E-D2D8-4BE7-B63D-5FB0176F0E40",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Barbados"
+        "isoNumeric": 52
       },
       {
         "countryName": "Madagascar",
@@ -3311,15 +2055,7 @@
         "currencySymbol": "",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 450,
-        "primaryKey": "B0879F1C-C818-4468-9329-5EDAABC268B5",
-        "countryId": "B0879F1C-C818-4468-9329-5EDAABC268B5",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Madagascar"
+        "isoNumeric": 450
       },
       {
         "countryName": "Samoa",
@@ -3332,15 +2068,7 @@
         "currencySymbol": "WS$",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 882,
-        "primaryKey": "B142A47F-1D66-4F94-9899-B65043EB2EB8",
-        "countryId": "B142A47F-1D66-4F94-9899-B65043EB2EB8",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Samoa"
+        "isoNumeric": 882
       },
       {
         "countryName": "Guinea-Bissau",
@@ -3353,15 +2081,7 @@
         "currencySymbol": "",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 624,
-        "primaryKey": "B16C03BB-810A-47C9-AD1A-24139AFE0B7C",
-        "countryId": "B16C03BB-810A-47C9-AD1A-24139AFE0B7C",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Guinea-Bissau"
+        "isoNumeric": 624
       },
       {
         "countryName": "Kyrgyzstan",
@@ -3374,15 +2094,7 @@
         "currencySymbol": "??",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 417,
-        "primaryKey": "B2E34F97-623B-464E-B34A-7F6F88B61221",
-        "countryId": "B2E34F97-623B-464E-B34A-7F6F88B61221",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Kyrgyzstan"
+        "isoNumeric": 417
       },
       {
         "countryName": "Mexico",
@@ -3395,15 +2107,7 @@
         "currencySymbol": "$",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 484,
-        "primaryKey": "B30FFC8F-2135-44F2-911D-F5585AA2E2B0",
-        "countryId": "B30FFC8F-2135-44F2-911D-F5585AA2E2B0",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Mexico"
+        "isoNumeric": 484
       },
       {
         "countryName": "Trinidad and Tobago",
@@ -3416,15 +2120,7 @@
         "currencySymbol": "TT$",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 780,
-        "primaryKey": "B34C2218-D104-4F42-9DEA-25F3F6CB8146",
-        "countryId": "B34C2218-D104-4F42-9DEA-25F3F6CB8146",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Trinidad and Tobago"
+        "isoNumeric": 780
       },
       {
         "countryName": "Republic of the Congo",
@@ -3437,15 +2133,7 @@
         "currencySymbol": "FCF",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 178,
-        "primaryKey": "B5665BFA-FA77-4C7D-A4A1-764F713B2CB0",
-        "countryId": "B5665BFA-FA77-4C7D-A4A1-764F713B2CB0",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Republic of the Congo"
+        "isoNumeric": 178
       },
       {
         "countryName": "Iran",
@@ -3458,15 +2146,7 @@
         "currencySymbol": "?",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 364,
-        "primaryKey": "B6F7BE46-2BE1-443A-BCA5-1D3961BC2C16",
-        "countryId": "B6F7BE46-2BE1-443A-BCA5-1D3961BC2C16",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Iran"
+        "isoNumeric": 364
       },
       {
         "countryName": "Tajikistan",
@@ -3479,15 +2159,7 @@
         "currencySymbol": null,
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": null,
-        "primaryKey": "B703B381-D67C-4E60-99B4-86E4EE5C5F65",
-        "countryId": "B703B381-D67C-4E60-99B4-86E4EE5C5F65",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Tajikistan"
+        "isoNumeric": 0
       },
       {
         "countryName": "Brunei",
@@ -3500,15 +2172,7 @@
         "currencySymbol": "$",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 96,
-        "primaryKey": "B79CF79F-C678-4A31-A037-9BA4CE2445D8",
-        "countryId": "B79CF79F-C678-4A31-A037-9BA4CE2445D8",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Brunei"
+        "isoNumeric": 96
       },
       {
         "countryName": "San Marino",
@@ -3521,15 +2185,7 @@
         "currencySymbol": "€",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 674,
-        "primaryKey": "B7F41BE6-FB02-4FEC-92BB-595783E4B10E",
-        "countryId": "B7F41BE6-FB02-4FEC-92BB-595783E4B10E",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "San Marino"
+        "isoNumeric": 674
       },
       {
         "countryName": "Bosnia and Herzegovina",
@@ -3542,15 +2198,7 @@
         "currencySymbol": "KM",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 70,
-        "primaryKey": "B867344C-1084-4842-BB70-68BF2D456B76",
-        "countryId": "B867344C-1084-4842-BB70-68BF2D456B76",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Bosnia and Herzegovina"
+        "isoNumeric": 70
       },
       {
         "countryName": "Vatican",
@@ -3563,15 +2211,7 @@
         "currencySymbol": "€",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 336,
-        "primaryKey": "BB9DAAD7-DB64-4DA2-BA6E-EAEED7491F2D",
-        "countryId": "BB9DAAD7-DB64-4DA2-BA6E-EAEED7491F2D",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Vatican"
+        "isoNumeric": 336
       },
       {
         "countryName": "",
@@ -3584,15 +2224,7 @@
         "currencySymbol": "",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": null,
-        "primaryKey": "BC3ADE4D-7117-4A33-829F-AA1932D63839",
-        "countryId": "BC3ADE4D-7117-4A33-829F-AA1932D63839",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": ""
+        "isoNumeric": 0
       },
       {
         "countryName": "Indonesia",
@@ -3605,15 +2237,7 @@
         "currencySymbol": "Rp",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 360,
-        "primaryKey": "BD667460-8702-447B-BD8E-668DB26617B6",
-        "countryId": "BD667460-8702-447B-BD8E-668DB26617B6",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Indonesia"
+        "isoNumeric": 360
       },
       {
         "countryName": "Bouvet Island",
@@ -3626,15 +2250,7 @@
         "currencySymbol": "kr",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 74,
-        "primaryKey": "BE7722E0-3DCE-48CA-95A2-78DF7E92BCF9",
-        "countryId": "BE7722E0-3DCE-48CA-95A2-78DF7E92BCF9",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Bouvet Island"
+        "isoNumeric": 74
       },
       {
         "countryName": "French Southern Territories",
@@ -3647,15 +2263,7 @@
         "currencySymbol": "€",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 260,
-        "primaryKey": "BED273CB-91E0-445E-85DE-77FA456849E7",
-        "countryId": "BED273CB-91E0-445E-85DE-77FA456849E7",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "French Southern Territories"
+        "isoNumeric": 260
       },
       {
         "countryName": "Canada",
@@ -3668,15 +2276,7 @@
         "currencySymbol": "$",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 124,
-        "primaryKey": "BEDBA588-E2F1-460C-B8F0-933452001FDD",
-        "countryId": "BEDBA588-E2F1-460C-B8F0-933452001FDD",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Canada"
+        "isoNumeric": 124
       },
       {
         "countryName": "Algeria",
@@ -3689,15 +2289,7 @@
         "currencySymbol": "",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 12,
-        "primaryKey": "BEED12F9-D59B-4B53-9FA1-B367C645D59D",
-        "countryId": "BEED12F9-D59B-4B53-9FA1-B367C645D59D",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Algeria"
+        "isoNumeric": 12
       },
       {
         "countryName": "Micronesia",
@@ -3710,15 +2302,7 @@
         "currencySymbol": "$",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 583,
-        "primaryKey": "BF561FAB-9D92-41EB-A191-92BA6F5105EE",
-        "countryId": "BF561FAB-9D92-41EB-A191-92BA6F5105EE",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Micronesia"
+        "isoNumeric": 583
       },
       {
         "countryName": "Aruba",
@@ -3731,15 +2315,7 @@
         "currencySymbol": "ƒ",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 533,
-        "primaryKey": "C32473F7-2CD6-47A3-9150-100D6AAE273F",
-        "countryId": "C32473F7-2CD6-47A3-9150-100D6AAE273F",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Aruba"
+        "isoNumeric": 533
       },
       {
         "countryName": "Georgia",
@@ -3752,15 +2328,7 @@
         "currencySymbol": "",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 268,
-        "primaryKey": "C38A8C7E-038B-4D0B-B804-6778012C1812",
-        "countryId": "C38A8C7E-038B-4D0B-B804-6778012C1812",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Georgia"
+        "isoNumeric": 268
       },
       {
         "countryName": "Belarus",
@@ -3773,15 +2341,7 @@
         "currencySymbol": "p.",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 112,
-        "primaryKey": "C38BC759-2FB3-4E30-9315-81516EF71026",
-        "countryId": "C38BC759-2FB3-4E30-9315-81516EF71026",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Belarus"
+        "isoNumeric": 112
       },
       {
         "countryName": "Slovakia",
@@ -3794,15 +2354,7 @@
         "currencySymbol": "Sk",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 703,
-        "primaryKey": "C5080E52-D021-4827-9E67-19DFB7946C95",
-        "countryId": "C5080E52-D021-4827-9E67-19DFB7946C95",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Slovakia"
+        "isoNumeric": 703
       },
       {
         "countryName": "Burkina Faso",
@@ -3815,15 +2367,7 @@
         "currencySymbol": "",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 854,
-        "primaryKey": "C5DD0B62-8CC3-480A-BBA5-7E22350889FD",
-        "countryId": "C5DD0B62-8CC3-480A-BBA5-7E22350889FD",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Burkina Faso"
+        "isoNumeric": 854
       },
       {
         "countryName": "Croatia",
@@ -3836,15 +2380,7 @@
         "currencySymbol": "kn",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 191,
-        "primaryKey": "C5FAB99F-8E26-4423-A7B5-816A05C72871",
-        "countryId": "C5FAB99F-8E26-4423-A7B5-816A05C72871",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Croatia"
+        "isoNumeric": 191
       },
       {
         "countryName": "Antigua and Barbuda",
@@ -3857,15 +2393,7 @@
         "currencySymbol": "$",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 28,
-        "primaryKey": "C6786D1B-3FC8-453C-807B-F89D9012DF0D",
-        "countryId": "C6786D1B-3FC8-453C-807B-F89D9012DF0D",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Antigua and Barbuda"
+        "isoNumeric": 28
       },
       {
         "countryName": "Saint Lucia",
@@ -3878,15 +2406,7 @@
         "currencySymbol": "$",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 662,
-        "primaryKey": "C7234517-51A6-4325-9C7C-4E85D41CC791",
-        "countryId": "C7234517-51A6-4325-9C7C-4E85D41CC791",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Saint Lucia"
+        "isoNumeric": 662
       },
       {
         "countryName": "Vietnam",
@@ -3899,15 +2419,7 @@
         "currencySymbol": "?",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 704,
-        "primaryKey": "CA00121E-7625-4BF8-9BA1-B7C53E834706",
-        "countryId": "CA00121E-7625-4BF8-9BA1-B7C53E834706",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Vietnam"
+        "isoNumeric": 704
       },
       {
         "countryName": "Western Sahara",
@@ -3920,15 +2432,683 @@
         "currencySymbol": "",
         "capitalLatitude": null,
         "capitalLongitude": null,
-        "isoNumeric": 732,
-        "primaryKey": "CAEE851A-9FBA-4F3D-8800-086B30A4A972",
-        "countryId": "CAEE851A-9FBA-4F3D-8800-086B30A4A972",
-        "versionId": 1,
-        "systemInfo": {
-          "activeStatus": 1,
-          "txnAccessCode": 51000
-        },
-        "primaryDisplay": "Western Sahara"
+        "isoNumeric": 732
+      },
+      {
+        "countryName": "Morocco",
+        "countryCode1": "MA",
+        "countryCode2": "MAR",
+        "countryFlag": "MA.png",
+        "capital": "",
+        "currencyCode": "MAD",
+        "currencyName": "Dirham",
+        "currencySymbol": "",
+        "capitalLatitude": null,
+        "capitalLongitude": null,
+        "isoNumeric": 504
+      },
+      {
+        "countryName": "Maldives",
+        "countryCode1": "MV",
+        "countryCode2": "MDV",
+        "countryFlag": "MV.png",
+        "capital": "",
+        "currencyCode": "MVR",
+        "currencyName": "Rufiyaa",
+        "currencySymbol": "Rf",
+        "capitalLatitude": null,
+        "capitalLongitude": null,
+        "isoNumeric": 462
+      },
+      {
+        "countryName": "Israel",
+        "countryCode1": "IL",
+        "countryCode2": "ISR",
+        "countryFlag": "IL.png",
+        "capital": "",
+        "currencyCode": "ILS",
+        "currencyName": "Shekel",
+        "currencySymbol": "?",
+        "capitalLatitude": null,
+        "capitalLongitude": null,
+        "isoNumeric": 376
+      },
+      {
+        "countryName": "Australia",
+        "countryCode1": "AU",
+        "countryCode2": "AUS",
+        "countryFlag": "AU.png",
+        "capital": "",
+        "currencyCode": "AUD",
+        "currencyName": "Dollar",
+        "currencySymbol": "$",
+        "capitalLatitude": null,
+        "capitalLongitude": null,
+        "isoNumeric": 36
+      },
+      {
+        "countryName": "Nigeria",
+        "countryCode1": "NG",
+        "countryCode2": "NGA",
+        "countryFlag": "NG.png",
+        "capital": "",
+        "currencyCode": "NGN",
+        "currencyName": "Naira",
+        "currencySymbol": "?",
+        "capitalLatitude": null,
+        "capitalLongitude": null,
+        "isoNumeric": 566
+      },
+      {
+        "countryName": "Malawi",
+        "countryCode1": "MW",
+        "countryCode2": "MWI",
+        "countryFlag": "MW.png",
+        "capital": "",
+        "currencyCode": "MWK",
+        "currencyName": "Kwacha",
+        "currencySymbol": "MK",
+        "capitalLatitude": null,
+        "capitalLongitude": null,
+        "isoNumeric": 454
+      },
+      {
+        "countryName": "Anguilla",
+        "countryCode1": "AI",
+        "countryCode2": "AIA",
+        "countryFlag": "AI.png",
+        "capital": "",
+        "currencyCode": "XCD",
+        "currencyName": "Dollar",
+        "currencySymbol": "$",
+        "capitalLatitude": null,
+        "capitalLongitude": null,
+        "isoNumeric": 660
+      },
+      {
+        "countryName": "Mauritania",
+        "countryCode1": "MR",
+        "countryCode2": "MRT",
+        "countryFlag": "MR.png",
+        "capital": "",
+        "currencyCode": "MRO",
+        "currencyName": "Ouguiya",
+        "currencySymbol": "UM",
+        "capitalLatitude": null,
+        "capitalLongitude": null,
+        "isoNumeric": 478
+      },
+      {
+        "countryName": "Cyprus",
+        "countryCode1": "CY",
+        "countryCode2": "CYP",
+        "countryFlag": "CY.png",
+        "capital": "",
+        "currencyCode": "CYP",
+        "currencyName": "Pound",
+        "currencySymbol": "",
+        "capitalLatitude": null,
+        "capitalLongitude": null,
+        "isoNumeric": 196
+      },
+      {
+        "countryName": "Afghanistan",
+        "countryCode1": "AF",
+        "countryCode2": "AFG",
+        "countryFlag": "AF.png",
+        "capital": "",
+        "currencyCode": "AFN",
+        "currencyName": "Afghani",
+        "currencySymbol": "?",
+        "capitalLatitude": null,
+        "capitalLongitude": null,
+        "isoNumeric": 4
+      },
+      {
+        "countryName": "Niue",
+        "countryCode1": "NU",
+        "countryCode2": "NIU",
+        "countryFlag": "NU.png",
+        "capital": "",
+        "currencyCode": "NZD",
+        "currencyName": "Dollar",
+        "currencySymbol": "$",
+        "capitalLatitude": null,
+        "capitalLongitude": null,
+        "isoNumeric": 570
+      },
+      {
+        "countryName": "Moldova",
+        "countryCode1": "MD",
+        "countryCode2": "MDA",
+        "countryFlag": "MD.png",
+        "capital": "",
+        "currencyCode": "MDL",
+        "currencyName": "Leu",
+        "currencySymbol": "",
+        "capitalLatitude": null,
+        "capitalLongitude": null,
+        "isoNumeric": 498
+      },
+      {
+        "countryName": "Suriname",
+        "countryCode1": "SR",
+        "countryCode2": "SUR",
+        "countryFlag": "SR.png",
+        "capital": "",
+        "currencyCode": "SRD",
+        "currencyName": "Dollar",
+        "currencySymbol": "$",
+        "capitalLatitude": null,
+        "capitalLongitude": null,
+        "isoNumeric": 740
+      },
+      {
+        "countryName": "Paraguay",
+        "countryCode1": "PY",
+        "countryCode2": "PRY",
+        "countryFlag": "PY.png",
+        "capital": "",
+        "currencyCode": "PYG",
+        "currencyName": "Guarani",
+        "currencySymbol": "Gs",
+        "capitalLatitude": null,
+        "capitalLongitude": null,
+        "isoNumeric": 600
+      },
+      {
+        "countryName": "Taiwan",
+        "countryCode1": "TW",
+        "countryCode2": "TWN",
+        "countryFlag": "TW.png",
+        "capital": "",
+        "currencyCode": "TWD",
+        "currencyName": "Dollar",
+        "currencySymbol": "NT$",
+        "capitalLatitude": null,
+        "capitalLongitude": null,
+        "isoNumeric": 158
+      },
+      {
+        "countryName": "Oman",
+        "countryCode1": "OM",
+        "countryCode2": "OMN",
+        "countryFlag": "OM.png",
+        "capital": "",
+        "currencyCode": "OMR",
+        "currencyName": "Rial",
+        "currencySymbol": "?",
+        "capitalLatitude": null,
+        "capitalLongitude": null,
+        "isoNumeric": 512
+      },
+      {
+        "countryName": "Papua New Guinea",
+        "countryCode1": "PG",
+        "countryCode2": "PNG",
+        "countryFlag": "PG.png",
+        "capital": "",
+        "currencyCode": "PGK",
+        "currencyName": "Kina",
+        "currencySymbol": "",
+        "capitalLatitude": null,
+        "capitalLongitude": null,
+        "isoNumeric": 598
+      },
+      {
+        "countryName": "United States Minor Outlying Islands",
+        "countryCode1": "UM",
+        "countryCode2": "UMI",
+        "countryFlag": "UM.png",
+        "capital": "",
+        "currencyCode": "USD",
+        "currencyName": "Dollar ",
+        "currencySymbol": "$",
+        "capitalLatitude": null,
+        "capitalLongitude": null,
+        "isoNumeric": 581
+      },
+      {
+        "countryName": "Sierra Leone",
+        "countryCode1": "SL",
+        "countryCode2": "SLE",
+        "countryFlag": "SL.png",
+        "capital": "",
+        "currencyCode": "SLL",
+        "currencyName": "Leone",
+        "currencySymbol": "Le",
+        "capitalLatitude": null,
+        "capitalLongitude": null,
+        "isoNumeric": 694
+      },
+      {
+        "countryName": "Norway",
+        "countryCode1": "NO",
+        "countryCode2": "NOR",
+        "countryFlag": "NO.png",
+        "capital": "",
+        "currencyCode": "NOK",
+        "currencyName": "Krone",
+        "currencySymbol": "kr",
+        "capitalLatitude": null,
+        "capitalLongitude": null,
+        "isoNumeric": 578
+      },
+      {
+        "countryName": "Liechtenstein",
+        "countryCode1": "LI",
+        "countryCode2": "LIE",
+        "countryFlag": "LI.png",
+        "capital": "",
+        "currencyCode": "CHF",
+        "currencyName": "Franc",
+        "currencySymbol": "CHF",
+        "capitalLatitude": null,
+        "capitalLongitude": null,
+        "isoNumeric": 438
+      },
+      {
+        "countryName": "Palestinian Territory",
+        "countryCode1": "PS",
+        "countryCode2": "PSE",
+        "countryFlag": "PS.png",
+        "capital": "",
+        "currencyCode": "ILS",
+        "currencyName": "Shekel",
+        "currencySymbol": "?",
+        "capitalLatitude": null,
+        "capitalLongitude": null,
+        "isoNumeric": 275
+      },
+      {
+        "countryName": "Rwanda",
+        "countryCode1": "RW",
+        "countryCode2": "RWA",
+        "countryFlag": "RW.png",
+        "capital": "",
+        "currencyCode": "RWF",
+        "currencyName": "Franc",
+        "currencySymbol": "",
+        "capitalLatitude": null,
+        "capitalLongitude": null,
+        "isoNumeric": 646
+      },
+      {
+        "countryName": "Angola",
+        "countryCode1": "AO",
+        "countryCode2": "AGO",
+        "countryFlag": "AO.png",
+        "capital": "",
+        "currencyCode": "AOA",
+        "currencyName": "Kwanza",
+        "currencySymbol": "Kz",
+        "capitalLatitude": null,
+        "capitalLongitude": null,
+        "isoNumeric": 24
+      },
+      {
+        "countryName": "New Caledonia",
+        "countryCode1": "NC",
+        "countryCode2": "NCL",
+        "countryFlag": "NC.png",
+        "capital": "",
+        "currencyCode": "XPF",
+        "currencyName": "Franc",
+        "currencySymbol": "",
+        "capitalLatitude": null,
+        "capitalLongitude": null,
+        "isoNumeric": 540
+      },
+      {
+        "countryName": "Cook Islands",
+        "countryCode1": "CK",
+        "countryCode2": "COK",
+        "countryFlag": "CK.png",
+        "capital": "",
+        "currencyCode": "NZD",
+        "currencyName": "Dollar",
+        "currencySymbol": "$",
+        "capitalLatitude": null,
+        "capitalLongitude": null,
+        "isoNumeric": 184
+      },
+      {
+        "countryName": "American Samoa",
+        "countryCode1": "AS",
+        "countryCode2": "ASM",
+        "countryFlag": "AS.png",
+        "capital": "",
+        "currencyCode": "USD",
+        "currencyName": "Dollar",
+        "currencySymbol": "$",
+        "capitalLatitude": null,
+        "capitalLongitude": null,
+        "isoNumeric": 16
+      },
+      {
+        "countryName": "Tajikistan",
+        "countryCode1": "TJ",
+        "countryCode2": "TJK",
+        "countryFlag": "TJ.png",
+        "capital": "",
+        "currencyCode": null,
+        "currencyName": null,
+        "currencySymbol": null,
+        "capitalLatitude": null,
+        "capitalLongitude": null,
+        "isoNumeric": 0
+      },
+      {
+        "countryName": "Palau",
+        "countryCode1": "PW",
+        "countryCode2": "PLW",
+        "countryFlag": "PW.png",
+        "capital": "",
+        "currencyCode": "USD",
+        "currencyName": "Dollar",
+        "currencySymbol": "$",
+        "capitalLatitude": null,
+        "capitalLongitude": null,
+        "isoNumeric": 585
+      },
+      {
+        "countryName": "Saint Pierre and Miquelon",
+        "countryCode1": "PM",
+        "countryCode2": "SPM",
+        "countryFlag": "PM.png",
+        "capital": "",
+        "currencyCode": "EUR",
+        "currencyName": "Euro",
+        "currencySymbol": "€",
+        "capitalLatitude": null,
+        "capitalLongitude": null,
+        "isoNumeric": 666
+      },
+      {
+        "countryName": "Bermuda",
+        "countryCode1": "BM",
+        "countryCode2": "BMU",
+        "countryFlag": "BM.png",
+        "capital": "",
+        "currencyCode": "BMD",
+        "currencyName": "Dollar",
+        "currencySymbol": "$",
+        "capitalLatitude": null,
+        "capitalLongitude": null,
+        "isoNumeric": 60
+      },
+      {
+        "countryName": "Tanzania",
+        "countryCode1": "TZ",
+        "countryCode2": "TZA",
+        "countryFlag": "TZ.png",
+        "capital": "",
+        "currencyCode": "TZS",
+        "currencyName": "Shilling",
+        "currencySymbol": "",
+        "capitalLatitude": null,
+        "capitalLongitude": null,
+        "isoNumeric": 834
+      },
+      {
+        "countryName": "South Korea",
+        "countryCode1": "KR",
+        "countryCode2": "KOR",
+        "countryFlag": "KR.png",
+        "capital": "",
+        "currencyCode": "KRW",
+        "currencyName": "Won",
+        "currencySymbol": "?",
+        "capitalLatitude": null,
+        "capitalLongitude": null,
+        "isoNumeric": 410
+      },
+      {
+        "countryName": "Macedonia",
+        "countryCode1": "MK",
+        "countryCode2": "MKD",
+        "countryFlag": "MK.png",
+        "capital": "",
+        "currencyCode": "MKD",
+        "currencyName": "Denar",
+        "currencySymbol": "???",
+        "capitalLatitude": null,
+        "capitalLongitude": null,
+        "isoNumeric": 807
+      },
+      {
+        "countryName": "Nauru",
+        "countryCode1": "NR",
+        "countryCode2": "NRU",
+        "countryFlag": "NR.png",
+        "capital": "",
+        "currencyCode": "AUD",
+        "currencyName": "Dollar",
+        "currencySymbol": "$",
+        "capitalLatitude": null,
+        "capitalLongitude": null,
+        "isoNumeric": 520
+      },
+      {
+        "countryName": "Botswana",
+        "countryCode1": "BW",
+        "countryCode2": "BWA",
+        "countryFlag": "BW.png",
+        "capital": "",
+        "currencyCode": "BWP",
+        "currencyName": "Pula",
+        "currencySymbol": "P",
+        "capitalLatitude": null,
+        "capitalLongitude": null,
+        "isoNumeric": 72
+      },
+      {
+        "countryName": "Sri Lanka",
+        "countryCode1": "LK",
+        "countryCode2": "LKA",
+        "countryFlag": "LK.png",
+        "capital": "",
+        "currencyCode": "LKR",
+        "currencyName": "Rupee",
+        "currencySymbol": "?",
+        "capitalLatitude": null,
+        "capitalLongitude": null,
+        "isoNumeric": 144
+      },
+      {
+        "countryName": "Luxembourg",
+        "countryCode1": "LU",
+        "countryCode2": "LUX",
+        "countryFlag": "LU.png",
+        "capital": "",
+        "currencyCode": "EUR",
+        "currencyName": "Euro",
+        "currencySymbol": "€",
+        "capitalLatitude": null,
+        "capitalLongitude": null,
+        "isoNumeric": 442
+      },
+      {
+        "countryName": "Guinea",
+        "countryCode1": "GN",
+        "countryCode2": "GIN",
+        "countryFlag": "GN.png",
+        "capital": "",
+        "currencyCode": "GNF",
+        "currencyName": "Franc",
+        "currencySymbol": "",
+        "capitalLatitude": null,
+        "capitalLongitude": null,
+        "isoNumeric": 324
+      },
+      {
+        "countryName": "New Country",
+        "countryCode1": "KK",
+        "countryCode2": "KK",
+        "countryFlag": "KK.png",
+        "capital": "New Country",
+        "currencyCode": "pp",
+        "currencyName": "ppp",
+        "currencySymbol": "ppp",
+        "capitalLatitude": null,
+        "capitalLongitude": null,
+        "isoNumeric": 230
+      },
+      {
+        "countryName": "Malaysia",
+        "countryCode1": "MY",
+        "countryCode2": "MYS",
+        "countryFlag": "MY.png",
+        "capital": "",
+        "currencyCode": "MYR",
+        "currencyName": "Ringgit",
+        "currencySymbol": "RM",
+        "capitalLatitude": null,
+        "capitalLongitude": null,
+        "isoNumeric": 458
+      },
+      {
+        "countryName": "Russia",
+        "countryCode1": "RU",
+        "countryCode2": "RUS",
+        "countryFlag": "RU.png",
+        "capital": "",
+        "currencyCode": "RUB",
+        "currencyName": "Ruble",
+        "currencySymbol": "???",
+        "capitalLatitude": null,
+        "capitalLongitude": null,
+        "isoNumeric": 643
+      },
+      {
+        "countryName": "Christmas Island",
+        "countryCode1": "CX",
+        "countryCode2": "CXR",
+        "countryFlag": "CX.png",
+        "capital": "",
+        "currencyCode": "AUD",
+        "currencyName": "Dollar",
+        "currencySymbol": "$",
+        "capitalLatitude": null,
+        "capitalLongitude": null,
+        "isoNumeric": 162
+      },
+      {
+        "countryName": "Cocos Islands",
+        "countryCode1": "CC",
+        "countryCode2": "CCK",
+        "countryFlag": "CC.png",
+        "capital": "",
+        "currencyCode": "AUD",
+        "currencyName": "Dollar",
+        "currencySymbol": "$",
+        "capitalLatitude": null,
+        "capitalLongitude": null,
+        "isoNumeric": 166
+      },
+      {
+        "countryName": "Venezuela",
+        "countryCode1": "VE",
+        "countryCode2": "VEN",
+        "countryFlag": "VE.png",
+        "capital": "",
+        "currencyCode": "VEF",
+        "currencyName": "Bolivar",
+        "currencySymbol": "Bs",
+        "capitalLatitude": null,
+        "capitalLongitude": null,
+        "isoNumeric": 862
+      },
+      {
+        "countryName": "Denmark",
+        "countryCode1": "DK",
+        "countryCode2": "DNK",
+        "countryFlag": "DK.png",
+        "capital": "",
+        "currencyCode": "DKK",
+        "currencyName": "Krone",
+        "currencySymbol": "kr",
+        "capitalLatitude": null,
+        "capitalLongitude": null,
+        "isoNumeric": 208
+      },
+      {
+        "countryName": "Iraq",
+        "countryCode1": "IQ",
+        "countryCode2": "IRQ",
+        "countryFlag": "IQ.png",
+        "capital": "",
+        "currencyCode": "IQD",
+        "currencyName": "Dinar",
+        "currencySymbol": "",
+        "capitalLatitude": null,
+        "capitalLongitude": null,
+        "isoNumeric": 368
+      },
+      {
+        "countryName": "Ukraine",
+        "countryCode1": "UA",
+        "countryCode2": "UKR",
+        "countryFlag": "UA.png",
+        "capital": "",
+        "currencyCode": "UAH",
+        "currencyName": "Hryvnia",
+        "currencySymbol": "?",
+        "capitalLatitude": null,
+        "capitalLongitude": null,
+        "isoNumeric": 804
+      },
+      {
+        "countryName": "Chile",
+        "countryCode1": "CL",
+        "countryCode2": "CHL",
+        "countryFlag": "CL.png",
+        "capital": "",
+        "currencyCode": "CLP",
+        "currencyName": "Peso",
+        "currencySymbol": "",
+        "capitalLatitude": null,
+        "capitalLongitude": null,
+        "isoNumeric": 152
+      },
+      {
+        "countryName": "France",
+        "countryCode1": "FR",
+        "countryCode2": "FRA",
+        "countryFlag": "FR.png",
+        "capital": "",
+        "currencyCode": "EUR",
+        "currencyName": "Euro",
+        "currencySymbol": "€",
+        "capitalLatitude": null,
+        "capitalLongitude": null,
+        "isoNumeric": 250
+      },
+      {
+        "countryName": "Philippines",
+        "countryCode1": "PH",
+        "countryCode2": "PHL",
+        "countryFlag": "PH.png",
+        "capital": "",
+        "currencyCode": "PHP",
+        "currencyName": "Peso",
+        "currencySymbol": "Php",
+        "capitalLatitude": null,
+        "capitalLongitude": null,
+        "isoNumeric": 608
+      },
+      {
+        "countryName": "Turkey",
+        "countryCode1": "TR",
+        "countryCode2": "TUR",
+        "countryFlag": "TR.png",
+        "capital": "",
+        "currencyCode": "TRY",
+        "currencyName": "Lira",
+        "currencySymbol": "YTL",
+        "capitalLatitude": null,
+        "capitalLongitude": null,
+        "isoNumeric": 792
       }
     ]
   }
