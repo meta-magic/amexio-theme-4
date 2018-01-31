@@ -1,9 +1,10 @@
 <amexio-nav [title]="'Amexio Demo App'" [logo]="'assets/images/logos/amexio-logo.png'">
   <amexio-nav-item position-right>
-    <i class="fa fa-home fa-fw fa-lg"></i>
+    <amexio-image icon-class="fa fa-home fa-fw fa-lg" title="Home"></amexio-image>
   </amexio-nav-item>
   <amexio-nav-item position-right>
-    <i class="fa fa-bell fa-fw fa-lg" (click)="onBellClick()"></i>
+    <amexio-image icon-class="fa fa-bell fa-fw fa-lg" (onClick)="onBellClick()" title="Notifications"></amexio-image>
+
     <amexio-notification [auto-dismiss-msg-interval]="2000" [auto-dismiss-msg]="true" [vertical-position]="'top'"
                          [horizontal-position]="'right'" [closable]="true" [data]="msgList"></amexio-notification>
   </amexio-nav-item>
@@ -11,7 +12,7 @@
     <span>John Doe</span>
   </amexio-nav-item>
   <amexio-nav-item position-right>
-    <i class="fa fa-user-circle fa-fw fa-lg"></i>
+    <amexio-image icon-class="fa fa-user-circle fa-fw fa-lg" title="Themes"></amexio-image>
   </amexio-nav-item>
 
   <amexio-nav-item position-right>
