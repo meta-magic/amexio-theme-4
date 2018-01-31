@@ -31,13 +31,13 @@ export class AppComponent {
       this.menuData = this.httpResponse.menus;
     });
 
-    if (this.cookieService.get('theme_name')) {
+    if (this.cookieService.get('theme_name_v4')) {
       let currentTheme = document.head.querySelectorAll(`link[rel="stylesheet"]`);
       this.removeExistingTheme(currentTheme);
       let linkEl = document.createElement('link');
       linkEl.setAttribute('rel', 'stylesheet');
       linkEl.id = 'themeid';
-      linkEl.href = 'assets/themes/' + this.cookieService.get('theme_name') + '.css';
+      linkEl.href = 'assets/themes/' + this.cookieService.get('theme_name_v4') + '.css';
       document.head.appendChild(linkEl);
     } else {
       let linkEl = document.createElement('link');
@@ -85,7 +85,7 @@ export class AppComponent {
     let currentTheme = document.head.querySelectorAll(`link[rel="stylesheet"]`);
     this.removeExistingTheme(currentTheme);
     this.addNewTheme(this.newThemePath);
-    this.cookieService.set('theme_name', theme.themeCssFile);
+    this.cookieService.set('theme_name_v4', theme.themeCssFile);
     this.toggle();
    // window.location.reload();
   }
