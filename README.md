@@ -1,4 +1,4 @@
-# Amexio v4 Demo
+# Amexio Demoapp - Focusing of feature of v4
  
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.3.
 
