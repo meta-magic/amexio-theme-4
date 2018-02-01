@@ -21,10 +21,30 @@
   padding: 88px 10px 20px 0px;
 }
 
+@media only screen and (max-width: 1200px) {
+  .datapoints{
+    
+    font-size: 100%!important;
+    .fa-2x{
+      font-size: 1em;
+    }
+  }
+}
+@media only screen and (max-width: 676px) {
+  .datapoints{
+    font-size: 125%!important;
+    .fa-2x{
+      font-size: 2em;
+      
+    }
+  }
+}
+
 @media only screen and (max-width: 1024px) {
   .route-container{
     padding: 15px;
   }
+ 
 }
 
 
