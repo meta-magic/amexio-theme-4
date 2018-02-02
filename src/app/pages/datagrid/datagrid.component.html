@@ -24,15 +24,12 @@
             <amexio-card [footer]="false" [header]="true">
               <amexio-header>Data Grid with Template</amexio-header>
               <amexio-body>
-                <amexio-datagrid  [enable-checkbox]="true" title="Country Grid"   [http-method]="'get'" [http-url]="'assets/data/datagrid.json'" [data-reader]="'data'"  [page-size] = "10" [enable-data-filter]="false">
+                <amexio-datagrid  [enable-checkbox]="false" title="Country Grid"   [http-method]="'get'" [http-url]="'assets/data/datagrid.json'" [data-reader]="'data'"  [page-size] = "10" [enable-data-filter]="false">
                   <amexio-data-table-column [width]="50" [data-index]="'name_official'" [data-type]="'string'" [hidden]="false" [text]="'Name'">
                     <ng-template #amexioBodyTmpl let-column let-row="row">
-                      <div class="table" >
-                        <div class="tablerow" style="height:50px;">
-                          <div class="tablecol"> <img src="" [attr.src]="'http://amexio.org/showcaseapp/v3/assets/images/flags/flags/'+row.flag_32"/></div>
-                          <div class="tablecol"> {{row.name}} ( {{row.name_official}} )</div>
-                        </div>
-                      </div>
+                      <span>
+                          <amexio-image [path]="'http://amexio.org/showcaseapp/v3/assets/images/flags/flags/'+row.flag_32"></amexio-image>&nbsp;{{row.name}} ( {{row.name_official}} )
+                      </span>
                     </ng-template>
                   </amexio-data-table-column>
                   <amexio-data-table-column [width]="20" [data-index]="'latitude'" [data-type]="'string'" [hidden]="false" [text]="'Latitude'"></amexio-data-table-column>
