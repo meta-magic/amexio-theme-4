@@ -74,7 +74,9 @@ export class AppComponent {
   onBellClick() {
     this.msgList.push('Hello,User');
   }
-
+  onHomeClick(){
+    this._router.navigate(['home']);
+  }
   //Window Open
   toggle() {
     this.flag = !this.flag;
