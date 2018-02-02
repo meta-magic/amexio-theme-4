@@ -173,19 +173,6 @@
         "isoNumeric": 234
       },
       {
-        "countryName": "Reunion",
-        "countryCode1": "RE",
-        "countryCode2": "REU",
-        "countryFlag": "RE.png",
-        "capital": "",
-        "currencyCode": null,
-        "currencyName": null,
-        "currencySymbol": null,
-        "capitalLatitude": null,
-        "capitalLongitude": null,
-        "isoNumeric": 0
-      },
-      {
         "countryName": "Hong Kong",
         "countryCode1": "HK",
         "countryCode2": "HKG",
@@ -354,19 +341,7 @@
         "capitalLongitude": null,
         "isoNumeric": 400
       },
-      {
-        "countryName": "ReunionChanged",
-        "countryCode1": "RE",
-        "countryCode2": "REU",
-        "countryFlag": "RE.png",
-        "capital": "",
-        "currencyCode": null,
-        "currencyName": null,
-        "currencySymbol": null,
-        "capitalLatitude": null,
-        "capitalLongitude": null,
-        "isoNumeric": 0
-      },
+
       {
         "countryName": "Pakistan",
         "countryCode1": "PK",
@@ -1342,19 +1317,7 @@
         "capitalLongitude": null,
         "isoNumeric": 480
       },
-      {
-        "countryName": "Reunion",
-        "countryCode1": "RE",
-        "countryCode2": "REU",
-        "countryFlag": "RE.png",
-        "capital": "",
-        "currencyCode": null,
-        "currencyName": null,
-        "currencySymbol": null,
-        "capitalLatitude": null,
-        "capitalLongitude": null,
-        "isoNumeric": 0
-      },
+
       {
         "countryName": "Svalbard and Jan Mayen",
         "countryCode1": "SJ",
@@ -1680,19 +1643,7 @@
         "capitalLongitude": null,
         "isoNumeric": 678
       },
-      {
-        "countryName": "Reunion",
-        "countryCode1": "RE",
-        "countryCode2": "REU",
-        "countryFlag": "RE.png",
-        "capital": "",
-        "currencyCode": null,
-        "currencyName": null,
-        "currencySymbol": null,
-        "capitalLatitude": null,
-        "capitalLongitude": null,
-        "isoNumeric": 0
-      },
+
       {
         "countryName": "Iceland",
         "countryCode1": "IS",
