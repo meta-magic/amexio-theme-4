@@ -1,4 +1,4 @@
-<amexio-nav [title]="'Amexio Demo App'" [logo]="'assets/images/logos/amexio-logo.png'">
+<amexio-nav  [title]="'Amexio Demo App'" [logo]="'assets/images/logos/amexio-logo.png'">
   <amexio-nav-item position-right>
     <amexio-image icon-class="fa fa-home fa-fw fa-lg" title="Home" (onClick)="onHomeClick()" style="cursor: pointer;" ></amexio-image>
   </amexio-nav-item>
@@ -9,7 +9,7 @@
                          [horizontal-position]="'right'" [closable]="true" [data]="msgList"></amexio-notification>
   </amexio-nav-item>
   <amexio-nav-item position-right>
-    <amexio-image icon-class="fa fa-user-circle fa-fw fa-lg" title="John Doe" style="cursor: pointer;"></amexio-image>
+    <amexio-image icon-class="fa fa-user-circle fa-fw fa-lg" title="John Doe" style="cursor: pointer;" (onClick)="onUserClick()"></amexio-image>
   </amexio-nav-item>
 
   <amexio-nav-item position-right>

@@ -1,7 +1,8 @@
-import {Component} from '@angular/core';
+import {Component, ViewChild} from '@angular/core';
 import {Router} from "@angular/router";
 import {Http} from "@angular/http";
 import {CookieService} from 'ngx-cookie-service';
+import {AmexioNavBarComponent} from "amexio-ng-extensions";
 @Component({
   selector: 'app-root', templateUrl: './app.component.html', styleUrls: ['./app.component.css']
 })
@@ -15,6 +16,8 @@ export class AppComponent {
   msgList: any = [];
   amexioThemeArray: any;
   materialThemeArray : any;
+
+  @ViewChild(AmexioNavBarComponent) amexioNav;
 
   routeToLink(data: any) {
     if (!data.hasOwnProperty('children') && data.link) this._router.navigate([data.link]);
@@ -72,10 +75,15 @@ export class AppComponent {
 
   //on Bell Click
   onBellClick() {
-    this.msgList.push('Hello,User');
+    this.amexioNav.close();
+    this.msgList.push('Hello, User');
+  }
+  onUserClick(){
+    this.amexioNav.close();
   }
   onHomeClick(){
     this._router.navigate(['home']);
+    this.amexioNav.close();
   }
   //Window Open
   toggle() {
@@ -90,6 +98,7 @@ export class AppComponent {
     this.cookieService.set('theme_name_v4', theme.themeCssFile);
     this.toggle();
    // window.location.reload();
+    this.amexioNav.close();
   }
 
   addNewTheme(newTheme: any) {
