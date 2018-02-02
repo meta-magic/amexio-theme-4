@@ -75,8 +75,10 @@ export class AppComponent {
 
   //on Bell Click
   onBellClick() {
-    this.amexioNav.close();
     this.msgList.push('Hello, User');
+    setTimeout(()=>{
+      this.amexioNav.close();
+    },800);
   }
   onUserClick(){
     this.amexioNav.close();
