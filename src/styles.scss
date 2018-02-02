@@ -23,7 +23,7 @@
 
 @media only screen and (max-width: 1200px) {
   .datapoints{
-    
+
     font-size: 100%!important;
     .fa-2x{
       font-size: 1em;
@@ -35,7 +35,7 @@
     font-size: 125%!important;
     .fa-2x{
       font-size: 2em;
-      
+
     }
   }
 }
@@ -44,7 +44,7 @@
   .route-container{
     padding: 15px;
   }
- 
+
 }
 
 
@@ -962,3 +962,17 @@
     max-width: 100%;
     height: auto;
   }
+
+
+.datagrid-template{
+  display: inline;
+  span{
+    padding-left: 3px;
+  }
+}
+@media only screen and (max-width: 500px) {
+
+  .datagrid-template span{
+    display: block;
+  }
+}
