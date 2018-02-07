@@ -2,37 +2,47 @@
 <amexio-row>
 <amexio-column [size]="4">
     <amexio-datapoints [west]="true" [center]="true" [east]="true" [south]="true" >
-      <amexio-west [contentalign]="'center'" [c-class]="'datapoint-west'">
-        <i class="fa fa-line-chart fa-3x"></i>
+      <amexio-west [contentalign]="'center'">
+        <amexio-image [icon-class]="'fa fa-line-chart fa-3x'">
+        </amexio-image>
       </amexio-west>
       <amexio-center [contentalign]="'center'">
-        <span class="datapoints-north">200 Million</span><br/><span class="datapoints-center">Sales Volume</span>
+        <amexio-label style="large-bold">200 Million</amexio-label><br/>
+        <amexio-label style="medium">Sales Volume</amexio-label>
       </amexio-center>
-      <amexio-south [contentalign]="'center'" [c-class]="'datapoint-south'" ><div>10% More than last year</div></amexio-south>
+      <amexio-south [contentalign]="'center'">
+        <amexio-label>10% More than last year</amexio-label>
+      </amexio-south>
     </amexio-datapoints>
   </amexio-column>
   <amexio-column [size]="4">
     <amexio-datapoints [west]="true" [center]="true" [east]="true" [south]="true" >
-      <amexio-west [contentalign]="'center'" [c-class]="'datapoint-west'">
-        <i class="fa fa-line-chart fa-3x"></i>
+      <amexio-west [contentalign]="'center'">
+        <amexio-image [icon-class]="'fa fa-line-chart fa-3x'">
+        </amexio-image>
       </amexio-west>
       <amexio-center [contentalign]="'center'">
-            <span class="datapoints-north">$20 Million</span><br/><span class="datapoints-center">Sales Revenue</span>
+            <amexio-label style="large-bold">$20 Million</amexio-label><br/>
+        <amexio-label style="medium">Sales Revenue</amexio-label>
       </amexio-center>
-      <amexio-south [contentalign]="'center'" [c-class]="'datapoint-south'">
-        15% More than last year
+      <amexio-south [contentalign]="'center'">
+        <amexio-label>15% More than last year</amexio-label>
       </amexio-south>
     </amexio-datapoints>
   </amexio-column>
   <amexio-column [size]="4">
     <amexio-datapoints [west]="true" [center]="true" [east]="true" [south]="true"  >
-      <amexio-west [contentalign]="'center'" [c-class]="'datapoint-west'">
-        <i class="fa fa-line-chart fa-3x"></i>
+      <amexio-west [contentalign]="'center'">
+        <amexio-image [icon-class]="'fa fa-line-chart fa-3x'">
+        </amexio-image>
       </amexio-west>
       <amexio-center [contentalign]="'center'">
-        <span class="datapoints-north">$20 Million</span><br/><span class="datapoints-center">Profit</span>
+        <amexio-label style="large-bold">$20 Million</amexio-label><br/>
+        <amexio-label style="medium">Profit</amexio-label>
       </amexio-center>
-      <amexio-south [contentalign]="'center'" [c-class]="'datapoint-south'">10% More than last year</amexio-south>
+      <amexio-south [contentalign]="'center'" >
+       <amexio-label>10% More than last year</amexio-label>
+      </amexio-south>
     </amexio-datapoints>
   </amexio-column>
 </amexio-row>
