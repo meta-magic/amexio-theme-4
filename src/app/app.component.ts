@@ -46,7 +46,7 @@ export class AppComponent {
       let linkEl = document.createElement('link');
       linkEl.setAttribute('rel', 'stylesheet');
       linkEl.id = 'themeid';
-      linkEl.href = 'assets/themes/at-md-blue.css';
+      linkEl.href = 'assets/themes/at-md-rasberry-sangria.css';
       document.head.appendChild(linkEl);
     }
     //Get Data of Themes
