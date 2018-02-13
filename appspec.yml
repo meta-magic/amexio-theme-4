@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /var/www/html/test/demoapp/v4/
+    destination: /var/www/html/test/demoapp/v5/
 hooks:
   BeforeInstall:
     - location: install_dependencies
