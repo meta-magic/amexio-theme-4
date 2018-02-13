@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo aws s3 sync s3://amexiotheme/assets/ /var/www/html/test/demoapp/v4/assets/ --region us-east-2
+sudo aws s3 sync s3://amexiotheme/assets/ /var/www/html/test/demoapp/v5/assets/ --region us-east-2
