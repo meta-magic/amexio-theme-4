@@ -3,6 +3,7 @@ import {Router} from "@angular/router";
 import {Http} from "@angular/http";
 import {CookieService} from 'ngx-cookie-service';
 import {AmexioNavBarComponent} from "amexio-ng-extensions";
+import {HttpClient} from "@angular/common/http";
 @Component({
   selector: 'app-root', templateUrl: './app.component.html', styleUrls: ['./app.component.css']
 })
@@ -15,7 +16,7 @@ export class AppComponent {
   newThemePath: string;
   msgList: any = [];
   amexioThemeArray: any;
-  materialThemeArray : any;
+  materialThemeArray: any;
 
   @ViewChild(AmexioNavBarComponent) amexioNav;
 
@@ -23,11 +24,11 @@ export class AppComponent {
     if (!data.hasOwnProperty('children') && data.link) this._router.navigate([data.link]);
   }
 
-  constructor(public _http: Http, private _router: Router, private cookieService: CookieService) {
+  constructor(public _http: HttpClient, private _router: Router, private cookieService: CookieService) {
     this.flag = false;
 
     this._http.get('assets/data/menus/topmenu.json').subscribe(response => {
-      this.httpResponse = response.json()
+      this.httpResponse = response;
     }, error => {
       //prompt on error
     }, () => {
@@ -58,7 +59,7 @@ export class AppComponent {
     let materialThemeResponse: any;
     //HTML FILE
     this._http.get('assets/data/themes/amexio.json').subscribe(data => {
-      amexioThemeRepsonse = data.json();
+      amexioThemeRepsonse = data;
     }, error => {
     }, () => {
       this.amexioThemeArray = amexioThemeRepsonse;
@@ -66,7 +67,7 @@ export class AppComponent {
 
     //HTML FILE
     this._http.get('assets/data/themes/material.json').subscribe(data => {
-      materialThemeResponse = data.json();
+      materialThemeResponse = data;
     }, error => {
     }, () => {
       this.materialThemeArray = materialThemeResponse;

@@ -10,6 +10,7 @@ import {
 import {DashboardComponent} from "./pages/dashboardex/dashboardex.component";
 import {SampleFormComponent} from "./pages/sampleformex/sampleformex.component";
 import {FormsModule} from "@angular/forms";
+import {HttpClientModule} from "@angular/common/http";
 
 const route: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full'},
@@ -81,6 +82,7 @@ const route: Routes = [
     BrowserModule,
     AmexioWidgetModule,
     AmexioLayoutModule,
+    HttpClientModule,
     FormsModule,AmexioNavModule,
     RouterModule.forRoot(route,{useHash:true}),
     AmexioLayoutModule,AmexioFormsModule,

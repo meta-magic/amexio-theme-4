@@ -273,7 +273,7 @@ import {FormsModule} from "@angular/forms";
        
        <amexio-row>
          <amexio-column size="4">
-           <amexio-fileupload [droppable]="true"></amexio-fileupload>
+           <amexio-fileupload [droppable]="true" [field-label]="'Photo Upload'"></amexio-fileupload>
          </amexio-column>
        </amexio-row>
        
