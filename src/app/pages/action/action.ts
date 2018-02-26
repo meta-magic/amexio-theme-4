@@ -122,7 +122,7 @@ import {AmexioDataModule, AmexioFormsModule, AmexioLayoutModule, AmexioWidgetMod
             </amexio-btn-dropdown>
           </amexio-column>
         </amexio-row>
-
+        <amexio-floating-button [type]="'primary'" [vertical-position]="'bottom'" [horizontal-position]="'right'" [icon]="'fa fa-commenting'"></amexio-floating-button>
       </amexio-body>
     </amexio-card>
 
