@@ -51,8 +51,6 @@
           </amexio-body>
           <amexio-action>
             <amexio-button [label]="'Save'" [type]="'success'" [tooltip]="'save'"></amexio-button>
-            <amexio-button [label]="'Transparent'" [type]="'transparent'" [tooltip]="'I m transparent'"></amexio-button>
-            <amexio-button [label]="'i m floating'" [type]="'float'" [tooltip]="'float'"></amexio-button>
           </amexio-action>
         </amexio-card>
       </amexio-tab>
@@ -135,27 +133,82 @@
 </amexio-row>
       </amexio-tab>
       <amexio-tab [title]="'Accordion'" [icon]="'fa fa-minus-square-o'" >
+      
+        <amexio-accordion expand-all="true">
+          <amexio-accordion-tab header="Section One">
+            <amexio-row>
+              <amexio-column size="12">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+              </amexio-column>
+            </amexio-row>
+          </amexio-accordion-tab>
+          <amexio-accordion-tab header="Section Two">
+            <amexio-row>
+              <amexio-column size="12">
+                Nullam nec dolor lobortis, dictum dolor ac, suscipit massa. Donec id suscipit nisi. Nunc sit amet aliquet risus. Aenean placerat suscipit risus at mollis. Quisque eleifend gravida scelerisque. In non eleifend nisi. Phasellus tempor hendrerit posuere. Praesent ornare rutrum mi et condimentum. Vestibulum tempus, urna non ultrices aliquam, ex ex blandit lacus, at porttitor odio ligula sed lacus. Praesent in luctus odio, at sodales orci. Vivamus vitae ullamcorper lectus.
+              </amexio-column>
+            </amexio-row>
+          </amexio-accordion-tab>
+          <amexio-accordion-tab header="Section Three">
+            <amexio-row>
+              <amexio-column size="12">
+                Phasellus in condimentum elit. In et vestibulum sem. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam erat volutpat. Sed viverra libero vel massa accumsan aliquet. Mauris a dui nec sapien pretium euismod. Sed lobortis quis sapien a mollis. Nullam ex nibh, malesuada eget rutrum eu, dapibus quis ante. Proin non convallis augue, at tincidunt nisi. Cras et metus blandit, sollicitudin mi ac, fringilla libero.
+              </amexio-column>
+            </amexio-row>
+          </amexio-accordion-tab>
+          <amexio-accordion-tab header="Section Four">
+            Etiam mattis fermentum arcu eu feugiat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam porttitor, erat sit amet pharetra aliquam, ex leo tincidunt erat, in commodo leo magna quis mauris.
+          </amexio-accordion-tab>
+        </amexio-accordion>
+
+        <amexio-accordion transparent="true" angle-icon="true">
+        <amexio-accordion-tab header="Page One" active="true">
+          <amexio-row>
+            <amexio-column size="12">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </amexio-column>
+          </amexio-row>
+        </amexio-accordion-tab>
+        <amexio-accordion-tab header="Page two">
+          <amexio-row>
+            <amexio-column size="12">
+              Nullam nec dolor lobortis, dictum dolor ac, suscipit massa. Donec id suscipit nisi. Nunc sit amet aliquet risus. Aenean placerat suscipit risus at mollis. Quisque eleifend gravida scelerisque. In non eleifend nisi. Phasellus tempor hendrerit posuere. Praesent ornare rutrum mi et condimentum. Vestibulum tempus, urna non ultrices aliquam, ex ex blandit lacus, at porttitor odio ligula sed lacus. Praesent in luctus odio, at sodales orci. Vivamus vitae ullamcorper lectus.
+            </amexio-column>
+          </amexio-row>
+        </amexio-accordion-tab>
+        <amexio-accordion-tab header="Page three">
+          <amexio-row>
+            <amexio-column size="12">
+              Phasellus in condimentum elit. In et vestibulum sem. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam erat volutpat. Sed viverra libero vel massa accumsan aliquet. Mauris a dui nec sapien pretium euismod. Sed lobortis quis sapien a mollis. Nullam ex nibh, malesuada eget rutrum eu, dapibus quis ante. Proin non convallis augue, at tincidunt nisi. Cras et metus blandit, sollicitudin mi ac, fringilla libero.
+            </amexio-column>
+          </amexio-row>
+        </amexio-accordion-tab>
+        <amexio-accordion-tab header="Page four">Etiam mattis fermentum arcu eu feugiat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam porttitor, erat sit amet pharetra aliquam, ex leo tincidunt erat, in commodo leo magna quis mauris.</amexio-accordion-tab>
+        </amexio-accordion>
+
         <amexio-accordion>
-          <amexio-accordion-tab [header]="'Accordion Pane-I'">
-            <div class ="div-padding-layout">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          </div>
-          </amexio-accordion-tab>
-          <amexio-accordion-tab [header]="'Accordion Pane-II'">
-            <div class ="div-padding-layout">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          </div>
-          </amexio-accordion-tab>
-          <amexio-accordion-tab [header]="'Accordion Pane-III'" >
-            <div class ="div-padding-layout">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          </div>
-          </amexio-accordion-tab>
-          <amexio-accordion-tab [header]="'Accordion Pane-IV'" >
-            <div class ="div-padding-layout">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          </div>
-          </amexio-accordion-tab>
+        <amexio-accordion-tab header="Page One" active="true">
+          <amexio-row>
+            <amexio-column size="12">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </amexio-column>
+          </amexio-row>
+        </amexio-accordion-tab>
+        <amexio-accordion-tab header="Page two">
+          <amexio-row>
+            <amexio-column size="12">
+              Nullam nec dolor lobortis, dictum dolor ac, suscipit massa. Donec id suscipit nisi. Nunc sit amet aliquet risus. Aenean placerat suscipit risus at mollis. Quisque eleifend gravida scelerisque. In non eleifend nisi. Phasellus tempor hendrerit posuere. Praesent ornare rutrum mi et condimentum. Vestibulum tempus, urna non ultrices aliquam, ex ex blandit lacus, at porttitor odio ligula sed lacus. Praesent in luctus odio, at sodales orci. Vivamus vitae ullamcorper lectus.
+            </amexio-column>
+          </amexio-row>
+        </amexio-accordion-tab>
+        <amexio-accordion-tab header="Page three" disabled="true">
+          <amexio-row>
+            <amexio-column size="12">
+              Phasellus in condimentum elit. In et vestibulum sem. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam erat volutpat. Sed viverra libero vel massa accumsan aliquet. Mauris a dui nec sapien pretium euismod. Sed lobortis quis sapien a mollis. Nullam ex nibh, malesuada eget rutrum eu, dapibus quis ante. Proin non convallis augue, at tincidunt nisi. Cras et metus blandit, sollicitudin mi ac, fringilla libero.
+            </amexio-column>
+          </amexio-row>
+        </amexio-accordion-tab>
+        <amexio-accordion-tab header="Page four">Etiam mattis fermentum arcu eu feugiat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam porttitor, erat sit amet pharetra aliquam, ex leo tincidunt erat, in commodo leo magna quis mauris.</amexio-accordion-tab>
         </amexio-accordion>
       </amexio-tab>
 
