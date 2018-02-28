@@ -11,6 +11,7 @@ import {DashboardComponent} from "./pages/dashboardex/dashboardex.component";
 import {SampleFormComponent} from "./pages/sampleformex/sampleformex.component";
 import {FormsModule} from "@angular/forms";
 import {HttpClientModule} from "@angular/common/http";
+import { AmexioFloatingPanelComponent } from './component/floatingpanel.component';
 
 const route: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full'},
@@ -76,7 +77,8 @@ const route: Routes = [
   declarations: [
     AppComponent,
     DashboardComponent,
-    SampleFormComponent
+    SampleFormComponent,
+    AmexioFloatingPanelComponent
   ],
   imports: [
     BrowserModule,

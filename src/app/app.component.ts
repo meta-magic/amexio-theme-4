@@ -1,9 +1,10 @@
-import {Component, ViewChild} from '@angular/core';
+import {Component, ViewChild, Inject, PlatformRef} from '@angular/core';
 import {Router} from "@angular/router";
 import {Http} from "@angular/http";
 import {CookieService} from 'ngx-cookie-service';
 import {AmexioNavBarComponent} from "amexio-ng-extensions";
 import {HttpClient} from "@angular/common/http";
+import { DOCUMENT } from '@angular/common';
 @Component({
   selector: 'app-root', templateUrl: './app.component.html', styleUrls: ['./app.component.css']
 })
@@ -24,7 +25,7 @@ export class AppComponent {
     if (!data.hasOwnProperty('children') && data.link) this._router.navigate([data.link]);
   }
 
-  constructor(public _http: HttpClient, private _router: Router, private cookieService: CookieService) {
+  constructor(@Inject(DOCUMENT) public document: any, private platform:PlatformRef, public _http: HttpClient, private _router: Router, private cookieService: CookieService) {
     this.flag = false;
 
     this._http.get('assets/data/menus/topmenu.json').subscribe(response => {
@@ -102,6 +103,7 @@ export class AppComponent {
     this.toggle();
    // window.location.reload();
     this.amexioNav.close();
+    this.showfloatplanel = false;
   }
 
   addNewTheme(newTheme: any) {
@@ -119,5 +121,13 @@ export class AppComponent {
         if (key.id == 'themeid') document.head.removeChild(key);
       });
     }
+  }
+
+  event : any;
+
+  showfloatplanel: boolean = false;
+  onFloatingClick(eventobject : any){
+    this.showfloatplanel=!this.showfloatplanel;
+    this.event = eventobject.event;
   }
 }
