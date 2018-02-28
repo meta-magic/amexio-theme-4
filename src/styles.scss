@@ -1,4 +1,10 @@
 
+@import "floatingpanel.scss";
+
+.floating-theme{
+  width: 450px;
+  padding: 10px;
+}
 .themeviewer{
   position: absolute;
   padding-right: 30px;
@@ -14,6 +20,10 @@
     right: 0;
     overflow: auto;
     width: auto;
+  }
+
+  .floating-theme{
+    width: 90%;
   }
 }
 
