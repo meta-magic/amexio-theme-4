@@ -1,7 +1,36 @@
-.floatingpanel{
+.floatingpanel1{
     z-index:4; position: fixed;
     background-color: white;
     //border: 1px solid grey;
     border: solid 1px lighten(black,40);
 	box-shadow:   0 24px 38px 3px rgba(0, 0, 0, 0.14), 0 9px 46px 8px rgba(0, 0, 0, 0.12), 0 11px 15px -7px rgba(0, 0, 0, 0.2);
+}
+
+.floatingpanel{
+    position : fixed;
+    // bottom: 5%;
+    // right: 2%;
+}
+
+.floatingpanelbutton{
+    position: fixed;
+    bottom: 5%;
+    right: 10px;
+}
+
+.floatingcontent{
+    background-color: white;
+    position: fixed;
+    transition: all 0.2s linear;
+    transform: scale(0);
+    //transform-origin: 0 0;
+    z-index: 100;
+    bottom: 12.5%;
+    right: 20px;
+    
+}
+ 
+.floatingpanelbutton:hover .floatingcontent {
+    box-shadow:   0 24px 38px 3px rgba(0, 0, 0, 0.14), 0 9px 46px 8px rgba(0, 0, 0, 0.12), 0 11px 15px -7px rgba(0, 0, 0, 0.2);
+        transform: scale(1);
 }
