@@ -1,5 +1,5 @@
 import {Component, ViewChild} from '@angular/core';
-import {Router} from "@angular/router";
+import {RouteConfigLoadEnd, RouteConfigLoadStart, Router} from "@angular/router";
 import {Http} from "@angular/http";
 import {CookieService} from 'ngx-cookie-service';
 import {AmexioNavBarComponent} from "amexio-ng-extensions";
@@ -17,6 +17,7 @@ export class AppComponent {
   amexioThemeArray: any;
   materialThemeArray : any;
   hasThemeInit : boolean;
+  isRouteLoading : boolean = false;
 
   @ViewChild(AmexioNavBarComponent) amexioNav;
 
@@ -61,6 +62,15 @@ export class AppComponent {
   }
 
 
+  ngOnInit(){
+    this._router.events.subscribe(event => {
+      if (event instanceof RouteConfigLoadStart) {
+        this.isRouteLoading = true;
+      } else if (event instanceof RouteConfigLoadEnd) {
+        this.isRouteLoading = false;
+      }
+    });
+  }
   getTheThemesData() {
     let amexioThemeRepsonse: any;
     let materialThemeResponse: any;
@@ -101,6 +111,7 @@ export class AppComponent {
   }
 
   themeChange(theme: any) {
+    this.isRouteLoading = true;
     this.newThemePath = 'assets/themes/' + theme.themeCssFile + '.css';
     let currentTheme = document.head.querySelectorAll(`link[rel="stylesheet"]`);
     // this.removeExistingTheme(currentTheme);
@@ -115,6 +126,7 @@ export class AppComponent {
     let linkEl = document.createElement('link');
     linkEl.onload = ()=>{
       this.removeExistingTheme(existingTheme);
+      this.isRouteLoading = false;
     };
     linkEl.setAttribute('rel', 'stylesheet');
     linkEl.id = 'themeid';

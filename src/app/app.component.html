@@ -62,6 +62,7 @@
     </amexio-column>
     <amexio-column [size]="'9pt5'">
       <div class="route-container">
+        <div class="loadingnav" *ngIf="isRouteLoading">Loading&#8230;</div>
         <router-outlet></router-outlet>
       </div>
 
