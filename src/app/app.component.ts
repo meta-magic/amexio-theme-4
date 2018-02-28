@@ -16,6 +16,7 @@ export class AppComponent {
   msgList: any = [];
   amexioThemeArray: any;
   materialThemeArray : any;
+  hasThemeInit : boolean;
 
   @ViewChild(AmexioNavBarComponent) amexioNav;
 
@@ -38,12 +39,18 @@ export class AppComponent {
       let currentTheme = document.head.querySelectorAll(`link[rel="stylesheet"]`);
       this.removeExistingTheme(currentTheme);
       let linkEl = document.createElement('link');
+      linkEl.onload = ()=> {
+        this.hasThemeInit = true;
+      };
       linkEl.setAttribute('rel', 'stylesheet');
       linkEl.id = 'themeid';
       linkEl.href = 'assets/themes/' + this.cookieService.get('theme_name_v4') + '.css';
       document.head.appendChild(linkEl);
     } else {
       let linkEl = document.createElement('link');
+      linkEl.onload = ()=> {
+        this.hasThemeInit = true;
+      };
       linkEl.setAttribute('rel', 'stylesheet');
       linkEl.id = 'themeid';
       linkEl.href = 'assets/themes/at-md-rasberry-sangria.css';
@@ -52,6 +59,7 @@ export class AppComponent {
     //Get Data of Themes
     this.getTheThemesData();
   }
+
 
   getTheThemesData() {
     let amexioThemeRepsonse: any;
@@ -95,16 +103,19 @@ export class AppComponent {
   themeChange(theme: any) {
     this.newThemePath = 'assets/themes/' + theme.themeCssFile + '.css';
     let currentTheme = document.head.querySelectorAll(`link[rel="stylesheet"]`);
-    this.removeExistingTheme(currentTheme);
-    this.addNewTheme(this.newThemePath);
+    // this.removeExistingTheme(currentTheme);
+    this.addNewTheme(this.newThemePath,currentTheme);
     this.cookieService.set('theme_name_v4', theme.themeCssFile);
     this.toggle();
    // window.location.reload();
     this.amexioNav.close();
   }
 
-  addNewTheme(newTheme: any) {
+  addNewTheme(newTheme: any,existingTheme : any) {
     let linkEl = document.createElement('link');
+    linkEl.onload = ()=>{
+      this.removeExistingTheme(existingTheme);
+    };
     linkEl.setAttribute('rel', 'stylesheet');
     linkEl.id = 'themeid';
     linkEl.href = newTheme;
