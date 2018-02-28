@@ -1,6 +1,5 @@
 import {Component, ViewChild, Inject, PlatformRef} from '@angular/core';
-import {Router} from "@angular/router";
-import {Http} from "@angular/http";
+import {RouteConfigLoadEnd, RouteConfigLoadStart, Router} from "@angular/router";
 import {CookieService} from 'ngx-cookie-service';
 import {AmexioNavBarComponent} from "amexio-ng-extensions";
 import {HttpClient} from "@angular/common/http";
@@ -18,6 +17,8 @@ export class AppComponent {
   msgList: any = [];
   amexioThemeArray: any;
   materialThemeArray: any;
+  hasThemeInit : boolean;
+  isRouteLoading : boolean = false;
 
   @ViewChild(AmexioNavBarComponent) amexioNav;
 
@@ -40,12 +41,18 @@ export class AppComponent {
       let currentTheme = document.head.querySelectorAll(`link[rel="stylesheet"]`);
       this.removeExistingTheme(currentTheme);
       let linkEl = document.createElement('link');
+      linkEl.onload = ()=> {
+        this.hasThemeInit = true;
+      };
       linkEl.setAttribute('rel', 'stylesheet');
       linkEl.id = 'themeid';
       linkEl.href = 'assets/themes/' + this.cookieService.get('theme_name_v4') + '.css';
       document.head.appendChild(linkEl);
     } else {
       let linkEl = document.createElement('link');
+      linkEl.onload = ()=> {
+        this.hasThemeInit = true;
+      };
       linkEl.setAttribute('rel', 'stylesheet');
       linkEl.id = 'themeid';
       linkEl.href = 'assets/themes/at-md-rasberry-sangria.css';
@@ -53,6 +60,16 @@ export class AppComponent {
     }
     //Get Data of Themes
     this.getTheThemesData();
+  }
+
+  ngOnInit(){
+    this._router.events.subscribe(event => {
+      if (event instanceof RouteConfigLoadStart) {
+        this.isRouteLoading = true;
+      } else if (event instanceof RouteConfigLoadEnd) {
+        this.isRouteLoading = false;
+      }
+    });
   }
 
   getTheThemesData() {
@@ -97,8 +114,8 @@ export class AppComponent {
   themeChange(theme: any) {
     this.newThemePath = 'assets/themes/' + theme.themeCssFile + '.css';
     let currentTheme = document.head.querySelectorAll(`link[rel="stylesheet"]`);
-    this.removeExistingTheme(currentTheme);
-    this.addNewTheme(this.newThemePath);
+    // this.removeExistingTheme(currentTheme);
+    this.addNewTheme(this.newThemePath,currentTheme);
     this.cookieService.set('theme_name_v4', theme.themeCssFile);
     this.toggle();
    // window.location.reload();
@@ -106,8 +123,12 @@ export class AppComponent {
     this.showfloatplanel = false;
   }
 
-  addNewTheme(newTheme: any) {
+  addNewTheme(newTheme: any,existingTheme : any) {
     let linkEl = document.createElement('link');
+    linkEl.onload = ()=>{
+      this.removeExistingTheme(existingTheme);
+      this.isRouteLoading = false;
+    };
     linkEl.setAttribute('rel', 'stylesheet');
     linkEl.id = 'themeid';
     linkEl.href = newTheme;
