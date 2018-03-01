@@ -122,6 +122,7 @@ import {AmexioDataModule, AmexioFormsModule, AmexioLayoutModule, AmexioWidgetMod
             </amexio-btn-dropdown>
           </amexio-column>
         </amexio-row>
+        <h2>Transparent Button</h2>
         <amexio-floating-button [type]="'primary'" [vertical-position]="'bottom'" [horizontal-position]="'right'" [icon]="'fa fa-commenting'"></amexio-floating-button>
         <amexio-button [label]="'Transparent'" [type]="'transparent'" [tooltip]="'I m transparent'"></amexio-button>
       </amexio-body>

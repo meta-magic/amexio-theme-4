@@ -1,18 +1,33 @@
 <div *ngIf="hasThemeInit;else themeInitContent">
-<amexio-nav  [title]="'Amexio Demo App'" [logo]="'assets/images/logos/amexio-logo.png'">
+<!-- <amexio-nav  [title]="'Amexio Demo App'" 
+  [logo]="'assets/images/logos/amexio-logo.png'">
   <amexio-nav-item position-right>
-    <amexio-image icon-class="fa fa-home fa-fw fa-lg" title="Home" (onClick)="onHomeClick()" style="cursor: pointer;" ></amexio-image>
+    <amexio-image icon-class="fa fa-home fa-fw fa-lg" 
+    title="Home" 
+    (onClick)="onHomeClick()" 
+    style="cursor: pointer;" ></amexio-image>
   </amexio-nav-item>
   <amexio-nav-item position-right>
-    <amexio-image icon-class="fa fa-bell fa-fw fa-lg" (onClick)="onBellClick()" title="Notifications" style="cursor: pointer;"></amexio-image>
-
-    <amexio-notification [auto-dismiss-msg-interval]="4000" [auto-dismiss-msg]="true" [vertical-position]="'top'"
-                         [horizontal-position]="'right'" [closable]="true" [data]="msgList"></amexio-notification>
+    <amexio-image icon-class="fa fa-bell fa-fw fa-lg" 
+    (onClick)="onBellClick()" 
+    title="Notifications" 
+    style="cursor: pointer;">
+  </amexio-image>
+    <amexio-notification [auto-dismiss-msg-interval]="4000" 
+                         [auto-dismiss-msg]="true" 
+                         [vertical-position]="'top'"
+                         [horizontal-position]="'right'" 
+                         [closable]="true" 
+                         [data]="msgList">
+    </amexio-notification>
   </amexio-nav-item>
   <amexio-nav-item position-right>
-    <amexio-image icon-class="fa fa-user-circle fa-fw fa-lg" title="John Doe" style="cursor: pointer;" (onClick)="onUserClick()"></amexio-image>
+    <amexio-image icon-class="fa fa-user-circle fa-fw fa-lg" 
+    title="John Doe" 
+    style="cursor: pointer;" (onClick)="onUserClick()">
+  </amexio-image>
   </amexio-nav-item>
-
+-->
   <!-- <amexio-nav-item position-right>
     <amexio-image icon-class="fa fa-snowflake-o fa-fw fa-lg faa-tada animated fa-2x" title="Themes" (onClick)="toggle()" style="cursor: pointer;"></amexio-image>
     <div class="themeviewer" *ngIf="flag">
@@ -52,20 +67,56 @@
       </amexio-card>
     </div>
 
-  </amexio-nav-item> -->
+  </amexio-nav-item> 
+</amexio-nav> -->
+
+<amexio-nav [enable-side-nav-position]="true" 
+[title]="'Amexio Demo App'"
+[logo]="'assets/images/logos/amexio-logo.png'">
+<amexio-nav-item position-right 
+  [title]="'Home'" 
+  [type]="'link'" 
+  (onNavItemClick)="onHomeClick()" 
+  style="cursor: pointer;" >
+</amexio-nav-item>
+<amexio-nav-item position-right 
+
+  (onNavItemClick)="onBellClick()" 
+  [type]="'link'" 
+  [title]="'Notifications'" 
+  style="cursor: pointer;">
+  <amexio-notification [auto-dismiss-msg-interval]="4000" 
+                       [auto-dismiss-msg]="true" 
+                       [vertical-position]="'top'"
+                       [horizontal-position]="'right'" 
+                       [closable]="true" 
+                       [data]="msgList">
+  </amexio-notification>
+</amexio-nav-item>
+
+<amexio-nav-item position-right  
+  [type]="'link'" 
+  [title]="'John Doe'" 
+  style="cursor: pointer;" 
+  (onNavItemClick)="onUserClick()">  
+</amexio-nav-item>
 </amexio-nav>
+
 
 <amexio-row>
   <amexio-column [size]="'2pt5'" style="padding-top: 68px;">
-    <amexio-side-nav [http-url]="'assets/data/menus/sidebar.json'" [http-method]="'get'" [height]="'92%'" [data-reader]="'data'"
-                     (nodeClick)="routeToLink($event)"></amexio-side-nav>
+    <amexio-side-nav [http-url]="'assets/data/menus/sidebar.json'" 
+                    [http-method]="'get'" 
+                    [height]="'92%'" 
+                    [data-reader]="'data'"
+                    (nodeClick)="routeToLink($event)">
+    </amexio-side-nav>
   </amexio-column>
   <amexio-column [size]="'9pt5'">
     <div class="route-container">
       <div class="loadingnav" *ngIf="isRouteLoading">Loading&#8230;</div>
       <router-outlet></router-outlet>
     </div>
-
   </amexio-column>
 </amexio-row>
 
