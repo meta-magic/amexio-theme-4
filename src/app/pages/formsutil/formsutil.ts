@@ -35,7 +35,12 @@ import {FormsModule} from "@angular/forms";
            <b><p>Rated : {{rate1}}</p></b>
          </amexio-column>
        </amexio-row>
-
+<amexio-row>
+<amexio-column [size]="12">
+<amexio-toggle [field-label]="'Round Toogle'">
+</amexio-toggle>
+</amexio-column>
+</amexio-row>
        <amexio-row>
          <amexio-column [size]="12">
            <h2>Progress Bar</h2>
