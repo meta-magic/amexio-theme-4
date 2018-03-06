@@ -128,12 +128,10 @@
         <amexio-checkbox-group
           [field-label]="'Hobbies'" name="language"
           [horizontal]="true"
-
-                         [data-reader]="'response.data'"
-                         [display-field]="'language'"
-                         [value-field]="'checked'"
-                         [column]="4"
-                         [data]="checkboxGroupdata">
+          [data-reader]="'response.data'"
+          [display-field]="'language'"
+          [value-field]="'checked'"
+          [data]="checkboxGroupdata">
         </amexio-checkbox-group>
 
       </amexio-column>
@@ -141,7 +139,7 @@
       <amexio-column [size]="6">
         <amexio-radio-group
           name="name"
-                                  [field-label] = "'Gender'"
+                            [field-label] = "'Gender'"
                             [horizontal]="true"
                             [data-reader]="'response.data'"
                             [display-field]="'gender'"
