@@ -1,7 +1,7 @@
 version: 0.1
 environment_variables:
     plaintext:
-        S3_BUCKET: "amexiotheme"
+        S3_BUCKET: "amexiothemev4-1"
         BUILD_ENV: "prod"
 phases:
     install:
@@ -20,7 +20,7 @@ phases:
             - ng set defaults.styleExt scss
             - node -v
             - sudo rm -rf src/assets/themes/*
-            - aws s3 sync s3://s3code/themes/ src/assets/themes/ --region us-east-2
+            - aws s3 sync s3://amexio.io.v4.1/themes/ src/assets/themes/ --region us-east-2
 
 
     build:
@@ -32,7 +32,7 @@ phases:
          commands:
             - cp appspec.yml install_dependencies dist
             - echo Build completed on `date`
-            - aws s3 cp dist s3://amexiotheme --recursive
+            - aws s3 cp dist s3://amexiothemev4-1 --recursive
 artifacts:
     files:
         - '**/*'
