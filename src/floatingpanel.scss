@@ -8,8 +8,7 @@
 
 .floatingpanel{
     position : fixed;
-    // bottom: 5%;
-    // right: 2%;
+    z-index: 100;
 }
 
 .floatingpanelbutton{
