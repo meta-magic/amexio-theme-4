@@ -2523,7 +2523,7 @@ header .billboard .content-button {
   color: #fdf6f2; }
 
 .top-nav-button {
-  background-color: #8b4513;
+  background-color: inherit;
   color: #fdf6f2; }
 
 .topnav a {
