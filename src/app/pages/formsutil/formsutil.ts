@@ -283,8 +283,9 @@ import {FormsModule} from "@angular/forms";
        </amexio-row>
        <amexio-row>
        <amexio-column [size]="12">
-       <amexio-label size="large">Label Component with box</amexio-label>
-       <!-- <amexio-row><amexio-column [size]="4">
+       <h2>Label and Box Component</h2>
+      <amexio-row>
+      <amexio-column [size]="4">
         <amexio-label size="large">This is large amexio label</amexio-label>
       </amexio-column>
       <amexio-column [size]="4">
@@ -304,7 +305,7 @@ import {FormsModule} from "@angular/forms";
         <amexio-column [size]="4">
         <amexio-label size="medium-bold" font-color="#FF5733">This is  amexio label</amexio-label>
       </amexio-column>
-      </amexio-row> -->
+      </amexio-row> 
         <amexio-box border-color ="red" border="top" padding="true">
            <amexio-label  border="top">This is small-bold amexio label with border</amexio-label>
         </amexio-box>
@@ -328,10 +329,16 @@ import {FormsModule} from "@angular/forms";
       </amexio-box>  
       <amexio-box background-color="blue" padding="true">
         <amexio-label  background-color="blue">This is small-bold amexio label with background-color</amexio-label>
-      </amexio-box>  
-        
+      </amexio-box>        
         <amexio-box border-color ="amber" border="bottom" padding="true" background-color="yellow">
         <amexio-label >This is small-bold amexio label with background-color</amexio-label>
+        </amexio-box>
+        <amexio-box border-color ="amber" border="bottom" padding="true" background-color="yellow">
+        <amexio-text-input field-label="highlight"
+                   name="name"
+                   place-holder="Enter aadhar card no"
+                   icon-feedback="true">
+        </amexio-text-input>
         </amexio-box>
         </amexio-column>
      </amexio-row>
