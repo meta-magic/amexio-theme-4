@@ -126,7 +126,7 @@ body {
 /**HEADER STYLE STARTS **/
 .header {
   background-color: #cd853f;
-  color: #fcf7f3;
+  color: #1c1207;
   padding: 10px;
   overflow: hidden; }
 
@@ -400,7 +400,7 @@ button {
   .datetimepicker .datetimepickertopbar {
     background: #ffb56b; }
     .datetimepicker .datetimepickertopbar ul li {
-      color: #fcf7f3; }
+      color: #1c1207; }
   .datetimepicker .days {
     background: #ffdbb8; }
     .datetimepicker .days li {
@@ -1071,7 +1071,7 @@ input:checked + .toggle-slider:before {
   font-size: 0.7em; }
 
 .ui-slider {
-  background: #838688; }
+  background: #dbcfc2; }
 
 .ui-widget-content {
   background: #ffffff;
@@ -1099,7 +1099,7 @@ input:checked + .toggle-slider:before {
 
 .ui-widget-header {
   background: #ffffff;
-  color: #fcf7f3;
+  color: #1c1207;
   font-weight: normal; }
 
 /** range -structure**/
@@ -1331,7 +1331,7 @@ input:checked + .toggle-slider:before {
   padding: 8px 8px 8px 8px; }
 
 .border-red {
-  border-color: #8b0000; }
+  border-color: #dc143c; }
 
 .border-blue {
   border-color: #00008b; }
@@ -1346,7 +1346,7 @@ input:checked + .toggle-slider:before {
   border-color: #8b008b; }
 
 .border-yellow {
-  border-color: #b22222; }
+  border-color: #ff9900; }
 
 /** image **/
 /** image visual**/
@@ -1371,8 +1371,8 @@ input:checked + .toggle-slider:before {
 .image-responsive {
   max-width: 100%;
   width: 100%;
-  border-top: 1px solid #1b1d22;
-  border-bottom: 1px solid #1b1d22;
+  border-top: 1px solid #ced4da;
+  border-bottom: 1px solid #ced4da;
   margin-top: 10px;
   margin-bottom: 10px; }
 
@@ -1380,7 +1380,7 @@ input:checked + .toggle-slider:before {
 /** float-button visual**/
 .button-float {
   background-color: #cd853f;
-  color: #fcf7f3; }
+  color: #1c1207; }
 
 /** float-button -structure**/
 .button-float {
@@ -1999,7 +1999,7 @@ header .billboard .content-button {
 
 .datatable .datatable-header {
   background-color: #cd853f;
-  color: #fcf7f3; }
+  color: #1c1207; }
 
 .datatable .datatable-row:hover {
   background-color: #ffdbb8;
@@ -2172,7 +2172,7 @@ header .billboard .content-button {
 /** Itemselector visual**/
 .item-selector-action-panel .actionbar .actionbarinner .action {
   background-color: #cd853f;
-  color: #fcf7f3; }
+  color: #1c1207; }
 .item-selector-action-panel .actionbar .actionbarinner .actiondisable {
   background-color: #dbcfc2; }
 
@@ -2473,19 +2473,23 @@ header .billboard .content-button {
   color: #fdf6f2; }
 
 .topnavbarunit2-mobile {
-  background-color: #ffb56b; }
+  background-color: #8b4513;
+  color: #fdf6f2; }
 
 .topnavmainbarinneritems .nav-dropdown-content {
-  background-color: #ffb56b; }
+  background-color: #8b4513;
+  color: #fdf6f2; }
 
 .topnavmainbarinneritems-mobile .nav-dropdown-content {
-  background-color: #ffb56b; }
+  background-color: #8b4513;
+  color: #fdf6f2; }
 
 .topnavmainbarinneritems .nav-dropdown-content a {
   color: #fdf6f2 !important; }
 
 .nav-dropdown:hover {
-  background-color: #ffb56b; }
+  background-color: #f0ba93;
+  color: #040201; }
 
 .topnavmainbarinneritems-mobile .top-nav-input-control {
   width: 100%; }
@@ -2915,11 +2919,11 @@ header .billboard .content-button {
 /** accordion visual**/
 .accordion {
   background-color: #cd853f;
-  color: #fcf7f3; }
+  color: #1c1207; }
 
 .accordion .active-accordion, .accordion:hover {
   background-color: #ffb56b;
-  color: #fcf7f3; }
+  color: #1c1207; }
 
 .accordion:after {
   color: red; }
@@ -2985,7 +2989,7 @@ header .billboard .content-button {
 
 .card-header {
   background: #cd853f;
-  color: #fcf7f3; }
+  color: #1c1207; }
 
 .cardbody::-webkit-scrollbar-track {
   background-color: #dbcfc2; }
@@ -3011,8 +3015,6 @@ header .billboard .content-button {
 
 .card-container > * {
   padding: 10px;
-  -webkit-flex: 1 100%;
-  flex: 1 100%;
   text-align: left; }
 
 .card-header {
@@ -3280,7 +3282,7 @@ fieldset {
 .modal-window-header {
   background: #cd853f;
   font-size: 20px;
-  color: #fcf7f3; }
+  color: #1c1207; }
 
 .modal-window-middle {
   font-size: 14px; }
@@ -3295,7 +3297,7 @@ fieldset {
   background-color: #cd853f; }
 
 .modal-window-footer {
-  background-color: #fcf7f3;
+  background-color: #1c1207;
   color: #72471d; }
 
 /** window -structure**/
@@ -3496,7 +3498,7 @@ fieldset {
 /** panel visual**/
 .panel-accordion {
   background-color: #cd853f;
-  color: #fcf7f3;
+  color: #1c1207;
   font-size: 15px; }
 
 .panel-accordion:after {
@@ -3894,7 +3896,7 @@ input:focus ~ .inputfieldbar:before, input:focus ~ .inputfieldbar:after {
     background: #cd853f;
     border-bottom: 1px solid #ced4da;
     font-size: 18px;
-    color: #fcf7f3;
+    color: #1c1207;
     font-weight: 300;
     text-transform: capitalize;
     overflow: auto; } }
@@ -4079,7 +4081,7 @@ input:focus ~ .inputfieldbar:before, input:focus ~ .inputfieldbar:after {
     background: #cd853f;
     border-bottom: 1px solid #ced4da;
     font-size: 18px;
-    color: #fcf7f3;
+    color: #1c1207;
     font-weight: 300;
     text-transform: capitalize;
     overflow: auto; } }
@@ -4285,7 +4287,7 @@ input:focus ~ .inputfieldbar:before, input:focus ~ .inputfieldbar:after {
     background: #cd853f;
     border-bottom: 1px solid #ced4da;
     font-size: 18px;
-    color: #fcf7f3;
+    color: #1c1207;
     font-weight: 300;
     text-transform: capitalize;
     overflow: auto; } }
@@ -4514,7 +4516,7 @@ input:focus ~ .inputfieldbar:before, input:focus ~ .inputfieldbar:after {
     background: #cd853f;
     border-bottom: 1px solid #ced4da;
     font-size: 18px;
-    color: #fcf7f3;
+    color: #1c1207;
     font-weight: 300;
     text-transform: capitalize;
     overflow: auto; } }
@@ -4743,7 +4745,7 @@ input:focus ~ .inputfieldbar:before, input:focus ~ .inputfieldbar:after {
     background: #cd853f;
     border-bottom: 1px solid #ced4da;
     font-size: 18px;
-    color: #fcf7f3;
+    color: #1c1207;
     font-weight: 300;
     text-transform: capitalize;
     overflow: auto; } }
@@ -4972,7 +4974,7 @@ input:focus ~ .inputfieldbar:before, input:focus ~ .inputfieldbar:after {
     background: #cd853f;
     border-bottom: 1px solid #ced4da;
     font-size: 18px;
-    color: #fcf7f3;
+    color: #1c1207;
     font-weight: 300;
     text-transform: capitalize;
     overflow: auto; } }
