@@ -283,7 +283,7 @@ import {FormsModule} from "@angular/forms";
        </amexio-row>
        <amexio-row>
        <amexio-column [size]="12">
-       <h2>Label and Box Component</h2>
+       <h2>Label Component</h2>
       <amexio-row>
       <amexio-column [size]="4">
         <amexio-label size="large">This is large amexio label</amexio-label>
@@ -291,12 +291,13 @@ import {FormsModule} from "@angular/forms";
       <amexio-column [size]="4">
         <amexio-label size="large-bold">This is large-bold amexio label</amexio-label>
       </amexio-column>
-      <amexio-column [size]="4">
-    
+      <amexio-column [size]="4">    
         <amexio-label size="medium-bold">This is medium-bold amexio label</amexio-label>
-        </amexio-column>
-       </amexio-row>
-       <amexio-row>        <amexio-column [size]="4">
+      </amexio-column>
+      </amexio-row>
+      <br/>
+      <amexio-row>        
+      <amexio-column [size]="4">
         <amexio-label>This is small amexio label</amexio-label>
       </amexio-column>
         <amexio-column [size]="4">
@@ -306,40 +307,79 @@ import {FormsModule} from "@angular/forms";
         <amexio-label size="medium-bold" font-color="#FF5733">This is  amexio label</amexio-label>
       </amexio-column>
       </amexio-row> 
+      <br/>
+      <h2>Label and Box Component</h2>
+      <amexio-row>
+      <amexio-column [size]="4">
         <amexio-box border-color ="red" border="top" padding="true">
-           <amexio-label  border="top">This is small-bold amexio label with border</amexio-label>
+           <amexio-label  border="top">This is small-bold amexio label with red border</amexio-label>
         </amexio-box>
+      </amexio-column>
+      <amexio-column [size]="4">
         <amexio-box border-color ="blue" border="bottom" padding="true">
-          <amexio-label  border="bottom">This is small-bold amexio label with border</amexio-label>
+          <amexio-label  border="bottom">This is small-bold amexio label with blue border</amexio-label>
         </amexio-box>
-      <amexio-box border-color ="pink" border="right" padding="true">
-        <amexio-label  border="right">This is small-bold amexio label with border</amexio-label>
-      </amexio-box>
+        </amexio-column>
+        <amexio-column [size]="4">
+      <amexio-box border-color ="yellow" border="right" padding="true">
+        <amexio-label  border="right">This is small-bold amexio label with yellow border</amexio-label>
+      </amexio-box>    </amexio-column>
+      </amexio-row>
+      <br />
+      <amexio-row>
+      <amexio-column [size]="4">
       <amexio-box border-color ="green" border="left" padding="true">
-        <amexio-label  border="left">This is small-bold amexio label with border</amexio-label>
+        <amexio-label  border="left">This is small-bold amexio label with green border</amexio-label>
       </amexio-box>
-      <amexio-box background-color="highlight" padding="true">
-        <amexio-label  background-color="highlight">This is small-bold amexio label with background-color</amexio-label>
+      </amexio-column>
+        <amexio-column [size]="4">
+      <amexio-box background-color="purple" padding="true">
+        <amexio-label>This is small-bold amexio label with purple bg color</amexio-label>
      </amexio-box>  
+     </amexio-column>
+        <amexio-column [size]="4">
      <amexio-box background-color="yellow" padding="true">
-        <amexio-label  background-color="yellow">This is small-bold amexio label with background-color</amexio-label>
+        <amexio-label>This is small-bold amexio label with background-color yellow</amexio-label>
+      </amexio-box>  </amexio-column>
+      </amexio-row>
+      <br />
+      <amexio-row>
+      <amexio-column [size]="4">
+      <amexio-box background-color="red" padding="true">
+        <amexio-label>This is small-bold amexio label with background-color red</amexio-label>
       </amexio-box>  
-      <amexio-box background-color="grey" padding="true">
-        <amexio-label  background-color="grey">This is small-bold amexio label with background-color</amexio-label>
-      </amexio-box>  
+      </amexio-column>
+        <amexio-column [size]="4">
       <amexio-box background-color="blue" padding="true">
-        <amexio-label  background-color="blue">This is small-bold amexio label with background-color</amexio-label>
+        <amexio-label>This is small-bold amexio label with background-color blue</amexio-label>
       </amexio-box>        
-        <amexio-box border-color ="amber" border="bottom" padding="true" background-color="yellow">
-        <amexio-label >This is small-bold amexio label with background-color</amexio-label>
-        </amexio-box>
-        <amexio-box border-color ="amber" border="bottom" padding="true" background-color="yellow">
-        <amexio-text-input field-label="highlight"
-                   name="name"
+      </amexio-column>
+        <amexio-column [size]="4">
+        <amexio-box border-color ="green" border="bottom" padding="true" background-color="yellow">
+        <amexio-label >This is small-bold amexio label with background-color green</amexio-label>
+        </amexio-box></amexio-column>
+        </amexio-row>
+        <br />
+        <amexio-row>
+        <amexio-column [size]="4">
+        <amexio-box border-color ="purple" border="all" padding="true" background-color="purple">
+        <amexio-text-input field-label="Aadhar No" name="name"
                    place-holder="Enter aadhar card no"
                    icon-feedback="true">
         </amexio-text-input>
         </amexio-box>
+        </amexio-column>
+        <amexio-column [size]="4">
+        <amexio-box border-color ="brown" border="right-left" padding="true" background-color="brown">
+        <amexio-label >This is small-bold amexio label with background-color</amexio-label>
+        </amexio-box>
+        </amexio-column>
+        <amexio-column [size]="4">
+        <amexio-box border="top-bottom" padding="true">
+        <amexio-label >This is small-bold amexio label with background-color</amexio-label>        
+        </amexio-box>
+        </amexio-column>
+     </amexio-row>
         </amexio-column>
      </amexio-row>
 
