@@ -409,7 +409,7 @@ button {
       color: #6bffce; }
     .datetimepicker .days .active {
       background: #6bffce;
-      color: #00ced1; }
+      color: #00ecf0; }
     .datetimepicker .days .currentMonth {
       font-weight: bold; }
 
@@ -676,7 +676,7 @@ textarea:required {
 
 /* Style the input-box-container-label/indicator */
 .input-box-container .input-box-radiobox-label:after {
-  background-color: #00ced1; }
+  background-color: #00ecf0; }
 
 /** radiobox -structure**/
 /* Create a custom checkbox */
@@ -2459,7 +2459,7 @@ header .billboard .content-button {
 /** navbar **/
 /** navbar visual**/
 .topnav {
-  background-color: #00ced1;
+  background-color: #00ecf0;
   color: #f0ffff; }
 
 .top-nav-button {
@@ -2473,23 +2473,23 @@ header .billboard .content-button {
   color: #f0ffff; }
 
 .topnavbarunit2-mobile {
-  background-color: #00ced1;
+  background-color: #00ecf0;
   color: #f0ffff; }
 
 .topnavmainbarinneritems .nav-dropdown-content {
-  background-color: #00ced1;
+  background-color: #00ecf0;
   color: #f0ffff; }
 
 .topnavmainbarinneritems-mobile .nav-dropdown-content {
-  background-color: #00ced1;
+  background-color: #00ecf0;
   color: #f0ffff; }
 
 .topnavmainbarinneritems .nav-dropdown-content a {
   color: #f0ffff !important; }
 
 .nav-dropdown:hover {
-  background-color: #b8feff;
-  color: #001e1f; }
+  background-color: #d6feff;
+  color: #003c3d; }
 
 .topnavmainbarinneritems-mobile .top-nav-input-control {
   width: 100%; }
@@ -2845,7 +2845,7 @@ header .billboard .content-button {
   color: black; }
 
 .dockbar-item-close-bar {
-  color: #00ced1; }
+  color: #00ecf0; }
 
 .dockbar-height::-webkit-scrollbar-track {
   background-color: #c2dbd3; }
@@ -2881,7 +2881,7 @@ header .billboard .content-button {
 
 /* Create an active/current "tab button" class */
 .dockbar button.active {
-  border-left: 3px solid #00ced1; }
+  border-left: 3px solid #00ecf0; }
 
 .dockbar-label-highlight {
   font-weight: bold; }
@@ -2896,12 +2896,12 @@ header .billboard .content-button {
   font-size: 17px;
   font-weight: 500;
   padding: 15px 10px 10px 10px;
-  border-bottom: 1px solid #00ced1; }
+  border-bottom: 1px solid #00ecf0; }
 
 .dockbar-active-content {
-  border-top: 3px solid #00ced1;
-  border-right: 3px solid #00ced1;
-  border-bottom: 3px solid #00ced1;
+  border-top: 3px solid #00ecf0;
+  border-right: 3px solid #00ecf0;
+  border-bottom: 3px solid #00ecf0;
   height: 100%; }
 
 .dockbar-height {
@@ -3002,7 +3002,7 @@ header .billboard .content-button {
 
 .card-footer {
   background-color: #ffffff;
-  color: #00ffaa; }
+  color: #009966; }
 
 /** cards -structure**/
 .card-container {
@@ -3214,7 +3214,7 @@ fieldset {
   white-space: nowrap; }
 
 .activetab {
-  border-bottom: 3px solid #00ced1; }
+  border-bottom: 3px solid #00ecf0; }
 
 .tabnavigation {
   padding: 10px 16px;
@@ -3247,11 +3247,11 @@ fieldset {
 
 .verticalnavtab .leftactivetab {
   font-weight: bold;
-  border-right: 3px solid #00ced1; }
+  border-right: 3px solid #00ecf0; }
 
 .verticalnavtab .rightactivetab {
   font-weight: bold;
-  border-left: 3px solid #00ced1; }
+  border-left: 3px solid #00ecf0; }
 
 .verticalnavtab-left {
   font-weight: bold; }
@@ -3297,8 +3297,8 @@ fieldset {
   background-color: #7fffd4; }
 
 .modal-window-footer {
-  background-color: #002418;
-  color: #00ffaa; }
+  background-color: #f5fffc;
+  color: #009966; }
 
 /** window -structure**/
 .root-window {
@@ -3397,7 +3397,7 @@ fieldset {
 
 .dialogue-footer {
   background-color: #ffffff;
-  color: #00ffaa; }
+  color: #009966; }
 
 .dialogue-success {
   color: #5cb85c; }
@@ -4433,7 +4433,7 @@ input:focus ~ .inputfieldbar:before, input:focus ~ .inputfieldbar:after {
     flex-direction: column;
     padding: 0px; }
     .navbar-container .nav-bar {
-      background-color: #38fcff; }
+      background-color: #57fcff; }
       .navbar-container .nav-bar .nav-item amexio-nav-item {
         border-bottom: 1px solid #f0ffff;
         cursor: pointer; }
@@ -4662,7 +4662,7 @@ input:focus ~ .inputfieldbar:before, input:focus ~ .inputfieldbar:after {
     flex-direction: column;
     padding: 0px; }
     .navbar-container .nav-bar {
-      background-color: #38fcff; }
+      background-color: #57fcff; }
       .navbar-container .nav-bar .nav-item amexio-nav-item {
         border-bottom: 1px solid #f0ffff;
         cursor: pointer; }
@@ -4891,7 +4891,7 @@ input:focus ~ .inputfieldbar:before, input:focus ~ .inputfieldbar:after {
     flex-direction: column;
     padding: 0px; }
     .navbar-container .nav-bar {
-      background-color: #38fcff; }
+      background-color: #57fcff; }
       .navbar-container .nav-bar .nav-item amexio-nav-item {
         border-bottom: 1px solid #f0ffff;
         cursor: pointer; }
@@ -5120,7 +5120,7 @@ input:focus ~ .inputfieldbar:before, input:focus ~ .inputfieldbar:after {
     flex-direction: column;
     padding: 0px; }
     .navbar-container .nav-bar {
-      background-color: #38fcff; }
+      background-color: #57fcff; }
       .navbar-container .nav-bar .nav-item amexio-nav-item {
         border-bottom: 1px solid #f0ffff;
         cursor: pointer; }
