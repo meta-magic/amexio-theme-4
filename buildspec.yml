@@ -17,6 +17,8 @@ phases:
             - npm install --save uglifyjs-webpack-plugin
             - npm install @angular-devkit/core --save
             - npm i node-sass --save-dev
+            - npm install --save intl
+            - npm install --save classlist.js
             - ng set defaults.styleExt scss
             - node -v
             - sudo rm -rf src/assets/themes/*
