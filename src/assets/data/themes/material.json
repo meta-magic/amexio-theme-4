@@ -157,19 +157,19 @@
   ],
   [
     {
-      "themeName": "Red Maroon",
-      "themeCssFile": "at-md-red-maroon",
-      "link":"AT-MD-Red-Maroon.jpg"
+      "themeName": "darkmagenta-darkorchid",
+      "themeCssFile": "at-md-darkmagenta-darkorchid",
+      "link":"AT-MD-Default.jpg"
     },
     {
       "themeName": "indianred-salmon",
       "themeCssFile": "at-md-indianred-salmon",
-      "link":"AT-MD-Sacremento-Jade.jpg"
+      "link":"AT-MD-Default.jpg"
     },
     {
       "themeName": "darkkhaki-moccasin",
       "themeCssFile": "at-md-darkkhaki-moccasin",
-      "link":"AT-MD-Trombone-Royal.jpg"
+      "link":"AT-MD-Default.jpg"
 
     }
   ],
@@ -177,35 +177,35 @@
     {
       "themeName": "darkturquoise-aquamarine",
       "themeCssFile": "at-md-darkturquoise-aquamarine",
-      "link":"AT-MD-Red-Maroon.jpg"
+      "link":"AT-MD-Default.jpg"
     },
     {
       "themeName": "mediumblue-deepskyblue",
       "themeCssFile": "at-md-mediumblue-deepskyblue",
-      "link":"AT-MD-Sacremento-Jade.jpg"
+      "link":"AT-MD-Default.jpg"
     },
     {
       "themeName": "darkslategray-dimgray",
       "themeCssFile": "at-md-darkslategray-dimgray",
-      "link":"AT-MD-Trombone-Royal.jpg"
+      "link":"AT-MD-Default.jpg"
 
     }
   ],
   [
     {
       "themeName": "sienna-rosybrown",
-      "themeCssFile": "sienna-rosybrown",
-      "link":"AT-MD-Red-Maroon.jpg"
+      "themeCssFile": "at-md-sienna-rosybrown",
+      "link":"AT-MD-Default.jpg"
     },
     {
       "themeName": "mediumblue-slateblue",
       "themeCssFile": "at-md-mediumblue-slateblue",
-      "link":"AT-MD-Sacremento-Jade.jpg"
+      "link":"AT-MD-Default.jpg"
     },
     {
       "themeName": "royalblue-dodgerblue",
       "themeCssFile": "at-md-royalblue-dodgerblue",
-      "link":"AT-MD-Trombone-Royal.jpg"
+      "link":"AT-MD-Default.jpg"
 
     }
   ],
@@ -213,36 +213,87 @@
     {
       "themeName": "darkgreen-teal",
       "themeCssFile": "at-md-darkgreen-teal",
-      "link":"AT-MD-Red-Maroon.jpg"
+      "link":"AT-MD-Default.jpg"
     },
     {
       "themeName": "indigo-slateblue",
       "themeCssFile": "at-md-indigo-slateblue",
-      "link":"AT-MD-Sacremento-Jade.jpg"
+      "link":"AT-MD-Default.jpg"
     },
     {
       "themeName": "indigo-darkviolet",
       "themeCssFile": "at-md-indigo-darkviolet",
-      "link":"AT-MD-Trombone-Royal.jpg"
+      "link":"AT-MD-Default.jpg"
 
     }
   ],
   [
     {
-      "themeName": "Red Maroon",
+      "themeName": "rebeccapurple-orchid",
       "themeCssFile": "at-md-rebeccapurple-orchid",
-      "link":"AT-MD-Red-Maroon.jpg"
+      "link":"AT-MD-Default.jpg"
     },
     {
       "themeName": "orangered-tomato",
       "themeCssFile": "at-md-orangered-tomato",
-      "link":"AT-MD-Sacremento-Jade.jpg"
+      "link":"AT-MD-Default.jpg"
     },
     {
       "themeName": "hot-pink-violetred",
       "themeCssFile": "at-md-hot-pink-violetred",
-      "link":"AT-MD-Trombone-Royal.jpg"
+      "link":"AT-MD-Default.jpg"
 
-    }
-  ]
+    }],
+    [
+      {
+        "themeName": "darkslateblue-indigo",
+        "themeCssFile": "at-md-darkslateblue-indigo",
+        "link":"AT-MD-Default.jpg"
+      },
+      {
+        "themeName": "navy-royalblue",
+        "themeCssFile": "at-md-navy-royalblue",
+        "link":"AT-MD-Default.jpg"
+      },
+      {
+        "themeName": "saddlebrown-peru",
+        "themeCssFile": "at-md-saddlebrown-peru",
+        "link":"AT-MD-Default.jpg"
+      }
+    ],[
+      {
+        "themeName": "mediumvioletred-hotpink",
+        "themeCssFile": "at-md-mediumvioletred-hotpink",
+        "link":"AT-MD-Default.jpg"
+      },
+      {
+        "themeName": "darkgreen-darkolivegreen",
+        "themeCssFile": "at-md-darkgreen-darkolivegreen",
+        "link":"AT-MD-Default.jpg"
+      },
+      {
+        "themeName": "Gingerbread",
+        "themeCssFile": "at-md-gingerbread",
+        "link":"AT-MD-Gingerbread.jpg"
+      }
+    ],
+    [
+      {
+        "themeName": "yale-azure",
+        "themeCssFile": "at-md-yale-azure",
+        "link":"AT-MD-Default.jpg"
+      },
+      {
+        "themeName": "firebrick-crimson",
+        "themeCssFile": "at-md-firebrick-crimson",
+        "link":"AT-MD-Default.jpg"
+      },
+      {
+        "themeName": "Gingerbread",
+        "themeCssFile": "at-md-gingerbread",
+        "link":"AT-MD-Gingerbread.jpg"
+      }
+    ]
+
+  
 ]

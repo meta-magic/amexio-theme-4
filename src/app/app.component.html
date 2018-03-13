@@ -125,9 +125,9 @@
 
 
 <amexio-floating-panel [event]="event" [show]="showfloatplanel">
-
-  <div class="floating-theme">
-
+<amexio-card >
+  <amexio-body>
+    <div class="floating-theme">
     <amexio-tab-view  [closable]="false">
       <amexio-tab title="Material" [active]="true">
         <div style="height: 350px;overflow-x: auto">
@@ -139,7 +139,6 @@
             </ng-container>
           </amexio-row>
         </div>
-
       </amexio-tab>
       <amexio-tab title="Amexio">
         <div style="height: 350px;overflow-x: auto">
@@ -153,11 +152,9 @@
         </div>
       </amexio-tab>
     </amexio-tab-view>
-
-
   </div>
-
-
+  </amexio-body>
+</amexio-card>
 </amexio-floating-panel>
 </div>
 

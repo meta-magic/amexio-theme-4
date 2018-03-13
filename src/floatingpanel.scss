@@ -1,6 +1,7 @@
 .floatingpanel1{
     z-index:4; position: fixed;
-    background-color: white;
+    background-color: inherit;
+    color : black;
     //border: 1px solid grey;
     border: solid 1px lighten(black,40);
 	box-shadow:   0 24px 38px 3px rgba(0, 0, 0, 0.14), 0 9px 46px 8px rgba(0, 0, 0, 0.12), 0 11px 15px -7px rgba(0, 0, 0, 0.2);
@@ -18,7 +19,7 @@
 }
 
 .floatingcontent{
-    background-color: white;
+    background-color: inherit;
     position: fixed;
     transition: all 0.2s linear;
     transform: scale(0);
