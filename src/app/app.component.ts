@@ -137,9 +137,15 @@ export class AppComponent {
   //removed old theme css
   removeExistingTheme(keyList: any) {
     if (keyList != null && keyList && keyList.length != 0) {
-      keyList.forEach((key) => {
-        if (key.id == 'themeid') document.head.removeChild(key);
-      });
+
+      for (let i=0; i<keyList.length; i++) {
+        let key = keyList[i];
+        if (key.id == 'themeid') {
+          document.head.removeChild(key);
+        }
+      }
+
+      
     }
   }
 }
