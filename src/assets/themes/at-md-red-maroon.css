@@ -2480,14 +2480,6 @@ header .billboard .content-button {
   background-color: #800000;
   color: #ffebeb; }
 
-.topnavmainbarinneritems .nav-dropdown-content:hover {
-  background-color: #ff6666;
-  color: #050000; }
-
-.topnavmainbarinneritems-mobile .nav-dropdown-content:hover {
-  background-color: #ff6666;
-  color: #050000; }
-
 .topnavmainbarinneritems-mobile .nav-dropdown-content {
   background-color: #800000;
   color: #ffebeb; }
@@ -2495,16 +2487,12 @@ header .billboard .content-button {
 .topnavmainbarinneritems .nav-dropdown-content a {
   color: #ffebeb !important; }
 
-.nav-dropdown .nav-dropbtn :hover {
-  background-color: #ff6666;
-  color: #050000 !important; }
-
-.topnavmainbarinneritems .nav-dropdown-content a :hover {
-  color: #050000 !important; }
-
 .nav-dropdown:hover {
   background-color: #ff6666;
   color: #050000; }
+
+.topnavmainbarinneritems-mobile .top-nav-input-control {
+  width: 100%; }
 
 .mobilebar {
   color: #ffebeb; }

@@ -2480,14 +2480,6 @@ header .billboard .content-button {
   background-color: #784b84;
   color: #fdfcfd; }
 
-.topnavmainbarinneritems .nav-dropdown-content:hover {
-  background-color: #e1d1e5;
-  color: #120b14; }
-
-.topnavmainbarinneritems-mobile .nav-dropdown-content:hover {
-  background-color: #e1d1e5;
-  color: #120b14; }
-
 .topnavmainbarinneritems-mobile .nav-dropdown-content {
   background-color: #784b84;
   color: #fdfcfd; }
@@ -2495,16 +2487,12 @@ header .billboard .content-button {
 .topnavmainbarinneritems .nav-dropdown-content a {
   color: #fdfcfd !important; }
 
-.nav-dropdown .nav-dropbtn :hover {
-  background-color: #e1d1e5;
-  color: #120b14 !important; }
-
-.topnavmainbarinneritems .nav-dropdown-content a :hover {
-  color: #120b14 !important; }
-
 .nav-dropdown:hover {
   background-color: #e1d1e5;
   color: #120b14; }
+
+.topnavmainbarinneritems-mobile .top-nav-input-control {
+  width: 100%; }
 
 .mobilebar {
   color: #fdfcfd; }
