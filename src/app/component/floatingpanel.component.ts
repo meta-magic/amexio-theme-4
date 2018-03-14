@@ -54,7 +54,7 @@ export class AmexioFloatingPanelComponent implements OnInit {
   }
 
   adjustPosition(){
-      debugger;
+      //debugger;
       let cr = this.event.currentTarget.getBoundingClientRect();
       let x = cr.x;
       let y = cr.y;
@@ -81,7 +81,6 @@ export class AmexioFloatingPanelComponent implements OnInit {
         this.top  = (y+cr.height) +"px";
       }
 
-      
       
 
   }

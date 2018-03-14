@@ -25,10 +25,10 @@ import {AmexioDataModule, AmexioFormsModule, AmexioLayoutModule, AmexioWidgetMod
 
         <amexio-row>
           <amexio-column [size]="3">
-            <amexio-button [size]="'small'" [label]="'Background Color'" [type]="'themeBG'" [tooltip]="'Secondary Button'"></amexio-button>
+            <amexio-button [size]="'small'" [label]="'Background Color'" [type]="'theme-backgroundcolor'" [tooltip]="'Secondary Button'"></amexio-button>
           </amexio-column>
           <amexio-column [size]="3">
-            <amexio-button  [size]="'small'" [label]="'Theme Color'" [type]="'themeColor'" [tooltip]="'Primary Button'"></amexio-button>
+            <amexio-button  [size]="'small'" [label]="'Theme Color'" [type]="'theme-color'" [tooltip]="'Primary Button'"></amexio-button>
           </amexio-column>
           <amexio-column [size]="3">
             <amexio-button  [size]="'small'" [label]="'Green'" [type]="'green'" [tooltip]="'Success Button'"></amexio-button>
@@ -40,10 +40,10 @@ import {AmexioDataModule, AmexioFormsModule, AmexioLayoutModule, AmexioWidgetMod
 
         <amexio-row>
           <amexio-column [size]="3">
-            <amexio-button [label]="'Background Color'" [type]="'themeBG'" [tooltip]="'Secondary Button'"></amexio-button>
+            <amexio-button [label]="'Background Color'" [type]="'theme-backgroundcolor'" [tooltip]="'Secondary Button'"></amexio-button>
           </amexio-column>
           <amexio-column [size]="3">
-            <amexio-button  [label]="'Theme Color'" [type]="'themeColor'" [tooltip]="'Primary Button'"></amexio-button>
+            <amexio-button  [label]="'Theme Color'" [type]="'theme-color'" [tooltip]="'Primary Button'"></amexio-button>
           </amexio-column>
           <amexio-column [size]="3">
             <amexio-button   [label]="'Green'" [type]="'green'" [tooltip]="'Success Button'"></amexio-button>
@@ -55,10 +55,10 @@ import {AmexioDataModule, AmexioFormsModule, AmexioLayoutModule, AmexioWidgetMod
 
         <amexio-row>
           <amexio-column [size]="3">
-            <amexio-button [size]="'large'" [label]="'Background Color'" [type]="'themeBG'" [tooltip]="'Secondary Button'"></amexio-button>
+            <amexio-button [size]="'large'" [label]="'Background Color'" [type]="'theme-backgroundcolor'" [tooltip]="'Secondary Button'"></amexio-button>
           </amexio-column>
           <amexio-column [size]="3">
-            <amexio-button  [size]="'large'" [label]="'Theme Color'" [type]="'themeColor'" [tooltip]="'Primary Button'"></amexio-button>
+            <amexio-button  [size]="'large'" [label]="'Theme Color'" [type]="'theme-color'" [tooltip]="'Primary Button'"></amexio-button>
           </amexio-column>
           <amexio-column [size]="3">
             <amexio-button   [size]="'large'" [label]="'Green'" [type]="'green'" [tooltip]="'Success Button'"></amexio-button>
@@ -79,8 +79,8 @@ import {AmexioDataModule, AmexioFormsModule, AmexioLayoutModule, AmexioWidgetMod
         <amexio-row>
           <amexio-column [size]="4">
             <amexio-btn-group [size]="'small'">
-              <amexio-button [label]="'Save'" [type]="'themeBG'" [tooltip]="'Secondary Button'"></amexio-button>
-              <amexio-button  [label]="'Cancel'" [type]="'themeBG'" [tooltip]="'Secondary Button'"></amexio-button>
+              <amexio-button [label]="'Save'" [type]="'theme-backgroundcolor'" [tooltip]="'Secondary Button'"></amexio-button>
+              <amexio-button  [label]="'Cancel'" [type]="'theme-backgroundcolor'" [tooltip]="'Secondary Button'"></amexio-button>
             </amexio-btn-group>
           </amexio-column>
           <amexio-column [size]="4">
@@ -104,7 +104,7 @@ import {AmexioDataModule, AmexioFormsModule, AmexioLayoutModule, AmexioWidgetMod
         </amexio-row>
         <amexio-row>
           <amexio-column [size]="4">
-            <amexio-btn-dropdown [label]="'Button'" [type]="'themeColor'" [size]="'default'">
+            <amexio-btn-dropdown [label]="'Button'" [type]="'theme-color'" [size]="'default'">
               <amexio-btn-dropdown-item [label]="'Expand'" [icon]="'fa fa-arrows-alt'" ></amexio-btn-dropdown-item>
               <amexio-btn-dropdown-item [label]="'Delete'"  [icon]="'fa fa-trash'" ></amexio-btn-dropdown-item>
             </amexio-btn-dropdown>
@@ -123,7 +123,7 @@ import {AmexioDataModule, AmexioFormsModule, AmexioLayoutModule, AmexioWidgetMod
           </amexio-column>
         </amexio-row>
         <h2>Transparent Button</h2>
-        <amexio-floating-button [type]="'themeColor'" [vertical-position]="'bottom'" [horizontal-position]="'right'" [icon]="'fa fa-commenting'"></amexio-floating-button>
+        <amexio-floating-button [type]="'theme-color'" [vertical-position]="'bottom'" [horizontal-position]="'right'" [icon]="'fa fa-commenting'"></amexio-floating-button>
         <amexio-button [label]="'Transparent'" [type]="'transparent'" [tooltip]="'I m transparent'"></amexio-button>
       </amexio-body>
       

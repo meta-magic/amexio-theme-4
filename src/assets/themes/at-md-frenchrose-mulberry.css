@@ -402,7 +402,7 @@ button {
     .datetimepicker .datetimepickertopbar ul li {
       color: #fffafc; }
   .datetimepicker .days {
-    background: #ffb8cf; }
+    background: #ffffff; }
     .datetimepicker .days li {
       color: #a36279; }
     .datetimepicker .days li:hover {
@@ -2480,6 +2480,14 @@ header .billboard .content-button {
   background-color: #e52e90;
   color: #fefafd; }
 
+.topnavmainbarinneritems .nav-dropdown-content:hover {
+  background-color: #fefafd;
+  color: #560b33; }
+
+.topnavmainbarinneritems-mobile .nav-dropdown-content:hover {
+  background-color: #fefafd;
+  color: #560b33; }
+
 .topnavmainbarinneritems-mobile .nav-dropdown-content {
   background-color: #e52e90;
   color: #fefafd; }
@@ -2487,12 +2495,16 @@ header .billboard .content-button {
 .topnavmainbarinneritems .nav-dropdown-content a {
   color: #fefafd !important; }
 
+.nav-dropdown .nav-dropbtn :hover {
+  background-color: #fefafd;
+  color: #560b33 !important; }
+
+.topnavmainbarinneritems .nav-dropdown-content a :hover {
+  color: #560b33 !important; }
+
 .nav-dropdown:hover {
   background-color: #fefafd;
   color: #560b33; }
-
-.topnavmainbarinneritems-mobile .top-nav-input-control {
-  width: 100%; }
 
 .mobilebar {
   color: #fefafd; }
@@ -2534,7 +2546,8 @@ header .billboard .content-button {
   font-size: 1rem; }
 
 .topnav a {
-  cursor: pointer; }
+  cursor: pointer;
+  padding-right: 5px; }
 
 .topnavbarunit1 {
   line-height: 50px; }
