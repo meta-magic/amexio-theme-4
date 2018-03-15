@@ -12,6 +12,7 @@ export class AppComponent {
   data: any = [];
   httpResponse: any;
   menuData: any[] = [];
+  topMenuData : any[];
   flag: boolean;
   newThemePath: string;
   msgList: any = [];
@@ -28,6 +29,14 @@ export class AppComponent {
 
   constructor(@Inject(DOCUMENT) public document: any, private platform:PlatformRef, public _http: HttpClient, private _router: Router, private cookieService: CookieService) {
     this.flag = false;
+    this.topMenuData = JSON.parse(`[{
+      "text": "Demo App",
+      "submenus": [
+        {"text":"Shopping App","link":"http://amexio.org/demo/se/v4/shoppingapp/"},
+        {"text":"Polling App","link":"http://amexio.org/demo/se/v4/pollingapp/"}
+      ]
+    }]
+  `);
 
     this._http.get('assets/data/menus/topmenu.json').subscribe(response => {
       this.httpResponse = response;
@@ -62,6 +71,11 @@ export class AppComponent {
     this.getTheThemesData();
   }
 
+  externalLink(event:any){
+    if(event.data.node.link)
+      this.document.location.href=event.data.node.link;
+  }
+
   ngOnInit(){
     this._router.events.subscribe(event => {
       if (event instanceof RouteConfigLoadStart) {
@@ -70,6 +84,11 @@ export class AppComponent {
         this.isRouteLoading = false;
       }
     });
+  }
+
+  onNodeClick(node : any){
+    if(node.hasOwnProperty('link'))
+      this._router.navigate([node.link])
   }
 
   getTheThemesData() {

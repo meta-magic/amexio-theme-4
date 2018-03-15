@@ -85,7 +85,7 @@
   (onNavItemClick)="onBellClick()" 
   [icon]="'fa fa-bell fa-fw fa-lg'"
   [type]="'link'" 
-  [title]="'Notifiction'" 
+  [title]="'Notification'" 
   style="cursor: pointer;">
   <amexio-notification [auto-dismiss-msg-interval]="4000" 
                        [auto-dismiss-msg]="true" 
@@ -103,6 +103,12 @@
   style="cursor: pointer;" 
   (onNavItemClick)="onUserClick()">
 </amexio-nav-item>
+<amexio-nav-item position-right *ngFor="let menus of topMenuData" 
+[type]="'menu'" 
+[title]="menus.text"
+[data]="menus.submenus"
+(onNavItemClick)="externalLink($event)">			
+</amexio-nav-item>        
 </amexio-nav>
 
 
