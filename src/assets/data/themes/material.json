@@ -516,7 +516,7 @@
 		"navBarFontColor": "#f1f7fe",
 		"link": "AT-MD-Yale-Azure.jpg"
 	}, {
-		"themeName": "Z Flag Bahamas",
+		"themeName": "Bahamas",
 		"themeCssFile": "at-md-z-flag-bahamas",
 		"rgb": 43977,
 		"hue": 189,
@@ -527,7 +527,7 @@
 		"link": "AT-MD-Z-Flag-Bahamas.jpg"
 	}],
 	[{
-		"themeName": "Z Flag France",
+		"themeName": "France",
 		"themeCssFile": "at-md-z-flag-france",
 		"rgb": 21157,
 		"hue": 210,
@@ -537,7 +537,7 @@
 		"navBarFontColor": "#f0f7ff",
 		"link": "AT-MD-Z-Flag-France.jpg"
 	}, {
-		"themeName": "Z Flag Germany",
+		"themeName": "Germany",
 		"themeCssFile": "at-md-z-flag-germany",
 		"rgb": 14685739,
 		"hue": 354,
@@ -547,7 +547,7 @@
 		"navBarFontColor": "#fffafb",
 		"link": "AT-MD-Z-Flag-Germany.jpg"
 	}, {
-		"themeName": "Z Flag India",
+		"themeName": "India",
 		"themeCssFile": "at-md-z-flag-india",
 		"rgb": 16744448,
 		"hue": 30,
@@ -558,7 +558,7 @@
 		"link": "AT-MD-Z-Flag-India.jpg"
 	}],
 	[{
-		"themeName": "Z Flag Italy",
+		"themeName": "Italy",
 		"themeCssFile": "at-md-z-flag-italy",
 		"rgb": 32768,
 		"hue": 120,
@@ -568,7 +568,7 @@
 		"navBarFontColor": "#ebffeb",
 		"link": "AT-MD-Z-Flag-Italy.jpg"
 	}, {
-		"themeName": "Z Flag Japan",
+		"themeName": "Japan",
 		"themeCssFile": "at-md-z-flag-japan",
 		"rgb": 16777215,
 		"hue": 0,
@@ -578,7 +578,7 @@
 		"navBarFontColor": "#121212",
 		"link": "AT-MD-Z-Flag-Japan.jpg"
 	}, {
-		"themeName": "Z Flag Usa",
+		"themeName": "USA",
 		"themeCssFile": "at-md-z-flag-usa",
 		"rgb": 14685739,
 		"hue": 354,
@@ -586,6 +586,6 @@
 		"style": "Material Design",
 		"navBarBGColor": "#e0162b",
 		"navBarFontColor": "#fffafb",
-		"link": "AT-MD-Z-Flag-Usa.jpg"
+		"link": "AT-MD-Z-Flag-USA.jpg"
 	}]
 ]

@@ -32,7 +32,10 @@ export class AppComponent {
     this.topMenuData = JSON.parse(`[{
       "text": "Case Studies",
       "submenus": [
-        {"text":"Shopping portal","link":"http://amexio.org/demo/se/v4/shoppingapp/"}
+        {"text":"Shopping Portal","link":"http://amexio.org/demo/se/v4/shoppingapp/"},
+        {"text":"US Election Results","link":"http://amexio.org/demo/se/v4/pollingapp/"},
+        {"text":"Insurance Portal","link":"http://amexio.org/demo/se/v4/digitalBuzaar/"},
+        {"text":"Movie Portal","link":"http://www.amexio.org/tecmflix2"}
       ]
     }]
   `);
