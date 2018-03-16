@@ -30,9 +30,9 @@ export class AppComponent {
   constructor(@Inject(DOCUMENT) public document: any, private platform:PlatformRef, public _http: HttpClient, private _router: Router, private cookieService: CookieService) {
     this.flag = false;
     this.topMenuData = JSON.parse(`[{
-      "text": "Demo App",
+      "text": "Case Studies",
       "submenus": [
-        {"text":"Shopping App","link":"http://amexio.org/demo/se/v4/shoppingapp/"}
+        {"text":"Shopping portal","link":"http://amexio.org/demo/se/v4/shoppingapp/"}
       ]
     }]
   `);
