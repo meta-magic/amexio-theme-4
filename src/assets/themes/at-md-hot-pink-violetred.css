@@ -1552,19 +1552,19 @@ input:checked + .toggle-slider:before {
 .floatingbutton-default {
   background-color: #ffffff; }
 
-.floatingbutton-primary {
+.floatingbutton-theme-color {
   background-color: #c71585;
   color: #ffffff; }
 
-.floatingbutton-success {
+.floatingbutton-green {
   background-color: #5cb85c;
   color: #ffffff; }
 
-.floatingbutton-danger {
+.floatingbutton-red {
   background-color: #d9534f;
   color: #ffffff; }
 
-.floatingbutton-warning {
+.floatingbutton-yellow {
   background-color: #f0ad4e;
   color: #ffffff; }
 
@@ -1572,19 +1572,19 @@ input:checked + .toggle-slider:before {
   background-color: #dbc2d2;
   color: #a3628b; }
 
-.floatingbutton-primary-disabled {
+.floatingbutton-theme-color-disabled {
   background-color: #ed55b5;
   color: #ffffff; }
 
-.floatingbutton-success-disabled {
+.floatingbutton-green-disabled {
   background-color: #a3d7a3;
   color: #ffffff; }
 
-.floatingbutton-danger-disabled {
+.floatingbutton-red-disabled {
   background-color: #eba5a3;
   color: #ffffff; }
 
-.floatingbutton-warning-disabled {
+.floatingbutton-yellow-disabled {
   background-color: #f8d9ac;
   color: #ffffff; }
 
@@ -2758,7 +2758,7 @@ header .billboard .content-button {
 
 .topnavmainbarinneritems {
   display: inline-block;
-  padding: 0px 10px; }
+  padding: 0px 5px; }
 
 .topnavmainbarinneritems-mobile {
   width: 100%;
@@ -2776,6 +2776,10 @@ header .billboard .content-button {
   margin-right: 20px;
   line-height: 50px; }
 
+.nav-dropdown .nav-dropbtn i {
+  padding-right: 5px;
+  padding-left: 5px; }
+
 .nav-dropdown .nav-dropbtn {
   padding: 0px 8px; }
 
@@ -2784,7 +2788,7 @@ header .billboard .content-button {
   position: fixed;
   min-width: 160px;
   z-index: 3;
-  padding: 5px;
+  padding: 10px 0px;
   box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.6);
   transition: all 0.3s ease;
   transform-origin: 0 0; }
@@ -2799,6 +2803,7 @@ header .billboard .content-button {
 .topnavmainbarinneritems .nav-dropdown-content a {
   text-decoration: none;
   display: block;
+  padding: 0px 10px;
   text-align: left; }
 
 .nav-dropdown:hover .nav-dropbtn .dropdownicon {
@@ -4281,11 +4286,6 @@ input:focus ~ .inputfieldbar:before, input:focus ~ .inputfieldbar:after {
 /************************************************************************/
 /*        NAVBAR Media-Q COMPONENT         */
 /************************************************************************/
-@media only screen and (max-width: 1024px) {
-  .navbar-container {
-    padding: 0px; }
-    .navbar-container .navbar-logo-unit {
-      padding-left: 40px; } }
 /************************************************************************/
 /*        ROW-COLUMN MediaQ COMPONENT         */
 /************************************************************************/
@@ -4469,11 +4469,6 @@ input:focus ~ .inputfieldbar:before, input:focus ~ .inputfieldbar:after {
 /************************************************************************/
 /*        NAVBAR Media-Q COMPONENT         */
 /************************************************************************/
-@media only screen and (max-width: 1024px) {
-  .navbar-container {
-    padding: 0px; }
-    .navbar-container .navbar-logo-unit {
-      padding-left: 40px; } }
 /************************************************************************/
 /*        ROW-COLUMN MediaQ COMPONENT         */
 /************************************************************************/
@@ -4662,42 +4657,6 @@ input:focus ~ .inputfieldbar:before, input:focus ~ .inputfieldbar:after {
 /************************************************************************/
 /*        NAVBAR Media-Q COMPONENT         */
 /************************************************************************/
-@media only screen and (max-width: 1024px) {
-  .navbar-container {
-    padding: 0px; }
-    .navbar-container .navbar-logo-unit {
-      padding-left: 40px; } }
-@media only screen and (max-width: 767px) {
-  .navbar-container {
-    flex-direction: column;
-    padding: 0px; }
-    .navbar-container .nav-bar {
-      background-color: #fb7bc2; }
-      .navbar-container .nav-bar .nav-item amexio-nav-item {
-        border-bottom: 1px solid #fffafd;
-        cursor: pointer; }
-        .navbar-container .nav-bar .nav-item amexio-nav-item * {
-          vertical-align: middle; }
-    .navbar-container .navbar-logo-unit {
-      padding-left: 40px;
-      display: flex;
-      justify-content: space-between; }
-      .navbar-container .navbar-logo-unit .navbar-mobile-bars {
-        display: block;
-        top: 10px;
-        margin-right: 25px;
-        position: relative; }
-
-  .nav-bar {
-    display: block;
-    margin: 0;
-    padding: 0px; }
-    .nav-bar .nav-item {
-      display: flex;
-      flex-direction: column;
-      padding: 0px; }
-      .nav-bar .nav-item > * {
-        padding: 10px; } }
 /************************************************************************/
 /*        ROW-COLUMN MediaQ COMPONENT         */
 /************************************************************************/
@@ -4894,42 +4853,6 @@ input:focus ~ .inputfieldbar:before, input:focus ~ .inputfieldbar:after {
 /************************************************************************/
 /*        NAVBAR Media-Q COMPONENT         */
 /************************************************************************/
-@media only screen and (max-width: 1024px) {
-  .navbar-container {
-    padding: 0px; }
-    .navbar-container .navbar-logo-unit {
-      padding-left: 40px; } }
-@media only screen and (max-width: 767px) {
-  .navbar-container {
-    flex-direction: column;
-    padding: 0px; }
-    .navbar-container .nav-bar {
-      background-color: #fb7bc2; }
-      .navbar-container .nav-bar .nav-item amexio-nav-item {
-        border-bottom: 1px solid #fffafd;
-        cursor: pointer; }
-        .navbar-container .nav-bar .nav-item amexio-nav-item * {
-          vertical-align: middle; }
-    .navbar-container .navbar-logo-unit {
-      padding-left: 40px;
-      display: flex;
-      justify-content: space-between; }
-      .navbar-container .navbar-logo-unit .navbar-mobile-bars {
-        display: block;
-        top: 10px;
-        margin-right: 25px;
-        position: relative; }
-
-  .nav-bar {
-    display: block;
-    margin: 0;
-    padding: 0px; }
-    .nav-bar .nav-item {
-      display: flex;
-      flex-direction: column;
-      padding: 0px; }
-      .nav-bar .nav-item > * {
-        padding: 10px; } }
 /************************************************************************/
 /*        ROW-COLUMN MediaQ COMPONENT         */
 /************************************************************************/
@@ -5126,56 +5049,6 @@ input:focus ~ .inputfieldbar:before, input:focus ~ .inputfieldbar:after {
 /************************************************************************/
 /*        NAVBAR Media-Q COMPONENT         */
 /************************************************************************/
-@media only screen and (max-width: 1024px) {
-  .navbar-container {
-    padding: 0px; }
-    .navbar-container .navbar-logo-unit {
-      padding-left: 40px; } }
-@media only screen and (max-width: 767px) {
-  .navbar-container {
-    flex-direction: column;
-    padding: 0px; }
-    .navbar-container .nav-bar {
-      background-color: #fb7bc2; }
-      .navbar-container .nav-bar .nav-item amexio-nav-item {
-        border-bottom: 1px solid #fffafd;
-        cursor: pointer; }
-        .navbar-container .nav-bar .nav-item amexio-nav-item * {
-          vertical-align: middle; }
-    .navbar-container .navbar-logo-unit {
-      padding-left: 40px;
-      display: flex;
-      justify-content: space-between; }
-      .navbar-container .navbar-logo-unit .navbar-mobile-bars {
-        display: block;
-        top: 10px;
-        margin-right: 25px;
-        position: relative; }
-
-  .nav-bar {
-    display: block;
-    margin: 0;
-    padding: 0px; }
-    .nav-bar .nav-item {
-      display: flex;
-      flex-direction: column;
-      padding: 0px; }
-      .nav-bar .nav-item > * {
-        padding: 10px; } }
-/************************************************************************/
-/*        ROW-COLUMN MediaQ COMPONENT         */
-/************************************************************************/
-@media only screen and (max-width: 767px) {
-  .flex-row {
-    flex-direction: column; }
-
-  .flex-col-1, .flex-col-2, .flex-col-3, .flex-col-4, .flex-col-5, .flex-col-6, .flex-col-7, .flex-col-8, .flex-col-9, .flex-col-10, .flex-col-11, .flex-col-12 {
-    max-width: 100%;
-    flex: 0 0 100%; } }
-@media only screen and (max-width: 1024px) {
-  .flex-col-2pt5, .flex-col-9pt5 {
-    flex: 0 0 100%;
-    max-width: 100%; } }
 /************************************************************************/
 /*        SIDENAV MediaQ COMPONENT         */
 /************************************************************************/
@@ -5358,42 +5231,6 @@ input:focus ~ .inputfieldbar:before, input:focus ~ .inputfieldbar:after {
 /************************************************************************/
 /*        NAVBAR Media-Q COMPONENT         */
 /************************************************************************/
-@media only screen and (max-width: 1024px) {
-  .navbar-container {
-    padding: 0px; }
-    .navbar-container .navbar-logo-unit {
-      padding-left: 40px; } }
-@media only screen and (max-width: 767px) {
-  .navbar-container {
-    flex-direction: column;
-    padding: 0px; }
-    .navbar-container .nav-bar {
-      background-color: #fb7bc2; }
-      .navbar-container .nav-bar .nav-item amexio-nav-item {
-        border-bottom: 1px solid #fffafd;
-        cursor: pointer; }
-        .navbar-container .nav-bar .nav-item amexio-nav-item * {
-          vertical-align: middle; }
-    .navbar-container .navbar-logo-unit {
-      padding-left: 40px;
-      display: flex;
-      justify-content: space-between; }
-      .navbar-container .navbar-logo-unit .navbar-mobile-bars {
-        display: block;
-        top: 10px;
-        margin-right: 25px;
-        position: relative; }
-
-  .nav-bar {
-    display: block;
-    margin: 0;
-    padding: 0px; }
-    .nav-bar .nav-item {
-      display: flex;
-      flex-direction: column;
-      padding: 0px; }
-      .nav-bar .nav-item > * {
-        padding: 10px; } }
 /************************************************************************/
 /*        ROW-COLUMN MediaQ COMPONENT         */
 /************************************************************************/
