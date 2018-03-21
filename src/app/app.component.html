@@ -77,39 +77,31 @@
   [icon]="'fa fa-home fa-fw fa-lg'"
   [title]="'Home'" 
   [type]="'link'" 
-  (onNavItemClick)="onHomeClick()" 
+  (onNavItemClick)="onClick('http://amexio.org/api/v4.1/index.html#/getting-started')" 
   style="cursor: pointer;" >
 </amexio-nav-item>
-<amexio-nav-item position-right 
-
-  (onNavItemClick)="onBellClick()" 
-  [icon]="'fa fa-bell fa-fw fa-lg'"
-  [type]="'link'" 
-  [title]="'Notification'" 
-  style="cursor: pointer;">
-  <amexio-notification [auto-dismiss-msg-interval]="4000" 
-                       [auto-dismiss-msg]="true" 
-                       [vertical-position]="'top'"
-                       [horizontal-position]="'right'" 
-                       [closable]="true" 
-                       [data]="msgList">
-  </amexio-notification>
-</amexio-nav-item>
-
 <amexio-nav-item position-right
   [type]="'link'"
   [icon]="'fa fa-user-circle fa-fw fa-lg'" 
-  [title]="'John Doe '" 
+  [title]="'John Doe'" 
   style="cursor: pointer;" 
   (onNavItemClick)="onUserClick()">
+</amexio-nav-item>
+<amexio-nav-item position-right 
+  (onNavItemClick)="onClick('http://amexio.org/api/v4.1/index.html#/getting-started')" 
+  [icon]="'fa fa-sitemap'"
+  [type]="'link'" 
+  [title]="'API'"
+  style="cursor: pointer;">
 </amexio-nav-item>
 <amexio-nav-item position-right *ngFor="let menus of topMenuData" 
 [type]="'menu'" 
 [title]="menus.text"
 [data]="menus.submenus"
-[icon]="'fa fa-clone fa-fw'"
+[icon]="menus.icon"
 (onNavItemClick)="externalLink($event)">			
-</amexio-nav-item>        
+</amexio-nav-item>       
+
 </amexio-nav>
 
 

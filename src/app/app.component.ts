@@ -29,15 +29,45 @@ export class AppComponent {
 
   constructor(@Inject(DOCUMENT) public document: any, private platform:PlatformRef, public _http: HttpClient, private _router: Router, private cookieService: CookieService) {
     this.flag = false;
-    this.topMenuData = JSON.parse(`[{
+    this.topMenuData = JSON.parse(`[
+      {
+        "text": "Products",
+        "icon": "fa fa-snowflake-o fa-fw",
+        "submenus": [{
+          "text": "Amexio API",
+          "link": "https://amexio.tech/amexio-api"
+        }, {
+          "text": "Amexio Canvas",
+          "link": "https://amexio.tech/amexio-canvas"
+        }, {
+          "text": "Amexio Colors",
+          "link": "https://amexio.tech/amexio-colors"
+        }]
+      },
+      {
       "text": "Case Studies",
+      "icon": "fa fa-clone fa-fw",
       "submenus": [
         {"text":"Shopping Portal","link":"http://amexio.org/demo/se/v4/shoppingapp/"},
         {"text":"US Election Results","link":"http://amexio.org/demo/se/v4/pollingapp/"},
         {"text":"Insurance Portal","link":"http://amexio.org/demo/se/v4/digitalBuzaar/"},
         {"text":"Movie Portal","link":"http://www.amexio.org/tecmflix2"}
       ]
-    }]
+    }, {
+      "text": "About Us",
+      "icon": "fa fa-address-book-o fa-fw",
+      "submenus": [{
+        "text": "Contact",
+        "link": "https://metamagicglobal.com/contact"
+      }, {
+        "text": "Company",
+        "link": "http://www.metamagicglobal.com/company"
+      }, {
+        "text": "MetaMagic",
+        "link": "https://www.metamagicglobal.com/"
+      }]
+    }
+  ]
   `);
 
     this._http.get('assets/data/menus/topmenu.json').subscribe(response => {
@@ -113,13 +143,11 @@ export class AppComponent {
     });
   }
 
-  //on Bell Click
-  onBellClick() {
-    this.msgList.push('Hello, User');
-    setTimeout(()=>{
-      this.amexioNav.close();
-    },800);
+  onClick(link:any){
+    this.document.location.href=link;
+    
   }
+
   onUserClick(){
     this.amexioNav.close();
   }
