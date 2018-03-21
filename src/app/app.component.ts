@@ -36,10 +36,16 @@ export class AppComponent {
         "submenus": [{
           "text": "Amexio API",
           "link": "https://amexio.tech/amexio-api"
-        }, {
+        }, 
+        {
+          "text": "Amexio API Docs",
+          "link": "http://amexio.org/api/v4.1/index.html#/getting-started"
+        },
+        {
           "text": "Amexio Canvas",
           "link": "https://amexio.tech/amexio-canvas"
-        }, {
+        },
+        {
           "text": "Amexio Colors",
           "link": "https://amexio.tech/amexio-colors"
         }]

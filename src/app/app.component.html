@@ -1,75 +1,4 @@
 <div *ngIf="hasThemeInit;else themeInitContent">
-<!-- <amexio-nav  [title]="'Amexio Demo App'" 
-  [logo]="'assets/images/logos/amexio-logo.png'">
-  <amexio-nav-item position-right>
-    <amexio-image icon-class="fa fa-home fa-fw fa-lg" 
-    title="Home" 
-    (onClick)="onHomeClick()" 
-    style="cursor: pointer;" ></amexio-image>
-  </amexio-nav-item>
-  <amexio-nav-item position-right>
-    <amexio-image icon-class="fa fa-bell fa-fw fa-lg" 
-    (onClick)="onBellClick()" 
-    title="Notifications" 
-    style="cursor: pointer;">
-  </amexio-image>
-    <amexio-notification [auto-dismiss-msg-interval]="4000" 
-                         [auto-dismiss-msg]="true" 
-                         [vertical-position]="'top'"
-                         [horizontal-position]="'right'" 
-                         [closable]="true" 
-                         [data]="msgList">
-    </amexio-notification>
-  </amexio-nav-item>
-  <amexio-nav-item position-right>
-    <amexio-image icon-class="fa fa-user-circle fa-fw fa-lg" 
-    title="John Doe" 
-    style="cursor: pointer;" (onClick)="onUserClick()">
-  </amexio-image>
-  </amexio-nav-item>
--->
-  <!-- <amexio-nav-item position-right>
-    <amexio-image icon-class="fa fa-snowflake-o fa-fw fa-lg faa-tada animated fa-2x" title="Themes" (onClick)="toggle()" style="cursor: pointer;"></amexio-image>
-    <div class="themeviewer" *ngIf="flag">
-      <amexio-card [header]="true">
-        <amexio-header>
-          Select Theme
-        </amexio-header>
-        <amexio-body>
-            <amexio-tab-view  [closable]="false">
-              <amexio-tab title="Material" [active]="true">
-                <div style="height: 350px;overflow-x: auto">
-                  <amexio-row *ngFor="let objArray of materialThemeArray" >
-                    <ng-container *ngFor="let obj of objArray">
-                      <amexio-column style="cursor: pointer" [size]="4"  (click)="themeChange(obj)">
-                        <amexio-image [path]="'assets/images/themematerialicons/'+ obj.link"></amexio-image><br><b>{{obj.themeName}}</b>
-                      </amexio-column>
-                    </ng-container>
-                  </amexio-row>
-                </div>
-
-              </amexio-tab>
-              <amexio-tab title="Amexio">
-                <div style="height: 350px;overflow-x: auto">
-                  <amexio-row *ngFor="let objArray of amexioThemeArray" >
-                    <ng-container *ngFor="let obj of objArray">
-                      <amexio-column style="cursor: pointer" [size]="4"  (click)="themeChange(obj)">
-                        <amexio-image [path]="'assets/images/themeamexioicon/'+ obj.link"></amexio-image><br><b>{{obj.themeName}}</b>
-                      </amexio-column>
-                    </ng-container>
-                  </amexio-row>
-                </div>
-              </amexio-tab>
-            </amexio-tab-view>
-
-
-        </amexio-body>
-      </amexio-card>
-    </div>
-
-  </amexio-nav-item> 
-</amexio-nav> -->
-
 <amexio-nav [enable-side-nav-position]="true" 
 [title]="'Amexio Demo App'"
 [logo]="'assets/images/logos/amexio-logo.png'">
@@ -86,13 +15,6 @@
   [title]="'John Doe'" 
   style="cursor: pointer;" 
   (onNavItemClick)="onUserClick()">
-</amexio-nav-item>
-<amexio-nav-item position-right 
-  (onNavItemClick)="onClick('http://amexio.org/api/v4.1/index.html#/getting-started')" 
-  [icon]="'fa fa-sitemap'"
-  [type]="'link'" 
-  [title]="'API'"
-  style="cursor: pointer;">
 </amexio-nav-item>
 <amexio-nav-item position-right *ngFor="let menus of topMenuData" 
 [type]="'menu'" 
