@@ -111,7 +111,8 @@ export class AppComponent {
 
   externalLink(event:any){
     if(event.data.node.link)
-      this.document.location.href=event.data.node.link;
+      //this.document.location.href=event.data.node.link;
+      window.open(event.data.node.link,'_blank');
   }
 
   ngOnInit(){
@@ -150,8 +151,8 @@ export class AppComponent {
   }
 
   onClick(link:any){
-    this.document.location.href=link;
-    
+   // this.document.location.href=link;
+   window.open(link,'_blank');
   }
 
   onUserClick(){
