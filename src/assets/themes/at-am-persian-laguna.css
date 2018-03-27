@@ -195,6 +195,121 @@ image using the content attribute.
 .row-disabled {
   opacity: 0.55; }
 
+/** Theme Additional Std Colors : Light and Dark shades --- */
+/** Theme Additional Std Font Colors : Light and Dark shades --- */
+/** CSS Class definitions for the Amexio Colors --- */
+/** Amexio Colors --- 
+   Coral: #ff7f50 rgb(255,127,80,0.0);
+   240a00: #240a00 rgb(36,10,0,0.0);
+*/
+.amexio-red-light {
+  background-color: #ff7f50;
+  color: #240a00; }
+
+/** Amexio Colors --- 
+   Crimson: #dc143c rgb(220,20,60,0.0);
+   fffafb: #fffafb rgb(255,250,251,0.0);
+*/
+.amexio-red {
+  background-color: #dc143c;
+  color: #fffafb; }
+
+/** Amexio Colors --- 
+   Lime: #00ff00 rgb(0,255,0,0.0);
+   002400: #002400 rgb(0,36,0,0.0);
+*/
+.amexio-green-light {
+  background-color: #00ff00;
+  color: #002400; }
+
+/** Amexio Colors --- 
+   SeaGreen: #2e8b57 rgb(46,139,87,0.0);
+   f0faf4: #f0faf4 rgb(240,250,244,0.0);
+*/
+.amexio-green {
+  background-color: #2e8b57;
+  color: #f0faf4; }
+
+/** Amexio Colors --- 
+   Magenta: #ff00ff rgb(255,0,255,0.0);
+   fffaff: #fffaff rgb(255,250,255,0.0);
+*/
+.amexio-purple-light {
+  background-color: #ff00ff;
+  color: #050005; }
+
+/** Amexio Colors --- 
+   DarkMagenta: #8b008b rgb(139,0,139,0.0);
+   fffaff: #fffaff rgb(255,250,255,0.0);
+*/
+.amexio-purple {
+  background-color: #8b008b;
+  color: #050005; }
+
+/** Amexio Colors --- 
+   DeepSkyBlue: #00bfff rgb(0,191,255,0.0);
+   f0fbff: #f0fbff rgb(240,251,255,0.0);
+*/
+.amexio-blue-light {
+  background-color: #00bfff;
+  color: #000507; }
+
+/** Amexio Colors --- 
+   DarkBlue: #00008b rgb(0,0,139,0.0);
+   f5f5ff: #f5f5ff rgb(245,245,255,0.0);
+*/
+.amexio-blue {
+  background-color: #00008b;
+  color: #f5f5ff; }
+
+/** Amexio Colors --- 
+   SandyBrown: #f4a460 rgb(244,164,96,0.0);
+   211102: #211102 rgb(33,17,2,0.0);
+*/
+.amexio-brown-light {
+  background-color: #f4a460;
+  color: #211102; }
+
+/** Amexio Colors --- 
+   Maroon: #800000 rgb(128,0,0,0.0);
+   ffebeb: #ffebeb rgb(255,235,235,0.0);
+*/
+.amexio-brown {
+  background-color: #800000;
+  color: #ffebeb; }
+
+/** Amexio Colors --- 
+   Gold: #ffd700 rgb(255,215,0,0.0);
+   241e00: #241e00 rgb(36,30,0,0.0);
+*/
+.amexio-yellow-light {
+  background-color: #ffd700;
+  color: #241e00; }
+
+/** Amexio Colors --- 
+   ff9900: #ff9900 rgb(255,153,0,0.0);
+   241500: #241500 rgb(36,21,0,0.0);
+*/
+.amexio-yellow {
+  background-color: #ff9900;
+  color: #241500; }
+
+/** Amexio Colors --- 
+   Black: #000000 rgb(0,0,0,0.0);
+   White: #ffffff rgb(255,255,255,0.0);
+*/
+.amexio-black {
+  background-color: #000000;
+  color: #ffffff; }
+
+/** Amexio Colors --- 
+   White: #ffffff rgb(255,255,255,0.0);
+   Black: #000000 rgb(0,0,0,0.0);
+*/
+.amexio-white {
+  background-color: #ffffff;
+  color: #000000; }
+
 /* Misc Variables */
 /****************************************************************************
     Component Name : Button
@@ -447,6 +562,10 @@ button {
 
 .drodown-caret-down {
   color: #8D021F; }
+
+.list-items-selected {
+  background-color: #8D021F;
+  color: white; }
 
 /** dropdown - Structure CSS **/
 .dropdown {
@@ -842,26 +961,17 @@ textarea:required {
 .progress {
   position: relative;
   background: #ffe578; }
-
-.progress > span {
-  background-color: #ffe578; }
-
-@-webkit-keyframes move {}
-.success > span {
-  background-color: #5cb85c;
-  /* Add Varaibles here */ }
-
-.warning > span {
-  background-color: #f0ad4e; }
-
-.danger > span {
-  background-color: #d9534f; }
-
-.red > span {
-  background-color: #f0a3a3; }
-
-.nostripes > span > span, .nostripes > span:after {
-  background-image: none; }
+  .progress .success {
+    background-color: #5cb85c; }
+  .progress .warning {
+    background-color: #f0ad4e; }
+  .progress .danger {
+    background-color: #d9534f; }
+  .progress .red {
+    background-color: #f0a3a3; }
+  .progress .stripped {
+    background-size: 30px 30px;
+    background-image: linear-gradient(135deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent); }
 
 /** progress - Structure CSS **/
 .progress {
@@ -1398,19 +1508,19 @@ input:checked + .toggle-slider:before {
 .floatingbutton-default {
   background-color: #ffffff; }
 
-.floatingbutton-primary {
+.floatingbutton-theme-color {
   background-color: #8D021F;
   color: white; }
 
-.floatingbutton-success {
+.floatingbutton-green {
   background-color: #5cb85c;
   color: white; }
 
-.floatingbutton-danger {
+.floatingbutton-red {
   background-color: #d9534f;
   color: white; }
 
-.floatingbutton-warning {
+.floatingbutton-yellow {
   background-color: #f0ad4e;
   color: white; }
 
@@ -1418,19 +1528,19 @@ input:checked + .toggle-slider:before {
   background-color: #a09e9e;
   color: #8D021F; }
 
-.floatingbutton-primary-disabled {
+.floatingbutton-theme-color-disabled {
   background-color: #f20335;
   color: white; }
 
-.floatingbutton-success-disabled {
+.floatingbutton-green-disabled {
   background-color: #a3d7a3;
   color: white; }
 
-.floatingbutton-danger-disabled {
+.floatingbutton-red-disabled {
   background-color: #eba5a3;
   color: white; }
 
-.floatingbutton-warning-disabled {
+.floatingbutton-yellow-disabled {
   background-color: #f8d9ac;
   color: white; }
 
@@ -1967,18 +2077,19 @@ header .billboard .content-button {
     Version : Amexio v4.0 onwards
 *****************************************************************************/
 /** Datapoints - Visual CSS **/
-.datapoints {
+.datapoints .datapoints-north {
+  color: #D33134; }
+.datapoints .datapoint-south {
+  background-color: #D33134;
+  color: white; }
+.datapoints .datapoint-west {
+  padding: 5px; }
+.datapoints .datapoint-east {
+  padding: 5px; }
+
+.datapoint {
   background: #ffe578;
   color: #D33134; }
-  .datapoints .datapoints-north {
-    color: #D33134; }
-  .datapoints .datapoint-south {
-    background-color: #D33134;
-    color: white; }
-  .datapoints .datapoint-west {
-    padding: 5px; }
-  .datapoints .datapoint-east {
-    padding: 5px; }
 
 /** Datapoints - Structure CSS **/
 .datapoints {
@@ -2727,7 +2838,6 @@ header .billboard .content-button {
 
 /** navbar - Structure CSS **/
 .topnav {
-  overflow: hidden;
   position: fixed;
   width: 100%;
   padding: 5px;
@@ -2745,6 +2855,7 @@ header .billboard .content-button {
 
 .top-nav-input-control {
   border-radius: 0px;
+  padding: 0px 8px;
   border: none;
   border-bottom: 2px solid #8D021F;
   font-size: 1rem;
@@ -2759,7 +2870,7 @@ header .billboard .content-button {
 
 .topnav a {
   cursor: pointer;
-  padding-right: 5px; }
+  padding: 0px 8px; }
 
 .topnavbarunit1 {
   line-height: 50px; }
@@ -2769,7 +2880,6 @@ header .billboard .content-button {
   padding: 5px; }
 
 .topnavbarunit2 {
-  width: 80%;
   line-height: 50px; }
 
 .topnavbarunit2-mobile {
@@ -2793,7 +2903,7 @@ header .billboard .content-button {
 
 .topnavmainbarinneritems {
   display: inline-block;
-  padding: 0px 10px; }
+  padding: 0px 8px; }
 
 .topnavmainbarinneritems-mobile {
   width: 100%;
@@ -2806,10 +2916,19 @@ header .billboard .content-button {
 .topnavmainbarinneritems-mobile .nav-dropdown {
   width: 100%; }
 
+.top-nav-link {
+  padding: 0px 8px; }
+
+.top-nav-link i {
+  padding: 0px 5px; }
+
 .topnavmainbarinneritems-mobile .nav-dropdown .nav-dropbtn .dropdownicon {
   float: right;
   margin-right: 20px;
   line-height: 50px; }
+
+.nav-dropdown .nav-dropbtn i {
+  padding: 0px 5px; }
 
 .nav-dropdown .nav-dropbtn {
   padding: 0px 8px; }
@@ -2819,7 +2938,7 @@ header .billboard .content-button {
   position: fixed;
   min-width: 160px;
   z-index: 3;
-  padding: 5px;
+  padding: 10px 0px;
   box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.6);
   transition: all 0.3s ease;
   transform-origin: 0 0; }
@@ -2834,6 +2953,7 @@ header .billboard .content-button {
 .topnavmainbarinneritems .nav-dropdown-content a {
   text-decoration: none;
   display: block;
+  padding: 0px 10px;
   text-align: left; }
 
 .nav-dropdown:hover .nav-dropbtn .dropdownicon {
@@ -3982,11 +4102,6 @@ fieldset {
 /************************************************************************/
 /*        NAVBAR Media-Q COMPONENT         */
 /************************************************************************/
-@media only screen and (max-width: 1024px) {
-  .navbar-container {
-    padding: 0px; }
-    .navbar-container .navbar-logo-unit {
-      padding-left: 40px; } }
 /************************************************************************/
 /*        ROW-COLUMN MediaQ COMPONENT         */
 /************************************************************************/
@@ -4170,11 +4285,6 @@ fieldset {
 /************************************************************************/
 /*        NAVBAR Media-Q COMPONENT         */
 /************************************************************************/
-@media only screen and (max-width: 1024px) {
-  .navbar-container {
-    padding: 0px; }
-    .navbar-container .navbar-logo-unit {
-      padding-left: 40px; } }
 /************************************************************************/
 /*        ROW-COLUMN MediaQ COMPONENT         */
 /************************************************************************/
@@ -4363,42 +4473,6 @@ fieldset {
 /************************************************************************/
 /*        NAVBAR Media-Q COMPONENT         */
 /************************************************************************/
-@media only screen and (max-width: 1024px) {
-  .navbar-container {
-    padding: 0px; }
-    .navbar-container .navbar-logo-unit {
-      padding-left: 40px; } }
-@media only screen and (max-width: 767px) {
-  .navbar-container {
-    flex-direction: column;
-    padding: 0px; }
-    .navbar-container .nav-bar {
-      background-color: #e58587; }
-      .navbar-container .nav-bar .nav-item amexio-nav-item {
-        border-bottom: 1px solid white;
-        cursor: pointer; }
-        .navbar-container .nav-bar .nav-item amexio-nav-item * {
-          vertical-align: middle; }
-    .navbar-container .navbar-logo-unit {
-      padding-left: 40px;
-      display: flex;
-      justify-content: space-between; }
-      .navbar-container .navbar-logo-unit .navbar-mobile-bars {
-        display: block;
-        top: 10px;
-        margin-right: 25px;
-        position: relative; }
-
-  .nav-bar {
-    display: block;
-    margin: 0;
-    padding: 0px; }
-    .nav-bar .nav-item {
-      display: flex;
-      flex-direction: column;
-      padding: 0px; }
-      .nav-bar .nav-item > * {
-        padding: 10px; } }
 /************************************************************************/
 /*        ROW-COLUMN MediaQ COMPONENT         */
 /************************************************************************/
@@ -4595,42 +4669,6 @@ fieldset {
 /************************************************************************/
 /*        NAVBAR Media-Q COMPONENT         */
 /************************************************************************/
-@media only screen and (max-width: 1024px) {
-  .navbar-container {
-    padding: 0px; }
-    .navbar-container .navbar-logo-unit {
-      padding-left: 40px; } }
-@media only screen and (max-width: 767px) {
-  .navbar-container {
-    flex-direction: column;
-    padding: 0px; }
-    .navbar-container .nav-bar {
-      background-color: #e58587; }
-      .navbar-container .nav-bar .nav-item amexio-nav-item {
-        border-bottom: 1px solid white;
-        cursor: pointer; }
-        .navbar-container .nav-bar .nav-item amexio-nav-item * {
-          vertical-align: middle; }
-    .navbar-container .navbar-logo-unit {
-      padding-left: 40px;
-      display: flex;
-      justify-content: space-between; }
-      .navbar-container .navbar-logo-unit .navbar-mobile-bars {
-        display: block;
-        top: 10px;
-        margin-right: 25px;
-        position: relative; }
-
-  .nav-bar {
-    display: block;
-    margin: 0;
-    padding: 0px; }
-    .nav-bar .nav-item {
-      display: flex;
-      flex-direction: column;
-      padding: 0px; }
-      .nav-bar .nav-item > * {
-        padding: 10px; } }
 /************************************************************************/
 /*        ROW-COLUMN MediaQ COMPONENT         */
 /************************************************************************/
@@ -4827,56 +4865,6 @@ fieldset {
 /************************************************************************/
 /*        NAVBAR Media-Q COMPONENT         */
 /************************************************************************/
-@media only screen and (max-width: 1024px) {
-  .navbar-container {
-    padding: 0px; }
-    .navbar-container .navbar-logo-unit {
-      padding-left: 40px; } }
-@media only screen and (max-width: 767px) {
-  .navbar-container {
-    flex-direction: column;
-    padding: 0px; }
-    .navbar-container .nav-bar {
-      background-color: #e58587; }
-      .navbar-container .nav-bar .nav-item amexio-nav-item {
-        border-bottom: 1px solid white;
-        cursor: pointer; }
-        .navbar-container .nav-bar .nav-item amexio-nav-item * {
-          vertical-align: middle; }
-    .navbar-container .navbar-logo-unit {
-      padding-left: 40px;
-      display: flex;
-      justify-content: space-between; }
-      .navbar-container .navbar-logo-unit .navbar-mobile-bars {
-        display: block;
-        top: 10px;
-        margin-right: 25px;
-        position: relative; }
-
-  .nav-bar {
-    display: block;
-    margin: 0;
-    padding: 0px; }
-    .nav-bar .nav-item {
-      display: flex;
-      flex-direction: column;
-      padding: 0px; }
-      .nav-bar .nav-item > * {
-        padding: 10px; } }
-/************************************************************************/
-/*        ROW-COLUMN MediaQ COMPONENT         */
-/************************************************************************/
-@media only screen and (max-width: 767px) {
-  .flex-row {
-    flex-direction: column; }
-
-  .flex-col-1, .flex-col-2, .flex-col-3, .flex-col-4, .flex-col-5, .flex-col-6, .flex-col-7, .flex-col-8, .flex-col-9, .flex-col-10, .flex-col-11, .flex-col-12 {
-    max-width: 100%;
-    flex: 0 0 100%; } }
-@media only screen and (max-width: 1024px) {
-  .flex-col-2pt5, .flex-col-9pt5 {
-    flex: 0 0 100%;
-    max-width: 100%; } }
 /************************************************************************/
 /*        SIDENAV MediaQ COMPONENT         */
 /************************************************************************/
@@ -5059,42 +5047,6 @@ fieldset {
 /************************************************************************/
 /*        NAVBAR Media-Q COMPONENT         */
 /************************************************************************/
-@media only screen and (max-width: 1024px) {
-  .navbar-container {
-    padding: 0px; }
-    .navbar-container .navbar-logo-unit {
-      padding-left: 40px; } }
-@media only screen and (max-width: 767px) {
-  .navbar-container {
-    flex-direction: column;
-    padding: 0px; }
-    .navbar-container .nav-bar {
-      background-color: #e58587; }
-      .navbar-container .nav-bar .nav-item amexio-nav-item {
-        border-bottom: 1px solid white;
-        cursor: pointer; }
-        .navbar-container .nav-bar .nav-item amexio-nav-item * {
-          vertical-align: middle; }
-    .navbar-container .navbar-logo-unit {
-      padding-left: 40px;
-      display: flex;
-      justify-content: space-between; }
-      .navbar-container .navbar-logo-unit .navbar-mobile-bars {
-        display: block;
-        top: 10px;
-        margin-right: 25px;
-        position: relative; }
-
-  .nav-bar {
-    display: block;
-    margin: 0;
-    padding: 0px; }
-    .nav-bar .nav-item {
-      display: flex;
-      flex-direction: column;
-      padding: 0px; }
-      .nav-bar .nav-item > * {
-        padding: 10px; } }
 /************************************************************************/
 /*        ROW-COLUMN MediaQ COMPONENT         */
 /************************************************************************/
