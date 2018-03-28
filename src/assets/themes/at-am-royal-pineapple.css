@@ -152,6 +152,9 @@ label {
 a {
   color: rgba(0, 0, 0, 0.87); }
 
+textarea {
+  font-family: inherit; }
+
 /*
 The loading throbber is a single spinning element with three
 visible borders and a border-radius of 50%.
@@ -553,7 +556,7 @@ button {
   background-color: #292b2c; }
 
 .dropdown-list .list-items:hover {
-  color: rgba(255, 255, 255, 0.7);
+  color: #292b2c;
   background-color: rgba(255, 253, 208, 0.4); }
 
 .dropdown-list .list-items-active {
@@ -565,7 +568,7 @@ button {
 
 .list-items-selected {
   background-color: rgba(255, 253, 208, 0.4);
-  color: rgba(255, 255, 255, 0.7); }
+  color: #292b2c; }
 
 /** dropdown - Structure CSS **/
 .dropdown {
@@ -2220,7 +2223,7 @@ header .billboard .content-button {
 
 .horizontaltreeview-node-label:hover {
   border-color: #040506;
-  color: rgba(255, 255, 255, 0.7);
+  color: #292b2c;
   background-color: rgba(255, 253, 208, 0.4); }
 
 /** Horizontaltreeview - Structure CSS **/
@@ -2438,7 +2441,7 @@ header .billboard .content-button {
 
 .treenode-content:hover {
   background-color: rgba(255, 253, 208, 0.4);
-  color: rgba(255, 255, 255, 0.7); }
+  color: #292b2c; }
 
 .treenode-label-active {
   background-color: #1b1d22;
@@ -2819,8 +2822,8 @@ header .billboard .content-button {
   color: #1b1d22; }
 
 .topnavmainbarinneritems .nav-dropdown-content a:hover {
-  background-color: none;
-  color: none !important; }
+  background-color: rgba(255, 253, 208, 0.4);
+  color: inherit !important; }
 
 .nav-dropdown:active {
   background-color: #FCF4A3;
@@ -2986,7 +2989,7 @@ header .billboard .content-button {
 
 .paginator .paginator-pages .paginator-page:hover {
   background-color: rgba(255, 253, 208, 0.4);
-  color: rgba(255, 255, 255, 0.7); }
+  color: #292b2c; }
 
 .paginator .paginator-pages .active {
   background-color: #1b1d22;
@@ -5119,6 +5122,14 @@ fieldset {
 /*----------------------------------------------------------------------*/
 .topnav {
   background: linear-gradient(#FCF4A3, #FEE12B); }
+
+.topnavmainbarinneritems .nav-dropdown-content {
+  background: linear-gradient(#FCF4A3, #FEE12B);
+  color: #1b1d22; }
+
+.topnavmainbarinneritems-mobile .nav-dropdown-content {
+  background: linear-gradient(#FCF4A3, #FEE12B);
+  color: #1b1d22; }
 
 .input-control {
   background-color: #1b1d22;

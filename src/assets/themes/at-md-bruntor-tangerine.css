@@ -195,6 +195,9 @@ label {
 a {
   color: rgba(0, 0, 0, 0.87); }
 
+textarea {
+  font-family: inherit; }
+
 /*
 The loading throbber is a single spinning element with three
 visible borders and a border-radius of 50%.
@@ -3138,7 +3141,7 @@ header .billboard .content-button {
 
 .accordion .active-accordion, .accordion:hover {
   background-color: #ffc66b;
-  color: #1e1506; }
+  color: #1f1300; }
 
 .accordion:after {
   color: red; }

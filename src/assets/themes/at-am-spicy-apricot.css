@@ -152,6 +152,9 @@ label {
 a {
   color: rgba(0, 0, 0, 0.87); }
 
+textarea {
+  font-family: inherit; }
+
 /*
 The loading throbber is a single spinning element with three
 visible borders and a border-radius of 50%.
@@ -2819,8 +2822,8 @@ header .billboard .content-button {
   color: white; }
 
 .topnavmainbarinneritems .nav-dropdown-content a:hover {
-  background-color: none;
-  color: none !important; }
+  background-color: rgba(255, 253, 208, 0.4);
+  color: #603A63 !important; }
 
 .nav-dropdown:active {
   background-color: #F2870C;
@@ -3279,7 +3282,7 @@ header .billboard .content-button {
 
 .accordion .active-accordion, .accordion:hover {
   background-color: rgba(255, 253, 208, 0.4);
-  color: white; }
+  color: #603A63; }
 
 .accordion:after {
   color: red; }
@@ -5163,6 +5166,14 @@ body {
 .topnav {
   background-color: rgba(55, 20, 2, 0.5);
   color: white; }
+
+.topnavmainbarinneritems .nav-dropdown-content {
+  background-color: rgba(55, 20, 2, 0.5);
+  color: #F2870C; }
+
+.topnavmainbarinneritems-mobile .nav-dropdown-content {
+  background-color: rgba(55, 20, 2, 0.5);
+  color: #F2870C; }
 
 .listbox {
   background-color: rgba(55, 20, 2, 0.5); }

@@ -152,6 +152,9 @@ label {
 a {
   color: black; }
 
+textarea {
+  font-family: inherit; }
+
 /*
 The loading throbber is a single spinning element with three
 visible borders and a border-radius of 50%.
@@ -2820,7 +2823,7 @@ header .billboard .content-button {
 
 .topnavmainbarinneritems .nav-dropdown-content a:hover {
   background-color: none;
-  color: none !important; }
+  color: black !important; }
 
 .nav-dropdown:active {
   background-color: white;
@@ -3279,7 +3282,7 @@ header .billboard .content-button {
 
 .accordion .active-accordion, .accordion:hover {
   background-color: #a9f74f;
-  color: white; }
+  color: black; }
 
 .accordion:after {
   color: red; }
@@ -5137,6 +5140,14 @@ body {
     font-size: 24px; }
 
 .datapoints .datapoint-south {
+  color: white; }
+
+.topnavmainbarinneritems .nav-dropdown-content {
+  background-color: #C4E800;
+  color: white; }
+
+.topnavmainbarinneritems-mobile .nav-dropdown-content {
+  background-color: #C4E800;
   color: white; }
 
 /*# sourceMappingURL=at-am-limegreen.css.map */
