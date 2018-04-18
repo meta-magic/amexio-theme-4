@@ -341,7 +341,8 @@ image using the content attribute.
 
 .disabled {
   background-color: #a09e9e;
-  color: #70196F; }
+  color: #70196F;
+  pointer-events: none; }
 
 .button-primary:hover:enabled {
   background-color: #461046; }
@@ -391,10 +392,6 @@ button {
   padding: .5rem 1rem;
   border-radius: 5px;
   transition: all .2s ease-in-out; }
-
-.button-round {
-  border-radius: 50%;
-  vertical-align: middle; }
 
 .button-text {
   display: inline-block; }
@@ -459,10 +456,6 @@ button {
 
 .button-dropdown > div:hover {
   background-color: #f3c8f2; }
-
-.button-dropdown:disabled {
-  background-color: #a09e9e;
-  color: #70196F; }
 
 /** buttondropdown - Structure CSS **/
 .button-dropdown {
@@ -840,6 +833,11 @@ textarea:required {
 /* When the checkbox is checked, add a blue background */
 .input-box-container input:checked ~ .input-box-checkbox-label {
   background-color: #70196F; }
+
+.checkbox-disable {
+  opacity: 0.55;
+  pointer-events: none;
+  background-color: #a09e9e; }
 
 /** checkbox - Structure CSS **/
 .input-box {

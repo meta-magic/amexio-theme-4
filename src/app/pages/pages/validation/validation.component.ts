@@ -20,10 +20,11 @@ export class ValidationComponent implements OnInit {
   name:any;
   bindData : any;
   rate : number = 5;
-  getStatus(event:any){
-    debugger;
+  
+  getStatus(event:any) {    
     this.formValid = event;
   }
+
   constructor() {
 
     this.formValid = false;
