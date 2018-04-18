@@ -33,6 +33,12 @@
           "link": "sample"
         },
         {
+          "text": "Form",
+          "icon": "fa fa-clone fa-fw",
+          "mdbIcon": "create",
+          "link": "forms"
+        },
+        {
           "text": "Login",
           "mdbIcon": "open_in_browser",
           "icon": "fa fa-sign-in fa-fw",
