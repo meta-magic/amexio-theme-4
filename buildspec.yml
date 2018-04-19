@@ -33,7 +33,7 @@ phases:
          commands:
             - cp appspec.yml install_dependencies dist
             - echo Build completed on `date`
-            - aws s3 cp dist s3://amexiothemev4-1 --recursive
+            #- aws s3 cp dist s3://amexiothemev4-1 --recursive
 artifacts:
     files:
         - '**/*'
