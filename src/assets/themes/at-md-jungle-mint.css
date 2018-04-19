@@ -383,8 +383,7 @@ image using the content attribute.
 
 .disabled {
   background-color: #c2dbc2;
-  color: #62a362;
-  pointer-events: none; }
+  color: #62a362; }
 
 .button-primary:hover:enabled {
   background-color: #79ab79; }
@@ -438,6 +437,9 @@ button {
 .button-text {
   display: inline-block; }
 
+.disabled {
+  pointer-events: none; }
+
 .button-small {
   padding: .25rem .5rem; }
 
@@ -456,6 +458,10 @@ button {
 .button-transparent {
   border: none !important;
   box-shadow: none !important; }
+
+.button-round {
+  border-radius: 50%;
+  vertical-align: middle; }
 
 /****************************************************************************
     Component Name : Buttongroup

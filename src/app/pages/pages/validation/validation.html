@@ -1,5 +1,9 @@
-<amexio-form form-name="validateForm" form-header="Validation Form" show-error="true" >
-  <amexio-row>
+<amexio-form form-name="validateForm" [header]="true" [show-error]="true" >
+  <amexio-form-header>
+    Validation Form
+  </amexio-form-header>
+  <amexio-form-body>
+    <amexio-row>
       <amexio-column [size]="6">
           <amexio-text-input [min-length]="3" [max-length]="5" [allow-blank]="false" field-label="Firstname" name="name1" place-holder="Enter firstname" icon-feedback="true">
           </amexio-text-input>
@@ -49,6 +53,7 @@
 
   <amexio-checkbox [field-label]="'Agree'" [required]="true">
   </amexio-checkbox>
+</amexio-form-body>
   <amexio-form-action>
       <amexio-button [disabled]="true" [label]="'OK'" [type]="'primary'" [tooltip]="'Save'" [form-bind]="'validateForm'">
       </amexio-button>
