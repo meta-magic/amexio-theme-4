@@ -1,4 +1,4 @@
-<amexio-form [form-name] = "sampleForm" [header]="true" [show-error]="true" [footer-align]="center" >
+<amexio-form [form-name] = "sampleForm" [header]="true" [show-error]="true" [footer-align]="left" >
   <amexio-form-header>
     Sample Form
   </amexio-form-header>
@@ -31,7 +31,6 @@
 
     <amexio-row>
       <amexio-column [size]="6">
-
         <amexio-textarea-input [field-label]="'Address'" name="Address"
                                [place-holder]="'Enter address'"
                                [error-msg]="'Please enter address'"
@@ -41,8 +40,6 @@
 
         >
         </amexio-textarea-input>
-
-
       </amexio-column>
       <amexio-column [size]="6">
         <amexio-typeahead [data-reader]="'response.data'"
@@ -77,11 +74,9 @@
     </amexio-row>
     <amexio-row>
       <amexio-column [size]="6">
-
-          <amexio-number-input [field-label]="'Age'" name ="age"
+        <amexio-number-input [field-label]="'Age'" name ="age"
                              [place-holder]="'Enter Age'">
         </amexio-number-input>
-
       </amexio-column>
       <amexio-column [size]="6">
                   <amexio-dropdown
@@ -107,7 +102,6 @@
                             [icon-feedback]="true"
                             [allow-blank]="false" [error-msg]="'Please enter correct mail id'">
         </amexio-email-input>
-
       </amexio-column>
       <amexio-column [size]="6">
         <amexio-password-input [field-label]="'Password'" name="password"
@@ -120,7 +114,6 @@
                                [max-error-msg]="'Maximum 32 char allowed'"
                                [enable-popover]="true">
         </amexio-password-input>
-
       </amexio-column>
     </amexio-row>
     <amexio-row>
@@ -133,19 +126,17 @@
           [value-field]="'checked'"
           [data]="checkboxGroupdata">
         </amexio-checkbox-group>
-
       </amexio-column>
-
       <amexio-column [size]="6">
         <amexio-radio-group
           name="name"
-                            [field-label] = "'Gender'"
-                            [horizontal]="true"
-                            [data-reader]="'response.data'"
-                            [display-field]="'gender'"
-                            [value-field]="'genderId'"
-                            [data]="radioGroupData"
-                           >
+          [field-label] = "'Gender'"
+          [horizontal]="true"
+          [data-reader]="'response.data'"
+          [display-field]="'gender'"
+          [value-field]="'genderId'"
+          [data]="radioGroupData"
+          >
         </amexio-radio-group>
       </amexio-column>
     </amexio-row>
