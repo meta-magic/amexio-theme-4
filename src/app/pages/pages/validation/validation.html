@@ -14,6 +14,19 @@
       </amexio-column>
   </amexio-row>
 
+  <amexio-row>
+    <amexio-column [size]="6">
+      <amexio-checkbox-group
+        [field-label]="'Hobbies'" name="language"
+        [horizontal]="true"
+        [required] = "true"
+        [data-reader]="'response.data'"
+        [display-field]="'language'"
+        [value-field]="'checked'"
+        [data]="checkboxGroupdata">
+      </amexio-checkbox-group>
+
+    </amexio-column></amexio-row>
   <amexio-textarea-input [disabled]="false" [field-label]="'Address'" name="Address" [place-holder]="'Enter address'" [error-msg]="'Please enter address'" [icon-feedback]="true" [rows]="'1'" [columns]="'2'" [allow-blank]="false" [enable-popover]="true"></amexio-textarea-input>
   <amexio-row>
       <amexio-column [size]="4">
