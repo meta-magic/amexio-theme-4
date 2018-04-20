@@ -33,13 +33,16 @@ export class ValidationComponent implements OnInit {
       response:{
         data:[{
           language:'Learning',
-          checked: false
+          checked: false,
+          disabled : false
         },{
           language:'Shopping',
-          checked: false
+          checked: false,
+          disabled : false
         },{
           language:'Fishing',
-          checked: false
+          checked: false,
+          disabled : false
         }
         ]}};
 

@@ -1,4 +1,4 @@
-<amexio-form form-name="validateForm" [header]="true" [show-error]="true" >
+<amexio-form [body-height] = "'70'"  form-name="validateForm" [header]="true" [show-error]="true" >
   <amexio-form-header>
     Validation Form
   </amexio-form-header>
@@ -20,6 +20,7 @@
         [field-label]="'Hobbies'" name="language"
         [horizontal]="true"
         [required] = "true"
+        [disabled]= "false"
         [data-reader]="'response.data'"
         [display-field]="'language'"
         [value-field]="'checked'"
