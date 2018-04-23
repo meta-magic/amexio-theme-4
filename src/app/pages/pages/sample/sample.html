@@ -1,4 +1,4 @@
-<amexio-form [form-name] = "sampleForm" [header]="true" [show-error]="true" >
+<amexio-form [form-name] = "'sampleForm'" [header]="true" [show-error]="true" [height] = "'600'">
   <amexio-form-header>
     Sample Form
   </amexio-form-header>
@@ -45,6 +45,7 @@
         <amexio-typeahead [data-reader]="'response.data'"
                           [http-url]="'assets/data/country.json'"
                           [http-method]="'get'"
+                          [allow-blank] = "false"
                           [key]="'countryName'"
                           [display-field]="'countryName'"
                           [field-label]="'Nationality'" [place-holder]="'Search'">
@@ -58,7 +59,7 @@
         <amexio-date-time-picker
           [field-label]="'Date Of Birth'"
           [time-picker]="false"
-          [date-picker]="true"
+          [required] = "true"
           [(ngModel)]="currentDate">
         </amexio-date-time-picker>
 
@@ -88,6 +89,7 @@
                                  [http-url]="'assets/data/cities.json'"
                                  [http-method]="'get'"
                                  [search]="'true'"
+                                 [allow-blank] = "false"
                                  [display-field]="'cityName'"
                                  [value-field]="'cityName'"
                                  >
@@ -121,6 +123,7 @@
         <amexio-checkbox-group
           [field-label]="'Hobbies'" name="language"
           [horizontal]="true"
+          [required] = "true"
           [data-reader]="'response.data'"
           [display-field]="'language'"
           [value-field]="'checked'"
@@ -132,6 +135,7 @@
           name="name"
           [field-label] = "'Gender'"
           [horizontal]="true"
+          [allow-blank] = "false"
           [data-reader]="'response.data'"
           [display-field]="'gender'"
           [value-field]="'genderId'"
@@ -146,6 +150,7 @@
                           [http-url]="'assets/data/country.json'"
                           [http-method]="'get'"
                           [key]="'countryName'"
+                          [allow-blank]="false"
                           [display-field]="'countryName'"
                           [field-label]="'Having visa'">
         </amexio-tag-input>
