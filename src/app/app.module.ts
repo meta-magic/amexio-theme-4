@@ -65,6 +65,10 @@ const route: Routes = [
   {
     path: 'datagrid', loadChildren: './pages/datagrid/datagrid.module#DataGridModule'
   },
+{
+    path: 'templates', loadChildren: './pages/templates/templates.module#TemplateGridModule'
+  },
+ 
   {
     path : 'action' , loadChildren : './pages/action/action#ActionRoutingModule'
   },

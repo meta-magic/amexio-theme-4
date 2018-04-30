@@ -64,6 +64,12 @@
         "mdbIcon": "bug_report",
         "link": "datagrid"
       },
+       {
+        "text": "Template",
+        "icon": "fa fa-th fa-fw",
+        "mdbIcon": "",
+        "link": "templates"
+      },
       {
         "text": "Action Button",
         "icon": "fa fa-keyboard-o fa-fw",
