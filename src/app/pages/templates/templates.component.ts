@@ -30,7 +30,7 @@ import {HttpClient} from '@angular/common/http'
     color: yellow!important;
     
 }
-.progressBar .progress{
+.template-progressBar .progress{
   height:5px !important;
 }  
 `]
@@ -81,31 +81,31 @@ export class TemplatesGridComponent implements OnInit {
           {
             "name": "Google Chrome",
             "usage":"23%",
-            "icon": "Google Chrome.jpg "
+            "icon": "GoogleChrome.jpg "
           },
           { "name": "Mozila Firefox",
             "usage":"15%",
-            "icon": "Mozila Firefox.png "
+            "icon": "MozilaFirefox.png "
           },
           {
              "name": "Apple Safari",
              "usage":"7%",
-            "icon": "Apple Safari.png "
+            "icon": "AppleSafari.png "
           },
           {
             "name": "Internet Explorer",
             "usage":"9%",
-            "icon": "Internet Explorer.jpeg"
+            "icon": "InternetExplorer.jpeg"
           },
           {
            "name": "Opera mini",
            "usage":"20%",
-            "icon": "Opera mini.jpg"
+            "icon": "Operamini.jpg"
           },
           {
           "name": "Microsoft edge",
           "usage":"9%",
-            "icon": "Microsoft edge.jpg"
+            "icon": "Microsoftedge.jpg"
           }
         ]
       }
