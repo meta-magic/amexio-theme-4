@@ -28,16 +28,18 @@
                   </amexio-data-table-column>
                   <amexio-data-table-column [width]="40" [data-index]="'Usage'" [data-type]="'string'" [hidden]="false" [text]="'USAGE'">
                     <ng-template #amexioBodyTmpl let-column let-row="row">
-                      <div class="progressBar">
                          <span>{{row.Usage}}%</span>
-                          <span>
- <amexio-progress-bar  [current-value]="row.Usage" [infinite]="false" [type]="getGridTemplateData(row)"></amexio-progress-bar>  </span>
-                      <amexio-label 
+                         
+                             <div class="template-progressBar">
+ <amexio-progress-bar  [current-value]="row.Usage" [infinite]="false" [type]="getGridTemplateData(row)"></amexio-progress-bar> 
+
+ </div>                    
+ <amexio-label 
                             size="small"
                             font-color="grey">
                               {{row.usageFromDate}}-{{row.usageToDate}}
                          </amexio-label>                      
-</div>
+
                     </ng-template>
                   </amexio-data-table-column>
                   <amexio-data-table-column [width]="20" [data-index]="'Payment'" [data-type]="'string'" [hidden]="false" [text]="'PAYMENT'">
@@ -119,6 +121,10 @@
              <amexio-btn-dropdown [label]="'Action'"
                      [type]="'theme-backgroundcolor'"
                      [size]="'small'" >
+              <amexio-btn-dropdown-item [label]="'Accept'">
+  </amexio-btn-dropdown-item>
+  <amexio-btn-dropdown-item [label]="'Reject'">
+  </amexio-btn-dropdown-item>        
 </amexio-btn-dropdown> 
             </amexio-column>
           <amexio-column [size] ="3" >
