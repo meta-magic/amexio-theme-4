@@ -34,7 +34,7 @@ const route: Routes = [
     path:'issue',loadChildren:'./pages/report/issue/issue.module#IssueModule'
   },
   {
-     path: 'forms', loadChildren: './pages/pages/validation/validation.module#ValidationModule'
+     path: 'images', loadChildren: './pages/pages/images/images.module#ImagesModule'
   },
   {
     path:'issuestatus',loadChildren:'./pages/issuestatus/issuestatus.module#IssueStatusModule'

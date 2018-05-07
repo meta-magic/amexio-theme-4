@@ -27,8 +27,6 @@
         </amexio-text-input>
       </amexio-column>
     </amexio-row>
-
-
     <amexio-row>
       <amexio-column [size]="6">
         <amexio-textarea-input [field-label]="'Address'" name="Address"
@@ -147,6 +145,20 @@
     </amexio-row>
     <amexio-row>
       <amexio-column [size]="6">
+      <amexio-slider [(ngModel)]="name" minvalue="0" maxvalue="100" stepvalue="10"></amexio-slider>
+      </amexio-column>
+      <amexio-column [size]="6">
+      <amexio-fileupload [http-url]="'/upload'"
+        [http-method]="'POST'"
+        [file-type]="'image/*'"
+        [multiple-file]="'*'"
+        [droppable]="true"
+        [field-label]="'Photo Upload'">
+      </amexio-fileupload>
+    </amexio-column>
+    </amexio-row>
+    <amexio-row>
+      <amexio-column [size]="6">
         <amexio-tag-input [data-reader]="'response.data'"
                           [http-url]="'assets/data/country.json'"
                           [http-method]="'get'"
@@ -170,12 +182,6 @@
       </amexio-item-selector>
       </amexio-column>
     </amexio-row>
-
-    <amexio-row>
-      <amexio-column [size]="6">
-      <amexio-slider [(ngModel)]="name" minvalue="0" maxvalue="100" stepvalue="10"></amexio-slider>
-      </amexio-column>
-    </amexio-row>
   </amexio-form-body>
   <amexio-form-action>
       <amexio-btn-group>
@@ -192,3 +198,4 @@
       </amexio-btn-group>
   </amexio-form-action>
 </amexio-form>
+

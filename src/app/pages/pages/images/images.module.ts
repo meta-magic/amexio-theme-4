@@ -1,5 +1,5 @@
 /**
- * Created by ketangote on 8/17/17.
+ * Created by anaghak07 on 7/4/18.
  */
 
 import { NgModule,CUSTOM_ELEMENTS_SCHEMA  } from '@angular/core';
@@ -7,9 +7,9 @@ import { Routes, RouterModule } from '@angular/router';
 import { CommonModule} from "@angular/common";
 import { FormsModule} from "@angular/forms";
 import { AmexioWidgetModule,AmexioFormsModule} from "amexio-ng-extensions";
-import { ValidationComponent} from "./validation.component";
+import { ImagesComponent} from "./images.component";
 const routes: Routes = [
-  { path: '', component: ValidationComponent }
+  { path: '', component: ImagesComponent }
 ];
 
 @NgModule({
@@ -20,10 +20,10 @@ const routes: Routes = [
   ],
   exports: [RouterModule],
   declarations : [
-    ValidationComponent,
+    ImagesComponent,
   ],
   schemas: [ CUSTOM_ELEMENTS_SCHEMA ],
 
   providers : []
 })
-export class ValidationModule { }
+export class ImagesModule { }
