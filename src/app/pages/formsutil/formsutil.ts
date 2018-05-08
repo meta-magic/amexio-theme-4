@@ -4,8 +4,8 @@
 import { Component, OnInit } from '@angular/core';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import {AmexioFormsModule, AmexioWidgetModule} from "amexio-ng-extensions";
-import {FormsModule} from "@angular/forms";
+import { AmexioFormsModule, AmexioWidgetModule } from "amexio-ng-extensions";
+import { FormsModule } from "@angular/forms";
 
 @Component({
  selector: 'forms-utils',
@@ -17,19 +17,16 @@ import {FormsModule} from "@angular/forms";
        Amexio Forms Utilities
      </amexio-header>
      <amexio-body>
-
        <amexio-row>
          <amexio-column [size]="12">
            <h2>Rating Component</h2>
          </amexio-column>
        </amexio-row>
-
        <amexio-row>
         <amexio-column size="6">
           <amexio-rating-input [max]="5" [(ngModel)]="rate" [full-icon]="'☑'" [empty-icon]="'☐'"></amexio-rating-input>
           <b><p>Rated : {{rate}}</p></b>
-        </amexio-column>
-         
+        </amexio-column>         
          <amexio-column size="6">
            <amexio-rating-input [max]="10" [(ngModel)]="rate1"></amexio-rating-input>
            <b><p>Rated : {{rate1}}</p></b>
@@ -389,10 +386,10 @@ import {FormsModule} from "@angular/forms";
         </amexio-column>
 
         <amexio-column [size]="4">
-        <amexio-box border-color ="purple" border="all" padding="true" background-color="purple" box-height="100px" box-width="300px">
+        <amexio-box border-color ="purple" border="all" [closable]="'true'" padding="true" background-color="purple" box-height="100px" box-width="300px">
         <amexio-text-input field-label="Aadhar No" name="name"
                    place-holder="Enter aadhar card no"
-                   icon-feedback="true">
+                   icon-feedback="true" >
         </amexio-text-input>
         </amexio-box>
         </amexio-column>
