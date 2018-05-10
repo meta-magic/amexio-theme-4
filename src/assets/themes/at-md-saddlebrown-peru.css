@@ -1433,7 +1433,23 @@ input:checked + .toggle-slider:before {
     Version : Amexio v4.0 onwards
 *****************************************************************************/
 /** label - Visual CSS **/
+.label-badge {
+  color: #1c1207;
+  background-color: #cd853f; }
+
 /** label - Structure CSS **/
+.label-badge {
+  display: inline-block;
+  min-width: 10px;
+  padding: 3px 7px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  border-radius: 10px; }
+
 .large {
   font-size: 36px; }
 
@@ -1529,25 +1545,26 @@ input:checked + .toggle-slider:before {
   padding: 8px 8px 8px 8px; }
 
 .border-red {
-  border-color: #dc143c; }
+  border-color: #dc143c !important; }
 
 .border-blue {
-  border-color: #00008b; }
+  border-color: #00008b !important; }
 
 .border-green {
-  border-color: #2e8b57; }
+  border-color: #2e8b57 !important; }
 
 .border-brown {
-  border-color: #800000; }
+  border-color: #800000 !important; }
 
 .border-purple {
-  border-color: #8b008b; }
+  border-color: #8b008b !important; }
 
 .border-yellow {
-  border-color: #ff9900; }
+  border-color: #ff9900 !important; }
 
 .box-close {
-  float: right; }
+  float: right;
+  padding-right: 5px; }
 
 .border-dotted {
   border-width: 1px;
