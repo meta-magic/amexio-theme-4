@@ -20,7 +20,7 @@ export class LayoutComponent implements OnInit {
   payment:boolean;
   confirmation:boolean;
   clickMsgArray:any=[];
-
+  radioGroupData: any;
   showBasicWindow : boolean;
   showAlertWindow : boolean;
   showClosable : boolean;
@@ -32,6 +32,15 @@ export class LayoutComponent implements OnInit {
     this.payment=false;
     this.confirmation=false;
    this.flag=false;
+   this.radioGroupData = {
+    response: {
+      data: [{
+        gender: 'Male', genderId: 'male'
+      }, {
+        gender: 'Female', genderId: 'female'
+      },]
+    }
+  }
    this.viewData=
         [
           {
