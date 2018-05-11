@@ -427,6 +427,32 @@
           </amexio-column>
         </amexio-row>
       </amexio-tab>
+
+      <amexio-tab [title]="'Enhanced Tab'" [icon]="'fa fa-table'">
+        <amexio-tab-view [closable]="false" [type]="'radiogroup'" header="Work Profile" [header-align]="'right'" [divide-header-equally]=false>
+          <amexio-tab-action>
+          <amexio-radio-group [field-label]="'Horizontal Radio Group'" name="gender" [data-reader]="'response.data'" [display-field]="'gender'"
+              [value-field]="'genderId'" [horizontal]="true" [data]="radioGroupData" [default-value]="'male'">
+          </amexio-radio-group>
+      </amexio-tab-action>
+          <amexio-tab title="Personal" [active]="true" [amexio-color]="'red'">
+              Personal Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+              dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
+              type specimen book.
+          </amexio-tab>
+          <amexio-tab title="Work" [amexio-color]="'blue'">
+              Work Nullam nec dolor lobortis, dictum dolor ac, suscipit massa. Donec id suscipit nisi. Nunc sit amet aliquet risus. Aenean
+              placerat suscipit risus at mollis. Quisque eleifend gravida scelerisque. In non eleifend nisi. Phasellus
+              tempor hendrerit posuere. Praesent ornare rutrum mi et condimentum.
+          </amexio-tab>
+          <amexio-tab title="Notes" [amexio-color]="'green'">
+              Notes Phasellus in condimentum elit. In et vestibulum sem. Orci varius natoque penatibus et magnis dis parturient montes,
+              nascetur ridiculus mus. Aliquam erat volutpat.Sed viverra libero vel massa accumsan aliquet. Mauris a dui
+              nec sapien pretium euismod.
+          </amexio-tab>
+      </amexio-tab-view>
+      </amexio-tab>
+
       	    </amexio-tab-view>
 
 

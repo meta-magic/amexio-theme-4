@@ -8,8 +8,8 @@ import { AmexioFormsModule, AmexioWidgetModule } from "amexio-ng-extensions";
 import { FormsModule } from "@angular/forms";
 
 @Component({
- selector: 'forms-utils',
- template : `
+  selector: 'forms-utils',
+  template: `
 
    <amexio-card [header]="true">
 
@@ -399,25 +399,52 @@ import { FormsModule } from "@angular/forms";
         <amexio-label >This is small-bold amexio label with background-color</amexio-label>        
         </amexio-box>
         </amexio-column>
-     </amexio-row>
+        <h2>Label Component With Badge </h2>
+        <amexio-row>
+        <amexio-column [size]="4">
+          <amexio-label size="large" [badge]="1">This is large amexio label</amexio-label>
+        </amexio-column>
+        <amexio-column [size]="4">
+          <amexio-label size="large-bold"[badge]="2">This is large-bold amexio label</amexio-label>
+        </amexio-column>
+        <amexio-column [size]="4">    
+          <amexio-label size="medium-bold"[badge]="3">This is medium-bold amexio label</amexio-label>
+        </amexio-column>
+        </amexio-row>
+        <amexio-row>
+        <amexio-column [size]="4">
+          <amexio-label size="small" [badge]="3">This is small amexio label</amexio-label>
+        </amexio-column>
+        <amexio-column [size]="4">
+          <amexio-label size="small-bold"[badge]="2">This is small-bold amexio label</amexio-label>
+        </amexio-column>
+        <amexio-column [size]="4">    
+          <amexio-label size="medium-bold" font-color="#FF5733"[badge]="5">This is medium-bold amexio label</amexio-label>
+        </amexio-column>
+        </amexio-row>
+        
+        
+      
+   </amexio-row>
         </amexio-column>
      </amexio-row>
 
      </amexio-body>
    </amexio-card>
+   
  `
 })
 
 export class FormUtilsComponent implements OnInit {
-  rate : number=3;
-  rate1 : number = 7;
-  currentDate1 : any;
-  currentDate:any;
-  toggleMsgArrayR : any[] = [];
-  toggleMsgArrayL : any[] = [];
- constructor() { }
+  rate: number = 3;
+  rate1: number = 7;
+  currentDate1: any;
+  currentDate: any;
+  toggleMsgArrayR: any[] = [];
+  toggleMsgArrayL: any[] = [];
+  constructor() { }
 
- ngOnInit() { }
+  ngOnInit() { }
 }
 
 const routes: Routes = [
@@ -425,9 +452,9 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forChild(routes),AmexioWidgetModule,FormsModule],
+  imports: [RouterModule.forChild(routes), AmexioWidgetModule, FormsModule],
   exports: [RouterModule],
-  declarations : [FormUtilsComponent]
+  declarations: [FormUtilsComponent]
 })
 export class FormUtilsRoutingModule { }
 

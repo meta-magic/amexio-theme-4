@@ -30,10 +30,8 @@
                     <ng-template #amexioBodyTmpl let-column let-row="row">
                          <span>{{row.Usage}}%</span>
                          
-                             <div class="template-progressBar">
  <amexio-progress-bar  [current-value]="row.Usage" [infinite]="false" [type]="getGridTemplateData(row)"></amexio-progress-bar> 
 
- </div>                    
  <amexio-label 
                             size="small"
                             font-color="grey">
@@ -44,17 +42,15 @@
                   </amexio-data-table-column>
                   <amexio-data-table-column [width]="20" [data-index]="'Payment'" [data-type]="'string'" [hidden]="false" [text]="'PAYMENT'">
                     <ng-template #amexioBodyTmpl let-column let-row="row">
-                      <div class="datagrid-template">
                           <span>
 <div class=profile-image-round>
                   <img src="assets/images/{{row.Payment}}"/></div>
             </span>
-                      </div>
                     </ng-template>
                   </amexio-data-table-column>
                   <amexio-data-table-column [width]="20" [data-index]="'Activity'" [data-type]="'string'" [hidden]="false" [text]="'ACTIVITY'">
                     <ng-template #amexioBodyTmpl let-column let-row="row">
-                      <div class="datagrid-template">
+                     
                           <amexio-label 
                           size="small"
                           font-color="grey">
@@ -65,16 +61,16 @@
                             {{row.Activity}}
                        </amexio-label>
                        
-                      </div>
+    
                     </ng-template>
                   </amexio-data-table-column>
           <amexio-data-table-column [width]="10" [data-index]="''" [data-type]="'string'" [hidden]="false" [text]="''">
              <ng-template #amexioBodyTmpl let-column let-row="row">
-                      <div class="datagrid-template">
+                      
                           <span>
 <amexio-image style="color:grey;" [icon-class]="'fa fa-pencil fa-2x'"></amexio-image>  
             </span>
-                      </div>
+                     
                     </ng-template>
           </amexio-data-table-column>
  </amexio-datagrid>
