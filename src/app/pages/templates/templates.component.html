@@ -9,8 +9,11 @@
                    <ng-template #amexioBodyTmpl let-column let-row="row">
                      <amexio-row>
                         <amexio-column [size]="3">
-                        <div class=profile-image-round>
-                  <img src="assets/images/profile/{{row.profile}}"/></div>
+                        <!-- <div class=profile-image-round> -->
+                  <!-- <img src="assets/images/profile/{{row.profile}}"/> -->
+                   <amexio-image [path]="'assets/images/profile/'+row.profile" [c-class]="profile-image-round">
+                   </amexio-image>
+                <!-- </div> -->
                         </amexio-column>
                         <amexio-column [size]="9">
                         <amexio-label 
@@ -43,8 +46,11 @@
                   <amexio-data-table-column [width]="20" [data-index]="'Payment'" [data-type]="'string'" [hidden]="false" [text]="'PAYMENT'">
                     <ng-template #amexioBodyTmpl let-column let-row="row">
                           <span>
-<div class=profile-image-round>
-                  <img src="assets/images/{{row.Payment}}"/></div>
+<!-- <div class=profile-image-round> -->
+                  <!-- <img src="assets/images/{{row.Payment}}"/> -->
+          <amexio-image [path]="'assets/images/'+row.Payment" [c-class]="'profile-image-round'">
+        </amexio-image>           
+                <!-- </div> -->
             </span>
                     </ng-template>
                   </amexio-data-table-column>
@@ -176,8 +182,11 @@
             <amexio-row>
               <amexio-column [size] ="4" >
                                         <span>
-<div class=profile-image-round>
-                  <img src="assets/images/{{row.icon}}"/></div>
+ <!-- <div class=profile-image-round>  -->
+                  <!-- <img src="assets/images/{{row.icon}}"/> -->
+                   <amexio-image [path]="'assets/images/'+row.icon" [c-class]="profile-image-round">
+        </amexio-image>
+                   <!-- </div>  -->
             </span>
             
             </amexio-column>
