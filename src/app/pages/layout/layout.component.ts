@@ -25,6 +25,9 @@ export class LayoutComponent implements OnInit {
   showAlertWindow : boolean;
   showClosable : boolean;
   showDialog : boolean;
+  public rate: number = 7;
+  public max: number = 10;
+  public isReadonly: boolean = false;
 
   constructor() {
     this.user=false;

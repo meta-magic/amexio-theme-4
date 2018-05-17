@@ -329,6 +329,34 @@ image using the content attribute.
 .button-secondary:hover:enabled {
   background-color: #e6e6e6; }
 
+.btn-badge {
+  background-color: #fd91a7;
+  color: #8D021F; }
+
+.btn-primary-badge {
+  background-color: white;
+  color: #8D021F; }
+
+.btn-secondary-badge {
+  background-color: #8D021F;
+  color: #ffffff; }
+
+.btn-success-badge {
+  background-color: white;
+  color: #5cb85c; }
+
+.btn-danger-badge {
+  background-color: white;
+  color: #d9534f; }
+
+.btn-warning-badge {
+  background-color: white;
+  color: #f0ad4e; }
+
+.btn-transparent-badge {
+  background-color: #8D021F;
+  color: white; }
+
 .button-primary {
   background-color: #8D021F;
   border-color: #8D021F;
@@ -387,6 +415,83 @@ button {
   border-radius: 5px;
   transition: all .2s ease-in-out; }
 
+.btn-badge {
+  padding: .25em .4em;
+  font-size: inherit;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25rem;
+  margin-left: 3px; }
+
+.btn-primary-badge {
+  padding: .25em .4em;
+  font-size: inherit;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25rem;
+  margin-left: 3px; }
+
+.btn-secondary-badge {
+  padding: .25em .4em;
+  font-size: inherit;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25rem;
+  margin-left: 3px; }
+
+.btn-success-badge {
+  padding: .25em .4em;
+  font-size: inherit;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25rem;
+  margin-left: 3px; }
+
+.btn-danger-badge {
+  padding: .25em .4em;
+  font-size: inherit;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25rem;
+  margin-left: 3px; }
+
+.btn-warning-badge {
+  padding: .25em .4em;
+  font-size: inherit;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25rem;
+  margin-left: 3px; }
+
+.btn-transparent-badge {
+  padding: .25em .4em;
+  font-size: inherit;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25rem;
+  margin-left: 3px; }
+
 .button-text {
   display: inline-block; }
 
@@ -421,15 +526,83 @@ button {
     Version : Amexio v4.0 onwards
 *****************************************************************************/
 /** buttongroup - Visual CSS **/
+.button-secondary {
+  background-color: #ffffff;
+  border-color: #8D021F;
+  color: #8D021F; }
+
+.button-secondary:hover:enabled {
+  background-color: #e6e6e6; }
+
+.btn-group-primary-badge {
+  background-color: white;
+  color: #8D021F; }
+
+.btn-group-secondary-badge {
+  background-color: #8D021F;
+  color: #ffffff; }
+
+.btn-group-success-badge {
+  background-color: white;
+  color: #5cb85c; }
+
+.btn-group-danger-badge {
+  background-color: white;
+  color: #d9534f; }
+
+.btn-group-warning-badge {
+  background-color: white;
+  color: #f0ad4e; }
+
+.btn-group-transparent-badge {
+  background-color: #8D021F;
+  color: white; }
+
+.button-primary {
+  background-color: #8D021F;
+  border-color: #8D021F;
+  color: white; }
+
+.disabled {
+  background-color: #a09e9e;
+  color: #8D021F; }
+
+.button-primary:hover:enabled {
+  background-color: #5b0114; }
+
+.button-success {
+  background-color: #5cb85c;
+  border-color: #5cb85c;
+  color: white; }
+
+.button-success:hover:enabled {
+  background-color: #449d44; }
+
+.button-danger {
+  background-color: #d9534f;
+  border-color: #d9534f;
+  color: white; }
+
+.button-danger:hover:enabled {
+  background-color: #c9302c; }
+
+.button-warning {
+  background-color: #f0ad4e;
+  border-color: #f0ad4e;
+  color: white; }
+
+.button-warning:hover:enabled {
+  background-color: #ec971f; }
+
+.button-transparent {
+  background: white;
+  color: #8D021F; }
+
 /** buttongroup - Structure CSS **/
 .btn-group span {
-  border: 1px solid black;
-  padding: 10px 24px;
-  /* Some padding */
-  cursor: pointer;
-  /* Pointer/hand icon */
-  float: left;
-  /* Float the buttons side by side */ }
+  /* border: $btnGrpBorderSize solid $btnGrpBorderColor; 
+  
+   cursor: pointer; /* Pointer/hand icon */ }
 
 .btn-group button {
   cursor: pointer; }
@@ -447,18 +620,143 @@ button {
 .button-group {
   position: relative; }
 
+.btn-group-badge {
+  padding: .25em .4em;
+  font-size: inherit;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25rem;
+  margin-left: 3px; }
+
+.btn-group-primary-badge {
+  padding: .25em .4em;
+  font-size: inherit;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25rem;
+  margin-left: 3px; }
+
+.btn-group-secondary-badge {
+  padding: .25em .4em;
+  font-size: inherit;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25rem;
+  margin-left: 3px; }
+
+.btn-group-success-badge {
+  padding: .25em .4em;
+  font-size: inherit;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25rem;
+  margin-left: 3px; }
+
+.btn-group-danger-badge {
+  padding: .25em .4em;
+  font-size: inherit;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25rem;
+  margin-left: 3px; }
+
+.btn-group-warning-badge {
+  padding: .25em .4em;
+  font-size: inherit;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25rem;
+  margin-left: 3px; }
+
+.btn-group-transparent-badge {
+  padding: .25em .4em;
+  font-size: inherit;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25rem;
+  margin-left: 3px; }
+
+.button-text {
+  display: inline-block; }
+
+.disabled {
+  pointer-events: none; }
+
+.button-small {
+  padding: .25rem .5rem; }
+
+.button-default {
+  padding: .5rem 1rem;
+  font-size: 1rem; }
+
+.button-large {
+  padding: .75rem 1.5rem;
+  font-size: 1.25rem; }
+
+.button-block {
+  display: block;
+  width: 100%; }
+
+.button-transparent {
+  border: none !important;
+  box-shadow: none !important; }
+
+.button-round {
+  border-radius: 50%;
+  vertical-align: middle; }
+
 /****************************************************************************
     Component Name : Buttondropdown
     Version : Amexio v4.0 onwards
 *****************************************************************************/
 /** buttondropdown - Visual CSS **/
+.btn-dropdown-badge {
+  background-color: black;
+  color: white; }
+
 .button-dropdown {
   background-color: white; }
 
 .button-dropdown > div:hover {
   background-color: #fec3cf; }
 
+.disabled {
+  background-color: #a09e9e;
+  color: #8D021F; }
+
 /** buttondropdown - Structure CSS **/
+.btn-dropdown-badge {
+  padding: .25em .4em;
+  font-size: inherit;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25rem;
+  margin-left: 3px; }
+
 .button-dropdown {
   position: absolute;
   padding: .5rem 1rem;
@@ -758,7 +1056,8 @@ textarea:required {
 .file-upload-box {
   list-style-type: none;
   float: left;
-  z-index: 1; }
+  z-index: 1;
+  width: 100%; }
 
 .file-upload-name {
   padding: 20;
@@ -774,6 +1073,20 @@ textarea:required {
 
 .file-upload-box li {
   display: inherit; }
+
+.file-upload-info {
+  border: 1px solid lightgray;
+  margin-top: 3px; }
+
+.uploaded-file-name {
+  padding-left: 2%;
+  font-size: small; }
+
+.close-icon {
+  float: right;
+  padding-right: 2%;
+  font-size: 12px !important;
+  cursor: pointer; }
 
 /****************************************************************************
     Component Name : Collapsible Search
@@ -1528,7 +1841,8 @@ input:checked + .toggle-slider:before {
 
 .box-close {
   float: right;
-  padding-right: 5px; }
+  padding-right: 4px;
+  height: 5px; }
 
 .border-dotted {
   border-width: 1px;
@@ -1701,7 +2015,6 @@ input:checked + .toggle-slider:before {
   width: 100%;
   transition: .5s ease;
   opacity: 0;
-  padding: 20px;
   text-align: center; }
 
 .overlay-text p {
@@ -4073,7 +4386,7 @@ fieldset {
    Pink: #FF69B4 rgb(255,215,0,0.0);
    241e00: #241e00 rgb(36,30,0,0.0);
 */
-.amexio-top-tab-pink {
+.amexio-bottom-tab-pink {
   border-top: 2px solid #FF69B4 !important;
   color: #FF69B4; }
 
@@ -4233,12 +4546,10 @@ verticalalign-tableft {
   vertical-align: top !important; }
 
 .float-right {
-  display: flex;
-  justify-content: flex-end; }
+  float: right; }
 
 .float-left {
-  float: left;
-  height: 40px !important; }
+  float: left; }
 
 .equally-align-tabs {
   display: flex;
@@ -4260,37 +4571,43 @@ verticalalign-tableft {
   min-width: 760px;
   max-width: 980px; }
 
-.dynamicContent .tablink {
-  padding-bottom: 0px !important; }
-
-.dynamicContent .input-control {
-  height: 15px !important; }
-
-.dynamicContent .input-box-container {
-  height: 5px !important; }
-
-.dynamicContent .drodown-caret-down {
-  top: -2px !important; }
-
-.dynamicContent .toggle {
-  width: 62px !important;
-  height: 32px !important; }
-
-.dynamicContent .toggle-slider:before {
-  top: 2px; }
-
 .bottomActivetab {
   border-bottom: 5px solid #FF0090; }
 
 .activebottomcolortab {
   border-top: 3px solid !important; }
 
-.dynamicContent .rating {
-  padding: .0rem .0rem !important; }
+.tabposition-right {
+  display: inline-flex !important;
+  width: 100%;
+  justify-content: space-between; }
 
-.tablink-header {
-  padding: 5%;
-  font-size: medium; }
+.tabposition-left {
+  display: inline-flex !important;
+  width: 100%;
+  justify-content: flex-start; }
+
+.tablink .inputgroup * {
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important; }
+
+.tablink amexio-tab-action1 {
+  padding-left: 5%;
+  display: inline-block; }
+
+.tabnavigation-bottom-right {
+  bottom: 3%;
+  z-index: 3;
+  position: absolute;
+  right: 16px; }
+
+.tabnavigation-bottom-left {
+  bottom: 3%;
+  z-index: 3;
+  position: absolute; }
+
+.drodown-caret-down {
+  top: 2px !important; }
 
 /****************************************************************************
     Component Name : Window
@@ -4377,7 +4694,8 @@ verticalalign-tableft {
   padding-right: 16px;
   height: 80%;
   overflow-y: auto;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  background-color: white; }
 
 .modal-window-middle::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); }
