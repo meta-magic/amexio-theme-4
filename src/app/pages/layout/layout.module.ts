@@ -8,6 +8,7 @@ import { FormsModule} from "@angular/forms";
 import { LayoutComponent} from "./layout.component";
 import {AmexioFormsModule,AmexioLayoutModule,
   AmexioPaneModule,AmexioDataModule,AmexioNavModule} from "amexio-ng-extensions";
+import { DyanmicTabComponent } from './dynamictabdemo.component';
 
 const routes: Routes = [
   { path: '', component: LayoutComponent }
@@ -24,9 +25,11 @@ const routes: Routes = [
     AmexioNavModule,
     RouterModule.forChild(routes)
   ],
+  entryComponents:[DyanmicTabComponent],
   exports: [RouterModule],
   declarations : [
-    LayoutComponent
+    LayoutComponent,
+    DyanmicTabComponent
   ],
   providers : []
 })

@@ -3,6 +3,7 @@
  */
 
 import { Component, OnInit } from '@angular/core';
+import { DyanmicTabComponent } from './dynamictabdemo.component';
 
 @Component({
   selector: 'layout',
@@ -139,6 +140,15 @@ export class LayoutComponent implements OnInit {
       }
     };
     this.isVisible=false;
+  }
+
+  tabcount :number = 3;
+  addtab(tab:any){
+    this.tabcount++;
+    let title = 'Tab '+this.tabcount;
+    let cmp = tab.addDynamicTab(title, DyanmicTabComponent);
+    cmp.content = "Content of "+title;
+    debugger;
   }
 
   toggleBasicWindow(){
