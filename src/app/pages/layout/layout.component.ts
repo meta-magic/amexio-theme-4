@@ -142,7 +142,7 @@ export class LayoutComponent implements OnInit {
     this.isVisible=false;
   }
 
-  tabcount :number = 3;
+  tabcount :number = 4;
   addtab(tab:any){
     this.tabcount++;
     let title = 'Tab '+this.tabcount;

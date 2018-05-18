@@ -560,7 +560,7 @@
             Tab layout with action component(Radio Group) and tabs left aligned
           </amexio-header>
           <amexio-body>
-            <amexio-tab-view [closable]="false" [tab-position]="'top'" [header-align]="'left'" [divide-header-equally]=false>
+            <amexio-tab-view [closable]="false" [action]="true" [tab-position]="'top'" [header-align]="'left'" [divide-header-equally]=false>
               <amexio-tab-action>
                 <amexio-radio-group name="gender" [data-reader]="'response.data'" [display-field]="'gender'" [value-field]="'genderId'" [horizontal]="true"
                   [data]="radioGroupData" [default-value]="'male'">
@@ -595,10 +595,10 @@
 
         <amexio-card [header]="true" [footer]="false" [footer-align]="'right'">
           <amexio-header>
-            Tab layout with action component(button) and tabs right aligned
+            Tab layout with action component(button) and tabs left aligned
           </amexio-header>
           <amexio-body>
-            <amexio-tab-view #tab [closable]="false" [divide-header-equally]=false>
+            <amexio-tab-view #tab [closable]="false" [action]="true" [divide-header-equally]=false>
               <amexio-tab-action>
                 <amexio-button [label]="'Add Tab'" [type]="'theme-color'" (onClick)="addtab(tab)" [tooltip]="'toolTip'">
                 </amexio-button>
@@ -633,7 +633,7 @@
             Tab layout with action component(Rating) and tabs right aligned
           </amexio-header>
           <amexio-body>
-            <amexio-tab-view [closable]="false" [tab-position]="'top'" [header-align]="'right'" [divide-header-equally]=false>
+            <amexio-tab-view [closable]="false" [action]="true" [tab-position]="'top'" [header-align]="'right'" [divide-header-equally]=false>
               <amexio-tab-action>
                 <amexio-rating-input [(ngModel)]="rate" [max]="max" name="rate" [read-only]="isReadonly">
                 </amexio-rating-input>
