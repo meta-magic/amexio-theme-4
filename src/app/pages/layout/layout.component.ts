@@ -146,9 +146,8 @@ export class LayoutComponent implements OnInit {
   addtab(tab:any){
     this.tabcount++;
     let title = 'Tab '+this.tabcount;
-    let cmp = tab.addDynamicTab(title, DyanmicTabComponent);
+    let cmp = tab.addDynamicTab(title,"red",DyanmicTabComponent);
     cmp.content = "Content of "+title;
-    debugger;
   }
 
   toggleBasicWindow(){
