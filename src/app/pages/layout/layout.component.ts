@@ -146,7 +146,7 @@ export class LayoutComponent implements OnInit {
   addtab(tab:any){
     this.tabcount++;
     let title = 'Tab '+this.tabcount;
-    let cmp = tab.addDynamicTab(title,"red",DyanmicTabComponent);
+    let cmp = tab.addDynamicTab(title,"red",true,DyanmicTabComponent);
     cmp.content = "Content of "+title;
   }
 
