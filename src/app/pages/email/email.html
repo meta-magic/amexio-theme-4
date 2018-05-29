@@ -10,9 +10,15 @@
           </div>
           <amexio-treeview   [data]="data"
                             (selectedRecord)="onRowSelect($event)"
-                            [enable-checkbox]="false">
-          </amexio-treeview>        
-          <amexio-listbox [height]="400" [header] = "'Contacts'" [search-placeholder]="'Search Contacts'" [data]="bindData" [filter]="false"
+                            [enable-checkbox]="false" >
+          </amexio-treeview >        
+          <amexio-row>
+             <amexio-column [size] =12 >
+              
+            </amexio-column>
+          </amexio-row>
+          
+          <amexio-listbox [height]="400"  [header] = "'Contacts'" [search-placeholder]="'Search Contacts'" [data]="bindData" [filter]="false"
                           [enable-checkbox] = "false" [data-reader]="'response.data'"
                           [display-field]="'name'">
             <ng-template #amexioBodyTmpl let-row="row">
