@@ -82,6 +82,26 @@
             </amexio-card>
           </amexio-column>
         </amexio-row>
+        <br>
+        <amexio-row>
+          <amexio-column [size]="12">
+            <amexio-card [footer]="false" [header]="true">
+              <amexio-header> Data Grid with Global Filter</amexio-header>
+              <amexio-body>
+                <amexio-datagrid
+                  [global-filter]="true" title="Country Grid"   [http-method]="'get'" [http-url]="'assets/data/datagrid.json'" [data-reader]="'data'"  [page-size] = "10">
+                  <amexio-data-table-column [data-index]="'name_official'" [data-type]="'string'" [hidden]="false" [text]="'Name'">
+                  </amexio-data-table-column>
+                  <amexio-data-table-column [data-index]="'code3l'" [data-type]="'string'" [hidden]="false" [text]="'Code'">
+                  </amexio-data-table-column>
+                  <amexio-data-table-column [data-index]="'latitude'" [data-type]="'string'" [hidden]="false" [text]="'Latitude'"></amexio-data-table-column>
+                  <amexio-data-table-column [data-index]="'longitude'" [data-type]="'number'" [hidden]="false" [text]="'Longitude'"></amexio-data-table-column>
+                </amexio-datagrid>
+              </amexio-body>
+            </amexio-card>
+          </amexio-column>
+        </amexio-row>
+
       </amexio-tab>
       <amexio-tab title="Tree Data Grid" [amexio-color]="'blue'">
 
