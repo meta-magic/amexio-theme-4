@@ -1,2 +1,0 @@
-#!/bin/bash
-sudo aws s3 sync s3://amexiotheme/assets/ /var/www/html/test/demo/se/v4/assets/ --region us-east-2
