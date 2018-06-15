@@ -845,7 +845,8 @@ button {
   border: 1px solid #ced4da;
   position: absolute;
   box-shadow: 0 1px 3px 0 #ced4da;
-  z-index: 3; }
+  z-index: 3;
+  width: 290px; }
   .datetimepicker .datetimepickertopbar {
     padding: 10px 25px;
     text-align: center; }
@@ -903,6 +904,14 @@ button {
 .datetimepicker:disabled {
   cursor: not-allowed; }
 
+.invaliddays {
+  opacity: .40;
+  pointer-events: none; }
+
+.disabled {
+  opacity: .40;
+  pointer-events: none; }
+
 /****************************************************************************
     Component Name : Dropdown
     Version : Amexio v4.0 onwards
@@ -920,7 +929,7 @@ button {
   background-color: #6b8eff; }
 
 .drodown-caret-down {
-  color: #ced4da; }
+  color: black; }
 
 .list-items-selected {
   background-color: #b8c8ff;
@@ -1828,9 +1837,6 @@ input:checked + .toggle-slider:before {
   background-color: #b8c8ff; }
 
 /** box - Structure CSS **/
-.box-content {
-  width: 100%; }
-
 .border-topbar {
   border-top: 6px solid !important; }
 
@@ -2308,6 +2314,250 @@ input:checked + .toggle-slider:before {
 .floatingbutton-circle {
   text-align: center;
   cursor: pointer; }
+
+/****************************************************************************
+    Component Name : DropDown Menu
+    Version : Amexio v4.2 onwards
+*****************************************************************************/
+/** dropdownmenu - Visual CSS **/
+.dropdown-menu {
+  background-color: #1134a6;
+  color: #f6f8fe; }
+
+.dropdown-menu-content {
+  background-color: #ffffff !important;
+  box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2), 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12); }
+
+.dropdown-menu-content .dropdowndivider {
+  border-bottom: solid 1px #ced4da; }
+
+.nav-dropdown-content .dropdowndivider {
+  border-bottom: solid 1px #ced4da; }
+
+.dropdown-menu-content a:hover {
+  background-color: #b8c8ff;
+  color: #001352; }
+
+/** dropdownmenu - Structure CSS **/
+.dropdown-menu {
+  position: relative;
+  display: inline-block;
+  font-size: 16px !important;
+  padding: 16px;
+  cursor: pointer; }
+
+.dropdown-menu-content {
+  display: block;
+  position: absolute;
+  flex-direction: column;
+  min-width: 180px;
+  cursor: pointer;
+  z-index: 1;
+  padding: 10px 0px;
+  overflow-y: auto; }
+
+.dropdown-menu-content a {
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px !important;
+  padding: 10px;
+  display: block; }
+
+.menu-right {
+  right: 10px; }
+
+/*****************************************************************************
+ Component Name : Toolbar
+    Version : Amexio v4.2 onwards
+****************************************************************************/
+/** Toolbar - Visual CSS **/
+.toolbar {
+  background-color: #ffffff; }
+
+.toolbaritemseperatorleft {
+  border-left: 1px solid #ced4da; }
+
+.toolbaritemseperatorright {
+  border-right: 1px solid #ced4da; }
+
+/** Toolbar - Structure CSS **/
+.toolbar {
+  cursor: pointer;
+  flex-direction: row;
+  justify-content: space-between;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+  padding-top: 2px;
+  position: relative;
+  padding: 10px; }
+
+.card-header .toolbar {
+  background-color: unset;
+  box-shadow: unset;
+  padding: 0px; }
+
+.toolbar-item {
+  display: inline-flex;
+  flex-direction: row;
+  text-anchor: middle;
+  letter-spacing: 1px; }
+
+.toolbaritemseperatorleft {
+  padding-left: 10px;
+  padding-right: 10px;
+  position: relative; }
+
+.toolbaritemseperatorright {
+  padding-right: 10px;
+  padding-left: 10px;
+  position: relative; }
+
+.toolbar-item .inputgroup .input-control {
+  width: unset !important;
+  padding: 0px !important; }
+
+/*****************************************************************************
+ Component Name : Search Box
+    Version : Amexio v4.2 onwards
+****************************************************************************/
+/** Searchbox - Visual CSS **/
+.hrclass {
+  border-color: #ced4da; }
+
+.advancesearchform {
+  background-color: #ffffff;
+  border-color: #ced4da; }
+
+.input-group-text-search {
+  background-color: #1134a6;
+  border-color: #ced4da; }
+
+.form-control {
+  color: #00071f;
+  background-color: #ffffff;
+  border-color: #ced4da; }
+
+.search-form-label {
+  color: #00071f; }
+
+.iconColor {
+  color: #ffffff; }
+
+.advancesearchbtn {
+  background-color: #1134a6;
+  color: #ffffff; }
+
+.search-dropdown-list .search-list-items {
+  background-color: #ffffff; }
+
+.search-dropdown-list li:hover {
+  background: #b8c8ff; }
+
+.search-list-items-selected {
+  background-color: #b8c8ff !important; }
+
+.search-dropdown-list {
+  border-color: #ced4da;
+  background-color: #ffffff; }
+
+/** Searchbox - Structure CSS **/
+.hrclass {
+  margin-top: 2%;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 10%;
+  font-weight: bold;
+  display: block; }
+
+.advancesearchform {
+  position: absolute;
+  font-weight: normal;
+  border-width: 1px;
+  border-style: solid;
+  padding: .5%; }
+
+.dropdownposition {
+  position: absolute; }
+
+.search-form-label {
+  font-weight: bold; }
+
+.close-icon {
+  float: right;
+  opacity: .54;
+  cursor: pointer;
+  padding-top: 0%;
+  padding-right: 0%;
+  font-size: 120%; }
+
+.searchbutton {
+  width: 100%; }
+
+.input-group-text-search {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  white-space: nowrap;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: .25rem;
+  width: 15px;
+  padding-right: 2%;
+  padding-left: 2%; }
+
+.input-group {
+  display: flex; }
+
+.input-group-prepend {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0; }
+
+.form-control {
+  display: block;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  background-clip: padding-box;
+  transition: border-color 0.15s;
+  border-width: 1px;
+  border-style: solid; }
+
+.search-dropdown-list .search-list-items {
+  list-style: none;
+  cursor: pointer;
+  margin: 1px 0;
+  padding: .186em .313em;
+  text-align: left;
+  overflow-y: auto; }
+
+.search-dropdown-list {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  text-decoration: none;
+  list-style: none;
+  border-width: 1px;
+  border-style: solid;
+  z-index: 5;
+  overflow-x: auto; }
+
+.scroll {
+  height: 200px;
+  overflow-y: scroll; }
+
+.advancesearchbuttondiv {
+  z-index: 5;
+  cursor: pointer; }
+
+.advancesearchbtn {
+  height: 37px;
+  font-weight: bold; }
 
 /****************************************************************************
     Component Name : Enterprise Content
@@ -3367,6 +3617,13 @@ header .billboard .content-button {
   background-color: inherit;
   color: inherit; }
 
+.nav-dropdown:hover .nav-dropdown-content .nav-menu-container {
+  background-color: #ffffff;
+  color: #001352; }
+
+.nav-dropdown:hover .nav-dropdown-content .nav-menu-container a {
+  color: #001352; }
+
 /** navbar - Structure CSS **/
 .topnav {
   position: fixed;
@@ -3466,7 +3723,7 @@ header .billboard .content-button {
 
 .topnavmainbarinneritems .nav-dropdown-content {
   display: none;
-  position: fixed;
+  position: absolute;
   min-width: 160px;
   z-index: 3;
   padding: 10px 0px;
@@ -3913,8 +4170,7 @@ header .billboard .content-button {
   border-bottom: 1px solid #ced4da;
   font-size: 20px;
   font-weight: 300;
-  text-transform: capitalize;
-  overflow: auto; }
+  text-transform: capitalize; }
 
 .card-body {
   font-size: 14px;
@@ -4377,7 +4633,7 @@ fieldset {
   width: inherit;
   position: relative;
   vertical-align: top !important;
-  padding: 20px 20px 10px 0px; }
+  padding: 10px 0px; }
 
 /**VERTICAL TABS**/
 .verticalnavtab {
@@ -4525,28 +4781,19 @@ verticalalign-tableft {
   z-index: 3;
   /* Sit on top */
   width: 100%;
-  height: 100%;
-  left: 0;
-  top: 0; }
+  height: 100%; }
 
 .modal-window-lg {
   flex-direction: column;
-  position: fixed;
-  /* Stay in place */
-  z-index: 1;
-  /* Sit on top */
-  width: 100%;
   height: 100%; }
 
 .modal-window-content {
+  position: absolute;
   margin: auto;
   padding: 0px;
   border: 1px solid #888;
   width: 80%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
-
-.modal-window-min {
-  padding-top: 70px; }
 
 .modal-window-content > * {
   padding: 10px;
@@ -4554,7 +4801,9 @@ verticalalign-tableft {
 
 .modal-window-content-max {
   width: 100%;
-  height: 100%; }
+  height: 100%;
+  top: 0% !important;
+  left: 0% !important; }
 
 .modal-window-header {
   display: flex;
@@ -4600,6 +4849,22 @@ verticalalign-tableft {
 
 .footer-right-align {
   padding-right: 7px; }
+
+.window-left {
+  left: 20px; }
+
+.window-right {
+  right: 7px; }
+
+.window-top {
+  top: 10px; }
+
+.window-center {
+  top: 20%;
+  left: 10%; }
+
+.window-bottom {
+  bottom: 10%; }
 
 /****************************************************************************
     Component Name : Dialogue
@@ -4655,7 +4920,6 @@ verticalalign-tableft {
 .dialogue-content {
   margin: auto;
   padding: 0px;
-  border: 1px solid #ced4da;
   width: 80%;
   height: 80%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
@@ -4669,7 +4933,6 @@ verticalalign-tableft {
 .dialogue-header {
   display: flex;
   /* padding: 10px 24px;*/
-  border-bottom: 1px solid #ced4da;
   font-size: 20px;
   font-weight: 300;
   text-transform: capitalize; }
@@ -4708,7 +4971,8 @@ verticalalign-tableft {
 
 .dialogue-table .tablerow .tablecol {
   display: table-cell;
-  vertical-align: middle; }
+  vertical-align: middle;
+  color: white; }
 
 .icon-style {
   font-size: 15px; }
