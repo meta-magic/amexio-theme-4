@@ -17,6 +17,7 @@ export class SampleComponent implements OnInit {
   country: string;
 
   checkboxGroupdata : any;
+  disabledDate:any[];
 
   radioGroupData:any;
   time:any;
@@ -25,6 +26,18 @@ export class SampleComponent implements OnInit {
   rate : number = 5;
 
   constructor() {
+
+    this.disabledDate = [
+      {
+        "from": "13-Mar-2018",
+        "to": "15-Mar-2018"
+      },
+      {
+        "from": "20-Aug-2018",
+        "to": "25-Aug-2018"
+      }
+    ];
+
     this.checkboxGroupdata = {
       response:{
         data:[{
