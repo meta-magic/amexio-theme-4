@@ -38,10 +38,10 @@ export class ProfileComponent implements OnInit {
             "email" : "ketan.gote@metamagic.in"
           },
           {
-            "name": "Pratik Kelwalkar",
-            "name_official": "Pratik Kelwalkar",
-            "profile": "pratik.jpg",
-            "email" : "pratik.kelwalkar@metamagic.in"
+            "name": "vrushabh kokil",
+            "name_official": "vrushabh kokil",
+            "profile": "vrushabh.jpg",
+            "email" : "vrushabh.kokil@metamagic.in"
           },
           {
             "name": "Dattaram Gawas",
@@ -56,28 +56,28 @@ export class ProfileComponent implements OnInit {
             "email" : "sagar.jadhav@metamagic.in"
           },
           {
-            "name": "Mahesh Pardeshi",
-            "name_official": "Mahesh Pardeshi",
-            "profile": "mahesh.jpg",
-            "email" : "mahesh.pardeshi@metamagic.in"
+            "name": "sandip mohite",
+            "name_official": "sandip mohite",
+            "profile": "sandip.jpg",
+            "email" : "sandip.mohite@metamagic.in"
           },
           {
-            "name": "Ashutosh Jadhav",
-            "name_official": "Ashutosh Jadhav",
+            "name": "vishal bagal",
+            "name_official": "vishal bagal",
             "profile": "ahutosh.jpg",
-            "email" : "ashutosh.jadhav@metamagic.in"
+            "email" : "vishal.bagal@metamagic.in"
           },
           {
-            "name": "Anagha Kulkarni",
-            "name_official": "Anagha Kulkarni",
-            "profile": "anagha.jpg",
-            "email" : "anagha.kulkarni@metamagic.in"
+            "name": "payal kadam",
+            "name_official": "payal kadam",
+            "profile": "payal.jpg",
+            "email" : "payal.kulkarni@metamagic.in"
           },
           {
-            "name": "Amruta Abhyankar",
-            "name_official": "Amruta Abhyankar",
-            "profile": "amruta.jpg",
-            "email" : "amruta.abhyankar@metamagic.in"
+            "name": "puja more",
+            "name_official": "puja more",
+            "profile": "puja.jpg",
+            "email" : "puja.more@metamagic.in"
           },
           {
             "name": "Rashmi Thakkar",

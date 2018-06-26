@@ -1,5 +1,5 @@
 /**
- * Created by pratik on 14/12/17.
+ * Created by vrushabh on 14/12/17.
  */
 /*
  * Copyright 2016-2017 the original author or authors.
@@ -10,7 +10,7 @@
  *
  *      http://www.apache.org/licenses/LICENSE-2.0
  *
- * Author - Pratik Kelwalkar
+ * Author - vrushabh kokil
  *
  */
 import {Component, EventEmitter, Input, OnInit, Output, Inject, ElementRef} from '@angular/core';
