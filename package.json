@@ -28,8 +28,7 @@
     "font-awesome": "^4.7.0",
     "intl": "^1.2.5",
     "ngx-cookie-service": "^1.0.7",
-    "rxjs": "^6.2.1",
-    "rxjs-compat": "^6.2.1",
+    "rxjs": "^6.2.0",
     "zone.js": "^0.8.26"
   },
   "devDependencies": {
