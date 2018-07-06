@@ -26,9 +26,9 @@ export class DataGridComponent implements OnInit {
             "profile": "ketan.jpg"
           },
           {
-            "name": "Pratik Kelwalkar",
-            "name_official": "Pratik Kelwalkar",
-            "profile": "pratik.jpg"
+            "name": "vrushabh kokil",
+            "name_official": "vrushabh kokil",
+            "profile": "vrushabh.jpg"
           },
           {
             "name": "Dattaram Gawas",
@@ -41,13 +41,13 @@ export class DataGridComponent implements OnInit {
             "profile": "sagar.jpg"
           },
           {
-            "name": "Mahesh Pardeshi",
-            "name_official": "Mahesh Pardeshi",
-            "profile": "mahesh.jpg"
+            "name": "sandip mohite",
+            "name_official": "sandip mohite",
+            "profile": "sandip.jpg"
           },
           {
-            "name": "Ashutosh Jadhav",
-            "name_official": "Ashutosh Jadhav",
+            "name": "vrushabh Jadhav",
+            "name_official": "vrushabh Jadhav",
             "profile": "ahutosh.jpg"
           }
         ]

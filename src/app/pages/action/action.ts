@@ -1,5 +1,5 @@
 /**
- * Created by pratik on 13/1/18.
+ * Created by vrushabh on 13/1/18.
  */
 import {Component, OnInit} from '@angular/core';
 import {NgModule} from '@angular/core';
