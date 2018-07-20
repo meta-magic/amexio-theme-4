@@ -6,7 +6,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { CommonModule} from "@angular/common";
 import { FormsModule} from "@angular/forms";
 import { NavigationComponent } from "./navigation.component";
-import {AmexioFormsModule,AmexioNavModule,AmexioLayoutModule,AmexioDataModule,AmexioPaneModule} from "amexio-ng-extensions";
+import {AmexioFormsModule,AmexioNavModule,AmexioMediaModule,AmexioLayoutModule,AmexioDataModule,AmexioPaneModule} from "amexio-ng-extensions";
 
 const routes: Routes = [
   { path: '', component: NavigationComponent }
@@ -15,7 +15,7 @@ const routes: Routes = [
 @NgModule({
   imports: [
     CommonModule,FormsModule,
-    AmexioFormsModule,AmexioNavModule,AmexioDataModule,AmexioLayoutModule,AmexioPaneModule,
+    AmexioFormsModule,AmexioNavModule,AmexioMediaModule, AmexioDataModule,AmexioLayoutModule,AmexioPaneModule,
     RouterModule.forChild(routes)
   ],
   exports: [RouterModule],

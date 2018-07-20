@@ -10,6 +10,8 @@ export class NavigationComponent implements OnInit {
   bindData : any;
   data:any;
   isVisible:boolean;
+  toggleMsgArray: any[];
+  payment: any[];
   constructor() {
   }
   ngOnInit() {
