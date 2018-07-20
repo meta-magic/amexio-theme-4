@@ -282,7 +282,7 @@
             <amexio-vertical-tab-view>
               <amexio-tab [title]="'Window'" [active]="true">
                 <amexio-button [label]="'Window Layout'" [type]="'primary'" [tooltip]="'Hide/UnHide'" (click)="toggle()"> </amexio-button>
-                <amexio-window [(show-window)]="flag" [closable]="true" [footer]="true">
+                <amexio-window [(show)]="flag" [closable]="true" [footer]="true">
                   <amexio-header>
                     Employee Registration
                   </amexio-header>
@@ -325,7 +325,7 @@
                 <amexio-card [header]="false" [footer]="false">
                   <amexio-body>
                     <amexio-button type="primary" (onClick)="toggleClosable()" label="Confirm Box"></amexio-button>
-                    <amexio-dialogue [show-dialogue]="showClosable" [title]="'Confirm'" [message]="'Please confirm Are you sure you want to continue?'"
+                    <amexio-dialogue [(show)]="showClosable" [title]="'Confirm'" [message]="'Please confirm Are you sure you want to continue?'"
                       [message-type]="'error'" [type]="'confirm'">
                     </amexio-dialogue>
                   </amexio-body>
@@ -335,7 +335,7 @@
                 <amexio-card [header]="false" [footer]="false">
                   <amexio-body>
                     <amexio-button type="primary" (onClick)="toggleAlertWindow()" label="Alert Box"></amexio-button>
-                    <amexio-dialogue [show-dialogue]="showAlertWindow" [title]="'Alert'" [message]="'Record saved successfully'" [message-type]="'help'"
+                    <amexio-dialogue [(show)]="showAlertWindow" [title]="'Alert'" [message]="'Record saved successfully'" [message-type]="'help'"
                       [type]="'alert'">
                     </amexio-dialogue>
 
@@ -670,7 +670,7 @@
             Tabs equally divided
           </amexio-header>
           <amexio-body>
-            <amexio-tab-view [divide-header-equally]=true>
+            <amexio-tab-view [closable]="false" [tab-position]="'top'" [header-align]="'right'" [divide-header-equally]=true>
 
               <amexio-tab title="Person" [active]="true" [amexio-color]="'red'">
                 Personal Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard

@@ -38,10 +38,10 @@ export class ProfileComponent implements OnInit {
             "email" : "ketan.gote@metamagic.in"
           },
           {
-            "name": "vrushabh kokil",
-            "name_official": "vrushabh kokil",
-            "profile": "vrushabh.jpg",
-            "email" : "vrushabh.kokil@metamagic.in"
+            "name": "Ashwini Agre",
+            "name_official": "Ashwini Agre",
+            "profile": "ashwini.jpg",
+            "email" : "ashwini.agre@metamagic.in"
           },
           {
             "name": "Dattaram Gawas",
@@ -55,29 +55,12 @@ export class ProfileComponent implements OnInit {
             "profile": "sagar.jpg",
             "email" : "sagar.jadhav@metamagic.in"
           },
+  
           {
-            "name": "sandip mohite",
-            "name_official": "sandip mohite",
-            "profile": "sandip.jpg",
-            "email" : "sandip.mohite@metamagic.in"
-          },
-          {
-            "name": "vishal bagal",
-            "name_official": "vishal bagal",
-            "profile": "ahutosh.jpg",
-            "email" : "vishal.bagal@metamagic.in"
-          },
-          {
-            "name": "payal kadam",
-            "name_official": "payal kadam",
-            "profile": "payal.jpg",
-            "email" : "payal.kulkarni@metamagic.in"
-          },
-          {
-            "name": "puja more",
-            "name_official": "puja more",
-            "profile": "puja.jpg",
-            "email" : "puja.more@metamagic.in"
+            "name": "Mark Russel",
+            "name_official": "Mark Russel",
+            "profile": "mark.jpg",
+            "email" : "mark@metamagic.in"
           },
           {
             "name": "Rashmi Thakkar",
@@ -90,12 +73,6 @@ export class ProfileComponent implements OnInit {
             "name_official": "Deepali Arvind",
             "profile": "dipali.jpg",
             "email" : "deepali.arvind@metamagic.in"
-          },
-          {
-            "name": "Ashwini Agre",
-            "name_official": "Ashwini Agre",
-            "profile": "ashwini.jpg",
-            "email" : "ashwini.agre@metamagic.in"
           }
         ]
       }

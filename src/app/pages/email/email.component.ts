@@ -27,9 +27,9 @@ export class EmailComponent implements OnInit {
             "profile": "ketan.jpg"
           },
           {
-            "name": "vrushabh kokil",
-            "name_official": "vrushabh kokil",
-            "profile": "vrushabh.jpg"
+            "name": "Ashwini Agre",
+            "name_official": "Ashwini Agre",
+            "profile": "ashwini.jpg"
           },
           {
             "name": "Dattaram Gawas",
@@ -42,14 +42,14 @@ export class EmailComponent implements OnInit {
             "profile": "sagar.jpg"
           },
           {
-            "name": "sandip mohite",
-            "name_official": "sandip mohite",
-            "profile": "sandip.jpg"
+            "name": "Deepali Arvind",
+            "name_official": "Deepali Arvind",
+            "profile": "dipali.jpg"
           },
           {
-            "name": "vishal bagal",
-            "name_official": "vishal bagal",
-            "profile": "ahutosh.jpg"
+            "name": "Rashmi Thakkar",
+            "name_official": "Rashmi Thakkar",
+            "profile": "rashmi.jpg"
           }
         ]
       }
