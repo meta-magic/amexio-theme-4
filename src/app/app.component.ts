@@ -57,7 +57,7 @@ export class AppComponent {
         {"text":"Shopping Portal","link":"../shoppingportal/#/home"},
         {"text":"US Election Results","link":"../us-election/"},
         {"text":"Insurance Portal","link":"../insuranceportal/"},
-        {"text":"Movie Portal","link":"../../ee"}
+        {"text":"Movie Portal","link":"../../ee"},
         {"text":"NpmStats","link":"https://www.npmstats.com/"}
       ]
     }, {
