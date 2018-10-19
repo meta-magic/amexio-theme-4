@@ -1,37 +1,37 @@
 <div *ngIf="hasThemeInit;else themeInitContent">
-<amexio-nav [enable-side-nav-position]="true" 
+<amexio-nav [enable-side-nav-position]="true"
 [title]="'Amexio Component Examples'"
 [logo]="'assets/images/logos/amexio-logo.png'">
 <amexio-nav-item position-right
   [icon]="'fa fa-home fa-fw fa-lg'"
-  [title]="'Home'" 
-  [type]="'link'" 
-  (onNavItemClick)="onClick('http://amexio.org/api/v4.1/index.html#/getting-started')" 
+  [title]="'Home'"
+  [type]="'link'"
+  (onNavItemClick)="onClick('https://demo.amexio.org')"
   style="cursor: pointer;" >
 </amexio-nav-item>
 <amexio-nav-item position-right
   [type]="'link'"
-  [icon]="'fa fa-user-circle fa-fw fa-lg'" 
-  [title]="'John Doe'" 
-  style="cursor: pointer;" 
+  [icon]="'fa fa-user-circle fa-fw fa-lg'"
+  [title]="'John Doe'"
+  style="cursor: pointer;"
   (onNavItemClick)="onUserClick()">
 </amexio-nav-item>
-<amexio-nav-item position-right *ngFor="let menus of topMenuData" 
-[type]="'menu'" 
+<amexio-nav-item position-right *ngFor="let menus of topMenuData"
+[type]="'menu'"
 [title]="menus.text"
 [data]="menus.submenus"
 [icon]="menus.icon"
-(onNavItemClick)="externalLink($event)">			
-</amexio-nav-item>       
+(onNavItemClick)="externalLink($event)">
+</amexio-nav-item>
 
 </amexio-nav>
 
 
 <amexio-row>
   <amexio-column [size]="'2pt5'" style="padding-top: 68px;">
-    <amexio-side-nav [http-url]="'assets/data/menus/sidebar.json'" 
-                    [http-method]="'get'" 
-                    [height]="'92%'" 
+    <amexio-side-nav [http-url]="'assets/data/menus/sidebar.json'"
+                    [http-method]="'get'"
+                    [height]="'92%'"
                     [data-reader]="'data'"
                     (nodeClick)="routeToLink($event)">
     </amexio-side-nav>

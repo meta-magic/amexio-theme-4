@@ -54,10 +54,10 @@ export class AppComponent {
       "text": "Case Studies",
       "icon": "fa fa-clone fa-fw",
       "submenus": [
-        {"text":"Shopping Portal","link":"http://amexio.org/demo/se/v4/shoppingapp/"},
-        {"text":"US Election Results","link":"http://amexio.org/demo/se/v4/pollingapp/"},
-        {"text":"Insurance Portal","link":"http://amexio.org/demo/se/v4/digitalBuzaar/"},
-        {"text":"Movie Portal","link":"http://www.amexio.org/tecmflix2"},
+        {"text":"Shopping Portal","link":"../shoppingportal/#/home"},
+        {"text":"US Election Results","link":"../us-election/"},
+        {"text":"Insurance Portal","link":"../insuranceportal/"},
+        {"text":"Movie Portal","link":"../../ee"}
         {"text":"NpmStats","link":"https://www.npmstats.com/"}
       ]
     }, {
@@ -200,7 +200,7 @@ export class AppComponent {
         if (key.id == 'themeid') {
           document.head.removeChild(key);
         }
-      }     
+      }
     }
   }
 
